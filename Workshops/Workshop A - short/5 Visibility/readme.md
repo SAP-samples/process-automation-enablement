@@ -1,4 +1,4 @@
-# 5 Create a Visibility Scenario
+# 5 Create a Visibility Scenario (Optional)
 
 Visibility scenarios allow you to measure and track the performance of the process. Based on the process context you are able to define several performance indicators, use pre-defined ones or even create actions.
 
