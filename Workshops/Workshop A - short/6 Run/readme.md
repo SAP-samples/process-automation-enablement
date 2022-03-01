@@ -6,11 +6,11 @@
 - [Settings](#section3)
 - [Release Business Project](#section4)
 - [Deploy Business Project](#section5)
-- [Activate your Visibility Scenario](#section6)
+- [Activate your Visibility Scenario (Optional)](#section6)
 - [Run the Process](#section7)
 - [Work on the Tasks](#section7a)
 - [Monitor the Process](#section8)
-- [Gain Visibility into the Process](#section10)
+- [Gain Visibility into the Process (Optional)](#section10)
 - [Summary](#summary)
 - [Support](#support)
 - [License](#licence)
@@ -134,7 +134,9 @@ You can deploy business process projects from each released version of the proje
    ![Deployed](images/Deployment/Deploy/03_Deployed_first_version.png)
 
 
-## Activate your Visibility Scenario<a name="section6"></a>
+## Activate your Visibility Scenario (Optional)<a name="section6"></a>
+
+Only if you have done **[05 Create a Visibility Scenario](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/5%20Visibility)**.
 
 1. Move back to the entry screen and select the **SAP** logo.
 
@@ -251,7 +253,9 @@ Notice the process instance progresses further to the the approval step in the b
 ![Monitor](images/Deployment/Monitoring/05_Monitor_Process_and_Workflow.png)
 
 
-## Gain Visibility into the Business Process <a name="section10"></a>
+## Gain Visibility into the Business Process (Optional) <a name="section10"></a>
+
+Only if you have done **[05 Create a Visibility Scenario](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/5%20Visibility)**.
 
 1. Navigate via the URL to the Launchpad (provided by instructors).
     
