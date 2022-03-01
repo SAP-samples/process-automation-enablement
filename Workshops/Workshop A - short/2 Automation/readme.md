@@ -1,4 +1,4 @@
-## 02 - Automaation
+## 02 - Automation
 
 ## Table of Contents
 - [Create Automation](#section1)
