@@ -7,7 +7,7 @@ While creating a sales order management process you will learn the following top
 1. [The Basics](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/1%20The%20Basics) - create a process project
 2. [Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/2%20Automation) - create a bot
 3. [Conditions](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/3%20Conditions%20and%20Decisions) - maintain branches 
-4. [Forms](/https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/4%20Forms) - design forms and approval forms
+4. [Forms](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/4%20Forms) - design forms and approval forms
 5. [Visibility (Optional)](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/5%20Visibility) - get insights into your process
 6. [Run](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/6%20Run) - release, deploy, run, monitor and check the performance
 
