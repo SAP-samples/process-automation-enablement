@@ -137,7 +137,7 @@ Now, move on with **[06 Run](https://github.com/SAP-samples/process-automation-e
 
 ## How to obtain support <a name="support"></a>
 
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../../../issues) tab.
+Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](https://github.com/SAP-samples/process-automation-enablement/issues) tab.
 
 ## License <a name="license"></a>
 
