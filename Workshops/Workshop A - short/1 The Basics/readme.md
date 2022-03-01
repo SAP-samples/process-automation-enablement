@@ -13,7 +13,7 @@
 
 ## 1. Description <a name="section1"></a>
 
-**SAP Process Automation aka SPA** enables business users and technologists to become citizen developers. With powerful yet intuitive low-code and no-code capabilities, the solution supports you in driving automation by tapping into the expertise of citizen developers. It combines capabilities from SAP Workflow Management and SAP Intelligent RPA with a powerful, yet intuitive no-code development experience. The solution offers the following key features:
+**SAP Process Automation** enables business users and technologists to become citizen developers. With powerful yet intuitive low-code and no-code capabilities, the solution supports you in driving automation by tapping into the expertise of citizen developers. It combines capabilities from SAP Workflow Management and SAP Intelligent RPA with a powerful, yet intuitive no-code development experience. The solution offers the following key features:
    
    - Build processes with an intuitive graphical interface
    - Create forms-based workflows using drag-and-drop functionality
