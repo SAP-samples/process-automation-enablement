@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Description](#section1)
 - [Overview](#section2)
-- [Requirements](#section3)
+- [Settings](#section3)
 - [Release Business Project](#section4)
 - [Deploy Business Project](#section5)
 - [Activate your Visibility Scenario](#section6)
@@ -34,7 +34,30 @@ This part contains the material to Release, Deploy & Run the Business Process
    - Monitor the Process
    - Gain Visibility into the Process
 
-## Requirements <a name="section3"></a>
+## Settings <a name="section3"></a>
+
+1. Click on **Agent List** and verify that your Agent is connected and Idle
+
+![Settings Agents List](images/Deployment/Settings/01_Settings.png)
+
+2. Click on **Agent Management** then, click on **Add Agent**
+
+![Settings Agents Management](images/Deployment/Settings/02_Settings_Agent_Management.png)
+
+3. Select your Agent and click **Add Agent** then, click on **Add Agent**
+
+![Settings Agents Management](images/Deployment/Settings/03_Settings_Agent_Management_Add_Agent_selected.png)
+
+4. Your agent is now added and ready to run automations
+
+![Settings Agent addd](images/Deployment/Settings/04_Settings_Agent_Management_Add_Agent_Added.png)
+
+5. Add Agent attributes:
+   - Go to **Settings** - **Agent List**
+   - Select your PC / Login from the list
+   - Select **Manage Attributes** in the top right corner
+   - Select **Sales Orders** as **attributes**
+   - Enter your login as **values**
 
 ## Release Business Process Project <a name="section4"></a>
 
