@@ -140,7 +140,7 @@ In this section, you will do basic tasks that includes:
 ![Basics done](images/Design_Studio/17_Design_Studio_Order_Processing_Form_Created.png)
 
 ## Next chapter
-Now, please move on with **[(2 - Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/2%20Automation)**.
+Now, please move on with **[02 - Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/2%20Automation)**.
 
 ## How to obtain support <a name="support"></a>
 
