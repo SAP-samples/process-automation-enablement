@@ -1,5 +1,5 @@
 
-# SPA Workshop : The basics
+# 01 - The Basics
 
 ## Table of Contents
 - [Description](#section1)
