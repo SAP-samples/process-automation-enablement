@@ -357,7 +357,7 @@ You have successfully created and configured the simple and approval forms. Thes
 
 ## Next chapter
 
-Now, move on with **[05 Create a Visibility Scenario](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/5%20Visibility)**.
+Now, move on with **[05 Create a Visibility Scenario (Optional)](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/5%20Visibility)** or skip this one and move on directly with **[06 Run](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/6%20Run)**.
 
 ## How to obtain support <a name="support"></a>
 
