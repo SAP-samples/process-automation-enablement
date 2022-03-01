@@ -289,7 +289,7 @@ You are now able to:
 
 ## Next chapter
 
-Now, move on with **[03 Conditions](https://github.com/SAP-samples/process-automation-enablement/edit/main/Workshops/Workshop%20A%20-%20short/3%20Conditions%20and%20Decisions/readme.md)**.
+Now, move on with **[03 Conditions](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/3%20Conditions%20and%20Decisions)**.
 
 ## How to obtain support <a name="support"></a>
 
