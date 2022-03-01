@@ -130,6 +130,11 @@ You are now able to:
 - [x] Define the status
 - [x] Configure performance indicators
 
+## Next chapter
+
+Now, move on with **[06 Run](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/6%20Run)**.
+
+
 ## How to obtain support <a name="support"></a>
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../../../issues) tab.
