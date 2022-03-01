@@ -11,7 +11,7 @@ Please find here the exercises:
 
 ## Further Information
 
-- [SAP Help Portal](https://help.sap.com/viewer/DRAFT/d668fd319a104511b515d574782b497f/Dev/en-US/c20b4e77201b4cde9ce4227e21850deb.html)
+- [SAP Help Portal](https://help.sap.com/viewer/a331c4ef0a9d48a89c779fd449c022e7/Cloud/en-US/c20b4e77201b4cde9ce4227e21850deb.html)
 - [Product Page](https://www.sap.com/products/process-automation.html)
 - [SAP Community](https://community.sap.com/topics/process-automation)
 - [Roadmap](https://roadmaps.sap.com/board?BA=000D3ABE796A1EDCA2CF8D5EAA180EB6&range=CURRENT-LAST#Q2%202022)
