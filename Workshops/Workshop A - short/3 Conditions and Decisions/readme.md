@@ -42,3 +42,13 @@ You have successfully created and configured the process condition, data type an
 ## Next chapter
 
 Now, move on with **[04 Forms](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/4%20Forms)**.
+
+## How to obtain support <a name="support"></a>
+
+Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](https://github.com/SAP-samples/process-automation-enablement/issues) tab.
+
+## License <a name="license"></a>
+
+Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](../LICENSES/Apache-2.0.txt) file.
+
+
