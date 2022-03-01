@@ -32,11 +32,15 @@ After completing these steps you will have your system ready with:
 
 Now, you have setup your environment.
 
+## Begin with the exercise
+
+Now, move on with **[01 The Basics](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/1%20The%20Basics)**.
 
 ## How to obtain support <a name="support"></a>
 
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../../../issues) tab.
+Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](https://github.com/SAP-samples/process-automation-enablement/issues) tab.
 
 ## License <a name="license"></a>
 
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](../LICENSES/Apache-2.0.txt) file.
+
