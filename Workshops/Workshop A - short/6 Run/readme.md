@@ -271,6 +271,8 @@ Notice the process instance progresses further to the the approval step in the b
 
 ## Summary <a name="summary"></a>
 
+That's the end of the exercises - Congratulations!
+
 ## How to obtain support <a name="support"></a>
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../../../issues) tab.
