@@ -287,6 +287,10 @@ You are now able to:
  - [x] Create Envirnoment Variables.
  - [x] Define Input and output parameters.
 
+## Next chapter
+
+Now, move on with **[03 Conditions](https://github.com/SAP-samples/process-automation-enablement/edit/main/Workshops/Workshop%20A%20-%20short/3%20Conditions%20and%20Decisions/readme.md)**.
+
 ## How to obtain support <a name="support"></a>
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../../../issues) tab.
