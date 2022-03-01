@@ -34,31 +34,49 @@ This part contains the material to Release, Deploy & Run the Business Process
    - Monitor the Process
    - Gain Visibility into the Process
 
-## Settings <a name="section3"></a>
+## Requirements <a name="section3"></a>
 
-1. Click on **Agent List** and verify that your Agent is connected and Idle
+Now that you have your project free of errors, ready to be released, you need to add **ATTRIBUTE** to your project.
+
+1. In your project in Process Builder:
+    - Click on **Settings** (1)
+    - Click on Attributes (2)
+    - Choose **Sales Orders** (3)
+    - Enter your **ID Number** and press **ENTER** (4) 
+    - Click **Save** (5)
+    - Click **Close** (6)    
+
+    ![Release](images/Deployment/Release/00_adding_attribute_value.png)
+
+## Settings <a name="settings"></a>
+
+1. In **Agent List** verify that your Agent is Idle or Ready and connected in Unattended mode then click on it
 
 ![Settings Agents List](images/Deployment/Settings/01_Settings.png)
 
-2. Click on **Agent Management** then, click on **Add Agent**
+2. Click on Manage Attributes 
 
-![Settings Agents Management](images/Deployment/Settings/02_Settings_Agent_Management.png)
+![Settings Agent Attributes](images/Deployment/Settings/01_Settings_agent_attributes.png)
 
-3. Select your Agent and click **Add Agent** then, click on **Add Agent**
+3. Add your attribute
 
-![Settings Agents Management](images/Deployment/Settings/03_Settings_Agent_Management_Add_Agent_selected.png)
+    - Choose **Sales Orders** (1)
+    - Enter your **ID Number** and press **ENTER** (2) 
+    - Click **Confirm** (3)
 
-4. Your agent is now added and ready to run automations
+![Settings Add Attribute](images/Deployment/Settings/01_Settings_agent_attributes_add.png)
 
-![Settings Agent addd](images/Deployment/Settings/04_Settings_Agent_Management_Add_Agent_Added.png)
+4. Click on **Agent Management** then, click on **Add Agent**
 
-5. Add Agent attributes:
-   - Go to **Settings** - **Agent List**
-   - Select your PC / Login from the list
-   - Select **Manage Attributes** in the top right corner
-   - Select **Sales Orders** as **attributes**
-   - Enter your login as **values**
+   ![Settings Agents Management](images/Deployment/Settings/02_Settings_Agent_Management.png)
 
+5. Select your Agent and click **Add Agent** then, click on **Add Agent**
+
+   ![Settings Agents Management](images/Deployment/Settings/03_Settings_Agent_Management_Add_Agent_selected.png)
+
+6. Your agent is now added and ready to run automations
+
+   ![Settings Agent addd](images/Deployment/Settings/04_Settings_Agent_Management_Add_Agent_Added.png)
 ## Release Business Process Project <a name="section4"></a>
 
 Release individual projects once they are finished. 
@@ -233,31 +251,6 @@ Notice the process instance progresses further to the the approval step in the b
 ![Monitor](images/Deployment/Monitoring/05_Monitor_Process_and_Workflow.png)
 
 
-## Settings
-
-1. Click on **Agent List** and verify that your Agent is connected and Idle
-
-![Settings Agents List](images/Deployment/Settings/01_Settings.png)
-
-2. Click on **Agent Management** then, click on **Add Agent**
-
-![Settings Agents Management](images/Deployment/Settings/02_Settings_Agent_Management.png)
-
-3. Select your Agent and click **Add Agent** then, click on **Add Agent**
-
-![Settings Agents Management](images/Deployment/Settings/03_Settings_Agent_Management_Add_Agent_selected.png)
-
-4. Your agent is now added and ready to run automations
-
-![Settings Agent addd](images/Deployment/Settings/04_Settings_Agent_Management_Add_Agent_Added.png)
-
-5. Add Agent attributes:
-   - Go to **Settings** - **Agent List**
-   - Select your PC / Login from the list
-   - Select **Manage Attributes** in the top right corner
-   - Select **Sales Orders** as **attributes**
-   - Enter your login as **values**
-
 ## Gain Visibility into the Business Process <a name="section10"></a>
 
 1. Navigate via the URL to the Launchpad (provided by instructors).
@@ -285,3 +278,4 @@ Support for the content in this repository is available during the actual time o
 ## License <a name="license"></a>
 
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](../LICENSES/Apache-2.0.txt) file.
+
