@@ -5,7 +5,9 @@
 
 ## Description
 Welcome to our workshop around SAP Process Auotomation.
-Plesae find here the exercises:
+Please find here the exercises:
+
+- [Workshop A](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short)
 
 ## Further Information
 
