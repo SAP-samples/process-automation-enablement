@@ -34,9 +34,11 @@ In this section, you will learn how to use process condition in a business proce
 
 ## SUMMARY <a name="summary"></a>
 
-###### You have successfully created and configured the process condition, data type and decision for the business process.
-
+You have successfully created and configured the process condition, data type and decision for the business process.
 
   You are now able to:
   - [x] Add & configure Process Condition
 
+## Next chapter
+
+Now, move on with **[04 Forms](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/4%20Forms)**.
