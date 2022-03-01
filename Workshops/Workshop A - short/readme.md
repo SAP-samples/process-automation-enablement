@@ -3,7 +3,7 @@
 In this workshop you will gain a basic understanding of SAP Process Automation.
 While creating a sales order management process you will learn the following topics:
 
-0. [Onboarding and Installation](/https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/0%20Onboarding%20and%20Installation) - Setup your landscape
+0. [Onboarding and Installation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/0%20Onboarding%20and%20Installation) - Setup your landscape
 1. [The Basics](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/1%20The%20Basics) - create a process project
 2. [Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/2%20Automation) - create a bot
 3. [Conditions](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/3%20Conditions%20and%20Decisions) - maintain branches 
