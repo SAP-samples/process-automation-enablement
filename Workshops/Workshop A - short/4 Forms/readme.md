@@ -1,3 +1,5 @@
+## 04 - Forms
+
 ## Table of Contents
 - [Adding Form](#section1)
   - [Create and Configure Auto-Approval Form](#section1-autoapproval)
@@ -345,10 +347,14 @@ In this section, you will create 3 forms:
 
 ## SUMMARY <a name="summary"></a>
 
-###### You have successfully created and configured the simple and approval forms. These forms will be shown in the My Inbox for the users to take actions.
+You have successfully created and configured the simple and approval forms. These forms will be shown in the My Inbox for the users to take actions.
 
   You are now able to:
   - [x] Create Simple and Approval Forms.
   - [x] Design the forms using simple layout and field controls.
   - [x] Map the process content to the form fields.
   - [x] Add the forms in the business process.
+
+## Next chapter
+
+Now, move on with **[05 Create a Visibility Scenario](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short/5%20Visibility)**.
