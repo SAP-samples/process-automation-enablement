@@ -4,7 +4,7 @@
 -->
 
 ## Description
-Welcome to our workshop around SAP Process Auotomation.
+Welcome to our workshop around SAP Process Automation.
 Please find here the exercises:
 
 - [Workshop A](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short)
