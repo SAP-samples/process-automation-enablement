@@ -11,7 +11,7 @@ You need 3 components as requirements to be able to run the entire workshop.
 - A **Windows machine** with On-premise components installed is required to run the Automation part of the workshop. 
 - You can install agent in your local machine or use any VDI. 
 - Follow the steps to install the latest Desktop Agent in your local machine:
-  > **ONLY Desktop Agent with version 2.020 or above is supported**
+  > **ONLY Desktop Agent with version 2.0.20 or above is supported**
    - Open this [Link](https://tools.hana.ondemand.com/#cloud), scroll to the bottom of the page to **SAP Intelligent Robotic Process Automation** section and download version 2.0.21.103 or higher. 
    - Install the msi file 
    - After the launch please provide the following tenant address, when asked:  
