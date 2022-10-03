@@ -165,5 +165,5 @@ This combines plain text with process-related information and serves as an uniqu
 
     ![Final process](32.png)
 
-- Continue with the next part of the tutorial [5 Run Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/SAP%20Process%20Automation/5%20CreateRun%20Process/spa-dox-run-process.md)
+- Continue with the next part of the tutorial [5 Run Process](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/SAP%20Process%20Automation/5%20Run%20Process/spa-dox-run-process.md)
 ---
