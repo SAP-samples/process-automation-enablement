@@ -111,5 +111,5 @@ Click on <b>SAVE</b>.
 
 ![UI](Images/24.png)
 
-Next Step: <a href="https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/3%20Details%20Page/3_2%20Data%20Connection/Readme.md"> 3_2 Data Connection for Details Page</a>
+Next Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/3%20Details%20Page/3_2%20Logic%20Building%20for%20Scan%20button/Readme.md"> 3_2 Data Connection for Details Page</a>
 
