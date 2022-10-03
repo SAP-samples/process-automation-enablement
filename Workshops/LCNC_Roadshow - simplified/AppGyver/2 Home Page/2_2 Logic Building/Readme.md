@@ -113,7 +113,7 @@ component. Since your app only has two pages for now, by default other page will
 
 Home Page has been created successfully, now we need to develop the details page. Now, Switch to Details page.
 
-Next Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/3%20Details%20Page/3_1%20UI%20Building%20for%20Details%20page/Readme.md">3 Details Page</a>
+Next Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/3%20Details%20Page/readme.md">3 Details Page</a>
 
 		
 	
