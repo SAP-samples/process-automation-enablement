@@ -1,4 +1,4 @@
-Previous Step: <a href="https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/2%20Home%20Page/2_1%20UI%20Building/Readme.md">  2_1 UI Building for Home Page</a>
+Previous Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/2%20Home%20Page/2_1%20UI%20Building/readme.md">  2_1 UI Building for Home Page</a>
 
 # Logic Building for the Home Page
 
@@ -113,7 +113,7 @@ component. Since your app only has two pages for now, by default other page will
 
 Home Page has been created successfully, now we need to develop the details page. Now, Switch to Details page.
 
-Next Step: <a href="https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/3%20Details%20Page/Readme.md">3 Details Page</a>
+Next Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/3%20Details%20Page/3_1%20UI%20Building%20for%20Details%20page/Readme.md">3 Details Page</a>
 
 		
 	
@@ -122,41 +122,7 @@ Next Step: <a href="https://github.com/SAP-samples/process-automation-enablement
 
 
 		
-	
-	
-		
 
-
-		
-	
-	
-		
-
-					
-
-				
-
-			
-
-		
-
-
-		
-	
-	
-		
-
-
-		
-	
-	
-		
-
-
-		
-	
-	
-		
 
 
 		
