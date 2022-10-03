@@ -9,4 +9,4 @@ Click on <b>Create</b> to start building your application.
 
 ![Name the project](images/02.png)
 
-Next Step: <a href=https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/AppGyver/2%20Home%20Page/Readme.md> 2 Home Page</a>
+Next Step: <a href=https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/2%20Home%20Page/readme.md> 2 Home Page</a>
