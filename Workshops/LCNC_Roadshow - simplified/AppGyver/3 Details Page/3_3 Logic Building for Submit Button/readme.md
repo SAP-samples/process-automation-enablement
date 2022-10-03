@@ -23,4 +23,4 @@ Change the page to <b>Home Page</b>.
 4. The Final logic should look like this.
 ![Submit](Images/04.png)
 
-Now you can test the application. by following next step <a href="https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/3%20Details%20Page/3_3%20Run%20Application/readme.md"> Run Application</a>
+Now you can test the application. by following next step <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/3%20Details%20Page/3_4%20Run%20Application/readme.md"> Run Application</a>
