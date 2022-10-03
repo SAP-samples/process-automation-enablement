@@ -145,5 +145,5 @@ image from library</b>.
 
 ![Scan](Images/Screenshot%202022-09-29%20at%2003.02.22.png)
 
-  Next Step: <a href="https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/AppGyver/3%20Details%20Page/3_3%20Logic%20Building%20for%20Submit%20button/readme.md"> 3_3 Logic Building for Submit Button</a>
+  Next Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/3%20Details%20Page/3_3%20Logic%20Building%20for%20Submit%20Button/readme.md"> 3_3 Logic Building for Submit Button</a>
 
