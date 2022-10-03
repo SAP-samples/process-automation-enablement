@@ -1,3 +1,5 @@
+Previous Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/AppGyver/2%20Home%20Page/2_2%20Logic%20Building/Readme.md">  2_2 Logic for Home Page</a>
+
 # Details page
 
 To Switch to the Details page, open the page dashboard and select the details page.
