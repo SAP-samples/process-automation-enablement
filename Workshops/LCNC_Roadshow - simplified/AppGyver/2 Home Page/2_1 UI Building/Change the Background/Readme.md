@@ -17,4 +17,4 @@ After entering the name of the color, click on <b>SAVE</b> to save the color.
  ![Properties](Images/04.png)
 
  
- Back to the exercise : <a href= "https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/2%20Home%20Page/2_1%20UI%20Building/Readme.md"> 2.1 UI Building for Home Page</a>
+ Back to the exercise : <a href= "https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/2%20Home%20Page/2_1%20UI%20Building/readme.md"> 2.1 UI Building for Home Page</a>
