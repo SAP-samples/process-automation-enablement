@@ -1,0 +1,15 @@
+
+[VALIDATE_1]
+###Rule
+multiple-choice
+
+###Question
+When running a process what actions need to be performed beforehand?:
+
+###Match
+[X] Deploy the Process
+[ ] Work on the Tasks
+[ ] Monitor the Process
+[x] Run the Process
+
+[VALIDATE_1]

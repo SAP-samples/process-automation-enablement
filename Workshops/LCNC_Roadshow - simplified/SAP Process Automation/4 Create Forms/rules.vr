@@ -1,0 +1,29 @@
+
+[VALIDATE_1]
+###Rule
+single-choice
+
+###Question
+Select the type of form you have created now:
+
+###Match
+[x] Approval Form
+[ ] Form
+[ ] Notification Form
+[ ] Manual Form
+
+[VALIDATE_1]
+
+
+[VALIDATE_2]
+###Rule
+single-choice
+
+###Question
+Can you combine plain text and process content attributes in the subject of a form?
+
+###Match
+[x] Yes, of course.
+[ ] No, that's not possible.
+
+[VALIDATE_2]
