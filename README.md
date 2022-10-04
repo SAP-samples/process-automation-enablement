@@ -7,8 +7,8 @@
 Welcome to our workshop around SAP Process Automation.
 Please find here the exercises:
 
-- [LCNC Roadshow](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow)
-- [LCNC Roashow - simplified](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified)
+- [Business Reimagined: Full Workshop](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow)
+- [Business Reimagined: Simplified Workshop](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified)
 - [Workshop A - short](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Workshop%20A%20-%20short)
 
 ## Further Information
