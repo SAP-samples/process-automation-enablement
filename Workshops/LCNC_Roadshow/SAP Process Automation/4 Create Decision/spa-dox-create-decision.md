@@ -106,7 +106,7 @@ There are many ways to express a business rule, in this case you will create a d
 
     ![Edit](21.png)
 
-10. Define the attributes for **Determine Approver1 Input.SenderName** **`EXISTSIN['ABC Communication']`** and **eMail** **`<your SAP BTP user ID, e.g. diana.smith@mail.com>`**. You can also make use of the value help, by pressing the space bar before maintaining the expression in the first column.
+10. Define the attributes for **Determine Approver1 Input.SenderName** **`EXISTSIN['ABC Communication']`** and **eMail** **`<'your SAP BTP user ID', e.g. 'diana.smith@mail.com'>`**. You can also make use of the value help, by pressing the space bar before maintaining the expression in the first column.
 
     This means, if the company name in the invoice is "ABC Communication", then the approval request will be sent to you. Otherwise...follow the next step.
 
