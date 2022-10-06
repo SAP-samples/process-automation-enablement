@@ -2,6 +2,13 @@ Previous Step: <a href="https://github.com/SAP-samples/process-automation-enable
 
 # Data Connection for Details Page.
 
+The app will have two Data Conenctions: <br>
+  i) Document Management System (DMS) - to store the invoice from the application<br>
+ ii) SAP Process Automation. (SPA)- to trigger the invoice processing.<br>
+ 
+ Both the connections will be integrated through Rest API. 
+
+
 1. Click on <b>DATA</b> tab on the top to open the Data connections tab.
 
 ![Data](Images/01.png)

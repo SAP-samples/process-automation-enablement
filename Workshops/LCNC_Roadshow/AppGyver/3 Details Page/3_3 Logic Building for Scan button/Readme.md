@@ -17,7 +17,9 @@ Now we are going to download a new component from the <b>MARKETPLACE</b>.
 
 ![Scan](Images/02.png)
 
-4. Click <b>Install</b> button to install this component in your library.
+4. Click <b>Install</b> button to install this component in your library.<br>
+
+Action Sheet, will allow users to select a value from a list of <b>label-value</b> pairs. In this scenerio, we will this component to give users a list of actions,(i.e., to <b>Scan</b> or to <b>Upload</b>) and trigger the relative logic in the app based on the action selected by the user. 
 
 ![Scan](Images/03.png)
 
