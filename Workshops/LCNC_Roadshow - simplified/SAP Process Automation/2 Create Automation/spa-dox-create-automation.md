@@ -63,11 +63,15 @@
 
     Input and output parameters allow you to exchange data in the workflow of your automation between activities, screens, and scripts.
 
-1.  Click on the canvas and select the **Input/Output** section in **Automation Details**.
+1.  Go back to your automation, which you have previously created.
+
+    ![Automation](AUTO1N.png)
+
+2.  Click on the canvas and select the **Input/Output** section in **Automation Details**.
 
     ![00-05](Step11-InputOutput.png)
 
-2.  Add Input and Output parameters as following:
+3.  Add Input and Output parameters as following:
 
     |  Parameter Name       | Data type        | Parameter Type | Description
     |  :---------------     | :-------------   | :------------- | :---------------
@@ -76,7 +80,7 @@
 
     ![Input-Output](InputandOutputParameters.png)
 
-3. Choose **Save**.    
+4. Choose **Save**.    
 
 **Step 4: Create Document Template**
 
@@ -177,6 +181,11 @@
     - Choose the Edit button (pencil icon) to map the parameter `DocumentNumber` to the extracted invoice data from the activity **Extract Data (template)**.
 
       ![26png](26.png)
+
+      Here you can either write an expression or select the items from the menu.
+
+      
+      ![Auto](AUTO2N.png)
 
     - Repeat the same for `GrossAmount` and `SenderName` and map it to the corresponding fields of
       `extractedData`.
