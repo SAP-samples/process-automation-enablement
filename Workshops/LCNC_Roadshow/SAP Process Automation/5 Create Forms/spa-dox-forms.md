@@ -166,4 +166,4 @@ This combines plain text with process-related information and serves as an uniqu
     ![Final process](32.png)
 
 
-  Proceed to the next exercise: [6 Run Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/7%20Run%20Process/spa-dox-run-api-trigger.md)
+  Proceed to the next exercise: [6 Run Process](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/6%20Run%20Process/spa-dox-run-api-trigger.md)
