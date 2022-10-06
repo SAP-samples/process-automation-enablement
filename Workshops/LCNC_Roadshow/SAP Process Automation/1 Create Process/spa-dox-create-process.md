@@ -1,5 +1,6 @@
 ## Details
 You work in the finance department of the company and need to regularly process incoming scanned invoices.
+
 This is actually causing a lot of manual effort in order to extract the data out of the pdf or image, send to the approval of the manager before the data would be actually entered into the system.
 This needs to be automated since we are talking about multiple invoices which are coming every single day. Also we need to define the approval flow depending on the specific criteria (in this tutorial series, company is considered as criteria).
 
