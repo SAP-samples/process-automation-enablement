@@ -9,6 +9,8 @@ With a Decision you can include several policies, guidelines, business rules and
   - How to make use of data types and how to create them
   - How to maintain a decision table and include it in the process flow
 
+Please note that the system flow may look slightly different due to the recent updates.
+
 ---
 
 **Step 1: Add a decision and create a data type**
