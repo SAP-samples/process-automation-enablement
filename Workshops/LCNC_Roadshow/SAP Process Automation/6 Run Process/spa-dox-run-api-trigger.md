@@ -1,5 +1,5 @@
 ## Prerequisites
-- Complete the previous part of the tutorial [6 Define Inputs and Outputs](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/6%20Define%20Inputs%20and%20Outputs/spa-dox-create-inputs.md)
+- Complete the previous part of the tutorial [5 Create Forms](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/5%20Create%20Forms/spa-dox-forms.md)
 
 ## Details
 ### You will learn
@@ -37,17 +37,17 @@ Once you have completed the previous steps, your process looks like this:
 
 1. Start in the **Lobby** and open **Monitor** tab.
 
- ![Lobby](01_Lobby.png)
+ ![Lobby](RUN1.png)
 
-2. Click on **Process and Workflow Instances**
+2. Click on **Process and Workflow Instances** in the **Manage** section
 
-![Monitor](05_Monitor_Process_and_Workflow.png)
+![Monitor](RUN2.png)
 
 3. Find your process and copy its **Definition ID**
 
-![Monitor](02_Process_and_Workflow_Definition.png)
+![Monitor](RUN3.png)
 
-4. Go back to SAP AppGyver and provide the definition ID to start the process.
+4. Go back to **SAP AppGyver** and provide the definition ID to start the process.
 
 **Step 3: Work with AppGyver to start the Application**
 

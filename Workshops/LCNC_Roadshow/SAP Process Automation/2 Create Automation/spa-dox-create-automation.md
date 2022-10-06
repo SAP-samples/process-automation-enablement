@@ -69,10 +69,14 @@
 
     |  Parameter Name       | Data type        | Parameter Type | Description
     |  :---------------     | :-------------   | :------------- | :---------------
-    |  `FilePath`      | **`String`**     | Input          | Path where the invoice document is stored  
+    |  `FileName`      | **`String`**     | Input          | Path where the invoice document is stored  
+    |  `FolderName`      | **`String`**     | Input          | Path where the invoice document is stored  
     |  `InvoiceDetails`    | **`Invoice`** | Output         | Extracted Invoice Details
 
-    ![Input-Output](InputandOutputParameters.png)
+    ![Input](INPUTN1.png)
+
+    ![Output](OUTPUTN1.png)
+    
 
 3. Choose **Save**.    
 
@@ -202,6 +206,7 @@
 
 2. **Save** the automation.
 
+**OPTIONAL: ONLY IF YOU HAVE THE DESKTOP AGENT CONNECTED TO YOUR TENANT** 
 **Step 8: Test the Automation**
 
 1. Select Test button and enter the `Filepath` where the invoice document is stored locally on your machine.
@@ -218,9 +223,9 @@
 
 1. Navigate to the process **Get Invoice Details** and select the automation **Extract Invoice Data**.
 
-2. Map the input parameter of the automation to the form parameter `FilePath`.
+2. Map the input parameter of the automation to the form parameter `FileName`.
 
-    ![Mapping-Parameters](MappingParameters.png)
+    ![Mapping-Parameters](STEP9N1.png)
 
 3. Your process looks like below once you complete this tutorial.
 

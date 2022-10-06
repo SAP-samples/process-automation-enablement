@@ -117,9 +117,9 @@ This combines plain text with process-related information and serves as an uniqu
 
     ![Approval Notification General](21.png)
 
-6. Maintain **Subject** and select for the **Users** in this case **Process Started By** from the process content.
+6. Maintain **Subject** and select for the **Users** in this case **'your email', e.g. 'jane.doe@sap.com'**.
 
-    ![Approval Notification General Entries](22.png)
+    ![Approval Notification General Entries](22N.png)
 
 7. Select **Inputs** tab and assign the **Invoice Number** from the process content here.
 
@@ -149,9 +149,9 @@ This combines plain text with process-related information and serves as an uniqu
 
     ![Reject Notification General](28.png)
 
-6. Maintain **Subject** and select for the **Users** in this case **Process Started By** from the process content.
+6. Maintain **Subject** and hardcode for the **Users** in this case **'your email', e.g. 'jane.doe@sap.com'**.
 
-    ![Reject Notification General Entries](29.png)
+    ![Reject Notification General Entries](29N.png)
 
 7. Select **Inputs** tab and assign the **Invoice Number** from the process content here.
 
@@ -166,4 +166,4 @@ This combines plain text with process-related information and serves as an uniqu
     ![Final process](32.png)
 
 
-  Proceed to the next exercise: [6 Define Inputs and Outputs](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/6%20Define%20Inputs%20and%20Outputs/spa-dox-create-inputs.md)
+  Proceed to the next exercise: [6 Run Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/7%20Run%20Process/spa-dox-run-api-trigger.md)

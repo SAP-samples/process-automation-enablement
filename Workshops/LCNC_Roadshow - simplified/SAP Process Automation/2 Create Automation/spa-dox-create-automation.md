@@ -204,6 +204,7 @@
 
 2. **Save** the automation.
 
+**OPTIONAL: ONLY IF YOU HAVE THE DESKTOP AGENT CONNECTED TO YOUR TENANT** 
 **Step 8: Test the Automation**
 
 1. Select Test button and enter the `Filepath` where the invoice document is stored locally on your machine.
