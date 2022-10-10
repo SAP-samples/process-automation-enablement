@@ -108,7 +108,7 @@
     - Enter the **Name** of the schema.
     - Choose the fields that you would extract the data from the Invoice document.
     - In this scenario you would select `documentNumber`, `grossAmount`, `senderName`.
-    - Choose **Add**.
+    - Choose **Add** only when you select all three.
 
     ![10-png](10.png)
 
