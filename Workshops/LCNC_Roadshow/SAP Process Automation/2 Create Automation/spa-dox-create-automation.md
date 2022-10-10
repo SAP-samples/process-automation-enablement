@@ -108,8 +108,7 @@
     - Enter the **Name** of the schema.
     - Choose the fields that you would extract the data from the Invoice document.
     - In this scenario you would select `documentNumber`, `grossAmount`, `senderName`.
-    - Choose **Add** only when you select all three.
-
+    - Choose **Add** only after you select all 3 fields **listed above**.
     ![10-png](10.png)
 
 5. Document Information Extraction SDK would be added as dependency to your project and the schema, template are created successfully.
