@@ -18,7 +18,7 @@ This needs to be automated since we are talking about multiple invoices which ar
 
     ![Create Business Process Project](01.png)
 
-2. In the wizard enter the **Project Name** **`Invoice Approval`** and also a **Short Description**, then choose **Create**.
+2. In the wizard enter the **Project Name** **`Invoice Approval AB`**, where A and B must be replaced with **your initials**, and also a **Short Description**, then choose **Create**.
 
     ![Define Business Process Project](02.png)
 
