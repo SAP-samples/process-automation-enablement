@@ -50,7 +50,8 @@ and click on <b>SAVE</b>.
 
 ![Scan](Images/09.png)
 
-11. Drag and drop the <b>If condition</b> logic component which is available under <i>UTILITY</i> in the logic component library on the left-hand side.
+11. We can use a <b>If Condition</b> to define a flow based on the option selected in the <b>Action sheet</b>.
+ Drag and drop the <b>If condition</b> logic component which is available under <i>UTILITY</i> in the logic component library on the left-hand side.
 
 ![Scan](Images/10.png)
 

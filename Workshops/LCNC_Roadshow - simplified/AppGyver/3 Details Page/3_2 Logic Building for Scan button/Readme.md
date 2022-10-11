@@ -18,6 +18,8 @@ Now we are going to download a new component from the <b>MARKETPLACE</b>.
 ![Scan](Images/02.png)
 
 4. Click <b>Install</b> button to install this component in your library.
+<br>
+<b>Action Sheet</b>, will allow users to select a value from a list of <b>label-value</b> pairs. In this scenerio, we will this component to give users a list of actions,(i.e., to <b>Scan</b> or to <b>Upload</b>) and trigger the relative logic in the app based on the action selected by the user. 
 
 ![Scan](Images/03.png)
 
@@ -27,7 +29,7 @@ Now we are going to download a new component from the <b>MARKETPLACE</b>.
  ![Scan](Images/04.png)
  
 6. Connect the nodes of <b>Component tap</b> and <b>Action sheet</b>. <br><br>
-Now open the binding menu for the <b>Action sheet options</b> under the component’s properties on the right-hand side. 
+Now, select <b>Action sheet</b> and open the binding menu for the <b>Action sheet options</b> under the component’s properties on the right-hand side. 
 
 ![Scan](Images/05.png)
 
@@ -48,7 +50,8 @@ and click on <b>SAVE</b>.
 
 ![Scan](Images/09.png)
 
-11. Drag and drop the <b>If condition</b> logic component which is available under <i>UTILITY</i> in the logic component library on the left-hand side.
+11. We can use a <b>If Condition</b> to define a flow based on the option selected in the <b>Action sheet</b>.
+ Drag and drop the <b>If condition</b> logic component which is available under <i>UTILITY</i> in the logic component library on the left-hand side.
 
 ![Scan](Images/10.png)
 

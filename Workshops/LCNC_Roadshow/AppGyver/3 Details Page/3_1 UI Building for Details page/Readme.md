@@ -10,7 +10,9 @@ Previous Step: <a href="https://github.com/SAP-samples/process-automation-enable
 
 ![Text](Images/07.png)
 
-3. In the binding menu, select on <b>Formula</b>.
+3. This text component can display a combination of static text and App variables with names that was created in Home page. This combination can be created using <b>formulas</b>. <br>
+In the binding menu, select <b>Formula</b>.<br><br>
+To learn more about the forumals, please refer <a href="https://docs.appgyver.com/docs/formula-functions?highlight=formil">Using Formula functions</a>
 
 ![Formula](Images/08.png)
 
@@ -90,11 +92,11 @@ path of the image to access it.
 
 ![UI](Images/20.png)
 
-20. Expand the <b>ADVANCED PROPERTIES</b> of the Button 2 component.<br> Open the binding menu for under for Visible option of the component.
+20. This submit button needs to be visible only after the Invoice is selected. We can change the visibility properties.<br>Expand the <b>ADVANCED PROPERTIES</b> of the Button 2 component.<br> Open the binding menu for under for Visible option of the component.
 
 ![UI](Images/21.png)
 
-21. In the binding menu select <b>Formula</b>.
+21. <b>InvoicScan</b> variable is used to store the image. So, a simple formula can be used to check if the variable is empty and define the visibility for this button. <br>   In the binding menu select <b>Formula</b>.
 
 ![UI](Images/22.png)
 
