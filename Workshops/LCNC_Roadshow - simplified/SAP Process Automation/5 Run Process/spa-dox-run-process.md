@@ -84,17 +84,18 @@ Till now, you have developed a Business Process where you will start with a form
 
     ![Run copy the form link](02_Process_Start.png)
 
-3. Open the Form pasting the **Form Link** in a browser window.
+4. Open the Form pasting the **Form Link** in a browser window.
 
     ![Run open the form](03_Order_Processing_Form.png)
 
-4. Fill the **Invoice Request Form** and choose **Submit**.
+5. Fill the **Invoice Request Form** and choose **Submit**.
 
     > Do not enter any random value or else the Automation will not give any results.
+    Use the following value for the FilePath: "C:\Users\student\Desktop\invoice.pdf"
 
     ![Run open the form](Form_Inputs.png)
 
-5. The process is triggered. You can now work on the tasks and monitor the process.
+6. The process is triggered. You can now work on the tasks and monitor the process.
 
     ![Run form successfully submitted](Run_inputs_2.png)
 
