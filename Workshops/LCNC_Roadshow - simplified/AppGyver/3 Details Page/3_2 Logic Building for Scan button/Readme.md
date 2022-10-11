@@ -11,6 +11,10 @@ Previous Step: <a href="https://github.com/SAP-samples/process-automation-enable
 2. By default, the trigger event will be <b>Component tap</b>.<br>
 Now we are going to download a new component from the <b>MARKETPLACE</b>.
 
+<b>MARKETPLACE</b> contains hundreds of pre-built visual and logic components, which can be installed and used with minimum or no customisation. 
+
+more information on <a href="https://docs.appgyver.com/docs/marketplace?highlight=Market%20place">MARKETPLACE</a>
+
 ![Scan](Images/01.png)
 
 3. In the search bar, search for “<i>action sheet</i>”.<br> Now, select the <b>Action</b> Sheet component.
