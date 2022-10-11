@@ -20,7 +20,7 @@
    ![1-png](1.png)
 
 2. A pop up will appear to configure the Desktop Agent version. Do the following in the pop up:
-    - From the dropdown, select the version of the Desktop Agent installed on your machine.
+    - From the dropdown, select the version of the Desktop Agent installed on your machine. During the exercise we would use version **2.0.26**; so please select it.
     - Choose **Confirm**.
 
     > It would be with suffix as **Registered**.
@@ -29,7 +29,7 @@
 
 3. A new pop-up will appear to create the automation. Do the following in the pop-up:
 
-    -  Enter **Name** of the automation as **Extract Invoice Data**.
+    -  Enter **Name** of the automation as **Extract Invoice Data**. You can also use another name you prefer, like **Invoice Data Extraction** and etc.
     -  Enter **Description** of your choice, if needed.
     -  Choose **Create**.    
 
@@ -213,8 +213,11 @@
 
 2. **Save** the automation.
 
-**OPTIONAL: ONLY IF YOU HAVE THE DESKTOP AGENT CONNECTED TO YOUR TENANT** 
 **Step 8: Test the Automation**
+
+**OPTIONAL: ONLY IF YOU HAVE THE DESKTOP AGENT CONNECTED TO YOUR TENANT** 
+
+We are using virtual desktop machines connected to the tenant, so please proceed to **Step 9**.
 
 1. Select Test button and enter the `Filepath` where the invoice document is stored locally on your machine.
 

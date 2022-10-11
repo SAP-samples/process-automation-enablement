@@ -19,17 +19,17 @@
 
     ![1-png](1N.png)
 
-2. A pop up will appear to configure the Desktop Agent version. Do the following in the pop up:
-    - From the dropdown, select the version of the Desktop Agent installed on your machine.
+2. A pop-up will appear to configure the Desktop Agent version. Do the following in the pop up:
+    - From the dropdown, select the version of the Desktop Agent installed on your machine. During the exercise we would use version **2.0.26**; so please select it.
     - Choose **Confirm**.
 
-    > It would be with suffix as **Registered**. Version can differ.
+    > It would be with suffix as **Registered**. Version on a screenshot can differ.
 
     ![2-png](2.png)
 
 3. A new pop-up will appear to create the automation. Do the following in the pop-up:
 
-    -  Enter **Name** of the automation as **Extract Invoice Data**.
+    -  Enter **Name** of the automation as **Extract Invoice Data**. You can also use another name you prefer, like **Invoice Data Extraction** and etc.
     -  Enter **Description** of your choice, if needed.
     -  Choose **Create**.    
 
@@ -213,10 +213,13 @@
 
 2. **Save** the automation.
 
-**OPTIONAL: ONLY IF YOU HAVE THE DESKTOP AGENT CONNECTED TO YOUR TENANT** 
 **Step 8: Test the Automation**
 
-1. Select Test button and enter the `Filepath` where the invoice document is stored locally on your machine.
+**OPTIONAL: ONLY IF YOU HAVE THE DESKTOP AGENT CONNECTED TO YOUR TENANT** 
+
+We are using virtual desktop machines connected to the tenant, so please proceed to **Step 9**.
+
+1. Select Test button and enter the `Filename` and `Foldername` where the invoice document is stored locally on your machine.
 
     ![Link text e.g., Destination screen](Test.png)
 
@@ -230,7 +233,7 @@
 
 1. Navigate to the process **Get Invoice Details** and select the automation **Extract Invoice Data**.
 
-2. Map the input parameter of the automation to the form parameter `FileName`.
+2. Map the input parameters of the automation to the form parameter `FileName` and `FolderName`.
 
     ![Mapping-Parameters](STEP9N1.png)
 
