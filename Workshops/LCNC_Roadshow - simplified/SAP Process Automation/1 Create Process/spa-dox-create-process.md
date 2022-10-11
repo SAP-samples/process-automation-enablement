@@ -56,6 +56,10 @@ This needs to be automated since we are talking about multiple invoices which ar
 
     In the form you have multiple layout and input elements.
 
+    Click on '...' and open the Form Editor.
+
+    ![Form](OpenEditorN.png)
+
 3. Create a headline, drag and drop **Headline 1** into the canvas.
 
     ![Create Headline](06.png)

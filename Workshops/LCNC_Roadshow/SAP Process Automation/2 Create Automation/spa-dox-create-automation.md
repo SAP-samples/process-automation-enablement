@@ -61,11 +61,11 @@
 
     Input and output parameters allow you to exchange data in the workflow of your automation between activities, screens, and scripts.
 
-1.  Go back to your automation, which you have previously created.
+1.  Go back to your automation, which you have previously created. Please select it from the list of artifacts on the left.
 
     ![Automation](AUTO1N.png)
 
-2. Click on the canvas and select the **Input/Output** section in **Automation Details**.
+2. Click on the canvas and select the **Input/Output** section in **Automation Details** to the right.
 
     ![00-05](Step11-InputOutput.png)
 
@@ -156,6 +156,8 @@
   
   ![Save](SaveActivate.png)
 
+  6. Get back to the automation.
+
 **Step 6: Build the Automation**
 
 1. Extract data template
@@ -168,6 +170,8 @@
     - Maintain the parameters for the activity as shown below.
 
     ![20-png](20.png)
+
+    Click on Canvas (gray area around automation flow) to get back to the search.
 
 2. You have already created the data type **Invoice** in Step 2. Now, you will create variable of the type **Invoice**.
 
@@ -183,7 +187,7 @@
 
       ![26png](26.png)
 
-      Here you can either write an expression or select the items from the menu.
+      Here you can either write an expression or select the items from the dropdown menu (you should unhide it until the lowest level).
 
       ![Auto](AUTO2N.png)
 
