@@ -2,7 +2,7 @@
 
 ## Prerequisites
  - Complete the first part of the tutorial [1 Create Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/1%20Create%20Process/spa-dox-create-process.md)
- - Download the [Invoice Document](https://github.com/sap-tutorials/Tutorials/blob/master/tutorials/spa-dox-create-automation/invoice.pdf) to your local machine
+ - Download the [Invoice Document](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/2%20Create%20Automation/invoice.pdf) to your local machine
 
 ## Details
 ### You will learn
