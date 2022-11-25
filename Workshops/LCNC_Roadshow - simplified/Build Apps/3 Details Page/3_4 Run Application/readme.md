@@ -1,4 +1,4 @@
-Previous Step: <a href="https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/3%20Details%20Page/3_3%20Logic%20Building%20for%20Submit%20Button/readme.md"> 3_3 Logic Building for Submit Button</a>.
+Previous Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Apps/3%20Details%20Page/3_3%20Logic%20Building%20for%20Submit%20Button/readme.md"> 3_3 Logic Building for Submit Button</a>.
 
 1. if you have not yet, **Save** the whole application using the button in the top right corner. After that open the **Launch** tab.
 
