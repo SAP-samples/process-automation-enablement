@@ -23,4 +23,4 @@ There are stages of building a page in Application. They are <br>
  ii. Logic Building<br>
 
 
-Next Step: Previous Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Apps/2%20Home%20Page/2_1%20UI%20Building/readme.md">  2_1 UI Building for Home Page</a>
+Next Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Apps/2%20Home%20Page/2_1%20UI%20Building/readme.md">  2_1 UI Building for Home Page</a>
