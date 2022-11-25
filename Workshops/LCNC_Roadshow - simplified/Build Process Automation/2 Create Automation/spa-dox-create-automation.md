@@ -1,8 +1,8 @@
 
 
 ## Prerequisites
-- Complete the first part of the tutorial [1 Create Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/SAP%20Process%20Automation/1%20Create%20Process/spa-dox-create-process.md)
- - Download the [Invoice Document](https://github.com/sap-tutorials/Tutorials/blob/master/tutorials/spa-dox-create-automation/invoice.pdf) to your local machine
+- Complete the first part of the tutorial [1 Create Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/1%20Create%20Process/spa-dox-create-process.md)
+ - Download the [Invoice Document](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/2%20Create%20Automation/invoice.pdf) to your local machine
 
 ## Details
 ### You will learn
@@ -203,6 +203,6 @@ We are using virtual desktop machines connected to the tenant, so please proceed
 
     ![Process-automation](Process-AutomationN.png)
 
-- Continue with the next part of the tutorial [3 Create Decision](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/SAP%20Process%20Automation/3%20Create%20Decision/spa-dox-create-decision.md)
+- Continue with the next part of the tutorial [3 Create Decision](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/3%20Create%20Decision/spa-dox-create-decision.md)
 
 ---
