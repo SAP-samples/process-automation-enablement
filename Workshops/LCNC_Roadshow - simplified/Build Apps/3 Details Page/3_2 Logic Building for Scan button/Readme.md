@@ -1,4 +1,4 @@
-Previous Step: <a href="https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/AppGyver/3%20Details%20Page/3_1%20UI%20Building%20for%20Details%20page/Readme.md"> 3.1 UI Building for Details Page</a>.
+Previous Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Apps/3%20Details%20Page/3_1%20UI%20Building%20for%20Details%20page/Readme.md"> 3.1 UI Building for Details Page</a>.
 
 
 # Logic Building for Scan Button
