@@ -1,7 +1,7 @@
 
 
 ## Prerequisites
- - Complete the first part of the tutorial [1 Create Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/1%20Create%20Process/spa-dox-create-process.md)
+ - Complete the first part of the tutorial [1 Create Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/Build%20Process%20Automation/1%20Create%20Process/spa-dox-create-process.md)
  - Download the [Invoice Document](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/Build%20Process%20Automation/2%20Create%20Automation/invoice.pdf) to your local machine
 
 ## Details
@@ -203,4 +203,4 @@ We are using virtual desktop machines connected to the tenant, so please proceed
 
     ![Process-automation](Process-AutomationN.png)
 
-Proceed to the next exercise: [3 Download Document Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/3%20Download%20Document%20Automation/spa-dox-embed-dms.md)
+Proceed to the next exercise: [3 Download Document Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/Build%20Process%20Automation/3%20Download%20Document%20Automation/spa-dox-embed-dms.md)
