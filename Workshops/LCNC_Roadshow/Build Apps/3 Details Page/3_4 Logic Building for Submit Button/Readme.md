@@ -1,4 +1,4 @@
-Previous Step: <a href="https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/AppGyver/3%20Details%20Page/3_3%20Logic%20Building%20for%20Scan%20button/Readme.md">3_3 Logic Building for Scan button</a>
+Previous Step: <a href="https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/Build%20Apps/3%20Details%20Page/3_3%20Logic%20Building%20for%20Scan%20button/Readme.md">3_3 Logic Building for Scan button</a>
 
 
 # Logic Building for Submit button
@@ -108,7 +108,7 @@ Give the following input under <b>Toast message</b>
 ![Submit](Images/28.png)
 
 Please proceed to **SAP Process Automation** part now.
-[1 Create Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/1%20Create%20Process/spa-dox-create-process.md)
+[1 Create Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/Build%20Process%20Automation/1%20Create%20Process/spa-dox-create-process.md)
 				
 
 			
