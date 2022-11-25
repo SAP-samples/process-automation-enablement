@@ -1,0 +1,48 @@
+
+[VALIDATE_1]
+###Rule
+single-choice
+
+###Question
+Where will you create a business process project in SAP Process Automation?
+
+###Match
+[x] Lobby
+[ ] Elevator
+[ ] Store
+[ ] Inbox
+
+[VALIDATE_1]
+
+
+
+[VALIDATE_2]
+###Rule
+multiple-choice
+
+###Question
+Once you have created a process, which artifacts are already there?
+
+###Match
+[x] Start event
+[ ] Intermediate event
+[x] End event
+[ ] Decision
+
+[VALIDATE_2]
+
+
+[VALIDATE_3]
+###Rule
+multiple-choice
+
+###Question
+Which of the following input fields are available?
+
+###Match
+[x] Text
+[ ] Signature
+[x] Date
+[ ] PIN code
+
+[VALIDATE_3]

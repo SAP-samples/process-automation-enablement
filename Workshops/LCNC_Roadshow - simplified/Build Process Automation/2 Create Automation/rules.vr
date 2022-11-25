@@ -1,0 +1,13 @@
+[VALIDATE_1]
+###Rule
+multiple-choice
+
+###Question
+Which are the following is true concerning input and output parameters?
+
+###Match
+[X] An input or output parameter is a variable that is passed, received, or sent from one automation, SDK activity or control to another.
+[X] They allow you to exchange data in the workflow of your automation between activities, screens and scripts.
+[ ] They do not allow you to manipulate data that you can use in your workflow.
+
+[VALIDATE_1]

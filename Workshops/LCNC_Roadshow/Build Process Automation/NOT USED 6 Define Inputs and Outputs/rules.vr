@@ -1,0 +1,15 @@
+
+[VALIDATE_1]
+###Rule
+single-choice
+
+###Question
+Howe many inputs were added in Configure Inputs window?
+
+###Match
+[ ] 2
+[x] 3
+[ ] 4
+[ ] 5
+
+[VALIDATE_1]

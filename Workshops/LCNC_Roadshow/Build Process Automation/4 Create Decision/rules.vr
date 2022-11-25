@@ -1,0 +1,28 @@
+
+[VALIDATE_1]
+###Rule
+single-choice
+
+###Question
+You have used the data type "Invoice" in the decision, where was this data type coming from?
+
+###Match
+[ ] I have just created the data type now.
+[x] It has been part of the Automation.
+[ ] It has always been there.
+
+[VALIDATE_1]
+
+[VALIDATE_2]
+###Rule
+single-choice
+
+###Question
+What can you define with a decision table?
+
+###Match
+[x] The **If** and **Then** for multiple parameters.
+[ ] The agenda of a meeting.
+[ ] My loan costs.
+
+[VALIDATE_2]

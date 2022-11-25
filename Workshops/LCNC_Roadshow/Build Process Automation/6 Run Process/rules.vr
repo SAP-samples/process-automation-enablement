@@ -1,0 +1,15 @@
+
+[VALIDATE_1]
+###Rule
+single-choice
+
+###Question
+Which destination needs to be chosen in deploy project window?
+
+###Match
+[x] SAP_DMS
+[ ] SAP_SPA
+[ ] SAP_AGV
+[ ] SAP_INV
+
+[VALIDATE_1]
