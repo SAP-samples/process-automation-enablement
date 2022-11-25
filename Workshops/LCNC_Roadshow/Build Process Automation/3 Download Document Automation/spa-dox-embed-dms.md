@@ -1,6 +1,6 @@
 
 ## Prerequisites
- - Complete the previous part of the tutorial [2 Create Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/2%20Create%20Automation/spa-dox-create-automation.md)
+ - Complete the previous part of the tutorial [2 Create Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/Build%20Process%20Automation/2%20Create%20Automation/spa-dox-create-automation.md)
  
  ## Details
 ### You will learn
@@ -56,4 +56,4 @@ Congratulations, you are done with this part. Return back to the Process View.
 
 Note: please disregard the error in the "Download Document" automation.
 
-  Proceed to the next exercise: [4 Create Decision](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/4%20Create%20Decision/spa-dox-create-decision.md)
+  Proceed to the next exercise: [4 Create Decision](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/Build%20Process%20Automation/4%20Create%20Decision/spa-dox-create-decision.md)
