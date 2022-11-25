@@ -1,5 +1,5 @@
 ## Prerequisites
- - Complete the previous part of the tutorial [3 Download Document Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/3%20Download%20Document%20Automation/spa-dox-embed-dms.md)
+ - Complete the previous part of the tutorial [3 Download Document Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/Build%20Process%20Automation/3%20Download%20Document%20Automation/spa-dox-embed-dms.md)
 
 
 ## Details
@@ -178,5 +178,5 @@ Though the Decision is ready, you need to connect it to the data flow of your pr
 
 You have now defined who should approve the invoice, based on the company name. Next you will use the outcome of the business rule, the email address, as input for the approval.
 
-  Proceed to the next exercise: [5 Create Forms](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/5%20Create%20Forms/spa-dox-forms.md)
+  Proceed to the next exercise: [5 Create Forms](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/Build%20Process%20Automation/5%20Create%20Forms/spa-dox-forms.md)
 
