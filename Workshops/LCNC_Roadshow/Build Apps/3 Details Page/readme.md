@@ -1,4 +1,4 @@
-Previous Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/AppGyver/2%20Home%20Page/2_2%20Logic%20Building/Readme.md">  2_2 Logic for Home Page</a>
+Previous Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/Build%20Apps/2%20Home%20Page/2_2%20Logic%20Building/Readme.md">  2_2 Logic for Home Page</a>
 
 # Details page
 
@@ -12,4 +12,4 @@ i. UI Building for Details Page<br>
 ii. Data Connection for Details Page<br>
 iii.Logic building for Details page<br>
 
-Next step: <a href="https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/AppGyver/3%20Details%20Page/3_1%20UI%20Building%20for%20Details%20page/Readme.md">3_1 UI Building for Details Page</a>
+Next step: <a href="https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/Build%20Apps/3%20Details%20Page/3_1%20UI%20Building%20for%20Details%20page/Readme.md">3_1 UI Building for Details Page</a>
