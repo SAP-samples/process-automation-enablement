@@ -1,5 +1,5 @@
 ## Prerequisites
-- Complete the previous part of the tutorial [5 Create Forms](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/5%20Create%20Forms/spa-dox-forms.md)
+- Complete the previous part of the tutorial [5 Create Forms](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow/Build%20Process%20Automation/5%20Create%20Forms/spa-dox-forms.md)
 
 ## Details
 ### You will learn
