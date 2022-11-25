@@ -1,5 +1,5 @@
 ## Prerequisites
-- Complete the previous part of the tutorial [2 Create Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/SAP%20Process%20Automation/2%20Create%20Automation/spa-dox-create-automation.md)
+- Complete the previous part of the tutorial [2 Create Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/2%20Create%20Automation/spa-dox-create-automation.md)
 
 ## Details
 With a Decision you can include several policies, guidelines, business rules and so on into your process flow.
@@ -176,4 +176,4 @@ Though the Decision is ready, you need to connect it to the data flow of your pr
     ![Decision Output](32.png)
 You have now defined who should approve the invoice, based on the company name. Next you will use the outcome of the business rule, the email address, as input for the approval.
 
-- Continue with the next part of the tutorial [4 Create Forms](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/SAP%20Process%20Automation/4%20Create%20Forms/spa-dox-forms.md)
+- Continue with the next part of the tutorial [4 Create Forms](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/4%20Create%20Forms/spa-dox-forms.md)
