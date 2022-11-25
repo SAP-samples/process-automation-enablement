@@ -1,5 +1,5 @@
 ## Prerequisites
-- Complete the previous part of the tutorial [4 Create Decision](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/4%20Create%20Decision/spa-dox-create-decision.md)
+- Complete the previous part of the tutorial [4 Create Decision](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/Build%20Process%20Automation/4%20Create%20Decision/spa-dox-create-decision.md)
 
 ## Details
 There are different requirements and business situations when a form is needed in a business process. You have already created a form to start the process.
@@ -177,4 +177,4 @@ The two latter ones are your focus now.
     ![Final process](32.png)
 
 
-  Proceed to the next exercise: [6 Run Process](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/SAP%20Process%20Automation/6%20Run%20Process/spa-dox-run-api-trigger.md)
+  Proceed to the next exercise: [6 Run Process](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/Build%20Process%20Automation/6%20Run%20Process/spa-dox-run-api-trigger.md)
