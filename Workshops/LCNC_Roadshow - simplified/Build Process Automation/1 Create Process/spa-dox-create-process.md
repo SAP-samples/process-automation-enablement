@@ -96,6 +96,6 @@ In this exercise you create a process which houses all the project files related
     ![Final Start Form](10.png)
 
 
-Proceed to the next exercise: [2 Create Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/SAP%20Process%20Automation/2%20Create%20Automation/spa-dox-create-automation.md)
+Proceed to the next exercise: [2 Create Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/2%20Create%20Automation/spa-dox-create-automation.md)
 
 ---
