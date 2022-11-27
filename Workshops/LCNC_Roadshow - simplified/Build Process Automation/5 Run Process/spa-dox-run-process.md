@@ -1,5 +1,5 @@
 ## Prerequisites
-- Complete the previous part of the tutorial [4 Create Forms](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/4%20Create%20Forms/spa-dox-forms.md)
+Complete [4 Create Forms](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/4%20Create%20Forms/spa-dox-forms.md) tutorial.
 
 ## Details
 Till now, you have developed a Business Process where you will start with a form to enter your name as the processor and the file path where the invoice is stored. Then you would need to upload and annotate the invoice in order to get the data from the relevant fields by the bot: company name, invoice amount and document number. Bot will extract this data. After this you need to decide, who would be the approver (so you need to enter your email). Then you need to build the approval form to review the submitted data and approve it for further processing.
@@ -153,5 +153,7 @@ Till now, you have developed a Business Process where you will start with a form
 
     ![Monitor](05_Monitor_Process_and_Workflow.png)
 
-Congratulations! You have finished the exercise!
 ---
+
+#### Congratulations! You have finished the exercise!
+
