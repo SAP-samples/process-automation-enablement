@@ -18,5 +18,6 @@ Previous Step: <a href="https://github.com/SAP-samples/process-automation-enable
 
 ![App11](APP11.png)
 
-Please proceed to **SAP Process Automation** part now.
-[1 Create Process](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/1%20Create%20Process/spa-dox-create-process.md)
+
+Please proceed to **SAP Build Process Automation** part now.
+[1 Create Process](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/1%20Create%20Process/readme.md)
