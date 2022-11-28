@@ -73,17 +73,12 @@
     ![Automation](AUTO1N.png)
     ![00-05](Step11-InputOutput.png)
 
-2. Under input and output, add the following information
+2. Under input and output, add the following information, one by one.
 
     |  Parameter Name       | Data type        | Parameter Type | Description
     |  :---------------     | :-------------   | :------------- | :---------------
-    |  `FileName`      | **`String`**     | Input          | Path where the invoice document is stored  
-    |  `FolderName`      | **`String`**     | Input          | Path where the invoice document is stored  
-    |  `InvoiceDetails`    | **`Invoice`** | Output         | Extracted Invoice Details
-
-    ![Input](INPUTN1.png)
-
-    ![Output](OUTPUTN1.png)
+    |  `FilePath`      | **`String`**     | **Input**          | Path where the invoice document is stored  
+    |  `InvoiceDetails`    | **`Invoice`** | **Output**         | Extracted Invoice Details
     
 
 3. Choose **Save**.    
@@ -106,7 +101,7 @@
     - Select the Extract Data (Pre-trained model) step to open its configuration panel
     - Select Document Type: `Invoice`
     - Select the pencil next to documentPath to open the **Expression Editor**
-    - Enter the following: `"C:\\Users\\Public\\" + Step0.FileName`
+    - Enter the following (you can copy and paste): `"C:\\Users\\Public\\" + Step0.FileName`
     - Test and Save Expression
         > Please ensure the expression is entered correctly in the editor.
     
@@ -177,9 +172,9 @@
 
 ### OPTIONAL Step 6: Test the Automation (Requires Desktop Agent)
 
-We are using virtual desktop machines connected to the tenant, so please proceed to **Step 9**.
+We are using virtual desktop machines connected to the tenant, so please proceed to **Step 7**.
 
-1. Select Test button and enter the `Filename` and `Foldername` where the invoice document is stored locally on your machine.
+1. Select Test button and enter the `FilePath` where the invoice document is stored locally on your machine.
 
     ![Link text e.g., Destination screen](Test.png)
 
@@ -195,7 +190,7 @@ We are using virtual desktop machines connected to the tenant, so please proceed
 
 1. Navigate to the process **Get Invoice Details** and select the automation **Extract Invoice Data**.
 
-2. Map the input parameters of the automation to the form parameter `FileName` and `FolderName`.
+2. Map the input parameters of the automation to the form parameter `FilePath`.
 
     ![Mapping-Parameters](STEP9N1.png)
 
