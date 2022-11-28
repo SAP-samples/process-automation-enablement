@@ -80,6 +80,7 @@
     |  `FilePath`      | **`String`**     | **Input**          | Path where the invoice document is stored  
     |  `InvoiceDetails`    | **`Invoice`** | **Output**         | Extracted Invoice Details
     
+    ![pretrainedModel1](InputandOutputParameters.png)
 
 3. Choose **Save**.    
 
@@ -192,7 +193,7 @@ We are using virtual desktop machines connected to the tenant, so please proceed
 
 2. Map the input parameters of the automation to the form parameter `FilePath`.
 
-    ![Mapping-Parameters](STEP9N1.png)
+    ![Mapping-Parameters](MappingParameters.png)
 
 3. Your process looks like below once you complete this tutorial.
 
