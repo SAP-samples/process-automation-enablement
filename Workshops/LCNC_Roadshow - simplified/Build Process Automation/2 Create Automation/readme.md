@@ -1,7 +1,7 @@
 
 
 ## Prerequisites
-- Complete  [1 Create Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/1%20Create%20Process/spa-dox-create-process.md) tutorial
+- Complete  [1 Create Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/1%20Create%20Process/readme.md) tutorial
  - Download the [Invoice Document](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Process%20Automation/2%20Create%20Automation/invoice.pdf) to your local machine
 
 ## Details
