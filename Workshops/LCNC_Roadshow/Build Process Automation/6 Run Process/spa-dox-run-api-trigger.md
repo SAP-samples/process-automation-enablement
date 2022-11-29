@@ -28,10 +28,10 @@ Once you have completed the previous steps, your process looks like this:
 4. In the **Deploy a project** window:
 
     - Under Set Variables choose **No trigger creation**,
-    - Under Destination choose `SPA_DMS`,
+    - Under Destination choose `sap_process_automation_document_store`,
     - **Confirm** and **Deploy** a project.
 
-    ![Deploy window](004.png)
+    ![Deploy window](004N.png)
 
 ### Step 2: Start the process
 
