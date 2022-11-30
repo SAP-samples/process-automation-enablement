@@ -118,12 +118,11 @@ From the package dropdown select "Document Information Extraction SDK" and click
     - Select the pencil next to documentPath to open the **Expression Editor**
     - Enter the following: `"C:\\Users\\student\\Desktop\\" + Step0.FileName`
     - Test and Save Expression
-        > Please ensure the expression is entered correctly in the editor.
+        > Please ensure the expression is entered correctly in the editor (after you click the pencil button).
     
     
     ![pretrainedModel2](PT2.png)
-    ![pretrainedModel3](PT3.png)
-
+    
 3. Next, we will add the data type **invoice** which we created in Step 1
 
     - Click on the canvas to open the tools panel
