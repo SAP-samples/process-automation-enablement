@@ -112,13 +112,12 @@ From the package dropdown select "Document Information Extraction SDK" and click
     - Select the Extract Data (Pre-trained model) step to open its configuration panel
     - Select Document Type: `Invoice`
     - Select the pencil next to documentPath to open the **Expression Editor**
-    - Enter the following (you can copy and paste): `"C:\\Users\\student\\desktop\\" + Step0.FileName`
+    - Enter the following (you can copy and paste): `"C:\\Users\\student\\desktop\\invoice.pdf`
     - Test and Save Expression
         > Please ensure the expression is entered correctly in the editor.
     
     
     ![pretrainedModel2](PT2.png)
-    ![pretrainedModel3](PT3.png)
 
 3. Next, we will add the data type **invoice** which we created in Step 1
 
