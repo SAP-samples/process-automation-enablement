@@ -112,7 +112,7 @@ From the package dropdown select "Document Information Extraction SDK" and click
     - Select the Extract Data (Pre-trained model) step to open its configuration panel
     - Select Document Type: `Invoice`
     - Select the pencil next to documentPath to open the **Expression Editor**
-    - Enter the following (you can copy and paste): `"C:\\Users\\Public\\" + Step0.FileName`
+    - Enter the following (you can copy and paste): `"C:\\Users\\student\\desktop\\" + Step0.FileName`
     - Test and Save Expression
         > Please ensure the expression is entered correctly in the editor.
     
