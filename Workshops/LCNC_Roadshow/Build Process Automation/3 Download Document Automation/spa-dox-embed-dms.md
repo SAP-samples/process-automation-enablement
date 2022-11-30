@@ -48,8 +48,8 @@
     |  :------------- | :-------------
     |  `uploadedFileName:`| **FileName**
     |  `folderName`   | **FolderName**
-    |  `outputPath`    | **"C:\\\\Users\\\\Public\\\\" + Step0.FileName**
-    
+    |  `outputPath`    | **"C:\\\\Users\\\\student\\\\Desktop\\\\" + Step0.FileName**
+      
    ![6-png](06_DMS.png)
 
 Congratulations, you are done with this part. Return back to the Process View. 
