@@ -20,7 +20,8 @@
     ![1-png](1N.png)
 
 2. A pop-up will appear to configure the Desktop Agent version. Do the following in the pop up:
-    - From the dropdown, select the version of the Desktop Agent installed on your machine. During the exercise we would use version **2.0.26**; so please select it.
+    - In case you have the first pop-up window, saying "Detecting Agent...", please click on "Skip" button.
+    - In the pop-up window, select the version of the Desktop Agent installed on your machine from the dropdown. During the exercise we would use version **2.0.26**; so please select it.
     - Choose **Confirm**.
 
     > It would be with suffix as **Registered**. Version on a screenshot can differ.
