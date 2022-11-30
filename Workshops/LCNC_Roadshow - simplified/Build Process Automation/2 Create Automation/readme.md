@@ -20,7 +20,8 @@
     ![1-png](1N.png)
 
 2. A pop-up will appear to configure the Desktop Agent version. Do the following in the pop up:
-    - From the dropdown, select the version of the Desktop Agent installed on your machine. During the exercise we would use version **2.0.26**; so please select it.
+       - In case you have the pop-up window, saying "Detecting Agent...", please click on "Skip" button.
+       - In the next pop-up select the version of the Desktop Agent installed on your machine from the dropdown. During the exercise we would use version **2.0.26**; so please select it.
     - Choose **Confirm**.
 
     > It would be with suffix as **Registered**. Version on a screenshot can differ.
@@ -88,6 +89,15 @@
 
 ### Step 4: Configure Pre-Trained Data Extraction Model
 > In this step, we will define the headers that a pre-trained model will extract from our invoice.pdf.
+
+0. Please go to the settings to add the dependency in order to work with Document Information Extraction activities.
+![pretrainedModel1](DEP1.png)
+After this please click on "Dependencies".
+![pretrainedModel1](DEP2.png)
+As a next step, click on "Add Dependency" on top and "Add a Business Process project dependency".
+![pretrainedModel1](DEP3.png)
+From the package dropdown select "Document Information Extraction SDK" and click add after the other 2 parameters were loaded automatically.
+![pretrainedModel1](DEP4.png)
 
 1. In this part, we will add a pre-trained model for an invoice to extract the necessary information from our invoice.pdf
     
