@@ -94,7 +94,7 @@ Once you have completed the previous steps, your process looks like this:
 ![App10](APP10.png)
 
 11. Enter the data andsubmit the invoice file!
-
+The invoice file can be downloaded <a href="https://github.com/SAP-samples/teched2022-AD160/blob/main/exercises/1_CreateAppGyverProject/images/Invoice.png?raw=true">**HERE**</a>.
 ![App11](APP11.png)
 
 ### Step 4: Get back to SAP Process Automation part to work on the Tasks
