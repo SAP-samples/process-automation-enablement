@@ -19,10 +19,10 @@ The app will have two Data Conenctions: <br>
 3. In the <b>BASE</b> tab of the API configuration enter the following values.<br><br>
 <b>Resource ID</b> : Documentupload<br><br>
 
-<b>If your hands-on tenant URL is "lcnc-roadshow.***.lobby" (please look at the URL of the browser tab, where you have SAP Build open)</b><br>
+<b>If your hands-on tenant URL is "lcnc-roadshow...lobby" (please look at the URL of the browser tab, where you have SAP Build open)</b><br>
 <b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepouploadnew<br><br>
 
-<b>if your tenant URL is "end-to-end-demo-lcnc.***.lobby" (please look at the URL of the browser tab, where you have SAP Build open) </b><br>
+<b>if your tenant URL is "end-to-end-demo-lcnc...lobby" (please look at the URL of the browser tab, where you have SAP Build open) </b><br>
 <b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepoupload<br><br>
 
 ![Data](Images/03.png)
