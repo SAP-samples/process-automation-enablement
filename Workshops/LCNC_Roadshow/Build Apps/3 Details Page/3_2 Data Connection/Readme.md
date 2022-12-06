@@ -50,7 +50,7 @@ Rename the key in the property to “<i>base64</i>”.<br><br>
 12. Add the following configuration in the BASE tab.<br><br>
 <b>Resource ID</b> : sendtoSPA<br>
 <b>Short description</b> : Send info to SPA<br>
-<b>Resource URL</b> : https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/lcnc<br><br>
+<b>Resource URL</b> : https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/create<br><br>
 ![Data](Images/12.png)
 
 13. Disable <b>GET COLLECTION</b> and <b>GET RECORD</b> and enable <b>CREATE RECORD</b>.<br>
