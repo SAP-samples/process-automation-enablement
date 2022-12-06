@@ -18,7 +18,13 @@ The app will have two Data Conenctions: <br>
 
 3. In the <b>BASE</b> tab of the API configuration enter the following values.<br><br>
 <b>Resource ID</b> : Documentupload<br><br>
+
+<b>if your tenant URL is https://lcnc-roadshow.****.cloud.sap/lobby </b><br>
+<b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepouploadnew<br><br>
+
+<b>if your tenant URL is https://end-to-end-demo-lcnc.****.cloud.sap/lobby </b><br>
 <b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepoupload<br><br>
+
 ![Data](Images/03.png)
 
 4. Select the <b>GET COLLECTION</b> tab and disable the <b>Method enabled</b> option to disable get collection for the API.<br><br>
