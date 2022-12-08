@@ -186,7 +186,7 @@ From the package dropdown select "Document Information Extraction SDK" and click
 
 ### OPTIONAL Step 6: Test the Automation (Requires Desktop Agent)
 
-We are using virtual desktop machines connected to the tenant, so please proceed to **Step 9**.
+We are using virtual desktop machines connected to the tenant, so please proceed to **Step 7**.
 
 1. Select Test button and enter the `Filename` and `Foldername` where the invoice document is stored locally on your machine.
 
