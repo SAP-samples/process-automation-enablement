@@ -128,7 +128,7 @@ The two latter ones are your focus now.
 
     ![Approval Notification General](21.png)
 
-6. Maintain **Subject** and select for the **Users** in this case **'your email', e.g. 'jane.doe@sap.com'**.
+6. Maintain **Subject** and select for the **Users** in this case **your email, e.g. jane.doe@sap.com (without quotation marks!)**.
 
     ![Approval Notification General Entries](22N.png)
 
