@@ -160,7 +160,7 @@ The two latter ones are your focus now.
 
     ![Reject Notification General](28.png)
 
-6. Maintain **Subject** and hardcode for the **Users** in this case **'your email', e.g. 'jane.doe@sap.com'**.
+6. Maintain **Subject** and hardcode for the **Users** in this case **your email, e.g. jane.doe@sap.com (without quotation marks!)**.
 
     ![Reject Notification General Entries](29N.png)
 
