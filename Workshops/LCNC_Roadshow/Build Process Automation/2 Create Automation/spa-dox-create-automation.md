@@ -50,7 +50,7 @@
 
     ![22-png](22.png)
 
-3.  Select New Field and add the following information, then save once finished
+3.  Select New Field and add the following information, then **save** once finished
 
     |  Field Name     | Type
     |  :------------- | :-------------
