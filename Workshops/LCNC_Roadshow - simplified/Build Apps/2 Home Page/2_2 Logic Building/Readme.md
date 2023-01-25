@@ -86,48 +86,6 @@ component. Since your app only has two pages for now, by default other page will
 ![Save](Images/Screenshot%202022-09-20%20at%2022.31.51.png)
 
 
-Home Page has been created successfully, now we need to develop the details page. Now, Switch to Details page.
+#### Home Page has been created successfully. Next you will develop the details page. 
+
 Next Step: <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Apps/3%20Details%20Page/readme.md">3 Details Page</a>
-
-		
-	
-	
-		
-
-
-		
-
-
-
-		
-	
-	
-		
- 
- 
-
-
-		
-	
-	
-		
-
-		
-	
-	
-		
-
-		
-	
-	
-		
-	
-		
-	
-		
-
-
-		
-	
-	
-		
