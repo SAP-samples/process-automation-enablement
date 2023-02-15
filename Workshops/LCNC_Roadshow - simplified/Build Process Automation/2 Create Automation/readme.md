@@ -88,18 +88,26 @@
 ---
 
 ### Step 4: Configure Pre-Trained Data Extraction Model
+
 > In this step, we will define the headers that a pre-trained model will extract from our invoice.pdf.
 
-0. Please go to the settings to add the dependency in order to work with Document Information Extraction activities.
+1. For the automation to work, we need to apply dependencies to the system configuration in order to work with the Document Information Extraction Activities
+
+    - Click on the cogwheel at the top of your screen
+    - Select `Dependencies`
+    - Select `Add Dependency` to add a Business Process project dependency
+    - Select `Document Information Extraction SDK` to add the latest version
+    - Click `Add` and close
+
 ![pretrainedModel1](DEP1.png)
-After this please click on "Dependencies".
+
 ![pretrainedModel1](DEP2.png)
-As a next step, click on "Add Dependency" on top and "Add a Business Process project dependency".
+
 ![pretrainedModel1](DEP3.png)
-From the package dropdown select "Document Information Extraction SDK" and click add after the other 2 parameters were loaded automatically.
+
 ![pretrainedModel1](DEP4.png)
 
-1. In this part, we will add a pre-trained model for an invoice to extract the necessary information from our invoice.pdf
+2. In this part, we will add a pre-trained model for an invoice to extract the necessary information from our invoice.pdf
     
     - Click on the canvas
     - In the tools panel, search `extract data`
@@ -107,19 +115,15 @@ From the package dropdown select "Document Information Extraction SDK" and click
 
     ![pretrainedModel1](PT1.png)
 
-2. Now we will configure the pre-trained model
+3. Now we will configure the pre-trained model
 
     - Select the Extract Data (Pre-trained model) step to open its configuration panel
     - Select Document Type: `Invoice`
-    - Select the pencil next to documentPath to open the **Expression Editor**
-    - Enter the following (you can copy and paste): `C:\\Users\\student\\desktop\\invoice.pdf`
-    - Test and Save Expression
-        > Please ensure the expression is entered correctly in the editor.
-    
+    - Select `FilePath` for documentPath 
     
     ![pretrainedModel2](PT2.png)
 
-3. Next, we will add the data type **invoice** which we created in Step 1
+4. Next, we will add the data type **invoice** which we created in Step 1
 
     - Click on the canvas to open the tools panel
     - Search `invoice`
@@ -127,7 +131,7 @@ From the package dropdown select "Document Information Extraction SDK" and click
 
     ![pretrainedModel4](PT4.png)
 
-4. Configure input parameters for **Create Invoice Variable**
+5. Configure input parameters for **Create Invoice Variable**
 
     - Click on Create Invoice Variable
     - Under value, select `Create Custom Data`
@@ -159,7 +163,7 @@ From the package dropdown select "Document Information Extraction SDK" and click
     ![pretrainModel8](PT8.png)
 
 
-5. Add a log message to view the output of the automation
+6. Add a log message to view the output of the automation
 
     - Click on the canvas 
     - Search `Log Message`
