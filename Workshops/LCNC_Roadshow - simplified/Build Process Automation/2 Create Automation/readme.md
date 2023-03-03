@@ -21,12 +21,10 @@
 
 2. A pop-up will appear to configure the Desktop Agent version. Do the following in the pop up:
        - In case you have the pop-up window, saying "Detecting Agent...", please click on "Skip" button.
-       - In the next pop-up select the version of the Desktop Agent installed on your machine from the dropdown. During the exercise we would use version **2.0.26**; so please select it.
+       - In the next pop-up select the version of the Desktop Agent installed on your machine from the dropdown. During the exercise we would use version **2.0.30**; so please select it from the dropdown.
     - Choose **Confirm**.
 
-    > It would be with suffix as **Registered**. Version on a screenshot can differ.
-
-    ![2-png](2.png)
+    > It would be with suffix as **Registered**.
 
 3. A new pop-up will appear to create the automation. Enter the following:
 
