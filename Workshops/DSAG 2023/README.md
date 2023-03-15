@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called [AD160 - Build Robust Apps Enhanced with Process Automation and Low-Code Tooling](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198448374001X6GH).
+This repository contains the material for the DSAG hands-on session called "Prozesse und Anwendungen mit SAP Build – einfach mal machen".
 
 ## Overview
 
