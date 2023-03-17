@@ -24,12 +24,12 @@ There are no dedicated requirement for this exercise. But in case you want to ga
 ## Exercises
 
 - [Exercise 1 - Create SAP Build Apps Project](/exercises/1_CreateAppGyverProject)
-<!--- - [Exercise 2 - Install Desktop Agent 3](/exercises/2_InstallDesktopAgent3) -->
-- [Exercise 2 - Import Sample Business Process from SAP Build Process Automation store](/exercises/3_ImportSampleProcess)
-- [Exercise 3 - Modify the Process](/exercises/4_TriggerProcess)
-- [Exercise 4 - Modify Automation](/exercises/5_ModifyAutomation)
-- [Exercise 5 - Release, Deploy and Test Business Process](/exercises/6_ReleaseDeployProcess)
-- [Exercise 6 - Test SAP Build Apps and Business Process](/exercises/7_TestingEndToEndScenario)
+- [Exercise 2 - Install Desktop Agent 3](/exercises/2_InstallDesktopAgent3) ***not needed as already done for you***
+- [Exercise 2 - Import Sample Business Process from SAP Build Process Automation store ](exercises/3_ImportSampleProcess)
+- [Exercise 3 - Modify the Process](exercises/4_TriggerProcess)
+- [Exercise 4 - Modify Automation](exercises/5_ModifyAutomation)
+- [Exercise 5 - Release, Deploy and Test Business Process](exercises/6_ReleaseDeployProcess)
+- [Exercise 6 - Test SAP Build Apps and Business Process](exercises/7_TestingEndToEndScenario)
 
 ## How to obtain support
 
