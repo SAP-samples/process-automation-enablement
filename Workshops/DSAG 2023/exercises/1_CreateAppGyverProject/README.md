@@ -19,11 +19,11 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 ## Create a Build Apps Project <a name="buildapps"></a>
 
-1. From [SAP Build Lobby](https://da160-96ork4sc-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby), click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
+1. From [SAP Build Lobby](https://sbpa-customer-enablement-xc9jdymw.eu10.build.cloud.sap/lobby), click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
 
    | Username | Password    |
     | :------------- | :------------- |
-    | AD160_XXX <br> where XXX is the user number <br> like AD160_000, AD160_001 etc.       | Acce$$teched22     |
+    | will be provided by the instructor       | will be provided by the instructor     |
     
 <br>![Create the project](images/01a.png)
 <br>![Create the project](images/01b.png)
