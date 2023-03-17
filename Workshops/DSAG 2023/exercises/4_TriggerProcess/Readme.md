@@ -22,6 +22,8 @@ In this exercise you will learn:
 2. Select the **Invoice Request Form**, choose the 3 dots and then **Remove** to delete the form.
 
     ![04](./images//006.png)
+    
+    Confirm the "Warning" window and click **OK**.
 
 ## Create an API Trigger for Process <a name="configureInputs"></a>
 
@@ -42,7 +44,7 @@ In this exercise you will learn:
 
     ![04](./images/007b.png)
 
-4. In the **Process Details** side panel, choose **Inputs/Outputs** and then **Configure** to configure inputs.
+4. In the **Process Details** side panel, choose **Inputs** and then **Configure** to configure inputs.
 
     ![04](./images/008a.png)
 
