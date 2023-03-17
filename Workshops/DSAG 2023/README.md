@@ -8,7 +8,7 @@ This repository contains the material for the DSAG hands-on session called "Proz
 
 ## Overview
 
-This session covers how to build apps, processes with workflows, and extract invoice data with bots. Leverage pre-built sample content package and enhance the sample process to integrate with the app. Finally, test your integrated scenario.
+This session covers how to build apps, processes, and extract invoice data with bots. Leverage pre-built sample content package and enhance the sample process to integrate with the app. Finally, test your integrated scenario.
 
 Scenario: Invoice Approval with SAP Build Apps & SAP Build Process Automation
 
@@ -25,7 +25,7 @@ There are no dedicated requirement for this exercise. But in case you want to ga
 
 - [Exercise 1 - Create SAP Build Apps Project](/exercises/1_CreateAppGyverProject)
 <!--- - [Exercise 2 - Install Desktop Agent 3](/exercises/2_InstallDesktopAgent3) -->
-- [Exercise 2 - Import Sample Business Process From SAP Build Process Automation Store](/exercises/3_ImportSampleProcess)
+- [Exercise 2 - Import Sample Business Process from SAP Build Process Automation store](/exercises/3_ImportSampleProcess)
 - [Exercise 3 - Modify the Process](/exercises/4_TriggerProcess)
 - [Exercise 4 - Modify Automation](/exercises/5_ModifyAutomation)
 - [Exercise 5 - Release, Deploy and Test Business Process](/exercises/6_ReleaseDeployProcess)
