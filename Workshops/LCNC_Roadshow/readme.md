@@ -1,6 +1,12 @@
-# Welcome to Business Reimagined : Build and Automate Tour 2022.
+# Build Robust Apps Enhanced with Process Automation and Low-Code Tooling
 
-SAP Build Apps is the evolution of SAP AppGyver and includes powerful new functionalities for data persistency and logic building. However, this exercise was optimized for the former version of the product and we will be using SAP AppGyver Classic. All steps can also be applied in SAP Build Apps.
+## Overview
+
+This session covers how to build apps, processes with workflows, and extract invoice data with BOTS. Leverage pre-built sample content package and enhance the sample process to integrate with Apps. Finally, test your integrated scenario.
+
+Scenario: Invoice Approval with SAP Build Apps & SAP Build Process Automation
+
+<img src="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Apps/1%20Create%20a%20new%20project/images/Overview.png?raw=true">
 
 
-Please proceed with the exercise <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/Build%20Apps/1%20Create%20a%20new%20project/readme.md"> Start with AppGyver</a>
+Please proceed with the exercise <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow/Build%20Apps/1%20Create%20a%20new%20project/readme.md"> Start with SAP Build Apps</a>

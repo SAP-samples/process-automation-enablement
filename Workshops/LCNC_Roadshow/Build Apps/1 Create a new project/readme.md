@@ -1,6 +1,6 @@
 # Create an Build Apps Project
 
-1. Application lobby is now called <b>Build</b>. Within the <b>SAP Build</b> and click on <b>Create</b>.<br><br>
+1. In the Build Application lobby click on <b>Create</b>.<br><br>
 ![Create the project](images/1.png)
 
 2. Now select <b>Build an Application</b>. <br><br>
