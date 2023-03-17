@@ -13,18 +13,15 @@ The app will have two Data Conenctions: <br>
 1. Click on <b>DATA</b> tab on the top to open the Data connections tab.<br><br>
 ![Data](Images/01.png)
 
-2. Select <b>AppGyver classic data entities</b> and select <b>REST API direct integration</b>.<br><br>
+2. Select <b>SAP Build Apps classic data entities</b> and select <b>REST API direct integration</b>.<br><br>
 ![Data](Images/02.png)
 
 3. In the <b>BASE</b> tab of the API configuration enter the following values.<br><br>
 <b>Resource ID</b> : Documentupload<br><br>
-
-<b>If your hands-on tenant URL is "lcnc-roadshow...lobby" (please look at the URL of the browser tab, where you have SAP Build open)</b><br>
+<b>If your hands-on tenant URL is "lcnc-roadshow...lobby" (please look at the URL of the browser tab, where you have SAP Build open)</b><br><br>
 <b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepouploadnew<br><br>
-
-<b>If your tenant URL is "end-to-end-demo-lcnc...lobby" (please look at the URL of the browser tab, where you have SAP Build open) </b><br>
+<b>If your tenant URL is "end-to-end-demo-lcnc...lobby" (please look at the URL of the browser tab, where you have SAP Build open) </b><br><br>
 <b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepoupload<br><br>
-
 ![Data](Images/03.png)
 
 4. Select the <b>GET COLLECTION</b> tab and disable the <b>Method enabled</b> option to disable get collection for the API.<br><br>
