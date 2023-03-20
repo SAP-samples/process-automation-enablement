@@ -7,7 +7,7 @@
 
 ### Overview <a name="section1"></a>
 
-In this exercise, you will  acquire Invoice Sample Process from SAP Process Automation Store.
+In this exercise, you will  acquire Invoice Sample Process from SAP Build Process Automation Store.
 This sample content helps users to get started in automating a simple invoice approval process that includes the extraction of data from documents and approval steps required to approve the invoice.
 This sample process includes the following:
 - Sample request form to start the invoice processing.
@@ -21,7 +21,7 @@ This sample process includes the following:
 
 >The Store offers predefined content for your automation. Packages are categorized by catalog which let you choose between Business Content, Learning Content and Automation SDK.
 
-1. Open [SAP Process Automation - Application Development Lobby](https://da160-96ork4sc-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby).
+1. Open [SAP Build Process Automation - Application Development Lobby](https://sbpa-customer-enablement-xc9jdymw.eu10.build.cloud.sap/lobby).
   Navigate to the store in your Tenant, to find sample content.
 
     ![03](./images/001.png)
