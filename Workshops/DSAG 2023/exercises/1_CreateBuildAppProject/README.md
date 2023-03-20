@@ -141,10 +141,10 @@ Now, your application will be connected to Document Management System and SAP Pr
 5. Click on <b>DATA</b> tab.<br><br>
 ![](images/40.png)
 
-6. Under <b>SAP AppGyver classic data entities</b>, click on <b>CREATE DATA ENTITY</b> and select <b>SAP BTP destination REST API integration</b>.<br><br>
+6. Under <b>SAP Build Apps classic data entities</b>, click on <b>CREATE DATA ENTITY</b> and select <b>SAP BTP destination REST API integration</b>.<br><br>
 ![](images/41.png)
 
-7. As the <b>BTP destination name</b>, select <b>AppGyver_SPA</b>.<br><br>
+7. As the <b>BTP destination name</b>, select <b>sap-process-destination</b><br><br>
 ![](images/Destination.png)
 
 8.  Under <b> Data resource name</b>, a name can be given to this data connection, like "<i>SendtoSPA</i>".<br><br>
@@ -189,7 +189,7 @@ Choose <b>ADD.</b>
 
 
 16. Add another data entity to store the invoice in Document Management Service.
-    > For this data connection, Destinations are not used because, the response from Document Management Service is in XML format. AppGyver can only read JSON responses.<br> Because of this reason Document Management Service is connected using DIRECT REST API.
+    > For this data connection, Destinations are not used because, the response from Document Management Service is in XML format. SAP Build Apps can only read JSON responses.<br> Because of this reason Document Management Service is connected using DIRECT REST API.
 
     Click on <b> CREATE DATA ENTITY</b> and now select <b>REST API direct integration</b>.
 
