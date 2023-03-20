@@ -23,7 +23,7 @@ There are no dedicated requirement for this exercise. But in case you want to ga
 
 ## Exercises
 
-- [Exercise 1 - Create SAP Build Apps Project](exercises/1_CreateAppGyverProject)
+- [Exercise 1 - Create SAP Build Apps Project](exercises/1_CreateBuildAppProject)
 - ~~[Exercise 2 - Install Desktop Agent 3](/exercises/2_InstallDesktopAgent3)~~ ***not needed as already done for you***
 - [Exercise 3 - Import Sample Business Process from SAP Build Process Automation store ](exercises/3_ImportSampleProcess)
 - [Exercise 4 - Modify the Process](exercises/4_TriggerProcess)
