@@ -374,4 +374,7 @@ You have build an app and completed the below steps.
 
 ![Summary](images/Scenario_summary.png)
 
-Continue to - [Exercise 2 - Install and configure Desktop Agent 3](../2_InstallDesktopAgent3/Readme.md) and get started with SAP Build Process Automation.
+Continue to - [Exercise 3 - Import Sample Process from SAP Build Process Automation Store](../3_ImportSampleProcess/Readme.md)
+
+
+*Remark: You **do not** need to do [Exercise 2 - Install and configure Desktop Agent 3](../2_InstallDesktopAgent3/Readme.md), as we have already prepared this for you.*
