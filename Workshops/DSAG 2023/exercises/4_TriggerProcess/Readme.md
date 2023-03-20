@@ -67,7 +67,7 @@ In this exercise you will learn:
 
 7. Choose **Configure Agent Version** and select Agent version: Agent 2.0.33 (Registered) and **Save**.
 
-    ![04](./images/012a.png)
+    ![04](./images/012b.png)
 
 8. Choose **Dependencies** and select **Add Dependency**.
 
