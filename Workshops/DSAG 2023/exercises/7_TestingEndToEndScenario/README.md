@@ -88,7 +88,7 @@ If you get the response as <b>Status:OK</b>, then the connection is successful.<
 ![](images/App.png)
 
 4. Enter the name and upload the invoice to test the process.
-The invoice can be downloaded <a href="https://github.com/SAP-samples/teched2022-AD160/blob/main/exercises/1_CreateBuildAppProject/images/Invoice.png?raw=true">**HERE**</a>.
+The invoice can be downloaded <a href="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/DSAG%202023/exercises/1_CreateBuildAppProject/images/Invoice.png?raw=true">**HERE**</a>.
 
     ![](images/ss14.png)
 
