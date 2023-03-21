@@ -8,7 +8,7 @@
 
 In this exercise you will learn:
 
-- How to udpate the business rule and related decision
+- How to update the business rule and related decision
 
 ## Update Business Rule <a name="updateBR"></a>
 
