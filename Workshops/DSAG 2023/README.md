@@ -28,6 +28,7 @@ There are no dedicated requirement for this exercise. But in case you want to ga
 - [Exercise 3 - Import Sample Business Process from SAP Build Process Automation store ](exercises/3_ImportSampleProcess)
 - [Exercise 4 - Modify the Process](exercises/4_TriggerProcess)
 - [Exercise 5 - Modify Automation](exercises/5_ModifyAutomation)
+- [Exercise 5a - Update Decision](exercises/5a_UpdateDecision)
 - [Exercise 6 - Release, Deploy and Test Business Process](exercises/6_ReleaseDeployProcess)
 - [Exercise 7 - Test SAP Build Apps and Business Process](exercises/7_TestingEndToEndScenario)
 
