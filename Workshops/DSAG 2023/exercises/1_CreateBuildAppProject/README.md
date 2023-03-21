@@ -1,6 +1,7 @@
 
 ## Table of Contents
 - [Overview](#overview)
+- [Open Build Lobby](#open-your-build-lobby)
 - [Create New Project](#buildapps)
 - [Create UI](#UI)
 - [Data Connection](#data)
@@ -16,20 +17,27 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 ![Scenario](images/scenario_appgyver.png)
 
+## Open your Build Lobby <a name="lobby"></a>
+
+1. Open [SAP Build Lobby](https://lcnc-roadshow.eu10.build.cloud.sap/lobby). <br> Click on <b>axrhit5i0.accounts.ondemand.com</b>.<br><br>
+![](images/IAS.png)
+
+2. Enter your login details and click on <b>Continue</b>.
+<br> 
+     > now you will be redirected to SAP Build Lobby.
+
+![](images/Login.png)
+
 
 ## Create a Build Apps Project <a name="buildapps"></a>
 
 
-1. From [SAP Build Lobby](https://lcnc-roadshow-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby), click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
-
-   | Username | Password    |
-    | :------------- | :------------- |
-    | will be provided by the instructor       | will be provided by the instructor     |
-    
+1.  Click on <b>Create</b> and then select <b>Build an Application</b>.<br>
+    Then selec <b>Web & Mobile Application</b> to create an front-end application using <b>SAP Build Apps</b>.
 <br>![Create the project](images/01a.png)
 <br>![Create the project](images/01b.png)
 
-2. Under <b>Project Name</b>, enter <b><i>"Invoice AD160-XXX"</b></i>, replace XXX with your user ID. For example, <i>"Invoice AD160-087"</i>.<br>Click on <b>Create</b> to start building your application.
+2. Under <b>Project Name</b>, enter <b><i>"Invoice AD160-XXX"</b></i>, replace XXX with your user.
 <br><br>![Name the project](images/01c.png)
 
 
