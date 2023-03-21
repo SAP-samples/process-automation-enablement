@@ -1,6 +1,5 @@
 ## Table of Contents
 - [Overview](#overview)
-- [Desktop Agent Management Settings](#AgentSettings)
 - [Definition ID from SAP Build Process Automation](#SPA)
 - [Definition ID to SAP Build Apps](#build)
 - [Testing the app](#Test)
@@ -8,14 +7,6 @@
 
 ## Testing the End to End Scenario <a name="overview"></a>
 Although, your application is connected to SAP Build Process Automation service, it is not connected to the process you created yet. At this stage, you will see how to connect your app and process.
-
-
-## Desktop Agent Management Settings <a name="AgentSettings"></a>
-Follow the steps, to execute the process with an automation with a specific registered Desktop Agent.
-You will create an **Agent Attribute** in the tenant, to add it to your agent and project.
-**Agent attributes** allows you to sort agents registered within the same tenant and make sure that a specific agent executes the job of your choice.
-
-Follow this tutorial on [Agent Management Settings](https://developers.sap.com/tutorials/spa-run-agent-settings.html).
 
 ## Copy Definition ID from SAP Build Process Automation <a name="SPA"></a>
 
