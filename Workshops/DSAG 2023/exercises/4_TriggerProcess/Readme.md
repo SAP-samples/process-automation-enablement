@@ -94,7 +94,7 @@ In this exercise you will learn:
     ![05](./images/025a.png)
 
     - Under **Inputs**, map **Employee Name** with **employeeName**.
-    ![05](./images/025a.png)
+    ![05](./images/025b.png)
 
 2. Map parameters for **Invoice Approval Notification Form**. Select **Invoice Approval Notification Form**, under **General**, map **employeeMail** with Users.
 
