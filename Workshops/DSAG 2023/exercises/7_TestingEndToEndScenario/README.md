@@ -24,7 +24,7 @@ Although, your application is connected to SAP Build Process Automation service,
 
 ## Enter the Definition ID in SAP Build Apps. <a name="build"></a>
 
-1. Go back to the **Lobby** and open your AppGyver Project. Choose **SAP BTP Authentication** to go back to your project.<br><br>
+1. Go back to the **Lobby** and open your Build Project. Choose **SAP BTP Authentication** to go back to your project.<br><br>
 ![](images/01.png)
 
 2. Choose **Empty page** to view your project.<br><br>
@@ -82,11 +82,13 @@ If you get the response as <b>Status:OK</b>, then the connection is successful.<
 2. Click on <b> OPEN APP PREVIEW PORTAL</b>.<br><br>
 ![](images/ss12.png)
 
-3. Select the AppGyver project you created.<br><br>
+3. Click on <b>Open web preview</b>.<br><br>
+![](images/ss13.png)
+3. Select the Build Apps project you created.<br><br>
 ![](images/App.png)
 
 4. Enter the name and upload the invoice to test the process.
-The invoice can be downloaded <a href="https://github.com/SAP-samples/teched2022-AD160/blob/main/exercises/1_CreateAppGyverProject/images/Invoice.png?raw=true">**HERE**</a>.
+The invoice can be downloaded <a href="https://github.com/SAP-samples/teched2022-AD160/blob/main/exercises/1_CreateBuildAppProject/images/Invoice.png?raw=true">**HERE**</a>.
 
     ![](images/ss14.png)
 
