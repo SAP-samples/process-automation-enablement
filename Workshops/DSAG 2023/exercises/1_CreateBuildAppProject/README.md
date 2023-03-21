@@ -197,7 +197,7 @@ Choose <b>ADD.</b>
 
 17. In the <b>BASE</b> tab of the API configuration enter the following values:
   - <b>Resource ID</b> : Documentupload
-  - <b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepouploadteched
+  - <b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepouploadnew
   <br><br>
 
     ![](images/55.png)
