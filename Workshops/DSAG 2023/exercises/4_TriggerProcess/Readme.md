@@ -69,9 +69,9 @@ In this exercise you will learn:
 
     ![04](./images/012b.png)
 
-8. Choose **Dependencies** and select **Add Dependency**.
+8. Choose **Dependencies**, select **Add Dependency** and then **Add a Business Process project dependency**.
 
-    ![04](./images/013.png)
+    ![04](./images/013a.png)
 
 9. Under **Package**, select **Document Management Repository**.
 
