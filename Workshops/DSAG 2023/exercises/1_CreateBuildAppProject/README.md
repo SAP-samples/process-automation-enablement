@@ -353,7 +353,7 @@ Click on <b>SAVE</b>.<br><br>
 25. In the binding menu, select <b>Data and Variables</b>. Select <b>App variables</b> and then choose <b>name</b>.<br><br>
 ![Submit](images/89.png)
 
-26. The <b>employeemail</b> will be static, enter the email provided to you "ad160-XXX@education.cloud.sap".  For example: "<i>ad160-087@education.cloud.sap</i>"<br><br>
+26. The <b>employeemail</b> will be static, enter the email you used to sign in.  For example: "<i>ad160-087@education.cloud.sap</i>"<br><br>
 ![Submit](images/90.png)
 
 27. Save the bindings.<br><br>
