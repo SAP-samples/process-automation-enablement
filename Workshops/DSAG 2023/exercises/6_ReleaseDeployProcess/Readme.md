@@ -29,14 +29,17 @@ After completing Modify Automation exercise your process looks like this:
 
     ![06](./images/304.png)
 
-4. Once you have successfully [configured Document Management Repository and Destination in SAP BTP Cockpit](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/3da3846d0da94d96a4f38688cd2e936a.html?locale=en-US&version=Cloud) in the **Deploy a project** window do the following:
+4. All the created and updated artefacts are listed here. Click **Next**.
 
-    - Under **Set Variables**, choose **No trigger creation**.
-    - Under **Destination** choose **SPA_DMS**.
-    - Choose **Confirm**.
-    - Select **Deploy** to deploy your project.
+    ![06](./images/d001.png)
 
-    ![07](./images/305.png)
+5. In the window **Set Runtime Variables** select **Set new value**, as the destination select **sap_process_automation_document_store** and then click **Next**. 
+
+    ![06](./images/d002.png)
+    
+6. Select **Deploy** to deploy your project.
+
+    ![06](./images/d003.png)
 
 ## Summary <a name="summary"></a>
 
