@@ -90,8 +90,8 @@ In this exercise you will learn:
 ## Map API parameters to Process parameters <a name="mapParameters"></a>
 
 1. Map parameters for **Invoice Approval form**. Select **Invoice Approval Form** and map:
-    - Under **General**, map **employeeMail** with Users.
-    ![05](./images/025.png)
+    - Under **General**, map underneath "Determine Approver" **eMail** with Users.
+    ![05](./images/025a.png)
 
     - Under **Inputs**, map **Employee Name** with **employeeName**.
     ![05](./images/025a.png)
