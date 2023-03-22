@@ -156,7 +156,7 @@ Now, your application will be connected to Document Management System and SAP Bu
 7. As the <b>BTP destination name</b>, select <b>sap-process-destination</b><br><br>
 ![](images/Destination.png)
 
-8.  Under <b> Data resource name</b>, a name can be given to this data connection, like "<i>SendtoSPA</i>".<br><br>
+8.  Under <b> Data entity name</b>, a name can be given to this data connection, like "<i>SendtoSPA</i>".<br><br>
 ![](images/43.png)
 
 9. Under <b>Resource schema</b>, click on <b>+ ADD NEW</b> to create a schema. Name the new schema to "<i>filename</i>" and select the <b>Field type</b> as <b>Text</b>.
