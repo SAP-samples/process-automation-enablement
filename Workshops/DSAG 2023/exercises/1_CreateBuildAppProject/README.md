@@ -193,7 +193,7 @@ Choose <b>ADD.</b>
 
 15. <b>Request body mapper</b> value will be binded after creating the process using SAP BUILD PROCESS AUTOMATION.
 
-    Click on <b>SAVE DATA RESOURCE</b>. The connection between your Application and Process is created using Destinations. <br><br>
+    Click on <b>SAVE DATA ENTITY</b>. The connection between your Application and Process is created using Destinations. <br><br>
     ![](images/53.png)
 
 
