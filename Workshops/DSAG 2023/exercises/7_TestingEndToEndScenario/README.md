@@ -10,7 +10,7 @@ Although, your application is connected to SAP Build Process Automation service,
 
 ## Copy Definition ID from SAP Build Process Automation <a name="SPA"></a>
 
-1. Open the <b>Application Development</b> lobby. Choose the <b>Monitor</b> tab.<br><br>
+1. Open the <b>SAP Build</b> lobby. Choose the <b>Monitor</b> tab.<br><br>
 ![](images/ss1.png)
 
 2. Click on <b>Process and Workflow</b> under the <b>Manage </b> section.<br><br>
