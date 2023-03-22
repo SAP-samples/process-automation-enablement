@@ -64,7 +64,7 @@ Although, your application is connected to SAP Build Process Automation service,
     > If you are getting any error please recheck the steps 1-6, else request help from the presenters.
 If you get the response as <b>Status:OK</b>, then the connection is successful.<br>
 
-    Select **SAVE DATA RESOURCE**.
+    Select **SAVE DATA ENTITY**.
 
     ![](images/Test2.png)
 
