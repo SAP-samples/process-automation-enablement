@@ -11,15 +11,15 @@ In this exercise you will learn:
 
 ## Release and deploy Business Process <a name="releaseDeploy"></a>
 
-After completing Modify Automation exercise your process looks like this:
+After completing the exercises your process looks like this:
 
-![06](./images/301a.png)
+![06](./images/301b.png)
 
 > Before releasing your project, please make sure there are no error messages in the Design Console indicating that your project contains errors.
 
 1. Choose **Release** to release the project.
 
-    ![06](./images/302a.png)
+    ![06](./images/302b.png)
 
 2. Select the **Version** and confirm **Release**.
 
