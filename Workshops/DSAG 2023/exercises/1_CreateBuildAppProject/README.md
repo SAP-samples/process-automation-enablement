@@ -133,7 +133,7 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 
 ## Data Connection <a name="Data"></a>
 
-Now, your application will be connected to Document Management System and SAP Process Automation. First, you should enable BTP authentication to connect your app to SAP Process Automation via Destinations.
+Now, your application will be connected to Document Management System and SAP Build Process Automation. First, you should enable BTP authentication to connect your app to SAP Build Process Automation via Destinations.
 
 1. Choose <b>AUTH</b> tab on the top of the screen.<br><br>
 ![](images/36.png)
