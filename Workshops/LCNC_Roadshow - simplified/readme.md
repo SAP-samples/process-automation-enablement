@@ -8,4 +8,16 @@ Scenario: Invoice Approval with SAP Build Apps & SAP Build Process Automation
 
 <img src="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Apps/1%20Create%20a%20new%20project/images/Overview.png?raw=true">
 
+## Open your Build Lobby <a name="lobby"></a>
+
+1. Open [SAP Build Lobby](https://lcnc-roadshow.eu10.build.cloud.sap/lobby). <br> Click on <b>axrhit5i0.accounts.ondemand.com</b>.<br><br>
+![](images/IAS.png)
+
+2. Enter your login details and click on <b>Continue</b>.
+<br> 
+     > now you will be redirected to SAP Build Lobby.
+
+![](images/Login.png)
+
+
 Proceed with the exercise <a href="https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/LCNC_Roadshow%20-%20simplified/Build%20Apps/1%20Create%20a%20new%20project"> Start with SAP Build Apps</a>
