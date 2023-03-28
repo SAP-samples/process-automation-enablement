@@ -1,4 +1,4 @@
-# Create an Build Apps (AppGyver Classic) Project
+# Create an Build Apps Project
 
 1. Application lobby is now called <b>Build</b>. Within the <b>SAP Build</b> and click on <b>Create</b>.<br><br>
 ![Create the project](images/1.png)
