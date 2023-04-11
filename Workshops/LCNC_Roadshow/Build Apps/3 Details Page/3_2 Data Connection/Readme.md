@@ -19,6 +19,7 @@ The app will have two Data Conenctions: <br>
 3. In the <b>BASE</b> tab of the API configuration enter the following values.<br><br>
 <b>Resource ID</b> : Documentupload<br>
 <b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepouploadnew<br><br>
+![](Images/03.png)
 
 
 4. Select the <b>GET COLLECTION</b> tab and disable the <b>Method enabled</b> option to disable get collection for the API.<br><br>
@@ -51,7 +52,7 @@ Rename the key in the property to “<i>base64</i>”.<br><br>
 <b>Resource ID</b> : sendtoSPA<br>
 <b>Short description</b> : Send info to SPA<br>
 <b>Resource URL</b> : https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/lcnc<br>
-
+![](images/12.png)
 
 
 13. Disable <b>GET COLLECTION</b> and <b>GET RECORD</b> and enable <b>CREATE RECORD</b>.<br>
