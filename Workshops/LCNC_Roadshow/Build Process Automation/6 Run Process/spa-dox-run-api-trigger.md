@@ -3,7 +3,7 @@
 
 ## Details
 ### You will learn
-  - Learn how deploy and release Business Process and then execute the scenario triggered by SAP AppGyver 
+  - Learn how deploy and release Business Process and then execute the scenario triggered by SAP Build Apps.
 
 ---
 
@@ -47,11 +47,11 @@ Once you have completed the previous steps, your process looks like this:
 
 ![Monitor](RUN3.png)
 
-4. Go back to **SAP AppGyver** and provide the definition ID to start the process.
+4. Go back to **SAP Build Apps** and provide the definition ID to start the process.
 
-### Step 3: Work with AppGyver to start the Application
+### Step 3: Work with Build Apps to start the Application
 
-1. Open your AppGyver App from the **Lobby**
+1. Open your Build App project from the **Build Lobby**
 
 ![App1](APP1.png)
 
@@ -79,19 +79,21 @@ Once you have completed the previous steps, your process looks like this:
 
 ![App7](APP7.png)
 
-8. **Save** the whole application using the button in the top right corner. After that open the **Launch** tab.
+8. **Save** the whole application using the button in the top right corner. After that open the **Launch** tab.<br><br>
+![App8](APP8.png)<br>
 
-![App8](APP8.png)
 
-9. You can either **open** application as a web app on the computer or on your mobile phone. You can use both of the options. Please note that: 
-- you can only upload the file if you plan to use option 1
-- you need to save an invoice to your mobile phone if you plan to use option 2
+9. Click on <b> OPEN APP PREVIEW PORTAL</b>.<br><br>
+<img src= "https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/DSAG%202023/exercises/7_TestingEndToEndScenario/images/ss12.png?raw=true">
 
-![App9](APP9.png)
 
-10. **Open** the Application you have created.
+10. To test your web app click on <b>Open web preview</b>. <br> To test your app on you Mobile device follow the instructions on screen under <b>Preview on your device</b>.<br><br>
+<img src="https://github.com/SAP-samples/process-automation-enablement/raw/main/Workshops/DSAG%202023/exercises/7_TestingEndToEndScenario/images/ss13.png">
 
-![App10](APP10.png)
+
+3. Select the Build Apps project you created.<br><br>
+<img src="https://github.com/SAP-samples/process-automation-enablement/raw/main/Workshops/DSAG%202023/exercises/7_TestingEndToEndScenario/images/App.png">
+
 
 11. Enter the data and submit the invoice file!
 The invoice file can be downloaded here: [Invoice.png](Invoice.png)
