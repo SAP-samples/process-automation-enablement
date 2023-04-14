@@ -137,7 +137,7 @@ There are many ways to express a business rule, in this case you will create a d
     - Select `Add Row`
     - Click on `Insert After`
     - Determine Approve: `EXISTSIN['Telecommunications']`
-    - eMail: `'<Your SAP BTP User ID Email>'` e.g. John.doe@mail.com
+    - eMail: `'<Your SAP BTP User ID Email>'` e.g. 'john.doe@mail.com' Hint: as this is in string format, the email address needs to be in single quotes.
 
     ![Add Row](23.png)
 
