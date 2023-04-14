@@ -127,7 +127,7 @@ There are many ways to express a business rule, in this case you will create a d
 
 10. Now we need to define the attributes of the Determine Approver rule. 
     - Determine Approver: `EXISTSIN['ABC Communication']`
-    - eMail: `'<Your SAP BTP User ID Email>'` e.g. John.doe@mail.com
+    - eMail: `'<Your SAP BTP User ID Email>'` e.g. 'john.doe@mail.com' Hint: as this is in string format, the email address needs to be in single quotes.
 
     Now, when an invoice contains the name "ABC Communication", the approval request will be sent to you.
 
