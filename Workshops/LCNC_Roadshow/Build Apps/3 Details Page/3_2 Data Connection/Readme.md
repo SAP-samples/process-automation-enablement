@@ -2,7 +2,7 @@ Previous Step: <a href="https://github.com/SAP-samples/process-automation-enable
 
 # Data Connection for Details Page.
 
-The app will have two Data Conenctions: <br>
+The app will have two Data Connections: <br>
   i) Document Management System (DMS) - to store the invoice from the application<br>
  ii) SAP Build Process Automation - to trigger the invoice processing.<br>
  
@@ -65,7 +65,6 @@ Now add a HTTP header. <br><br>
   <b>Value type</b>: Text<br>
   <b>Is static</b> : enabled <br>
   <b>Value</b> : application/json<br><br>
-  Click on <b>SAVE DATA ENTITY</b><br><br>
 ![Data](Images/14.png)
 
   15. Now switch to <b>SCHEMA</b> tab and <b>Custom schema</b> under <b>Create record (POST) request schema</b>.<br><br>
