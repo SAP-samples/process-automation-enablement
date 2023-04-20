@@ -33,6 +33,7 @@ The app will have two Data Connections: <br>
 
 7. Switch to <b>SCHEMA</b> tab.<br>
  Under <b>Create record (POST) request schema</b> use the drop down list and select <b>Custom schema</b>.<br><br>
+ ``` SCHEMA is structre of data for communicating with other services, and it is case-sensitive.  ```<br><br>
  ![Data](Images/07.png)
  
 8. Click on <b>ADD PROPERTY</b>.	<br>					
