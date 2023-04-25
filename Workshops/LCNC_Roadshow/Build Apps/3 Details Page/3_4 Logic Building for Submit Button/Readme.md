@@ -53,7 +53,9 @@ Open the binding menu of <b>Record properties</b>. <br><br>
 
 14. In the binding menu select <b>Formula</b> and open the formula editor.<br>				
 In the formula editor, enter the following formula.<pre>REPLACE_ALL(outputs["Convert file to base64"].base64,"data:image/png;base64,","")</pre>
+``` when converting a file to base64 format the output will contain "data:[filetype]/[fileformat]; base 64 [base 64 value of the file]". we only need the base64 value of the converted file so we use the above formula to remove the extra information``` <br><br>
 Click on <b>SAVE</b> button. <br><br>
+
 ![Submit](Images/15.png)
 
 15. Now, open the binding menu for <b>fileName</b>.<br><br>
