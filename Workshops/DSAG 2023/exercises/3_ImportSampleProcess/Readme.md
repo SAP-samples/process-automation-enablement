@@ -28,11 +28,13 @@ This sample process includes the following:
 
 ## Acquire a Project <a name="section3"></a>
 
+<!---
 -------
 **Hint:** in case the store is not coming up, please just download the project here and import it via the Lobby: [Sample Content](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/DSAG%202023/exercises/3_ImportSampleProcess/Invoice%20Approval%20Process%20-%20Sample%20Copy%201.mtar)
 
 ![03](./images/import.png)
 ------
+--->
 1. Acquire the **Invoice Approval Process - Sample** application package:
 
   - Search for **Invoice Approval Process - Sample**.
