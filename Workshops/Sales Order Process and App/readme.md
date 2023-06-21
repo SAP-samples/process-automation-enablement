@@ -25,10 +25,10 @@ There are no dedicated requirement for this exercise.
 
 ## Exercises
 
-- 
 - [Exercise 1 - Create Sales Order Business Process](https://developers.sap.com/tutorials/spa-academy-salesorder.html) (45 minutes)
 - [Exercise 2 - Run the Sales Order Business Process](https://developers.sap.com/tutorials/spa-academy-run-salesorderprocess.html) (10 minutes)
 - [Exercise 3 - Create SAP Build App to Trigger Workflow](https://developers.sap.com/tutorials/build-apps-workflow-trigger.html) (25 minutes)
+  
 Once you are done with Exercise 3, please just check the new task in the My Inbox application in SAP Build Process Automation.
 
 Good luck!
