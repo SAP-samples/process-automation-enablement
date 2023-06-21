@@ -19,11 +19,19 @@ There are no dedicated requirement for this exercise.
 
 1. Please use Google Chrome as your browser (others are not supported and you might not be able to experience every feature)
 2. Please access the system (SAP Build Lobby) here:
-3. You will get user and password from the instructor
-4. You DO NOT need to: setup any system, create any destinations
-5. Please follow carefully the descriptions in the exercise documents below
+   - Open [SAP Build Lobby](https://lcnc-roadshow.eu10.build.cloud.sap/lobby). <br> Click on <b>axrhit5i0.accounts.ondemand.com</b>.<br><br>
+![](images/IAS.png)
+
+   - Enter your login details and click on <b>Continue</b>.
+![](images/Login.png)
+
+4. You will get user and password from the instructor
+5. You DO NOT need to: setup any system, create any destinations
+6. Please follow carefully the descriptions in the exercise documents below
 
 ## Exercises
+
+
 
 - [Exercise 1 - Create Sales Order Business Process](https://developers.sap.com/tutorials/spa-academy-salesorder.html) (45 minutes)
 - [Exercise 2 - Run the Sales Order Business Process](https://developers.sap.com/tutorials/spa-academy-run-salesorderprocess.html) (10 minutes)
