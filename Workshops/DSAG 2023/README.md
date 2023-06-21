@@ -1,3 +1,7 @@
+***Please click here to access the exercise:*** [Übung DSAG AK BPM 22.06.202](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Sales%20Order%20Process%20and%20App)
+
+<!---
+
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2022-AD160)](https://api.reuse.software/info/github.com/SAP-samples/teched2022-AD160)
 
 # Prozesse und Anwendungen mit SAP Build – einfach mal machen
@@ -38,3 +42,4 @@ Support for the content in this repository is available during the actual time o
 
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
+--->
