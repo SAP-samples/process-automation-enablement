@@ -1,4 +1,4 @@
-***Please click here to access the exercise:*** [Übung DSAG AK BPM 22.06.202](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Sales%20Order%20Process%20and%20App)
+***Please click here to access the exercise:*** [Übung DSAG AK BPM 22.06.2023](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Sales%20Order%20Process%20and%20App)
 
 <!---
 
