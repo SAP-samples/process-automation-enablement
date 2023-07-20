@@ -18,7 +18,7 @@ The app will have two Data Connections: <br>
 
 3. In the <b>BASE</b> tab of the API configuration enter the following values.<br><br>
 <b>Resource ID</b> : Documentupload<br>
-<b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepouploadnew<br><br>
+<b>Resource URL</b>: https://btp-demo.prod.apimanagement.eu10.hana.ondemand.com/httpjsonpm/docrepouploadpm<br><br>
 ![](Images/03.png)
 
 

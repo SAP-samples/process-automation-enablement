@@ -82,7 +82,7 @@ Open the binding menu for <b>Record properties</b>. <br><br>
 Click on <b>SAVE</b>.	<br><br>
 ![Submit](Images/22.png)
 		
-22. The folder name will be static, enter the value “<i>Invoices</i>”.<br><br>		
+22. The folder name will be static, enter the value “<i>InvoiceDOCRepo</i>”.<br><br>		
 ![Submit](Images/23.png)
 				
 23. Now, open the binding menu for the <b>employeename</b>.<br><br>
