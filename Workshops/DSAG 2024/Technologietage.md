@@ -20,11 +20,7 @@ Um noch mehr über SAP Build Process Automation zu lernen, probieren sie gerne u
 [Tutorials zu SAP Build Process Automation](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-build%2Fsap-build-process-automation)
 
 Zugehöriger QR-Code:
-<img src="/pics/SBPA_Tutorials.png" width="100" height="100">
-
-
-
-
+<img src="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/DSAG%202024/pics/SBPA_Tutorials.png" width="200" height="200">
 
 ## License
 
