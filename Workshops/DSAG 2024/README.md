@@ -10,8 +10,10 @@ In diesem Tutorial werden sie einen Verkaufsprozess (Sales Order Process) erweit
 - Bitte wählen sie hier einen User sowie das dazugehörige Passwort aus und markieren sie diesen als "verwendet": [Benutzer und Passwort SAP Build](https://sap-my.sharepoint.com/:x:/p/stephan_schluchter/EViY1WhauRFNmEHf4MlXQ4EBKgHx6JFmM4L0Uwey-YjH0Q?e=681Kce)
 - Öffnen Sie SAP Build hier (nutzen sie als Browser "Google Chrome"): [SAP Build Lobby](https://sap-build-academy-eu10.eu10.build.cloud.sap/lobby)
 - Folgen Sie den in dieser Übung beschriebenen Schritten: [Build Your First Business Process Using Layout and Usability Improvements in the Process Editor](https://developers.sap.com/mission.sap-process-editor-layout-usability-improvements.html)
+
 **Hinweis:** Den ersten Schritt "**Subscribe to SAP Build Process Automation Using Booster in SAP BTP Free Tier**" bitte **überspringen**, da das System bereits eingerichtet ist.
   Starten sie **direkt** mit "**Create a Business Process**".
+<img src="https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/DSAG%202024/pics/createprocess.png">
 
 Bei Fragen helfen wir ihnen gerne weiter.
 Viel Erfolg!
