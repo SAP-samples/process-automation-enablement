@@ -9,26 +9,26 @@ After completing these steps you will have a Sales Order number created without 
 1.	Logon to your S/4HANA system
 
 2. Search for va01 and click "Create Sales Order - VA01"
-   <br>![](/exercises/1_CreateSalesOrder/images/VA01.png)
+   <br>![](./images/VA01.png)
 
    > **Create the sales order using your desired data and configuration, below steps and data are for reference only.**
 
 
 3.	Enter Order Type as “OR” and click on “Create with Reference”.
-   <br>![](/exercises/1_CreateSalesOrder/images/EnterOR.png)
+   <br>![](./images/EnterOR.png)
 
 4. In the “Order” tab, enter Order as 3 and click on “Copy”.
-   <br>![](/exercises/1_CreateSalesOrder/images/EnterSalesOrder.png)
+   <br>![](./images/EnterSalesOrder.png)
 
 5. In the “Review Availability Check” page, click “Apply”.
-   <br>![](/exercises/1_CreateSalesOrder/images/ReviewAndApply.png)
+   <br>![](./images/ReviewAndApply.png)
 
 6. In “Create Standard Order:Overview” page enter a customer reference text and note that the “Billing Block” is blank.
    <br>This means there is no billing block on the Sales Order.
-   <br>![](/exercises/1_CreateSalesOrder/images/EnterCustomerReference.png)
+   <br>![](./images/EnterCustomerReference.png)
 
 7. Click “Save” and note down the Sales Order number. We will use this later while designing and executing the end-to-end process.
-   <br>![](/exercises/1_CreateSalesOrder/images/SaveSalesOrder.png)
+   <br>![](./images/SaveSalesOrder.png)
 ## Summary
 
 Now that you have created the Sales Order,
