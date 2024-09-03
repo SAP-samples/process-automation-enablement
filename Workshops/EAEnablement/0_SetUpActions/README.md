@@ -6,13 +6,11 @@
 In this exercise, you will learn how to create an action project based on the Sales Order API, with the following steps:
 
 ## Table of Contents <a name="tableContents"></a>
-- [Exercise 0 - Set Up Actions](#exercise-0---set-up-actions-)
-  - [Table of Contents ](#table-of-contents-)
-  - [Exercise 0.1 - Set up Communication Management in SAP S/4HANA Cloud ](#exercise-01---set-up-communication-management-in-sap-s/4hana-cloud-)
-  - [Exercise 0.2 - Configure Destination for SAP Build Process Automation ](#exercise-02---configure-destination-for-sap-build-process-automation-)
-  - [Exercise 0.3 - Create Action Project in SAP Build Process Automation ](#exercise-03---create-action-project-in-sap-build-process-automation-)
-  - [Exercise 0.4 - Test the Action Project ](#exercise-04---test-the-action-project-)
-  - [Exercise 0.5 - Release and Publish the Action Project ](#exercise-05---release-and-publish-the-action-project-)
+  - Exercise 0.1 - Set up Communication Management in SAP S/4HANA Cloud 
+  - Exercise 0.2 - Configure Destination for SAP Build Process Automation
+  - Exercise 0.3 - Create Action Project in SAP Build Process Automation 
+  - Exercise 0.4 - Test the Action Project 
+  - Exercise 0.5 - Release and Publish the Action Project
 
 ## Exercise 0.1 - Set up Communication Management in SAP S/4HANA Cloud  
 
