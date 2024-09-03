@@ -201,6 +201,6 @@ Once the action project is released, you can then publish any release version of
 
 With this you have successfully completed creating, configuring, releasing and publishing of action project. Now you will use these published actions to connect process to external systems via APIs.
 
-Continue to Exercise 1 - Create Sales Order.
+Continue to - [Exercise 1 - Create Sales Order](../1_CreateSalesOrder/README.md)
 
 
