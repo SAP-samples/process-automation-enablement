@@ -1,5 +1,7 @@
 # Exercise  0 - Setting Up Action for Sales Order API
 
+> This exercise should be done prior to the workshop, after the pre-requisites described here are fulfilled: https://community.sap.com/t5/technology-blogs-by-sap/event-mesh-and-sap-s-4hana-public-cloud-setup-for-sap-build-process/ba-p/13791480
+
 > Action in SAP Build Process Automation allows the connection of processes with external systems, whether SAP or non-SAP. This is crucial for automating or expanding business processes for various LoB processes such as S/4HANA, Ariba, and SuccessFactors. With SAP Build Process Automation, these extensions can be easily built, and through actions, connections can be made to S/4HANA, Ariba, or other SAP LoB systems for GET, POST, PATCH, and other types of calls.
 ## Exercise
 
