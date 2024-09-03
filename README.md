@@ -3,11 +3,13 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
 -->
 
-## Description
-Welcome to our workshop around SAP's Enterprise Automation: Event-Driven Architectures.
+### Description
+## Welcome to our workshop around SAP's Enterprise Automation: Event-Driven Architectures.
 Please find the exercises here:
 
 - **[Enterprise Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/EAEnablement/1_CreateSalesOrder/README.md)**
+
+
 
 ## Further Information
 
