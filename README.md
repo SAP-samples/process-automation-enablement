@@ -7,7 +7,7 @@
 Welcome to our workshop around SAP's Enterprise Automation: Event-Driven Architectures.
 Please find the exercises here:
 
-- **[Enterprise Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/EAEnablement/README.md)**
+- **[Enterprise Automation](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/EAEnablement/0_SetUpActions/README.md)**
 
 ## Further Information
 
