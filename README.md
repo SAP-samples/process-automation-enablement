@@ -6,7 +6,7 @@
 ## Description
 ### Welcome to our workshop around SAP's Enterprise Automation framework: Event-Driven Architectures.
 ### Please proceed to the exercises linked here: 
-- **[Enterprise Automation Hands-On Guide](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/EAEnablement/1_CreateSalesOrder/README.md)**
+- **[Enterprise Automation Hands-On Guide on Event-Driven Architectures for SAP S/4HANA Private Cloud](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/EAEnablement/exercises/Private%20Cloud/1_CreateSalesOrder)**
 
 
 
