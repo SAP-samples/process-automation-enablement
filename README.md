@@ -1,10 +1,10 @@
-# Enablement Workshops for SAP Build Process Automation
+# Enablement Workshops for SAP'S Enterprise Automation framework.
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
 -->
 
 ## Description
-### Welcome to our workshop around SAP's Enterprise Automation: Event-Driven Architectures.
+### Welcome to our workshop around SAP's Enterprise Automation framework: Event-Driven Architectures.
 ### Please proceed to the exercises linked here: 
 - **[Enterprise Automation Hands-On Guide](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/EAEnablement/1_CreateSalesOrder/README.md)**
 
