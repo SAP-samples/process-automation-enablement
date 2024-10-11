@@ -1,4 +1,4 @@
-# 2. Create a Sales Order App Using SAP Build Apps  DSAG
+# 2. Create a Sales Order App Using SAP Build Apps
 &nbsp;
 Click [Lobby](https://sap-build-academy-eu10.eu10.build.cloud.sap/lobby) to open the entry page of SAP Build Apps.
 1.	In the Lobby, use the search field to look for the project named **DSAG-Buildapps-Template**.
@@ -64,6 +64,7 @@ In order to trigger and consume processes from SAP Build Process Automation dire
 ![r10](https://media.github.tools.sap/user/67204/files/43f846c2-eedf-40d4-abb3-ebcfc73b2b2d)
 &nbsp;  
 Now your SAP Build Process Automation process is integrated into your SAP Build Apps project, and you can see it available in the SAP Build Library:
+&nbsp;  
 ![apps7](https://github.com/user-attachments/assets/90d4c6aa-1421-4daa-b7b9-cd5193b2cef9)
 
 
@@ -155,9 +156,9 @@ We need to set up the logic so when someone clicks the **Get Approval** button (
 ![r22](https://media.github.tools.sap/user/67204/files/40f7e338-886a-4496-a6e7-0749313b1321)
 
 ![r23](https://media.github.tools.sap/user/67204/files/1946d595-df13-4b97-bc90-06a310a04c78)
-
+&nbsp; 
 Repeat the same steps for the other fields:
-
+&nbsp; 
 | **Sales Order Fields** | **Page Variable**  |
 | :--------------------- | :----------------- | 
 | material               | material           | 
@@ -166,23 +167,23 @@ Repeat the same steps for the other fields:
 | expectedDeliveryDate   | date               |  
 
 5.	For the remaining Sales Order fields type in the following values as **Static text**.  
-&nbsp;  
-|**Sales Order fields**    | **Static Text Value** |
-|-------------------------|-------------------|
-| soldToParty             | 1000292           |
-| salesOrderType          | OR                |
-| salesOrganisation       | 1710              |
-| distributionChannel     | 10                |
-&nbsp;  
 
+| **Sales Order fields**  | **Static Text Value** |
+| :-----------------------| :-------------------- |
+| soldToParty             | 1000292               |
+| salesOrderType          | OR                    |
+| salesOrganisation       | 1710                  |
+| distributionChannel     | 10                    |  
+ 
 6.	You'll end up with a list like in the image below. Then click **Save**.
+
 ![r24](https://media.github.tools.sap/user/67204/files/66133820-0255-400e-a4f5-0649ebbbf060)
 &nbsp;  
-7.	Drag a **Toast** flow function onto the canvas. And connect the top output of the **Trigger** process flow function to it.
+8.	Drag a **Toast** flow function onto the canvas. And connect the top output of the **Trigger** process flow function to it.
 &nbsp;  
 ![r25](https://media.github.tools.sap/user/67204/files/72910321-c088-48d8-9fad-57cbb0618e26) 
 &nbsp;    
-8.	Click on the **Toast** flow function and configure it in the **Properties** pane on the right. For **Toast message**, click on the ABC symbol.  
+9.	Click on the **Toast** flow function and configure it in the **Properties** pane on the right. For **Toast message**, click on the ABC symbol.  
 &nbsp;  
 ![r26](https://media.github.tools.sap/user/67204/files/1a3c241c-ece1-40fd-867e-4ef20d4883ab)
 
@@ -213,15 +214,15 @@ Select **Formula > Formula**. Now, erase the quotation marks...
 ![r30](https://media.github.tools.sap/user/67204/files/1a14eb59-d72d-49f7-913d-0fd1e673ac33)
 &nbsp;  
 4.	Enter the following values in your form:  
-&nbsp;
-| **Field**        | **Value**              |
+&nbsp; 
+| **Field** | **Value** |
 |---------------|---------------------|
 | Customer      | AC096525U05 Bikes   |
 | Material      | MZ-FG-S200          |
 | Quantity      | 1200                |
 | Delivery Date | 2024-09-01          |  
-&nbsp;  
-&nbsp;  
+
+&nbsp; 
 5.	Click **Get Approval**.  
 &nbsp;  
 You process should be triggered and require approval (since the quantity figure is above 10).  
