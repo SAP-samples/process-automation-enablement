@@ -44,7 +44,7 @@ Experience the scope and flexibility of each individual SAP Build service and ho
 - explore further [tutorials with SAP Build](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-build)
 - join the [SAP Builders community](https://community.sap.com/t5/sap-builders/gh-p/builders)
 
-!(Builder.jpg)
+![Main](Builder.jpg)
   
 ## License
 
