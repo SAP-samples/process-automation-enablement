@@ -1,3 +1,5 @@
+<base target="_blank">
+
 # Create your First Low-Code App & Automation with SAP Build
 
 ## Description
@@ -21,15 +23,12 @@ The goal is to demonstrate not only the scope and flexibility of each individual
 
 ## System
 
-1. Select a **user and password** here and **mark it as "used"**: [Users](https://sap-my.sharepoint.com/:x:/p/beatrice_pasch/EU3WyaAV-vBCmIbdoe_5kfcBiim6Sq5LnrO6pTr21zG1YA?e=JQdmaQ target="_blank")
+1. Select a **user and password** here and **mark it as "used"**: [Users](https://sap-my.sharepoint.com/:x:/p/beatrice_pasch/EU3WyaAV-vBCmIbdoe_5kfcBiim6Sq5LnrO6pTr21zG1YA?e=JQdmaQ)
 
-2. Use **Google Chrome** and open the [**link to the SAP Build Lobby**](https://sap-build-academy-eu10.eu10.build.cloud.sap/)
+2. Use **Google Chrome** and open the [**link to the SAP Build Lobby**](https://sap-build-academy-eu10.eu10.build.cloud.sap/).
+   Enter your login details and click on **Continue**.  
 
-[Link Text](URL "Title" target="_blank")
-
-  Enter your login details and click on **Continue**.  
-
-1. **Follow the exercise descriptions below**
+3. **Follow the exercise descriptions below**
   
   
 ## Exercises
