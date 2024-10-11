@@ -20,7 +20,7 @@ Please note that we have reduced the content of this E2E scenario https://develo
 - We prepared a demo system with some template projects for you.
   - Use Google Chrome as your browser (others are not supported and you might not be able to experience every feature).
   - Please open the following link to our SAP Build Lobby: https://sap-build-academy-eu10.eu10.build.cloud.sap/lobby
-  - Select a **user and password** here and **mark it as "used"**: [Users](https://sap-my.sharepoint.com/:x:/p/beatrice_pasch/ETU5oIhNkmJKs1R0EyVyt20BNCeYMXVZUAxF4djntLekyQ?e=F2flEd)
+  - Select a **user and password** here and **mark it as "used"**: [Users](https://sap-my.sharepoint.com/:x:/p/beatrice_pasch/EU3WyaAV-vBCmIbdoe_5kfcBiim6Sq5LnrO6pTr21zG1YA?e=3I80kO)
   - Enter your login details and click on Continue.  
   
 - Please note: 
