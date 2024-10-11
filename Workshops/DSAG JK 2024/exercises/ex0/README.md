@@ -4,37 +4,37 @@
 ## Create a business process project
 If you are not already in the SAP Build Lobby - click [Lobby](https://sap-build-academy-eu10.eu10.build.cloud.sap/lobby) to open the entry page of SAP Build.  
 
-1. In the Lobby, please search for the project **Sales Order Management Template DSAG**. Make sure that you **search in all projects** and not only in your own projects. Once you have found the project, click the **Options** button (…) and select **Save As New Project**.  
-
- ![Main](assets/SPA1.png)  
+1. In the Lobby, please search for the project **Sales Order Management Template DSAG**. Make sure that you **search in all projects** and not only in your own projects. Once you have found the project, click the **Navigate** symbol **>**.
+    
+    ![Main](assets/SBPA1.png)  
   
+2. In the menu, select **Versions** and click the three dots **...** to open the context menu. There select **Save As New Project**.
 
+    ![Main](assets/SBPA2.png)
 
-1. On the next screen, replace **Sales Order Management Template DSAG** with `Sales Orders Management [your user name]`.   
-    **Note**: or any other unique identifier, just ensure consistency during the exercise.  
+3. On the next screen, replace **Sales Order Management Template DSAG** with `Sales Orders Management [your user name]`. 
+ ***Note***: or any other unique identifier, just ensure consistency during the exercise.  
+ Select **Save As New**.
 
-![Main](assets/SPA2.png)  
+    ![Main](assets/SBPA3.png)  
 
-1. Wait a few seconds until your new project is created and click on it.  **Important:** Only work on your newly created project. DO NOT CHANGE THE TEMPLATE!
+1. Wait a few seconds until your new project is created and the toast message appears. **Open** your new project.  **Important:** Only work on your newly created project. **DO NOT CHANGE THE TEMPLATE!**
   
-
-![Main](assets/SPA2a.png)  
+    ![Main](assets/SBPA4.png)  
   
+5. **Accept** the **Disclaimer** 
 
-
-1. **Accept** the **Disclaimer** and then you should see the following screen.  
+    ![Main](assets/SBPA5.png)   
+   
+   and then you should see the following screen with your newly created project. Check the project name.
   
-![Main](assets/SPA3.png)  
+    ![Main](assets/SBPA6.png)  
   
+5. Click on **Create** and select **Process**.  
 
+    ![Main](assets/SPA4.png)  
 
-
-1. Click on **Create** and select **Process**.  
-
-![Main](assets/SPA4.png)  
-  
-
-1. In the **Create Process** dialog box, enter the following values and click **Create**.  
+6. In the **Create Process** dialog box, enter the following values and click **Create**.  
   
 
       | **Input Field** | **Input Value**  |
@@ -43,9 +43,9 @@ If you are not already in the SAP Build Lobby - click [Lobby](https://sap-build-
       | Description         | A process to handle sales orders      |
   
   
-1. If you see the below prompt please click **Close**.  
+7. If you see the below prompt please click **Close**.  
 
-![Main](assets/SPA6.png)  
+   ![Main](assets/SPA6.png)  
   
   
   
@@ -176,7 +176,7 @@ Navigate back to the Process Builder canvas to create an Approval Form.
   
       -	Enter the subject as - **Please review the**  
       -	Map the **material** from the **salesorderdetails** Process Content popup to **Subject**.  
-      -	In the **Recipients/Users** section, enter your email address (i.e. ac099201u**XX**@sapexperienceacademy.com).  
+      -	In the **Recipients/Users** section, enter your email address (i.e. ac121055u**XX**@sapexperienceacademy.com).  
                   **Note**: Replace the XX with last two digits of your user number.  
       -	You can copy and paste the text: Use **paste as plain** text to paste the text!  
   
