@@ -6,7 +6,7 @@ This repository contains the material for the SAP d-com Hands-On session **HT006
 
 ## Prerequisite
 
-- None
+- None for sure
 
 ## Overview
 
