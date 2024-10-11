@@ -37,13 +37,14 @@ Experience the scope and flexibility of each individual SAP Build service and ho
   - The system will only be available for DSAG annual conference in Leipzig.
   - But you can use this tutorial https://developers.sap.com/mission.build-workshop-sales-order.html, which is an extended version of the one you are experiencing at DSAG and a SAP BTP Trial account to continue back in the office.
 
+
   
-### Learn more and join the community
+## Learn more and join the community
 
 - explore further [tutorials with SAP Build](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-build)
 - join the [SAP Builders community](https://community.sap.com/t5/sap-builders/gh-p/builders)
 
-(Builder.jpg)
+!(Builder.jpg)
   
 ## License
 
