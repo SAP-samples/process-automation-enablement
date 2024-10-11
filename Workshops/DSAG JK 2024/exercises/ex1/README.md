@@ -1,26 +1,26 @@
 # 2. Create a Sales Order App Using SAP Build Apps  DSAG
 &nbsp;
 Click [Lobby](https://sap-build-academy-eu10.eu10.build.cloud.sap/lobby) to open the entry page of SAP Build Apps.
-1.	In the Lobby, use the search field to look for the project named **dcom-App-UI-Template**. 
+1.	In the Lobby, use the search field to look for the project named **DSAG-Buildapps-Template**.
 &nbsp;
-![R1](https://media.github.tools.sap/user/67204/files/d3945f9e-c658-4445-8b1b-7f5696f8629a)
+![apps1](https://github.com/user-attachments/assets/4af32add-4754-4b33-995a-fafe38123be1)
 &nbsp;
-2.	Once you have found the template app, click the **Options** button and select **Save As New Project**.
+2.	Once you have found the template app, click the **Navigate** symbol >; go to tab **Versions**, click on the 3 dots and select **Save As New Project**.
 &nbsp;  
-![R2](https://media.github.tools.sap/user/67204/files/4359a26b-9775-4f46-8318-ca70fe9a1df1)
+![apps2](https://github.com/user-attachments/assets/ab4a45ff-bb85-470e-a573-0755cb661bd3)
 &nbsp;  
 3.	On the next screen, enter the following (replace **XX** with the last 2 digits of your user number):
 &nbsp;  
 &nbsp;  
     | **Input Field**  | **Input Value**                                   |
     |--------------|--------------------------------------------------|
-    | Project Name | Create Sales Order AC099201U**XX**                  |
-    | Description  | SAP Build Apps Sales Order Project AC099201U**XX**   |
+    | Project Name | Create Sales Order AC121055U**XX**                  |
+    | Description  | SAP Build Apps Sales Order Project AC121055U**XX**   |
 &nbsp;  
 &nbsp;  
 Now, click **Save As New**.  
 &nbsp;  
-![R3](https://media.github.tools.sap/user/67204/files/1a8f7366-29e5-459b-a4cb-6ede115892f2)
+![apps3](https://github.com/user-attachments/assets/c5e6d719-92a6-4255-8c74-11091f374d74)
 &nbsp;  
 &nbsp;  
 Once your project is saved, it should open the **SAP Build Apps editor** automatically, as below.  
@@ -28,7 +28,7 @@ If the project does not open automatically, simply click your project’s name i
 &nbsp;  
 You can see the basic components of the UI are already in place:  
 &nbsp;  
-![r4](https://media.github.tools.sap/user/67204/files/bbe5ad94-3c80-404b-b70a-fe76ee46964a)
+![apps4](https://github.com/user-attachments/assets/08526c03-ba33-4806-a22c-905c3badbbd1)
 &nbsp;  
 &nbsp;  
 &nbsp;  
@@ -41,20 +41,18 @@ In order to trigger and consume processes from SAP Build Process Automation dire
 &nbsp;  
 2.	Click **Add Integration**.
 &nbsp;  
-![r5](https://media.github.tools.sap/user/67204/files/80ce7b16-2a50-46a2-b78e-50a48347acfe)
+![apps5](https://github.com/user-attachments/assets/9ab13c36-ed0c-4c8d-aeaf-b6e17954bdac)
 &nbsp;  
 &nbsp;  
 3.	Choose **SAP Build Library** from the 3 options.
 &nbsp;  
-![r6](https://media.github.tools.sap/user/67204/files/767f22ab-ca40-405d-8d5a-07ea284cb1e7)
+![apps5a](https://github.com/user-attachments/assets/c25f26c2-e80f-43f9-b0c5-2b504f277560)
 &nbsp;  
 &nbsp;  
-4.	You should now see a list of all published processes. You need to filter on the **Project Name** for the sales order process: **Sales Orders Management AC099201UXX** (use this one for Dcom). Otherwise, filter on the **TA - Sales Order management Process** project.
+4.	You should now see a list of all published processes. You need to filter on the **Project Name** for the sales order process: **Sales Orders Management AC121055UXX**.
 5.	Now click on the tile to select the process that you want to integrate.
 &nbsp;    
-![r7](https://media.github.tools.sap/user/67204/files/4948e2ae-7d60-4609-bf6f-5bc743b9cfd4)
-or 
-![r8](https://media.github.tools.sap/user/67204/files/df038022-3660-4d63-8605-6bd6d4cb452f)
+![apps6](https://github.com/user-attachments/assets/44f524d7-df2f-42c2-966e-b508dab7de79)
 &nbsp;  
 &nbsp;  
 6.	Choose **Enable process** to integrate the process.
@@ -66,8 +64,8 @@ or
 ![r10](https://media.github.tools.sap/user/67204/files/43f846c2-eedf-40d4-abb3-ebcfc73b2b2d)
 &nbsp;  
 Now your SAP Build Process Automation process is integrated into your SAP Build Apps project, and you can see it available in the SAP Build Library:
+![apps7](https://github.com/user-attachments/assets/90d4c6aa-1421-4daa-b7b9-cd5193b2cef9)
 
-![r11](https://media.github.tools.sap/user/67204/files/db8eda39-cdf4-4927-af84-8b1be6015837)
 
 8. Click **Save**.
 &nbsp;
