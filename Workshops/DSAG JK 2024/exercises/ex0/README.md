@@ -56,9 +56,9 @@ If you are not already in the SAP Build Lobby - click [Lobby](https://sap-build-
       ![Main](assets/SPA7.png)  
   
   
-2.	Click on **Call an API**
+2.	Click on **API Trigger**
   
-      ![Main](assets/SPA8.png)
+      ![Main](assets/SBPA8.png)
   
   
 3.	Enter the name as **Sales Order Trigger** and click **Create**
@@ -68,7 +68,7 @@ If you are not already in the SAP Build Lobby - click [Lobby](https://sap-build-
   
 4.	A trigger has been added to your process. Click the << icon to open the **Process Details** screen.
   
-      ![Main](assets/SPA10.png)
+      ![Main](assets/SBPA10.png)
   
   
 5.	Click on **Variables** then choose **Configure** (under **Process Inputs**) to configure inputs.
