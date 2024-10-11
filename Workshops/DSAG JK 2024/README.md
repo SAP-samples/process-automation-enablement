@@ -1,24 +1,19 @@
-<base target="_blank">
-
 # Create your First Low-Code App & Automation with SAP Build
 
 ## Description
 
 This repository contains the material for the DSAG tutorial **Create your First Low-Code App & Automation with SAP Build.** 
 
-## Prerequisite
-
-- None for sure
-
 ## Overview
 
 Whether you're a business expert, a key user, or a developer, get inspired and experience low-code app development and automation with SAP Build.   
+
 **See SAP Build in action, end to end!** 
 1.  Create a sales order process in **SAP Build Process Automation**.
 2.  Create an app for entering the sales order data and triggering the process with **SAP Build Apps**.
-3.  Put it all together in your own digital workspace for sales order management using **SAP Build Work Zone**
-4.  .  
-The goal is to demonstrate not only the scope and flexibility of each individual SAP Build service and how to extend standard processes from SAP S/4HANA.
+3.  Put it all together in your own digital workspace for sales order management using **SAP Build Work Zone**.
+   
+Experience the scope and flexibility of each individual SAP Build service and how to extend standard processes from SAP S/4HANA.
 
 
 ## System
@@ -41,27 +36,12 @@ The goal is to demonstrate not only the scope and flexibility of each individual
 ***Please note:***
   - The system will only be available for DSAG annual conference in Leipzig.
   - But you can use this tutorial https://developers.sap.com/mission.build-workshop-sales-order.html, which is an extended version of the one you are experiencing at DSAG and a SAP BTP Trial account to continue back in the office.
-  
-<!-- />
-Comments
-<!-->
 
-## Further Learnings
   
-### Tutorials
-If you want to learn more, please follow these tutorials:
+### Learn more and join the community
 
-<!--
-- [Boost your Business Process with Automation, Decision and Process Visibility](https://developers.sap.com/mission.sap-process-automation-boost.html) (builds upon the tutorial you are doing here at d-com)  
--->
-- [Inovice Processing and Approval Using SAP Build Process Automation](https://developers.sap.com/mission.invoice-processing-approval-spa.html) (includes document information extraction)  
-
-- [Experience SAP Build By Creating an End-to-End Sales Scenario](https://developers.sap.com/mission.build-workshop-sales-order.html)  
-  
-### Get a system
-To get your own system after d-com, either
-- create a [trial](https://blogs.sap.com/2022/09/09/sap-process-automation-now-available-in-your-trail-account/) or [free tier](https://developers.sap.com/tutorials/spa-subscribe-booster.html) account
-- join the Builders@SAP community and use the playground area, as described here: [Builders@SAP](https://workzone.one.int.sap/site#workzone-viewAll?sap-app-origin-hint=&/groups/P56nCWteoKM9wtQD5gEWqS/overview_page/sFWEhdqb2CHnYq1pSOrBZP)
+- explore further [tutorials with SAP Build](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-build)
+- join the [SAP Builders community](https://community.sap.com/t5/sap-builders/gh-p/builders)
 
   
 ## License
