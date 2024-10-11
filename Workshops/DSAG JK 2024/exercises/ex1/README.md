@@ -1,7 +1,7 @@
-# 2. Create a Sales Order App Using SAP Build Apps
+# 2. Create a Sales Order App Using SAP Build Apps  DSAG
 &nbsp;
 Click [Lobby](https://sap-build-academy-eu10.eu10.build.cloud.sap/lobby) to open the entry page of SAP Build Apps.
-1.	In the Lobby, use the search field to look for the project named **dcom-App-UI-Template**.
+1.	In the Lobby, use the search field to look for the project named **dcom-App-UI-Template**. 
 &nbsp;
 ![R1](https://media.github.tools.sap/user/67204/files/d3945f9e-c658-4445-8b1b-7f5696f8629a)
 &nbsp;

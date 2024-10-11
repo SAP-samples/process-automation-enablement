@@ -6,7 +6,7 @@ This repository contains the material for the DSAG tutorial **Create your First 
 
 ## Prerequisite
 
-- None
+- None for sure
 
 ## Overview
 
