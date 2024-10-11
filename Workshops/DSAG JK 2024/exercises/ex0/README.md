@@ -514,4 +514,4 @@ Monitoring business process is one of the key aspect of the automated processes.
 &nbsp;  
 &nbsp;  
 **Congratulations!**
-You successfully completed this unit and are ready to create a Sales Order App using SAP Build Apps. Please go to the next tutorial: [Create a Sales Order App Using SAP Build Apps](https://github.tools.sap/SAP-d-com-Mannheim-2024/HT006/blob/main/exercises/ex1/README.md)
+You successfully completed this unit and are ready to create a Sales Order App using SAP Build Apps. Please go to the next tutorial: [Create a Sales Order App Using SAP Build Apps](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/DSAG%20JK%202024/exercises/ex1/README.md)
