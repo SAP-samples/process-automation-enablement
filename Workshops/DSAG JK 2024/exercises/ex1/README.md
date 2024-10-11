@@ -6,23 +6,25 @@ Click [Lobby](https://sap-build-academy-eu10.eu10.build.cloud.sap/lobby) to open
 ![apps1](https://github.com/user-attachments/assets/4af32add-4754-4b33-995a-fafe38123be1)
 &nbsp;
 2.	Once you have found the template app, click the **Navigate** symbol >; go to tab **Versions**, click on the 3 dots and select **Save As New Project**.
-&nbsp;  
+&nbsp;
 ![apps2](https://github.com/user-attachments/assets/ab4a45ff-bb85-470e-a573-0755cb661bd3)
-&nbsp;  
+&nbsp;
 3.	On the next screen, enter the following (replace **XX** with the last 2 digits of your user number):
-&nbsp;  
-&nbsp;  
+&nbsp;
+&nbsp;
     | **Input Field**  | **Input Value**                                   |
     |--------------|--------------------------------------------------|
     | Project Name | Create Sales Order AC121055U**XX**                  |
     | Description  | SAP Build Apps Sales Order Project AC121055U**XX**   |
-&nbsp;  
-&nbsp;  
-Now, click **Save As New**.  
-&nbsp;  
+&nbsp;
+
+Now, click **Save As New**.
+
+&nbsp;
 ![apps3](https://github.com/user-attachments/assets/c5e6d719-92a6-4255-8c74-11091f374d74)
-&nbsp;  
-&nbsp;  
+&nbsp;
+&nbsp;
+
 Once your project is saved, it should open the **SAP Build Apps editor** automatically, as below.  
 If the project does not open automatically, simply click your project’s name in the lobby.  
 &nbsp;  
