@@ -116,14 +116,14 @@ Whenever someone types into the input box, the value is automatically copied int
 &nbsp;  
 1.	Go back to **View** so you can see the UI canvas.
 &nbsp;  
-![r16](https://media.github.tools.sap/user/67204/files/1f0da2a0-d0b5-4b4f-971a-4e47b5ee1afb)
+![apps9c](https://github.com/user-attachments/assets/33453e22-98c6-4030-8625-b4ba9a6591d3)
 &nbsp;  
 &nbsp;  
 2.	Using the **TREE** structure, click on the first input field (for **Customer**).   
 In the **Properties tab**, click the **X** in the **Value** field.
 &nbsp;  
-![r17](https://media.github.tools.sap/user/67204/files/e2c569ba-8834-4908-9ee4-b80be9767cf6)
-&nbsp;  
+![apps9d](https://github.com/user-attachments/assets/afcecb3e-996b-4f87-b41f-c8c67e85b9bb)
+&nbsp; 
 Select **Data and Variables > Page variable**. Then under Select page value, select **Customer** and click **Save**.  
 &nbsp;  
 ![r18](https://media.github.tools.sap/user/67204/files/fc8751f4-a59a-4287-8f4a-194ffbeefeb4)
@@ -143,7 +143,7 @@ We need to set up the logic so when someone clicks the **Get Approval** button (
 &nbsp; 
 1.	Click on the **Get Approval** button, and open the logic canvas by clicking **Add logic to Button1** at the bottom right.  
 &nbsp; 
-![r19](https://media.github.tools.sap/user/67204/files/549ad0a4-9d54-454b-8082-dbb052f02fc8)
+![apps9e](https://github.com/user-attachments/assets/cd29aef5-e59b-4222-b0b9-0406a6f8d5d9)
 &nbsp; 
 2.	Drag a **Trigger process** function onto the canvas, and connect the component tap event to it.  
 &nbsp; 
@@ -209,21 +209,24 @@ Select **Formula > Formula**. Now, erase the quotation marks...
 &nbsp;  
 1.	Click the **Launch** tab, and then **Open Preview Portal >> Open Web Preview**. 
 &nbsp;  
-![r29](https://media.github.tools.sap/user/67204/files/ac4b037a-2264-4d2c-ae52-9a22fb812d5b)
+![apps8](https://github.com/user-attachments/assets/746439fd-52ec-411b-9775-e63419b039ad)
+&nbsp;
+2. Click **Open web preview**
+![apps9](https://github.com/user-attachments/assets/ff0e1c1f-36f0-41d6-b218-939a0de55a43)
 
-3.	Select your project **Create Sales Order AC096525UXX**.  
+3.	Select your project **Create Sales Order AC121055UXX**.  
 &nbsp;  
-![r30](https://media.github.tools.sap/user/67204/files/1a14eb59-d72d-49f7-913d-0fd1e673ac33)
+![apps9a](https://github.com/user-attachments/assets/3d79691a-db07-4d09-a679-cc1c3845182f)
 &nbsp;  
 4.	Enter the following values in your form:  
-&nbsp; 
-| **Field** | **Value** |
-|---------------|---------------------|
-| Customer      | AC096525U05 Bikes   |
-| Material      | MZ-FG-S200          |
-| Quantity      | 1200                |
-| Delivery Date | 2024-09-01          |  
+&nbsp;
 
+| **Field**     | **Value**         |
+| :-------------| :---------------- |
+| Customer      | AC096525U05 Bikes |
+| Material      | MZ-FG-S200        |
+| Quantity      | 1200              |
+| Delivery Date | 2024-10-20        |   
 &nbsp; 
 5.	Click **Get Approval**.  
 &nbsp;  
