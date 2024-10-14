@@ -176,7 +176,7 @@ Navigate back to the Process Builder canvas to create an Approval Form.
   
       -	Enter the subject as - **Please review the**  
       -	Map the **material** from the **salesorderdetails** Process Content popup to **Subject**.  
-      -	In the **Recipients/Users** section, enter your email address (i.e. ac121055u**XX**@sapexperienceacademy.com).  
+      -	In the **Recipients/Users** section, enter your email address (i.e. AC121055U**XX**@sapexperienceacademy.com).  
                   **Note**: Replace the XX with last two digits of your user number.  
       -	You can copy and paste the text: Use **paste as plain** text to paste the text!  
   
@@ -220,7 +220,7 @@ Navigate back to the Process Builder canvas to create an Approval Form.
       -	Enter **Your order has been approved for**
       -	Map **material** from the **salesorderdetails** Process Content pop-up to **subject field**
       -	Please do not copy and paste the text. Enter the text yourself!
-      -	In the **Recipients/Users** section, enter your email address (i.e. ac121055u**XX**@sapexperienceacademy.com). 
+      -	In the **Recipients/Users** section, enter your email address (i.e. AC121055U**XX**@sapexperienceacademy.com). 
                   **Note**: Replace the **XX** with last two digits of your user number.
   
   
@@ -263,7 +263,7 @@ In this step, you will send out a notification form if the order is rejected.
 5.	In the **Subject** field:
       -	type **Your order has been rejected for**
       -	click to map **material** from **Process Content** => salesorderdetails
-      -	In the **Recipients/Users** section, enter your email address ((i.e. ac121055u**XX**@sapexperienceacademy.com). 
+      -	In the **Recipients/Users** section, enter your email address ((i.e. AC121055U**XX**@sapexperienceacademy.com). 
                   **Note**: Replace the **XX** with last two digits of your user number.
   
      
@@ -297,7 +297,7 @@ In this step, you will add a notification form which would be received by suppli
 4.	Under Subject:
       -	Enter the text: **Your order has been approved automatically for**
       -	Map material from **Process Content => salesorderdetails**.
-      -	In the **Recipients/Users** section, enter your email address ((i.e. ac121055u**XX**@sapexperienceacademy.com). 
+      -	In the **Recipients/Users** section, enter your email address ((i.e. AC121055U**XX**@sapexperienceacademy.com). 
                   **Note**: Replace the **XX** with last two digits of your user number.
     
 5.	Save your work.
@@ -379,7 +379,7 @@ Releasing a project creates a version or snapshot of the changes and deploying t
   
 ## Publish to the SAP Build Library
   
-1.	After you released and deployed the process, go to SAP Build Lobby and find your project (i.e. Sales Orders Management ac121055u**XX**).
+1.	After you released and deployed the process, go to SAP Build Lobby and find your project (i.e. Sales Orders Management AC121055U**XX**).
   
 2.	Click on the 3 dots under options and **Publish to Library**.
   
@@ -405,7 +405,7 @@ You have successfully released, deployed and published your process. It is time 
        ![Main](assets/SPA48.png) 
   
   
-2.	Search for ac121055u**XX** to display your project.
+2.	Search for AC121055U**XX** to display your project.
   
        ![Main](assets/SPA49.png) 
   
@@ -467,7 +467,7 @@ Monitoring business process is one of the key aspect of the automated processes.
 	The best way to find your process is to search for your user number or initials, depending on how you named it.
   
   
-2.	Search for the project **Sales Orders Management ac121055uXX** using the Project dropdown. All the instances of the selected project is displayed in the table below. Select the latest one as it was the one created in the previous lesson.
+2.	Search for the project **Sales Orders Management AC121055UXX** using the Project dropdown. All the instances of the selected project is displayed in the table below. Select the latest one as it was the one created in the previous lesson.
   
        ![Main](assets/SPA53.png) 
   
