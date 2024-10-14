@@ -1,34 +1,36 @@
-# 2. Create a Sales Order App Using SAP Build Apps  DSAG
+# 2. Create a Sales Order App Using SAP Build Apps
 &nbsp;
 Click [Lobby](https://sap-build-academy-eu10.eu10.build.cloud.sap/lobby) to open the entry page of SAP Build Apps.
-1.	In the Lobby, use the search field to look for the project named **dcom-App-UI-Template**. 
+1.	In the Lobby, use the search field to look for the project named **DSAG-Buildapps-Template**.
 &nbsp;
-![R1](https://media.github.tools.sap/user/67204/files/d3945f9e-c658-4445-8b1b-7f5696f8629a)
+![apps1](https://github.com/user-attachments/assets/4af32add-4754-4b33-995a-fafe38123be1)
 &nbsp;
-2.	Once you have found the template app, click the **Options** button and select **Save As New Project**.
-&nbsp;  
-![R2](https://media.github.tools.sap/user/67204/files/4359a26b-9775-4f46-8318-ca70fe9a1df1)
-&nbsp;  
+2.	Once you have found the template app, click the **Navigate** symbol >; go to tab **Versions**, click on the 3 dots and select **Save As New Project**.
+&nbsp;
+![apps2](https://github.com/user-attachments/assets/ab4a45ff-bb85-470e-a573-0755cb661bd3)
+&nbsp;
 3.	On the next screen, enter the following (replace **XX** with the last 2 digits of your user number):
-&nbsp;  
-&nbsp;  
+&nbsp;
+&nbsp;
     | **Input Field**  | **Input Value**                                   |
     |--------------|--------------------------------------------------|
-    | Project Name | Create Sales Order AC099201U**XX**                  |
-    | Description  | SAP Build Apps Sales Order Project AC099201U**XX**   |
-&nbsp;  
-&nbsp;  
-Now, click **Save As New**.  
-&nbsp;  
-![R3](https://media.github.tools.sap/user/67204/files/1a8f7366-29e5-459b-a4cb-6ede115892f2)
-&nbsp;  
-&nbsp;  
+    | Project Name | Create Sales Order AC121055U**XX**                  |
+    | Description  | SAP Build Apps Sales Order Project AC121055U**XX**   |
+&nbsp;
+
+Now, click **Save As New**.
+
+&nbsp;
+![apps3](https://github.com/user-attachments/assets/c5e6d719-92a6-4255-8c74-11091f374d74)
+&nbsp;
+&nbsp;
+
 Once your project is saved, it should open the **SAP Build Apps editor** automatically, as below.  
 If the project does not open automatically, simply click your project’s name in the lobby.  
 &nbsp;  
 You can see the basic components of the UI are already in place:  
 &nbsp;  
-![r4](https://media.github.tools.sap/user/67204/files/bbe5ad94-3c80-404b-b70a-fe76ee46964a)
+![apps4](https://github.com/user-attachments/assets/08526c03-ba33-4806-a22c-905c3badbbd1)
 &nbsp;  
 &nbsp;  
 &nbsp;  
@@ -41,20 +43,18 @@ In order to trigger and consume processes from SAP Build Process Automation dire
 &nbsp;  
 2.	Click **Add Integration**.
 &nbsp;  
-![r5](https://media.github.tools.sap/user/67204/files/80ce7b16-2a50-46a2-b78e-50a48347acfe)
+![apps5](https://github.com/user-attachments/assets/9ab13c36-ed0c-4c8d-aeaf-b6e17954bdac)
 &nbsp;  
 &nbsp;  
 3.	Choose **SAP Build Library** from the 3 options.
 &nbsp;  
-![r6](https://media.github.tools.sap/user/67204/files/767f22ab-ca40-405d-8d5a-07ea284cb1e7)
+![apps5a](https://github.com/user-attachments/assets/c25f26c2-e80f-43f9-b0c5-2b504f277560)
 &nbsp;  
 &nbsp;  
-4.	You should now see a list of all published processes. You need to filter on the **Project Name** for the sales order process: **Sales Orders Management AC099201UXX** (use this one for Dcom). Otherwise, filter on the **TA - Sales Order management Process** project.
+4.	You should now see a list of all published processes. You need to filter on the **Project Name** for the sales order process: **Sales Orders Management AC121055UXX**.
 5.	Now click on the tile to select the process that you want to integrate.
 &nbsp;    
-![r7](https://media.github.tools.sap/user/67204/files/4948e2ae-7d60-4609-bf6f-5bc743b9cfd4)
-or 
-![r8](https://media.github.tools.sap/user/67204/files/df038022-3660-4d63-8605-6bd6d4cb452f)
+![apps6](https://github.com/user-attachments/assets/44f524d7-df2f-42c2-966e-b508dab7de79)
 &nbsp;  
 &nbsp;  
 6.	Choose **Enable process** to integrate the process.
@@ -66,8 +66,9 @@ or
 ![r10](https://media.github.tools.sap/user/67204/files/43f846c2-eedf-40d4-abb3-ebcfc73b2b2d)
 &nbsp;  
 Now your SAP Build Process Automation process is integrated into your SAP Build Apps project, and you can see it available in the SAP Build Library:
+&nbsp;  
+![apps7](https://github.com/user-attachments/assets/90d4c6aa-1421-4daa-b7b9-cd5193b2cef9)
 
-![r11](https://media.github.tools.sap/user/67204/files/db8eda39-cdf4-4927-af84-8b1be6015837)
 
 8. Click **Save**.
 &nbsp;
@@ -157,9 +158,9 @@ We need to set up the logic so when someone clicks the **Get Approval** button (
 ![r22](https://media.github.tools.sap/user/67204/files/40f7e338-886a-4496-a6e7-0749313b1321)
 
 ![r23](https://media.github.tools.sap/user/67204/files/1946d595-df13-4b97-bc90-06a310a04c78)
-
+&nbsp; 
 Repeat the same steps for the other fields:
-
+&nbsp; 
 | **Sales Order Fields** | **Page Variable**  |
 | :--------------------- | :----------------- | 
 | material               | material           | 
@@ -168,23 +169,23 @@ Repeat the same steps for the other fields:
 | expectedDeliveryDate   | date               |  
 
 5.	For the remaining Sales Order fields type in the following values as **Static text**.  
-&nbsp;  
-|**Sales Order fields**    | **Static Text Value** |
-|-------------------------|-------------------|
-| soldToParty             | 1000292           |
-| salesOrderType          | OR                |
-| salesOrganisation       | 1710              |
-| distributionChannel     | 10                |
-&nbsp;  
 
+| **Sales Order fields**  | **Static Text Value** |
+| :-----------------------| :-------------------- |
+| soldToParty             | 1000292               |
+| salesOrderType          | OR                    |
+| salesOrganisation       | 1710                  |
+| distributionChannel     | 10                    |  
+ 
 6.	You'll end up with a list like in the image below. Then click **Save**.
+
 ![r24](https://media.github.tools.sap/user/67204/files/66133820-0255-400e-a4f5-0649ebbbf060)
 &nbsp;  
-7.	Drag a **Toast** flow function onto the canvas. And connect the top output of the **Trigger** process flow function to it.
+8.	Drag a **Toast** flow function onto the canvas. And connect the top output of the **Trigger** process flow function to it.
 &nbsp;  
 ![r25](https://media.github.tools.sap/user/67204/files/72910321-c088-48d8-9fad-57cbb0618e26) 
 &nbsp;    
-8.	Click on the **Toast** flow function and configure it in the **Properties** pane on the right. For **Toast message**, click on the ABC symbol.  
+9.	Click on the **Toast** flow function and configure it in the **Properties** pane on the right. For **Toast message**, click on the ABC symbol.  
 &nbsp;  
 ![r26](https://media.github.tools.sap/user/67204/files/1a3c241c-ece1-40fd-867e-4ef20d4883ab)
 
@@ -215,15 +216,15 @@ Select **Formula > Formula**. Now, erase the quotation marks...
 ![r30](https://media.github.tools.sap/user/67204/files/1a14eb59-d72d-49f7-913d-0fd1e673ac33)
 &nbsp;  
 4.	Enter the following values in your form:  
-&nbsp;
-| **Field**        | **Value**              |
+&nbsp; 
+| **Field** | **Value** |
 |---------------|---------------------|
 | Customer      | AC096525U05 Bikes   |
 | Material      | MZ-FG-S200          |
 | Quantity      | 1200                |
 | Delivery Date | 2024-09-01          |  
-&nbsp;  
-&nbsp;  
+
+&nbsp; 
 5.	Click **Get Approval**.  
 &nbsp;  
 You process should be triggered and require approval (since the quantity figure is above 10).  
