@@ -176,7 +176,7 @@ Navigate back to the Process Builder canvas to create an Approval Form.
   
       -	Enter the subject as - **Please review the**  
       -	Map the **material** from the **salesorderdetails** Process Content popup to **Subject**.  
-      -	In the **Recipients/Users** section, enter your email address (i.e. AC121055U**XX**@sapexperienceacademy.com).  
+      -	In the **Recipients/Users** section, enter your email address (i.e. ac121055U**XX**@sapexperienceacademy.com).  
                   **Note**: Replace the XX with last two digits of your user number.  
       -	You can copy and paste the text: Use **paste as plain** text to paste the text!  
   
@@ -220,7 +220,7 @@ Navigate back to the Process Builder canvas to create an Approval Form.
       -	Enter **Your order has been approved for**
       -	Map **material** from the **salesorderdetails** Process Content pop-up to **subject field**
       -	Please do not copy and paste the text. Enter the text yourself!
-      -	In the **Recipients/Users** section, enter your email address (i.e. AC121055U**XX**@sapexperienceacademy.com). 
+      -	In the **Recipients/Users** section, enter your email address (i.e. ac121055U**XX**@sapexperienceacademy.com). 
                   **Note**: Replace the **XX** with last two digits of your user number.
   
   
@@ -263,7 +263,7 @@ In this step, you will send out a notification form if the order is rejected.
 5.	In the **Subject** field:
       -	type **Your order has been rejected for**
       -	click to map **material** from **Process Content** => salesorderdetails
-      -	In the **Recipients/Users** section, enter your email address ((i.e. AC121055U**XX**@sapexperienceacademy.com). 
+      -	In the **Recipients/Users** section, enter your email address ((i.e. ac121055U**XX**@sapexperienceacademy.com). 
                   **Note**: Replace the **XX** with last two digits of your user number.
   
      
@@ -297,7 +297,7 @@ In this step, you will add a notification form which would be received by suppli
 4.	Under Subject:
       -	Enter the text: **Your order has been approved automatically for**
       -	Map material from **Process Content => salesorderdetails**.
-      -	In the **Recipients/Users** section, enter your email address ((i.e. AC121055U**XX**@sapexperienceacademy.com). 
+      -	In the **Recipients/Users** section, enter your email address ((i.e. ac121055U**XX**@sapexperienceacademy.com). 
                   **Note**: Replace the **XX** with last two digits of your user number.
     
 5.	Save your work.
