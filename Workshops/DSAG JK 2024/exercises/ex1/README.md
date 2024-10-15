@@ -253,4 +253,4 @@ The first process listed should be the one you just triggered.
 &nbsp;  
 Congratulations!  
 You successfully completed this tutorial and are ready to integrate the Sales Order App using SAP Build Work Zone.  
-Please go to the next tutorial: [Integrate an SAP Build Apps application into SAP Build Work Zone, advanced edition](https://github.tools.sap/SAP-d-com-Mannheim-2024/HT006/blob/main/exercises/ex2/README.md)
+Please go to the next tutorial: [Integrate an SAP Build Apps application into SAP Build Work Zone, advanced edition](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/DSAG%20JK%202024/exercises/ex2/README.md)
