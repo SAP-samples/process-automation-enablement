@@ -10,7 +10,7 @@ Die vorbereiteten Tutorials für SAP Build können Sie über zwei Wege nutzen:
 
 Willkommen zu den Tutorials zu SAP Build. Sie können entweder die Produkte einzeln ausprobieren oder im Zusammenhang nutzen
 
-1. Basic Trial Konto für SAP Build erstellen. Bitte diesem Link und den Anweisungen folgen: [SAP Build basic trial](https://www.sap.com/products/technology-platform/build/trial.html)
+1. Basic Trial Konto für SAP Build erstellen. Bitte diesem Link und den Anweisungen folgen: [SAP Build basic trial](https://www.sap.com/products/technology-platform/build/trial.html) (Am Ende wieder aus SAP Build und sap.com ausloggen)
 
 
 2. System von uns nutzen
