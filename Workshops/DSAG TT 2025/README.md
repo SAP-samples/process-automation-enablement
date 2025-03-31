@@ -16,7 +16,7 @@ Die vorbereiteten Tutorials für **SAP Build** (SAP Build Apps, SAP Build Code, 
 
 ---
 
-## SAP Build oder SAP Build Code ausprobieren
+## SAP Build oder SAP Build Code mit Joule ausprobieren
 
 ### 1. SAP Build
 Sie können entweder die Produkte, wie **SAP Build Apps**, **SAP Build Code**, **SAP Build Process Automation**, **SAP Build Work Zone** einzeln ausprobieren oder SAP Build im Zusammenhang nutzen.
