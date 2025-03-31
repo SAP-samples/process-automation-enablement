@@ -1,8 +1,10 @@
 # DSAG Technologietage 2025 - Trial Area
 
+
 Willkommen zu den Tutorials zu SAP Build.
 
-## Wichtiger Hinweis
+---
+### *Wichtiger Hinweis:*
 
 Die vorbereiteten Tutorials für **SAP Build** (SAP Build Apps, SAP Build Code, SAP Build Process Automation, SAP Build Work Zone) und **SAP Build Code mit Joule** können Sie über zwei Wege nutzen:
 1. Sie **erstellen selbst ein Basic Trial Konto** und haben darauf die nächsten 30 Tage Zugriff  
@@ -10,7 +12,9 @@ Die vorbereiteten Tutorials für **SAP Build** (SAP Build Apps, SAP Build Code, 
 
 **ODER**
    
-2. Sie nutzen ein **System von uns mit einem generierten User**. 
+2. Sie nutzen ein **System von uns mit einem generierten User**.
+
+---
 
 ## SAP Build oder SAP Build Code ausprobieren
 
