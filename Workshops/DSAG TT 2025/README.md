@@ -5,7 +5,8 @@ Willkommen zu den Tutorials zu SAP Build.
 ## Wichtiger Hinweis
 
 Die vorbereiteten Tutorials für **SAP Build** (SAP Build Apps, SAP Build Code, SAP Build Process Automation, SAP Build Work Zone) und **SAP Build Code mit Joule** können Sie über zwei Wege nutzen:
-1. Sie **erstellen selbst ein Basic Trial Konto** und haben darauf die nächsten 30 Tage Zugriff (User auf sap.com sowie eMail-Adresse und Zugriff darauf erforderlich)
+1. Sie **erstellen selbst ein Basic Trial Konto** und haben darauf die nächsten 30 Tage Zugriff  
+   (*Hinweis: User auf sap.com sowie eMail-Adresse und Zugriff darauf erforderlich*)
 
 **ODER**
    
@@ -16,7 +17,8 @@ Die vorbereiteten Tutorials für **SAP Build** (SAP Build Apps, SAP Build Code, 
 ### 1. SAP Build
 Sie können entweder die Produkte, wie **SAP Build Apps**, **SAP Build Code**, **SAP Build Process Automation**, **SAP Build Work Zone** einzeln ausprobieren oder SAP Build im Zusammenhang nutzen.
 
-1. **Basic Trial Konto für SAP Build** erstellen. Bitte diesem Link und den Anweisungen folgen: [SAP Build basic trial](https://www.sap.com/products/technology-platform/build/trial.html) (Am Ende wieder aus SAP Build und sap.com ausloggen)*
+1. **Basic Trial Konto für SAP Build** erstellen. Bitte diesem Link und den Anweisungen folgen: [SAP Build basic trial](https://www.sap.com/products/technology-platform/build/trial.html)  
+   (*Hinweis: Am Ende wieder aus SAP Build und sap.com ausloggen*)
 
 **ODER**
 
@@ -34,7 +36,9 @@ Sie können entweder die Produkte, wie **SAP Build Apps**, **SAP Build Code**, *
 
 Sie können entweder SAP Build Code mit Joule über ein eigenes Basic Trial Konto nutzen oder über ein System von uns.
 
-1. **Basic trial für SAP Build Code mit Joule** erstellen. Bitte diesem Link und den Anweisungen folgen: [SAP Build Code basic trial](https://www.sap.com/products/technology-platform/developer-tools/trial.html)
+1. **Basic trial für SAP Build Code mit Joule** erstellen. Bitte diesem Link und den Anweisungen folgen: [SAP Build Code basic trial](https://www.sap.com/products/technology-platform/developer-tools/trial.html)  
+   (*Hinweis: Am Ende wieder aus SAP Build und sap.com ausloggen*)
+
 
 **ODER**
 
