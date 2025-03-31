@@ -28,9 +28,9 @@ Sie können entweder die Produkte, wie **SAP Build Apps**, **SAP Build Code**, *
 
 ### SAP Build Code mit Joule
 
-Sie können entweder SAP Build mit Joule über ein eigenes Basic Trial Konto nutzen oder über ein System von uns.
+Sie können entweder SAP Build Code mit Joule über ein eigenes Basic Trial Konto nutzen oder über ein System von uns.
 
-1. Basic Trial für SAP Build mit Joule erstellen. Bitte diesem Link und den Anweisungen folgen: [SAP Build Code basic trial](https://www.sap.com/products/technology-platform/developer-tools/trial.html)
+1. Basic trial für SAP Build Code mit Joule erstellen. Bitte diesem Link und den Anweisungen folgen: [SAP Build Code basic trial](https://www.sap.com/products/technology-platform/developer-tools/trial.html)
 
 **ODER**
 
@@ -49,7 +49,7 @@ Sie können entweder SAP Build mit Joule über ein eigenes Basic Trial Konto nut
   
 ## Werden Sie teil der SAP Build Community
 
-[SAP Builders community](https://community.sap.com/t5/sap-builders/gh-p/builders)
+[SAP Builders community](www.sap.com/builders)
 
 ![Main](Builder.jpg)
   
