@@ -17,7 +17,7 @@ Die vorbereiteten Tutorials für **SAP Build** (SAP Build Apps, SAP Build Code, 
 ### 1. SAP Build
 Sie können entweder die Produkte, wie **SAP Build Apps**, **SAP Build Code**, **SAP Build Process Automation**, **SAP Build Work Zone** einzeln ausprobieren oder SAP Build im Zusammenhang nutzen.
 
-1. **Basic Trial Konto für SAP Build** erstellen. Bitte diesem Link und den Anweisungen folgen: [SAP Build basic trial](https://www.sap.com/products/technology-platform/build/trial.html)  
+1. **Basic Trial Konto für SAP Build** erstellen. Bitte diesem Link und den Anweisungen folgen: [SAP Build basic trial](https://www.sap.com/products/technology-platform/build/trial.html) <a href="https://www.sap.com/products/technology-platform/build/trial.html" target="_blank">SAP Build basic trial neww tab</a>
    (*Hinweis: Am Ende wieder aus SAP Build und sap.com ausloggen*)
 
 **ODER**
