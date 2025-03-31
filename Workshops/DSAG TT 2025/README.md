@@ -1,17 +1,20 @@
 # DSAG Technologietage 2025 - Trial Area
 
+Willkommen zu den Tutorials zu SAP Build.
+
 ## Wichtiger Hinweis
 
-Die vorbereiteten Tutorials für SAP Build können Sie über zwei Wege nutzen:
-1. Sie **erstellen selbst ein Basic Trial Konto** und haben darauf die nächsten 90 Tage Zugriff (User auf sap.com sowie eMail-Adresse und Zugriff darauf erforderlich)
+Die vorbereiteten Tutorials für **SAP Build** (SAP Build Apps, SAP Build Code, SAP Build Process Automation, SAP Build Work Zone) und **SAP Build Code mit Joule** können Sie über zwei Wege nutzen:
+1. Sie **erstellen selbst ein Basic Trial Konto** und haben darauf die nächsten 30 Tage Zugriff (User auf sap.com sowie eMail-Adresse und Zugriff darauf erforderlich)
 
 **ODER**
    
-3. Sie nutzen ein **System von uns mit einem generierten User**. 
+2. Sie nutzen ein **System von uns mit einem generierten User**. 
 
-## SAP Build ausprobieren
+## SAP Build oder SAP Build Code ausprobieren
 
-Willkommen zu den Tutorials zu SAP Build. Sie können entweder die Produkte einzeln ausprobieren oder im Zusammenhang nutzen
+### SAP Build
+Sie können entweder die Produkte, wie **SAP Build Apps**, **SAP Build Code**, **SAP Build Process Automation**, **SAP Build Work Zone** einzeln ausprobieren oder SAP Build im Zusammenhang nutzen.
 
 1. Basic Trial Konto für SAP Build erstellen. Bitte diesem Link und den Anweisungen folgen: [SAP Build basic trial](https://www.sap.com/products/technology-platform/build/trial.html) (Am Ende wieder aus SAP Build und sap.com ausloggen)
 
@@ -19,9 +22,23 @@ Willkommen zu den Tutorials zu SAP Build. Sie können entweder die Produkte einz
 
 2. System von uns nutzen
    
-   a) Bitte einen User auswählen und als "verwendet markieren"
+   a) Bitte einen User auswählen und als "verwendet markieren": tbd
    
-   b) Link zur Übung:
+   b) Link zur Übung: tbd
+
+### SAP Build Code mit Joule
+
+Sie können entweder SAP Build mit Joule über ein eigenes Basic Trial Konto nutzen oder über ein System von uns.
+
+1. Basic Trial für SAP Build mit Joule erstellen. Bitte diesem Link und den Anweisungen folgen: [SAP Build Code basic trial](https://www.sap.com/products/technology-platform/developer-tools/trial.html)
+
+**ODER**
+
+2. System von uns nutzen
+   
+   a) Bitte einen User auswählen und als "verwendet markieren": tbd
+   
+   b) Link zur Übung: tbd
 
   
 ## Werden Sie teil der SAP Build Community
