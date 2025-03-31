@@ -49,7 +49,7 @@ Sie können entweder SAP Build Code mit Joule über ein eigenes Basic Trial Kont
   
 ## Werden Sie teil der SAP Build Community
 
-[SAP Builders community](www.sap.com/builders)
+[SAP Builders community](https://www.sap.com/builders)
 
 ![Main](Builder.jpg)
   
