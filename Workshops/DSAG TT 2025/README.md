@@ -28,9 +28,10 @@ Sie können entweder die Produkte, wie **SAP Build Apps**, **SAP Build Code**, *
 
 2. **System von uns** nutzen
    
-   a) Bitte einen User auswählen und als "verwendet markieren": tbd
+   a) Bitte einen User auswählen und als "verwendet markieren": [User für SAP Build](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/EZ5kSC4MeP5LlvujOhpaLvcB0jqjv6CEdozm_Cpa82sw6g)  
+      Passwort für die Liste: DSAGtt2025!
    
-   b) Link zur Übung: tbd
+   b) Link zur Übung: [SAP Build End-to-End](https://trials.cfapps.eu10-004.hana.ondemand.com/)
 
 #### Viel Erfolg!
 
