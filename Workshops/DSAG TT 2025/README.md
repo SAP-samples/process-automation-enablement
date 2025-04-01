@@ -49,9 +49,10 @@ Sie können entweder SAP Build Code mit Joule über ein eigenes Basic Trial Kont
 
 2. **System von uns** nutzen
    
-   a) Bitte einen User auswählen und als "verwendet markieren": tbd
+   a) Bitte einen User auswählen und als "verwendet markieren": [User für SAP Build Code](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/EXtl9lTcJctBgm1RoK8aqFwBOLKshRIlxM3XVGR-ItrehA)  
+   Passwort für die Lise: DSAGtt2025!
    
-   b) Link zur Übung: tbd
+   b) Link zur Übung: [SAP Build Code mit Joule](https://trials.cfapps.eu10-004.hana.ondemand.com/)
 
 
 #### Viel Erfolg!
