@@ -14,10 +14,8 @@ You will learn how to :
 2. Please access the system (SAP Build Lobby) here:
    - Open [SAP Build Lobby](https://lcnc-roadshow.eu10.build.cloud.sap/lobby). <br> Click on <b>axrhit5i0.accounts.ondemand.com</b>.<br><br>
 ![](images/IAS.png)
-
    - Enter your login details and click on <b>Continue</b>.
 ![](images/Login.png)
-
 4. You will get user and password from the instructor
 5. You **DO NOT** need to: setup any system, create any destinations
 6. Please follow carefully the descriptions in the exercise documents below
