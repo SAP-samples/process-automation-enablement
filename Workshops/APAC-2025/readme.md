@@ -14,7 +14,7 @@ You will learn how to :
 2. Please access the system (SAP Build Lobby) here:
    - Open [SAP Build Lobby](https://lcnc-roadshow.eu10.build.cloud.sap/lobby). <br> Click on <b>axrhit5i0.accounts.ondemand.com</b>.<br><br>
 ![](images/IAS.png)
-   - Enter your login details and click on <b>Continue</b>.
+3. Enter your login details and click on <b>Continue</b>.
 ![](images/Login.png)
 4. You will get user and password from the instructor
 5. You **DO NOT** need to: setup any system, create any destinations
@@ -22,7 +22,7 @@ You will learn how to :
 
 ## Exercises
 
-- [Exercise 1 - Create processes from BPMN models(Workshops/APAC-2025/exercises/bpmn import/readme.md)](30 minutes)
+- [Exercise 1 - [Create processes from BPMN models](Workshops/APAC-2025/exercises/bpmn import/readme.md)(30 minutes)
 - [Exercise 2 - Modularize & localize processes with process variants (30 minutes)]
 
   
