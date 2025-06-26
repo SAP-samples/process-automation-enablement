@@ -22,7 +22,7 @@ You will learn how to :
 
 ## Exercises
 
-- Exercise 1 - [Create processes from BPMN model](Workshops/APAC-2025/exercises/bpmn import/readme.md)](30 minutes)
+- Exercise 1 - [Create processes from BPMN model](https://github.com/SAP-samples/process-automation-enablement/blob/86c8566e13db55b26f5353f09cacad85e677239e/Workshops/APAC-2025/exercises/bpmn%20import/readme.md)(30 minutes)
 - Exercise 2 - Modularize & localize processes with process variants (30 minutes)
 
   
