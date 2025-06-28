@@ -22,7 +22,7 @@ Good luck!
 
 a.	Go to [Lobby link](https://sap-build-day-appprocess.us10.build.cloud.sap/lobby) <br>
 b.	Locate the Process Automation type of application with name “ BPMN Import - APAC Template” <br/>
-    &nbsp; i.	Click on the arrow to Navigate <br/>
+  /t i.	Click on the arrow to Navigate <br/>
    ii.	Choose “Versions” tab <br/>
    iii.	Choose the option for Version as “Editable” <br/>
    iv.	Give a different project name BPMN Import - APAC Template followed by your test user number (say for example, BPMN Import - APAC Template 01) and description if required <br/>
