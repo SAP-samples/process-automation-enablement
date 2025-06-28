@@ -52,6 +52,40 @@ A new project is saved now. <br/>
   g.	Process named “CapEx_Process” will be generated <br/>
 
 ### Adjust the Configurations in the process
+a.	Click on “CapEx_Process” and open it <br/>
+b.	Replace the placeholder for “Create Request” with SBPA form <br/>
+<ul>
+i.	Click on “Create Request” placeholder <br/>
+ii.	Click on “Replace with Form” <br/>
+iii.	Choose “Create Request Form” from Available Forms(Hint: You can create a form from scratch using Blank Form if there are no available forms) <br/>
+iv.	Now the placeholder is replaced with actual form .You can click on “Open Editor” to check the content of the form  <br/>
+v.	Click on General tab and <br/>
+<ul>
+1.	Click on Subject and enter “Request Form” <br/>
+2.	Click on User and choose Process Metadata->Started By <br/>
+</ul>
+vi.	Save the project <br/>
+</ul>
+c.	Adjust the script task “Calculate Total Price of Items”
+i.	Click on “Calculate Total Price of Items” placeholder <br/>
+ii.	On the right hand side, replace the code with the below one to make it a valid script <br/>
+<ul>
+1.	$.context.custom.totalProcurementCost = 0; <br>
+2.	var itemsList = $.context.form_createRequestForm_1.lineItemSection; <br>
+
+3.	for (var i = 0; i < $.context.form_createRequestForm_1.lineItemSection.length; i++) { <br>
+
+4.	    $.context.custom.totalProcurementCost += itemsList[i].cost ; <br>
+5.	
+6.	}<br>
+7.	$.context.custom.taxAmount = $.context.custom.totalProcurementCost * 0.05; <br>
+
+8.	$.context.custom.totalProcurementCost += $.context.custom.taxAmount; <br>
+
+</ul>
+iii.	Click on Apply  <br>
+iv.	Script task is valid and ready now <br>
+
 ### Replace the placeholder for “Get Procurement Approver” with SBPA subprocess
 ### Replace the placeholder for “Procurement Review Approval” with SBPA approval form
 ### Replace the placeholder for “Finance Review” with SBPA approval form
