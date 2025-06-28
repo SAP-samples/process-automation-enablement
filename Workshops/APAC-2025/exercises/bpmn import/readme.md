@@ -66,7 +66,7 @@ v.	Click on General tab and <br/>
 </ul>
 vi.	Save the project <br/>
 </ul>
-c.	Adjust the script task “Calculate Total Price of Items”
+c.	Adjust the script task “Calculate Total Price of Items” <br>
 i.	Click on “Calculate Total Price of Items” placeholder <br/>
 ii.	On the right hand side, replace the code with the below one to make it a valid script <br/>
 <ul>
