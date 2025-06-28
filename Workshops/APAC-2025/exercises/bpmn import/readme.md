@@ -43,6 +43,14 @@ b.	Locate the Process Automation type of application with name “ BPMN Import -
 A new project is saved now. <br/>
 
 ### Import BPMN file to generate process
+  a.	Click on your project <br/>
+  b.	Click on Import->BPMN Process <br/>
+  c.	Browse for the BPMN file and choose it <br/>
+  d.	Click on Import <br/>
+  e.	Check the warnings and choose Confirm <br/>
+  f.	Message that “BPMN Process Imported Successfully” will come up <br/>
+  g.	Process named “CapEx_Process” will be generated <br/>
+
 ### Adjust the Configurations in the process
 ### Replace the placeholder for “Get Procurement Approver” with SBPA subprocess
 ### Replace the placeholder for “Procurement Review Approval” with SBPA approval form
