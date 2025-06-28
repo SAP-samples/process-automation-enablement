@@ -13,17 +13,19 @@ You will learn how to :
   
 ## Exercises
 
-Exercise 1.1 - [Save as New Project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/bpmn%20import/readme.md#save-as-new-project)
-Exercise 1.2 [Import BPMN file to generate process]()
-Exercise 1.3 [Adjust the Configurations in the process]()
-Exercise 1.4 [Replace the placeholder for “Get Procurement Approver” with SBPA subprocess]()
-Exercise 1.5 [Replace the placeholder for “Procurement Review Approval” with SBPA approval form]()
-Exercise 1.6 [Replace the placeholder for “Finance Review” with SBPA approval form]()
-Exercise 1.7 [Replace the placeholder for “CEO Approval” with SBPA approval form]()
-Exercise 1.8 [Adjust the Mail task  “CapEx Approval Status Mail”]()
-Exercise 1.9 [Add a trigger]()
-Exercise 1.10 [Release and Deploy the project]() 
-Exercise 1.11 [Run the proce]()
+Exercise 1.1 - [Save as New Project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/bpmn%20import/readme.md#save-as-new-project) <br>
+Exercise 1.2 [Import BPMN file to generate process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#import-bpmn-file-to-generate-process
+) <br>
+Exercise 1.3 [Adjust the Configurations in the process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#adjust-the-configurations-in-the-process
+) <br>
+Exercise 1.4 [Replace the placeholder for “Get Procurement Approver” with SBPA subprocess](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#replace-the-placeholder-for-get-procurement-approver-with-sbpa-subprocess) <br>
+Exercise 1.5 [Replace the placeholder for “Procurement Review Approval” with SBPA approval form](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#replace-the-placeholder-for-procurement-review-approval-with-sbpa-approval-form) <br>
+Exercise 1.6 [Replace the placeholder for “Finance Review” with SBPA approval form](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#replace-the-placeholder-for-finance-review-with-sbpa-approval-form) <br>
+Exercise 1.7 [Replace the placeholder for “CEO Approval” with SBPA approval form](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#replace-the-placeholder-for-ceo-approval-with-sbpa-approval-form) <br>
+Exercise 1.8 [Adjust the Mail task  “CapEx Approval Status Mail”](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#adjust-the-mail-task--capex-approval-status-mail) <br>
+Exercise 1.9 [Add a trigger](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#add-a-trigger) <br>
+Exercise 1.10 [Release and Deploy the project](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#release-and-deploy-the-project) <br>
+Exercise 1.11 [Run the proce](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#run-the-process) <br>
   
 Good luck!
   
