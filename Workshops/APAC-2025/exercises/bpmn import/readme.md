@@ -86,7 +86,36 @@ iv.	Script task is valid and ready now <br>
 </ul>
 
 ### Replace the placeholder for “Get Procurement Approver” with SBPA subprocess
+i.	Click on “Get Procurement Approver” placeholder <br>
+ii.	Click on “Replace with Subprocess” <br>
+iii.	Choose “Get Procurement Approver” from Available Subprocesses(Hint: You can create a subprocess from scratch using Create a new subprocess if there are no available subprocesses) <br>
+iv.	Now the placeholder is replaced with actual subprocess .You can click on “Open Editor” to check the content of the form  <br>
+v.	Click on General tab and <br>
+<ul>
+1.	Click on Subject and enter “Request Form” <br>
+2.	Click on User and choose Process Metadata->Started By <br>
+</ul>
+vi.	Save the project <br>
+
 ### Replace the placeholder for “Procurement Review Approval” with SBPA approval form
+i.	Click on “Procurement Review Approval” placeholder <br>
+ii.	On the right side, change the Step Type from “Form” to “Approval” <br>
+iii.	Click on “Replace with Approval” <br>
+iv.	Choose “Procurement Review Approval” from Available Forms(Hint: You can create an approval form from scratch using Create a New Approval if there are no available forms) <br>
+v.	Now the placeholder is replaced with actual approval form .You can click on “Open Editor” to check the content of the form  <br>
+vi.	Click on General tab and <br>
+<ul>
+1.	Click on Subject and enter “Procurement Approval” <br>
+2.	Click on User and choose Process Metadata->Started By <br>
+3.	Save the project <br>
+</ul>
+vii.	Click on Inputs tab to map the inputs from context to the approval form <br><ul>
+1.	Click on Line item section and map the list “Line item section” from Create Request Form context <br>
+2.	Click on Project Description and map the attribute “Project Description” from Create Request Form context <br>
+3.	Click on Project lead and map the attribute “Project lead” from Create Request Form context <br>
+4.	Click on Project name and map the attribute “Project name” from Create Request Form context <br>
+5.	Save the project <br></ul>
+
 ### Replace the placeholder for “Finance Review” with SBPA approval form
 ### Replace the placeholder for “CEO Approval” with SBPA approval form
 ### Adjust the Mail task  “CapEx Approval Status Mail”
