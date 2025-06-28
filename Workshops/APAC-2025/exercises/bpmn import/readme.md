@@ -13,13 +13,13 @@ You will learn how to :
   
 ## Exercises
 
-- Exercise 1.1 - [Save as New Project ]((https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/bpmn%20import/readme.md#save-as-new-project))(30 minutes)
+- Exercise 1.1 - [Save as New Project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/bpmn%20import/readme.md#save-as-new-project)(30 minutes)
 -  
 Good luck!
   
 ### Save as New Project
 
-a.	Go to Lobby link https://sap-build-day-appprocess.us10.build.cloud.sap/lobby <br>
+a.	Go to [Lobby link](https://sap-build-day-appprocess.us10.build.cloud.sap/lobby) <br>
 b.	Locate the Process Automation type of application with name “ BPMN Import - APAC Template” <br>
    i.	Click on the arrow to Navigate <br>
    ii.	Choose “Versions” tab <br>
