@@ -67,24 +67,23 @@ v.	Click on General tab and <br/>
 vi.	Save the project <br/>
 </ul>
 c.	Adjust the script task “Calculate Total Price of Items” <br>
+<ul>
 i.	Click on “Calculate Total Price of Items” placeholder <br/>
 ii.	On the right hand side, replace the code with the below one to make it a valid script <br/>
 <ul>
 1.	$.context.custom.totalProcurementCost = 0; <br>
 2.	var itemsList = $.context.form_createRequestForm_1.lineItemSection; <br>
-
 3.	for (var i = 0; i < $.context.form_createRequestForm_1.lineItemSection.length; i++) { <br>
-
+<ul>
 4.	    $.context.custom.totalProcurementCost += itemsList[i].cost ; <br>
-5.	
-6.	}<br>
-7.	$.context.custom.taxAmount = $.context.custom.totalProcurementCost * 0.05; <br>
-
-8.	$.context.custom.totalProcurementCost += $.context.custom.taxAmount; <br>
-
+</ul>
+5.	}<br>
+6.	$.context.custom.taxAmount = $.context.custom.totalProcurementCost * 0.05; <br>
+7.	$.context.custom.totalProcurementCost += $.context.custom.taxAmount; <br>
 </ul>
 iii.	Click on Apply  <br>
 iv.	Script task is valid and ready now <br>
+</ul>
 
 ### Replace the placeholder for “Get Procurement Approver” with SBPA subprocess
 ### Replace the placeholder for “Procurement Review Approval” with SBPA approval form
