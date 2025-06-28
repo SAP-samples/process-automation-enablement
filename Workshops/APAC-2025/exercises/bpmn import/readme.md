@@ -13,7 +13,7 @@ You will learn how to :
   
 ## Exercises
 
-- Exercise 1.1 - [Save as New Project ]([https://github.com/SAP-samples/process-automation-enablement/blob/86c8566e13db55b26f5353f09cacad85e677239e/Workshops/APAC-2025/exercises/bpmn%20import/readme.md](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/bpmn%20import/readme.md#save-as-new-project))(30 minutes)
+- Exercise 1.1 - [Save as New Project ]((https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/bpmn%20import/readme.md#save-as-new-project))(30 minutes)
 -  
 Good luck!
   
