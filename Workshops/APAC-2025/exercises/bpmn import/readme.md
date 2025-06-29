@@ -66,10 +66,10 @@ ii.	Click on “Replace with Form” <br/>
 iii.	Choose “Create Request Form” from Available Forms(Hint: You can create a form from scratch using Blank Form if there are no available forms) <br/>
 iv.	Now the placeholder is replaced with actual form .You can click on “Open Editor” to check the content of the form  <br/>
 v.	Click on General tab and <br/>
-<ul>
-![](images/BPMN_Request_Form__Subject_7.png)  
-1.	Click on Subject and enter “Request Form” <br/>
+![](images/BPMN_Request_Form__Subject_7.png) 
 ![](images/BPMN_Request_Form__User_8.png)
+<ul> 
+1.	Click on Subject and enter “Request Form” <br/>
 2.	Click on User and choose Process Metadata->Started By <br/>
 </ul>
 vi.	Save the project <br/>
