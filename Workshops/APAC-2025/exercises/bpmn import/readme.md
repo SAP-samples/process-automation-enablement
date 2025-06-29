@@ -45,9 +45,12 @@ A new project is saved now. <br/>
 
 ### Import BPMN file to generate process
   a.	Click on your project <br/>
+  ![](images/BPMN_Import_BPMN_Process_2.png)
   b.	Click on Import->BPMN Process <br/>
+  ![](images/BPMN_Import_3.png)
   c.	Browse for the BPMN file and choose it <br/>
   d.	Click on Import <br/>
+  ![](images/BPMN_Confirm_Import_4)
   e.	Check the warnings and choose Confirm <br/>
   f.	Message that “BPMN Process Imported Successfully” will come up <br/>
   g.	Process named “CapEx_Process” will be generated <br/>
