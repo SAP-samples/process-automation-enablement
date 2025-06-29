@@ -98,7 +98,7 @@ iv.	Script task is valid and ready now <br>
 i.	Click on “Get Procurement Approver” placeholder <br>
 ![](images/BPMN_Get_Proc_Approver_9.png)
 ii.	Click on “Replace with Subprocess” <br>
-iii.	Choose “Get Procurement Approver” from Available Subprocesses(Hint: You can create a subprocess from scratch using Create a new subprocess if there are no available subprocesses) <br>
+iii.	Choose “Procurement Review Process” from Available Subprocesses(Hint: You can create a subprocess from scratch using Create a new subprocess if there are no available subprocesses) <br>
 iv.	Now the placeholder is replaced with actual subprocess .You can click on “Open Editor” to check the content of the form  <br>
 v.	Click on General tab and <br>
 <ul>
