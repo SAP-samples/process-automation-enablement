@@ -154,6 +154,7 @@ vii.	Click on Inputs tab to map the inputs from context to the approval form <br
 3.	Click on Project lead and map the attribute “Project lead” from Create Request Form context <br>
 4.	Click on Project amount and map the attribute “Project amount” from Create Request Form context <br>
 5.	Click on Project name and map the attribute “Project name” from Create Request Form context <br>
+![](images/BPMN_Finance_Approver_Inputs_Cust_Variables_16.png)
 6.	Click on Total cost and map the attribute “totalProcurementCost” from Custom Variables <br>
 7.	Click on Tax Amount and map the attribute “taxAmount” from Custom Variables <br>
 8.	Save the project <br></ul>
@@ -178,8 +179,10 @@ vii.	Click on Inputs tab to map the inputs from context to the approval form <br
 
 ### Adjust the Mail task  “CapEx Approval Status Mail”
 i.	Click on mail task “CapEx Approval Status Mail” <br>
+![](images/BPMN_Proc_Mail_Task_16.png)
 ii.	Click on Mail Header->To attribute with Process Metadata->Started By <br>
 iii.	Click on Mail Body->Open Mail Body Editor <br>
+![](images/BPMN_Proc_Mail_Task_17.png)
 iv.	In the pre-filled mail body, replace {Sender} with “Process Metadata->Started 
 By” from the context <br><ul>
 Replace rest of the mail body with below content <br>
@@ -194,10 +197,12 @@ c.	Give it a name like Scheduled Trigger <br>
 d.	Save the project <br>
 
 ### Release and Deploy the project 
+![](images/BPMN_Release_18.png)
 a.	Click on Release button <br>
 b.	Provide description as “Initial Version” <br>
 c.	Click on Release <br>
 d.	Successful project release should be shown with a “Show project version” link <br>
+![](images/BPMN_project_version_released_19.png)
 e.	Click on the “Show project version” link <br>
 f.	Click on Deploy button <br>
 g.	Choose an Environment <br>
