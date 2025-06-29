@@ -33,7 +33,7 @@ Good luck!
 
 a.	Go to [Lobby link](https://sap-build-day-appprocess.us10.build.cloud.sap/lobby) <br>
 b.	Locate the Process Automation type of application with name “ BPMN Import - APAC Template” <br/>
-![](images/IAS.png)
+![](images/BPMN_Save_as_new_project_1.png)
  <ul>
    i.	Click on the arrow to Navigate <br/>
    ii.	Choose “Versions” tab <br/>
