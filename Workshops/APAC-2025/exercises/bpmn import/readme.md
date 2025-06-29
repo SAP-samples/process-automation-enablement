@@ -96,6 +96,7 @@ iv.	Script task is valid and ready now <br>
 
 ### Replace the placeholder for “Get Procurement Approver” with SBPA subprocess
 i.	Click on “Get Procurement Approver” placeholder <br>
+![](images/BPMN_Get_Proc_Approver_9.png)
 ii.	Click on “Replace with Subprocess” <br>
 iii.	Choose “Get Procurement Approver” from Available Subprocesses(Hint: You can create a subprocess from scratch using Create a new subprocess if there are no available subprocesses) <br>
 iv.	Now the placeholder is replaced with actual subprocess .You can click on “Open Editor” to check the content of the form  <br>
