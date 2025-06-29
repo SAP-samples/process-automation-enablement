@@ -13,7 +13,6 @@ You will learn how to :
 1. Please use **Google Chrome** as your browser (others are not supported and you might not be able to experience every feature)
 2. Please access the system (SAP Build Lobby) here:
    - Open [SAP Build Lobby](https://sap-build-day-appprocess.us10.build.cloud.sap/lobby). <br> 
-![](images/IAS.png)
 3. Enter your login details and click on <b>Continue</b>.
 ![](images/Login.png)
 4. You will get user and password from the instructor
