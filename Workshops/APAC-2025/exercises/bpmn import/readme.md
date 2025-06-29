@@ -56,7 +56,9 @@ A new project is saved now. <br/>
   g.	Process named “CapEx_Process” will be generated <br/>
 
 ### Adjust the Configurations in the process
+![](images/BPMN_CapEx_Process_5.png)
 a.	Click on “CapEx_Process” and open it <br/>
+![](images/BPMN_Create_Request_Form_6.png)
 b.	Replace the placeholder for “Create Request” with SBPA form <br/>
 <ul>
 i.	Click on “Create Request” placeholder <br/>
@@ -65,7 +67,9 @@ iii.	Choose “Create Request Form” from Available Forms(Hint: You can create 
 iv.	Now the placeholder is replaced with actual form .You can click on “Open Editor” to check the content of the form  <br/>
 v.	Click on General tab and <br/>
 <ul>
+![](images/BPMN_Request_Form__Subject_7.png)  
 1.	Click on Subject and enter “Request Form” <br/>
+![](images/BPMN_Request_Form__User_8.png)
 2.	Click on User and choose Process Metadata->Started By <br/>
 </ul>
 vi.	Save the project <br/>
