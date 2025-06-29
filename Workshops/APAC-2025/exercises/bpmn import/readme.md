@@ -105,10 +105,10 @@ v.	Click on General tab and <br>
 1.	Click on Subject and enter “Request Form” <br>
 2.	Click on User and choose Process Metadata->Started By <br>
 </ul>
-vi. Click on Inputs tab to map the inputs from context to the approval form <br><ul> 
+vi. Click on Inputs tab to map the inputs from context to the subprocess <br><ul> 
 
   ![](images/BPMN_Get_Proc_Approver_Input_10.png)
-        Click on priority and map the attribute “priority” context <br>
+        Click on priority and map the attribute “priority” from the Create Request Form context <br>
 </ul>ul>
 vii.Save the project <br>
 
