@@ -105,22 +105,34 @@ v.	Click on General tab and <br>
 1.	Click on Subject and enter “Request Form” <br>
 2.	Click on User and choose Process Metadata->Started By <br>
 </ul>
-vi.	Save the project <br>
+vi. Click on Inputs tab to map the inputs from context to the approval form <br><ul> 
+
+  ![](images/BPMN_Get_Proc_Approver_Input_10.png)
+        Click on priority and map the attribute “priority” context <br>
+</ul>ul>
+vii.Save the project <br>
 
 ### Replace the placeholder for “Procurement Review Approval” with SBPA approval form
 i.	Click on “Procurement Review Approval” placeholder <br>
+![](images/BPMN_Proc_Approver_11.png)
 ii.	On the right side, change the Step Type from “Form” to “Approval” <br>
 iii.	Click on “Replace with Approval” <br>
 iv.	Choose “Procurement Review Approval” from Available Forms(Hint: You can create an approval form from scratch using Create a New Approval if there are no available forms) <br>
 v.	Now the placeholder is replaced with actual approval form .You can click on “Open Editor” to check the content of the form  <br>
 vi.	Click on General tab and <br>
 <ul>
+  
+![](images/BPMN_Proc_Approver_Subject12.png)  
 1.	Click on Subject and enter “Procurement Approval” <br>
+![](images/BPMN_Proc_Approver_Users_13.png)
 2.	Click on User and choose Process Metadata->Started By <br>
 3.	Save the project <br>
 </ul>
 vii.	Click on Inputs tab to map the inputs from context to the approval form <br><ul>
+  
+![](images/BPMN_Proc_Approver_Inputs_14.png)
 1.	Click on Line item section and map the list “Line item section” from Create Request Form context <br>
+![](images/BPMN_Proc_Approver_Inputs_15.png)
 2.	Click on Project Description and map the attribute “Project Description” from Create Request Form context <br>
 3.	Click on Project lead and map the attribute “Project lead” from Create Request Form context <br>
 4.	Click on Project name and map the attribute “Project name” from Create Request Form context <br>
