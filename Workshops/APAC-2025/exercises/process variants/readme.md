@@ -109,6 +109,18 @@ e.	Now , click on --- at the end of “CEO Approval” Variant <br>
 f.	Click on Activate to activate the variant back <br>
 
 ### Release and Deploy the project 
+a.	Click on Release button <br>
+b.	Provide description as “Initial Version” <br>
+c.	Click on Release <br>
+d.	Successful project release should be shown with a “Show project version” link <br>
+e.	Click on the “Show project version” link <br>
+f.	Click on Deploy button <br>
+g.	Choose an Environment <br>
+h.	Click on Deploy <br>
+i.	Created Trigger will be shown with the option to Deploy <br>
+j.	Click on Deploy button again shown here <br>
+k.	Project should be deployed in the Environment successfully <br>
+
 ### Run the process
 
 ## License
