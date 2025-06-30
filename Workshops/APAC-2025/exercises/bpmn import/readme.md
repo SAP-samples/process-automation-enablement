@@ -85,8 +85,9 @@ var itemsList = $.context.form_createRequestForm_1.lineItemSection; <br>
 for (var i = 0; i < $.context.form_createRequestForm_1.lineItemSection.length; i++) { <br>
 <ul>
 $.context.custom.totalProcurementCost += itemsList[i].cost ; <br>
-</ul>
+
 } <br>
+</ul>
    $.context.custom.taxAmount = $.context.custom.totalProcurementCost * 0.05; <br>
    $.context.custom.totalProcurementCost += $.context.custom.taxAmount; <br>
 </ul>
