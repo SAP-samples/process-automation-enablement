@@ -59,12 +59,17 @@ d.	Enter the name of the variant as “CEO Approval” and click on Create butto
 e.	Variant with name “CEO Approval “ is created now successfully <br>
 
 ### Add Start Condition 
+![](images/PV_Create_Start_Condition_6.png)
 a.	Click on “Add Start Condition” and open it <br/>
+![](images/PV_Create_Start_Condition_Fill_7.png)
 b.	Give the condition as “projectAmount is greater than 20000” by choosing  <br><ul>
 1.	projectAmount from Process input context <br>
 2.	is greater than from dropdown <br>
-3.	type 20000 for the actual amount to be compared <br>	
+3.	type 20000 for the actual amount to be compared <br>
+
               </ul>
+![](images/PV_Add_Steps_Variant_8.png)
+4.	Start Condition is all set now for the variant <br>
 
 ### Add Steps to Variants
 a.	Click on + sign to add steps to variant <br>
