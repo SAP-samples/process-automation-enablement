@@ -39,6 +39,16 @@ iv.	Give a different project name Variants APAC– Template followed by your tes
 v.	Click on “Save as New Project” <br>
 vi.	A new project is saved now. </ul><br>
 
+c.	Locate the Process Automation type of application with name “
+Variants APAC - Variant Management” <br> <ul>
+i.	Click on the arrow to Navigate <br>
+ii.	Choose “Versions” tab <br>
+iii.	Choose the option for Version as “Editable” <br>
+iv.	Give a different project name Variants APAC - Variant Management followed by your test user number (say for example, Variants APAC - Variant Management01) and description if required <br>
+v.	Click on “Save as New Project” <br>
+vi.	A new project is saved now. </ul><br>
+
+
 ### Create Process Variant
 ### Add Start Condition 
 ### Add Steps to Variants
