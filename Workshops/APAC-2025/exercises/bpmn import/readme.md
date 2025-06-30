@@ -86,9 +86,9 @@ for (var i = 0; i < $.context.form_createRequestForm_1.lineItemSection.length; i
 <ul>
 $.context.custom.totalProcurementCost += itemsList[i].cost ; <br>
 </ul>
-}<br>
-$.context.custom.taxAmount = $.context.custom.totalProcurementCost * 0.05; <br>
-$.context.custom.totalProcurementCost += $.context.custom.taxAmount; <br>
+} <br>
+   $.context.custom.taxAmount = $.context.custom.totalProcurementCost * 0.05; <br>
+   $.context.custom.totalProcurementCost += $.context.custom.taxAmount; <br>
 </ul>
 iii.	Click on Apply  <br>
 iv.	Script task is valid and ready now <br>
