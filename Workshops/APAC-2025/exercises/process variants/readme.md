@@ -48,10 +48,31 @@ iv.	Give a different project name Variants APAC - Variant Management followed by
 v.	Click on “Save as New Project” <br>
 vi.	A new project is saved now. </ul><br>
 
+### Create Process Variant 
+a.	Click on your Variant Management project <br>
+b.	Click on APAC Variants <br>
+c.	Click on “Create Variant” to create a new Process Variant <br>
+d.	Enter the name of the variant as “CEO Approval” and click on Create button <br>
+e.	Variant with name “CEO Approval “ is created now successfully <br>
 
-### Create Process Variant
 ### Add Start Condition 
+a.	Click on “Add Start Condition” and open it <br/>
+b.	Give the condition as “projectAmount is greater than 20000” by choosing  <br><ul>
+1.	projectAmount from Process input context <br>
+2.	is greater than from dropdown <br>
+3.	type 20000 for the actual amount to be compared <br>	
+              </ul>
+
 ### Add Steps to Variants
+a.	Click on + sign to add steps to variant <br>
+b.	Choose Manager Approval Step <br>
+c.	Manager Approval Step gets added <br>
+d.	Again press on +sign below Manager Approval Step <br>
+e.	Choose “Procurement Review Subprocess” step <br>
+f.	Again press on +sign below Manager Approval Step <br>
+g.	Choose “CEO Approval Process” step <br>
+h.	Now the “CEO Approval” Variant is created successfully <br>
+
 ### Add Step Condition 
 ### Add Step Configuration
 ### Move Steps Up-Down
