@@ -89,6 +89,7 @@ h.	Now the “CEO Approval” Variant is created successfully <br>
 a.	Click on “CEO Approval Process” step <br>
 b.	Click on “Step Condition” tab <br>
 c.	Open Condition Editor <br>
+![](images/PV_Step_Cond_apply_12.png)
 d.	Set the step condition as “priority is equal to High” <br><ul>
 i.	Choose “priority” from the Process Input Context <br>
 ii.	Choose “equal to” from drop down <br>
@@ -97,14 +98,18 @@ iii.	Choose “High” from next drop down <br>
 e.	Save the project
 
 ### Add Step Configuration
+![](images/PV_Step_Config_apply_13.png)
 a.	Click on “CEO Approval Process” step <br>
 b.	Click on “Step Configuration” tab <br>
+![](images/PV_Step_Config_map_total_cost_14.png)
 c.	Click on Total Cost and choose “projectAmount” <br>
+![](images/PV_Step_Config_map_proj_lead_15.png)
 d.	Click on Project Lead and choose “projectLead” <br>
 e.	Save the project <br>
 
 ### Move Priority of Variants
 a.	Click on APAC Variants  from Overview->Artifacts <br>
+![](images/PV_Move_16.png)
 b.	Click on --- at the end of “Procurement Approval” which has priority as 2 currently <br>
 c.	Click on Move Up <br>
 d.	Procurement Approval should get priority 1 now <br>
@@ -115,10 +120,12 @@ h.	On similar lines, you can try out Move to Top and Move to Bottom<br>
 
 ### Deactivate/Activate Variant
 a.	Click on APAC Variants  from Overview->Artifacts <br>
+![](images/PV_Deactivate_17.png)
 b.	Click on --- at the end of “CEO Approval” Variant <br>
 c.	Click on Deactivate <br>
 d.	This variant becomes deactivated with status Invalid <br>
 e.	Now , click on --- at the end of “CEO Approval” Variant <br>
+![](images/PV_Activate_18.png)
 f.	Click on Activate to activate the variant back <br>
 
 ### Release and Deploy the project 
