@@ -38,7 +38,7 @@ iii.	Choose the option for Version as “Editable” <br>
 iv.	Give a different project name Variants APAC– Template followed by your test user number (say for example, Variants APAC - Template01) and description if required <br>
 v.	Click on “Save as New Project” <br>
 vi.	A new project is saved now. </ul><br>
-
+![](images/PV_Variant_Mgmt_Template_Save_2.png)
 c.	Locate the Process Automation type of application with name “
 Variants APAC - Variant Management” <br> <ul>
 i.	Click on the arrow to Navigate <br>
@@ -50,8 +50,11 @@ vi.	A new project is saved now. </ul><br>
 
 ### Create Process Variant 
 a.	Click on your Variant Management project <br>
+![](images/PV_APAC_Variants_3.png)
 b.	Click on APAC Variants <br>
+![](images/PV_Create__New_Variant_4.png)
 c.	Click on “Create Variant” to create a new Process Variant <br>
+![](images/PV_Create__CEO_Variant_5.png)
 d.	Enter the name of the variant as “CEO Approval” and click on Create button <br>
 e.	Variant with name “CEO Approval “ is created now successfully <br>
 
