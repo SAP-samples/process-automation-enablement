@@ -77,7 +77,7 @@ a.	Click on + sign to add steps to variant <br>
 b.	Choose Manager Approval Step <br>
 c.	Manager Approval Step gets added <br>
 
-![](images/PV_Choose_Steps_Variant_9.png)
+![](images/PV_Chose_Proc_Step_10.png)
 d.	Again press on +sign below Manager Approval Step <br>
 e.	Choose “Procurement Review Subprocess” step <br>
 f.	Again press on +sign below Manager Approval Step <br>
@@ -85,6 +85,7 @@ g.	Choose “CEO Approval Process” step <br>
 h.	Now the “CEO Approval” Variant is created successfully <br>
 
 ### Add Step Condition 
+![](images/PV_Step_Cond_11.png)
 a.	Click on “CEO Approval Process” step <br>
 b.	Click on “Step Condition” tab <br>
 c.	Open Condition Editor <br>
