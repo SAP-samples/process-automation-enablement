@@ -12,11 +12,9 @@ You will learn how to :
 - Run the project
 
 ## Exercises
-Exercise 1.1 [Save as New Project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/bpmn%20import/readme.md#save-as-new-project) <br>
-Exercise 1.2 [Create Process Variant ](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#import-bpmn-file-to-generate-process
-) <br>
-Exercise 1.3 [Add Start Condition ](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#adjust-the-configurations-in-the-process
-) <br>
+Exercise 1.1 [Save as New Project ]() <br>
+Exercise 1.2 [Create Process Variant ]() <br>
+Exercise 1.3 [Add Start Condition ]() <br>
 Exercise 1.4 [Add Steps to Variants ]() <br>
 Exercise 1.5 [Add Step Condition ]() <br>
 Exercise 1.6 [Add Step Configuration]() <br>
