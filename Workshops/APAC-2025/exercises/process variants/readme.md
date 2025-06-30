@@ -29,6 +29,16 @@ Exercise 1.11 [Run the process](https://github.com/SAP-samples/process-automatio
 Good luck!
   
 ### Save as New Project
+a.	Go to Lobby link https://sap-build-day-appprocess.us10.build.cloud.sap/lobby <br>
+b.	Locate the Process Automation type of application with name “
+Variants APAC - Template” <br> <ul>
+i.	Click on the arrow to Navigate <br>
+ii.	Choose “Versions” tab <br>
+iii.	Choose the option for Version as “Editable” <br>
+iv.	Give a different project name Variants APAC– Template followed by your test user number (say for example, Variants APAC - Template01) and description if required <br>
+v.	Click on “Save as New Project” <br>
+vi.	A new project is saved now. </ul><br>
+
 ### Create Process Variant
 ### Add Start Condition 
 ### Add Steps to Variants
