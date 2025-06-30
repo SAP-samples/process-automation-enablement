@@ -12,17 +12,18 @@ You will learn how to :
 - Run the project
 
 ## Exercises
-Exercise 1.1 [Save as New Project ]() <br>
-Exercise 1.2 [Create Process Variant ]() <br>
-Exercise 1.3 [Add Start Condition ]() <br>
-Exercise 1.4 [Add Steps to Variants ]() <br>
-Exercise 1.5 [Add Step Condition ]() <br>
-Exercise 1.6 [Add Step Configuration]() <br>
-Exercise 1.7 [Deactivate Variant ]() <br>
-Exercise 1.8 [Move Steps Up-Down]() <br>
-Exercise 1.9 [Delete Variant]() <br>
-Exercise 1.10 [Release and Deploy the project ]() <br>
-Exercise 1.11 [Run the process]() <br>
+Exercise 1.1 [Save as New Project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#save-as-new-project
+) <br>
+Exercise 1.2 [Create Process Variant ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#create-process-variant) <br>
+Exercise 1.3 [Add Start Condition ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#add-start-condition) <br>
+Exercise 1.4 [Add Steps to Variants ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#add-steps-to-variants) <br>
+Exercise 1.5 [Add Step Condition ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#add-step-condition) <br>
+Exercise 1.6 [Add Step Configuration](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#add-step-configuration) <br>
+Exercise 1.7 [Move Steps Up-Down](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#move-steps-up-down) <br>
+Exercise 1.8 [Deactivate Variant ]([https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#move-steps-up-down](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#deactivate-variant)) <br>
+Exercise 1.9 [Delete Variant](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#delete-variant) <br>
+Exercise 1.10 [Release and Deploy the project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#release-and-deploy-the-project) <br>
+Exercise 1.11 [Run the process](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#run-the-process) <br>
 
 -  
 Good luck!
