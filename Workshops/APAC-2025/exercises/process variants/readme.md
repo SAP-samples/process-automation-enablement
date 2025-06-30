@@ -72,6 +72,7 @@ b.	Give the condition as “projectAmount is greater than 20000” by choosing  
 4.	Start Condition is all set now for the variant <br>
 
 ### Add Steps to Variants
+![](images/PV_Choose_Steps_Variant_9.png)
 a.	Click on + sign to add steps to variant <br>
 b.	Choose Manager Approval Step <br>
 c.	Manager Approval Step gets added <br>
