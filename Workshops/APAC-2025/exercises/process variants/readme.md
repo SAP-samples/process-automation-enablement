@@ -29,6 +29,7 @@ Good luck!
   
 ### Save as New Project
 a.	Go to Lobby link https://sap-build-day-appprocess.us10.build.cloud.sap/lobby <br>
+![](images/PV_Variant_Template_Save_1.png)
 b.	Locate the Process Automation type of application with name “
 Variants APAC - Template” <br> <ul>
 i.	Click on the arrow to Navigate <br>
