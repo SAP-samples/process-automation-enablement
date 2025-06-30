@@ -74,7 +74,23 @@ g.	Choose “CEO Approval Process” step <br>
 h.	Now the “CEO Approval” Variant is created successfully <br>
 
 ### Add Step Condition 
+a.	Click on “CEO Approval Process” step <br>
+b.	Click on “Step Condition” tab <br>
+c.	Open Condition Editor <br>
+d.	Set the step condition as “priority is equal to High” <br><ul>
+i.	Choose “priority” from the Process Input Context <br>
+ii.	Choose “equal to” from drop down <br>
+iii.	Choose “High” from next drop down <br>
+</ul> <br>
+e.	Save the project
+
 ### Add Step Configuration
+a.	Click on “CEO Approval Process” step <br>
+b.	Click on “Step Configuration” tab <br>
+c.	Click on Total Cost and choose “projectAmount” <br>
+d.	Click on Project Lead and choose “projectLead” <br>
+e.	Save the project <br>
+
 ### Move Steps Up-Down
 ### Deactivate Variant
 ### Delete Variant
