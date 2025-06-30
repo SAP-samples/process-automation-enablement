@@ -101,7 +101,7 @@ f.	Click on Move Down<br>
 g.	Procurement Approval should get priority 2 again now <br>
 h.	On similar lines, you can try out Move to Top and Move to Bottom<br>
 
-### Deactivate Variant
+### Deactivate/Activate Variant
 ### Delete Variant
 ### Release and Deploy the project 
 ### Run the process
