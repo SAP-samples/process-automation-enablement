@@ -12,8 +12,19 @@ You will learn how to :
 - Run the project
 
 ## Exercises
-
-- Exercise 2 - [Modularize & localize processes with process variants](https://github.com/SAP-samples/process-automation-                    enablement/blob/86c8566e13db55b26f5353f09cacad85e677239e/Workshops/APAC-                                                      2025/exercises/process%20variants/readme.md) (30 minutes)
+Exercise 1.1 [Save as New Project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/bpmn%20import/readme.md#save-as-new-project) <br>
+Exercise 1.2 [Create Process Variant ](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#import-bpmn-file-to-generate-process
+) <br>
+Exercise 1.3 [Add Start Condition ](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/APAC-2025/exercises/bpmn%20import#adjust-the-configurations-in-the-process
+) <br>
+Exercise 1.4 [Add Steps to Variants ]() <br>
+Exercise 1.5 [Add Step Condition ]() <br>
+Exercise 1.6 [Add Step Configuration]() <br>
+Exercise 1.7 [Deactivate Variant ]() <br>
+Exercise 1.8 [Move Steps Up-Down]() <br>
+Exercise 1.9 [Delete Variant]() <br>
+Exercise 1.10 [Release and Deploy the project ]() <br>
+Exercise 1.11 [Run the process]() <br>
 
 -  
 Good luck!
