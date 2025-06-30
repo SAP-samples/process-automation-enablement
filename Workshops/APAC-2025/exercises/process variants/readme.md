@@ -27,7 +27,17 @@ Exercise 1.11 [Run the process]() <br>
 -  
 Good luck!
   
-
+### Save as New Project
+### Create Process Variant
+### Add Start Condition 
+### Add Steps to Variants
+### Add Step Condition 
+### Add Step Configuration
+### Move Steps Up-Down
+### Deactivate Variant
+### Delete Variant
+### Release and Deploy the project 
+### Run the process
 
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
