@@ -19,7 +19,7 @@ Exercise 1.3 [Add Start Condition ](https://github.com/SAP-samples/process-autom
 Exercise 1.4 [Add Steps to Variants ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#add-steps-to-variants) <br>
 Exercise 1.5 [Add Step Condition ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#add-step-condition) <br>
 Exercise 1.6 [Add Step Configuration](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#add-step-configuration) <br>
-Exercise 1.7 [Move Steps Up-Down](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#move-steps-up-down) <br>
+Exercise 1.7 [Move Priority of Variants](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#move-steps-up-down) <br>
 Exercise 1.8 [Deactivate Variant ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#deactivate-variant) <br>
 Exercise 1.9 [Delete Variant](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#delete-variant) <br>
 Exercise 1.10 [Release and Deploy the project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#release-and-deploy-the-project) <br>
@@ -91,7 +91,16 @@ c.	Click on Total Cost and choose “projectAmount” <br>
 d.	Click on Project Lead and choose “projectLead” <br>
 e.	Save the project <br>
 
-### Move Steps Up-Down
+### Move Priority of Variants
+a.	Click on APAC Variants  from Overview->Artifacts <br>
+b.	Click on --- at the end of “Procurement Approval” which has priority as 2 currently <br>
+c.	Click on Move Up <br>
+d.	Procurement Approval should get priority 1 now <br>
+e.	Again Click on --- at the end of “Procurement Approval” which has priority as 1 currently <br>
+f.	Click on Move Down<br>
+g.	Procurement Approval should get priority 2 again now <br>
+h.	On similar lines, you can try out Move to Top and Move to Bottom<br>
+
 ### Deactivate Variant
 ### Delete Variant
 ### Release and Deploy the project 
