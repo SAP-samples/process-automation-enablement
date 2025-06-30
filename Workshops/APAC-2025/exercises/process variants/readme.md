@@ -76,6 +76,8 @@ b.	Give the condition as “projectAmount is greater than 20000” by choosing  
 a.	Click on + sign to add steps to variant <br>
 b.	Choose Manager Approval Step <br>
 c.	Manager Approval Step gets added <br>
+
+![](images/PV_Choose_Steps_Variant_9.png)
 d.	Again press on +sign below Manager Approval Step <br>
 e.	Choose “Procurement Review Subprocess” step <br>
 f.	Again press on +sign below Manager Approval Step <br>
