@@ -21,9 +21,8 @@ Exercise 1.5 [Add Step Condition ](https://github.com/SAP-samples/process-automa
 Exercise 1.6 [Add Step Configuration](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#add-step-configuration) <br>
 Exercise 1.7 [Move Priority of Variants](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#move-priority-of-variants) <br>
 Exercise 1.8 [Deactivate/Activate Variant ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#deactivateactivate-variant) <br>
-Exercise 1.9 [Delete Variant](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#delete-variant) <br>
-Exercise 1.10 [Release and Deploy the project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#release-and-deploy-the-project) <br>
-Exercise 1.11 [Run the process](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#run-the-process) <br>
+Exercise 1.9 [Release and Deploy the project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#release-and-deploy-the-project) <br>
+Exercise 1.10 [Run the process](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#run-the-process) <br>
 
 -  
 Good luck!
@@ -102,7 +101,13 @@ g.	Procurement Approval should get priority 2 again now <br>
 h.	On similar lines, you can try out Move to Top and Move to Bottom<br>
 
 ### Deactivate/Activate Variant
-### Delete Variant
+a.	Click on APAC Variants  from Overview->Artifacts <br>
+b.	Click on --- at the end of “CEO Approval” Variant <br>
+c.	Click on Deactivate <br>
+d.	This variant becomes deactivated with status Invalid <br>
+e.	Now , click on --- at the end of “CEO Approval” Variant <br>
+f.	Click on Activate to activate the variant back <br>
+
 ### Release and Deploy the project 
 ### Run the process
 
