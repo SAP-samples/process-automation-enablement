@@ -69,29 +69,35 @@ viii.Add your template project which you created in previous step and click on C
 ![](images/PV_Create_Variant_Mgmt.png) <br>
 
 a.	For the creation of the variants first step is to create the Variant Management which is based on the template added as the dependency. To create the Variant Management, from the Overview tab, click on 
-Create --> Variant Management. There can only be one Variant Management in a Project. <br>
-![](images/PV_APAC_Variants_3.png)
-b.	Click on APAC Variants <br>
-![](images/PV_Create__New_Variant_4.png)
+Create --> Variant Management. There can only be one Variant Management in a Project. In this project, in the interest of the time the Variant Management is already created for you. <br>
+![](images/PV_Create_Variant_Mgmt_Template.png) <br>
+b. Give your Variant Management a name and choose the template. Please note this is the Variant template that you created in the project earlier. In this project, in the interest of the time the Variant Management is already created for you and we will proceed with the creation of Variants. <br>
+
+![](images/PV_APAC_Variants_3.png)<br>
+b.	Click on APAC Variants. Here you can see that few variants are created already for you.<br> 
+These variants have different start conditions. Based on the fulfillment of the condition, the relevant variant will start<br>
+
+![](images/PV_Create__New_Variant_4.png)<br>
 c.	Click on “Create Variant” to create a new Process Variant <br>
-![](images/PV_Create__CEO_Variant_5.png)
+
+![](images/PV_Create__CEO_Variant_5.png)<br>
 d.	Enter the name of the variant as “CEO Approval” and click on Create button <br>
 e.	Variant with name “CEO Approval “ is created now successfully <br>
 
 ### Add Start Condition 
-![](images/PV_Create_Start_Condition_6.png)
-a.	Click on “Add Start Condition” and open it <br/>
-![](images/PV_Create_Start_Condition_Fill_7.png)
+![](images/PV_Create_Start_Condition_6.png)<br>
+a.	Click on “Add Start Condition” and it opens the Conditions Editor <br/>
+![](images/PV_Create_Start_Condition_Fill_7.png)<br>
 b.	Give the condition as “projectAmount is greater than 20000” by choosing  <br><ul>
 1.	projectAmount from Process input context <br>
 2.	is greater than from dropdown <br>
 3.	type 20000 for the actual amount to be compared <br></ul>              
-![](images/PV_Add_Steps_Variant_8.png)
+![](images/PV_Add_Steps_Variant_8.png)<br>
 4.	Start Condition is all set now for the variant <br>
 
 ### Add Steps to Variants
-![](images/PV_Choose_Steps_Variant_9.png)
-a.	Click on + sign to add steps to variant <br>
+![](images/PV_Choose_Steps_Variant_9.png)<br>
+a.	Click on + sign to add steps to variant. Here you will see the steps that has been exposed in the Variant Template <br>
 b.	Choose Manager Approval Step <br>
 c.	Manager Approval Step gets added <br>
 
