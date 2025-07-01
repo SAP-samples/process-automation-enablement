@@ -51,6 +51,7 @@ iii.	Choose the option for Version as “Editable” <br>
 iv.	Give a different project name Variants APAC - Variant Management followed by your test user number (say for example, Variants APAC - Variant Management01) and description if required <br>
 v.	Click on “Save as New Project” <br>
 vi.	A new project is saved now. <br>
+![](images/PV_Add_Dependency_19.png)
 vii.Go to Settings -> Dependencies -> Others tab -> Add -> Add a Business Process Project Dependency <br>
 viii.Add your template project which you created in previous step <br></ul>
 
