@@ -33,18 +33,21 @@ b.	Locate the Process Automation type of application with name “
 Variants APAC - Template” <br> 
 <ul>
 i.	Click on the arrow to Navigate <br>
-ii.	Choose **“Versions”** tab <br>
-iii.	Choose the option for Version as **“Editable”** <br>
-iv.	Click on **“Save as New Project”** <br>
-v.	Give a different project name Variants **APAC– Template followed by your test user number** (say for example, Variants APAC - Template01) and description if required and click on **Save as New** <br> 
+ii.	Choose <b>“Versions”</b> tab <br>
+iii.	Choose the option for Version as <b>“Editable”</b>b> <br>
+iv.	Click on <b>“Save as New Project”</b> <br>
+v.	Give a different project name Variants <b>APAC– Template followed by your test user number</b>b> (say for example, Variants APAC - Template01) and description if required and click on <b>Save as New</b>b> <br> 
 vi.	A new project is saved now. <br>
-vii.Click on **Release** button <br>
-viii. Provide description as “Initial Version” <br>
-ix. Click on Release <br>
-x. Successful project release should be shown with a “Show project version” link <br>
-xi. Go to the Lobby and locate your project.<br>
-xii. Click on the arrow next to your project and choose the **Versions** tab. <br>
-xiii. Locate the version of the project released and from the 3 dots menu choose the option **Publish to Library**. <br>
+vii. Open the project and open the process <b> "Main_Capex_Process" </b> by clicking on it from the <b>Overview </b> tab.<br>
+viii. Locate the "Review Variant Template" in the process and open the template by double clicking it (or from the 3 dots menu click on Open Editor).<br>
+<i>Steps and the attributes available for the variants are exposed in the template. You can add or delete any step needed but in the interest of time for the current workshop leave it as such. </i>  <br>
+ix. Click on <b>Release</b> button <br>
+x. Provide description as “Initial Version” <br>
+xi. Click on Release <br>
+xii. Successful project release should be shown with a “Show project version” link <br>
+xiii. Go to the Lobby and locate your project.<br>
+xiv. Click on the arrow next to your project and choose the <b>Versions</b> tab. <br>
+xv. Locate the version of the project released and from the 3 dots menu choose the option <b>Publish to Library</b>. <br>
 </ul><br>
 
 ![](images/PV_Variant_Mgmt_Template_Save_2.png)
