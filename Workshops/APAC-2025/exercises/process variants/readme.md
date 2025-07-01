@@ -37,9 +37,10 @@ ii.	Choose “Versions” tab <br>
 iii.	Choose the option for Version as “Editable” <br>
 iv.	Give a different project name Variants APAC– Template followed by your test user number (say for example, Variants APAC - Template01) and description if required <br>
 v.	Click on “Save as New Project” <br>
-vi.	A new project is saved now. </ul><br>
+vi.	A new project is saved now. <br>
 vii.[Release and Deploy the project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#release-and-deploy-the-project) <br>
 viii.Publish to Library <br>
+</ul><br>
 
 ![](images/PV_Variant_Mgmt_Template_Save_2.png)
 c.	Locate the Process Automation type of application with name “
@@ -49,9 +50,9 @@ ii.	Choose “Versions” tab <br>
 iii.	Choose the option for Version as “Editable” <br>
 iv.	Give a different project name Variants APAC - Variant Management followed by your test user number (say for example, Variants APAC - Variant Management01) and description if required <br>
 v.	Click on “Save as New Project” <br>
-vi.	A new project is saved now. </ul><br>
+vi.	A new project is saved now. ><br>
 vii.Go to Settings -> Dependencies -> Others tab -> Add -> Add a Business Process Project Dependency <br>
-viii.Add your template project which you created in previous step <br>
+viii.Add your template project which you created in previous step <br></ul
 
 ### Create Process Variant 
 a.	Click on your Variant Management project <br>
