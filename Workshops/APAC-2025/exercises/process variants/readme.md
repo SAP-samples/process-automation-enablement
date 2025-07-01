@@ -98,8 +98,7 @@ c.	Open Condition Editor <br>
 d.	Set the step condition as “priority is equal to High” <br><ul>
 i.	Choose “priority” from the Process Input Context <br>
 ii.	Choose “equal to” from drop down <br>
-iii.	Choose “High” from next drop down <br>
-</ul> <br>
+iii.	Choose “High” from next drop down <br></ul>
 e.	Save the project
 
 ### Add Step Configuration
