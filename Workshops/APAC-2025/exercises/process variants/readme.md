@@ -35,8 +35,9 @@ Variants APAC - Template” <br> <ul>
 i.	Click on the arrow to Navigate <br>
 ii.	Choose “Versions” tab <br>
 iii.	Choose the option for Version as “Editable” <br>
-iv.	Give a different project name Variants APAC– Template followed by your test user number (say for example, Variants APAC - Template01) and description if required <br>
-v.	Click on “Save as New Project” <br>
+iv.	Click on “Save as New Project” <br>
+v.	Give a different project name Variants **APAC– Template followed by your test user number** (say for example, Variants APAC - Template01) and description if required <br> and click on **Save as New**
+
 vi.	A new project is saved now. <br>
 vii.[Release and Deploy the project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#release-and-deploy-the-project) <br>
 viii.Publish to Library <br>
