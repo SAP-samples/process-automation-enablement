@@ -149,6 +149,17 @@ j.	Click on Deploy button again shown here <br>
 k.	Project should be deployed in the Environment successfully <br>
 
 ### Run the process
+a. Go to `Control Tower -> Environments` <br>
+b. Select environment - `Process Variants Env` <br>
+c. Click on `More -> Processes and Worklfows` <br>
+d. Filter by your project name <br>
+e. Select the process - `CapEx_Process` <br>
+f. Click on `Start New Instance` <br>
+g. Relace the content in the editor with an empty JSON <br>
+```
+{}
+```
+h. Click on `Start New Instance and Close`
 
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
