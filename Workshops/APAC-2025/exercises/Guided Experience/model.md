@@ -48,7 +48,7 @@ You will learn
 
 ### Create a Guided Process
 
-1.	Click on the `Create` button to begin setting up a new guided process. Upon clicking, a list of skills will be displayed.
+1.	Go to **Artifacts** tab and click on the `Create` button to begin setting up a new guided process. Upon clicking, a list of skills will be displayed.
 
     ![Create Guided Process](./assets/SBPA_deployment/createGuidedProcess.png)
 
