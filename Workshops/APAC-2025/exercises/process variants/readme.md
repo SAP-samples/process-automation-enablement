@@ -12,8 +12,7 @@ You will learn how to :
 - Run the project
 
 ## Exercises
-Exercise 1.1 [Create Variant Template & Variant Management ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#save-as-new-project
-) <br>
+Exercise 1.1 [Create Variant Template & Variant Management ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#create-variant-template-and-variant-management) <br>
 Exercise 1.2 [Create Process Variant ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#create-process-variant) <br>
 Exercise 1.3 [Add Start Condition ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#add-start-condition) <br>
 Exercise 1.4 [Add Steps to Variants ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#add-steps-to-variants) <br>
