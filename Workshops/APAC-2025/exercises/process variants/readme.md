@@ -34,15 +34,18 @@ b.	Locate the Process Automation type of application with name “
 Variants APAC - Template” <br> 
 <ul>
 i.	Click on the arrow to Navigate <br>
-ii.	Choose “Versions” tab <br>
-iii.	Choose the option for Version as “Editable” <br>
-iv.	Click on “Save as New Project” <br>
+ii.	Choose **“Versions”** tab <br>
+iii.	Choose the option for Version as **“Editable”** <br>
+iv.	Click on **“Save as New Project”** <br>
 v.	Give a different project name Variants **APAC– Template followed by your test user number** (say for example, Variants APAC - Template01) and description if required and click on **Save as New** <br> 
 vi.	A new project is saved now. <br>
-vii.[Release and the project ](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/APAC-2025/exercises/process%20variants/readme.md#release-and-deploy-the-project) <br>
-viii. Go to the Lobby and locate your project.<br>
-ix. Click on the arrow next to your project and choose the versions tab. <br>
-x. Locate the version of the project released and from the 3 dots menu choose the option **Publish to Library**. <br>
+vii.Click on **Release** button <br>
+viii. Provide description as “Initial Version” <br>
+ix. Click on Release <br>
+x. Successful project release should be shown with a “Show project version” link <br>
+xi. Go to the Lobby and locate your project.<br>
+xii. Click on the arrow next to your project and choose the **Versions** tab. <br>
+xiii. Locate the version of the project released and from the 3 dots menu choose the option **Publish to Library**. <br>
 </ul><br>
 
 ![](images/PV_Variant_Mgmt_Template_Save_2.png)
