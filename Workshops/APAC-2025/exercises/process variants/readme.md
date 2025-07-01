@@ -47,6 +47,8 @@ xi. Click on Release <br>
 xii. Successful project release should be shown with a “Show project version” link <br>
 xiii. Go to the Lobby and locate your project.<br>
 xiv. Click on the arrow next to your project and choose the <b>Versions</b> tab. <br>
+  
+![](images/PV_Publish_To_Library.png)
 xv. Locate the version of the project released and from the 3 dots menu choose the option <b>Publish to Library</b>. <br>
 </ul><br>
 
