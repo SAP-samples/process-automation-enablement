@@ -146,7 +146,7 @@ At this stage, you have successfully created a **stage** containing **two mandat
 
 **"Wait for Duration"** step introduces a pause in the guided process, requiring a specific date to be elapsed before the process can proceed further. This ensures that execution resumes only after the defined waiting period has elapsed.
 
-1. Click the `+` icon located just above **Stage 1**. This will open a drop-down menu with two options: *Branch, Wait for Duration*.
+1. Click the `+` icon located just above **Stage 1**. This will open a drop-down menu. Select **Controls and Events** where you see two options: *Branch, Wait for Duration*.
 
     ![Select plus icon](./assets/SBPA_deployment/addControl&Events.png)
 
