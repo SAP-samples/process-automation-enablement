@@ -63,10 +63,11 @@ v.	Click on “Save as New Project” <br>
 vi.	A new project is saved now. <br>
 ![](images/PV_Add_Dependency_19.png)
 vii.Go to Settings -> Dependencies -> Others tab -> Add -> Add a Business Process Project Dependency <br>
-viii.Add your template project which you created in previous step <br></ul>
+viii.Add your template project which you created in previous step and click on Close <br></ul>
 
 ### Create Process Variant 
-a.	Click on your Variant Management project <br>
+a.	For the creation of the variants first step is to create the Variant Management which is based on the template added as the dependency. To create the Variant Management, from the Overview tab, click on 
+Create --> Variant Management. There can only be one Variant Management in a Project. <br>
 ![](images/PV_APAC_Variants_3.png)
 b.	Click on APAC Variants <br>
 ![](images/PV_Create__New_Variant_4.png)
