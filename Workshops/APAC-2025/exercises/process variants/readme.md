@@ -72,9 +72,7 @@ a.	Click on “Add Start Condition” and open it <br/>
 b.	Give the condition as “projectAmount is greater than 20000” by choosing  <br><ul>
 1.	projectAmount from Process input context <br>
 2.	is greater than from dropdown <br>
-3.	type 20000 for the actual amount to be compared <br>
-
-              </ul>
+3.	type 20000 for the actual amount to be compared <br></ul>              
 ![](images/PV_Add_Steps_Variant_8.png)
 4.	Start Condition is all set now for the variant <br>
 
