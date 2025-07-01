@@ -155,7 +155,7 @@ c. Click on `More -> Processes and Worklfows` <br>
 d. Filter by your project name <br>
 e. Select the process - `CapEx_Process` <br>
 f. Click on `Start New Instance` <br>
-g. Relace the content in the editor with an empty JSON <br>
+g. Replace the content in the editor with an empty JSON <br>
 ```
 {}
 ```
