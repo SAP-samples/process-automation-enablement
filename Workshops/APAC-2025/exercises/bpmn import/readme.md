@@ -1,14 +1,14 @@
 ## Description
 
-This exrercise contains the material for hands-on sessions called "Create processes from BPMN models".
+This exercise contains the material for hands-on sessions called "Create processes from BPMN models".
 
 ## Overview
 
 You will learn how to :
 - Generate a process in SBPA given the BPMN file from Signavio as input
-- Do the necessary manual configuration to replave the placeholders for actual SBPA form, approval forms, subprocess
+- Do the necessary manual configuration to replace the placeholders for actual SBPA form, approval forms, subprocess
 - Adjust the script task, mail task
-- Save , Release and Deploy the project
+- Save, Release and Deploy the project
 - Run the project
   
 ## Exercises
@@ -32,14 +32,14 @@ Good luck!
 ### Save as New Project
 
 a.	Go to [Lobby link](https://sap-build-day-appprocess.us10.build.cloud.sap/lobby) <br>
-b.	Locate the Process Automation type of application with name “ BPMN Import - APAC Template” <br/>
+b.	Locate the Process Automation type of application with name “BPMN Import - APAC Template” <br/>
 ![](images/BPMN_Save_as_new_project_1.png)
  <ul>
    i.	Click on the arrow to Navigate <br/>
    ii.	Choose “Versions” tab <br/>
    iii.	Choose the option for Version as “Editable” <br/>
-   iv.	Give a different project name BPMN Import - APAC Template followed by your test user number (say for example, BPMN    Import - APAC Template 01) and description if required <br/>
-   v.	Click on “Save as New Project” <br/>
+   iv.	Click on “Save as New Project” <br/>
+   v.	Give a different project name BPMN Import - APAC Template followed by your test user number (say for example, BPMN Import - APAC Template 01) and description if required <br/>
   </ul>
 A new project is saved now. <br/>
 
@@ -77,20 +77,19 @@ vi.	Save the project <br/>
 </ul>
 c.	Adjust the script task “Calculate Total Price of Items” <br>
 <ul>
-i.	Click on “Calculate Total Price of Items” placeholder <br/>
+i.	Click on “Calculate Total Price of Items” script task <br/>
 ii.	On the right hand side,Click on Open Script Task Editor to replace the code with the below one to make it a valid script <br/>
-<ul>
-$.context.custom.totalProcurementCost = 0; <br>
-var itemsList = $.context.form_createRequestForm_1.lineItemSection; <br>
-for (var i = 0; i < $.context.form_createRequestForm_1.lineItemSection.length; i++) { <br>
-<ul>
-$.context.custom.totalProcurementCost += itemsList[i].cost ; <br>
 
-} <br>
-</ul> <br>
-    $.context.custom.taxAmount = $.context.custom.totalProcurementCost  * 0.05; <br>
-   $.context.custom.totalProcurementCost  +=  $.context.custom.taxAmount; <br>
-</ul>
+```
+$.context.custom.totalProcurementCost = 0;
+var itemsList = $.context.form_createRequestForm_1.lineItemSection;
+for (var i = 0; i < $.context.form_createRequestForm_1.lineItemSection.length; i++) {
+    $.context.custom.totalProcurementCost += itemsList[i].cost ;
+}
+$.context.custom.taxAmount = $.context.custom.totalProcurementCost * 0.05;
+$.context.custom.totalProcurementCost  +=  $.context.custom.taxAmount;
+```
+
 iii.	Click on Apply  <br>
 iv.	Script task is valid and ready now <br>
 </ul>
@@ -100,18 +99,13 @@ i.	Click on “Get Procurement Approver” placeholder <br>
 ![](images/BPMN_Get_Proc_Approver_9.png)
 ii.	Click on “Replace with Subprocess” <br>
 iii.	Choose “Procurement Review Process” from Available Subprocesses(Hint: You can create a subprocess from scratch using Create a new subprocess if there are no available subprocesses) <br>
-iv.	Now the placeholder is replaced with actual subprocess .You can click on “Open Editor” to check the content of the form  <br>
-v.	Click on General tab and <br>
-<ul>
-1.	Click on Subject and enter “Request Form” <br>
-2.	Click on User and choose Process Metadata->Started By <br>
-</ul>
-vi. Click on Inputs tab to map the inputs from context to the subprocess <br><ul> 
+iv.	Now the placeholder is replaced with actual subprocess .You can click on “Open Editor” to check the content of the subprocess  <br>
+v. Click on Inputs tab to map the inputs from context to the subprocess <br><ul> 
 
   ![](images/BPMN_Get_Proc_Approver_Input_10.png)
         Click on priority and map the attribute “priority” from the Create Request Form context <br>
-</ul>ul>
-vii.Save the project <br>
+</ul>
+vi. Save the project <br>
 
 ### Replace the placeholder for “Procurement Review Approval” with SBPA approval form
 i.	Click on “Procurement Review Approval” placeholder <br>
