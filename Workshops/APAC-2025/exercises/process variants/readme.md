@@ -111,7 +111,7 @@ c.	Manager Approval Step gets added <br><br>
 ![](images/PV_Chose_Proc_Step_10.png)<br><br>
 d.	Again press on +sign below Manager Approval Step <br>
 e.	Choose “Procurement Review Subprocess” step <br>
-f.	Again press on +sign below Manager Approval Step <br>
+f.	Again press on +sign below Procurement Review Subprocess <br>
 g.	Choose “CEO Approval Process” step <br><br>
 
 
