@@ -202,7 +202,8 @@ g. Click on the instance to see the details of the running variant process
 h. You will get the approval form in your Inbox. Go to Inbox and open the Form received. You can fill the details like Vendor and Comments. Click on Approve. <br>
 i. Come back to the Monitoring window and click on refresh icon.
 j. You will see that the variant execution is completed.
-
+![](images/PV_Variant_Start_4.png)<br><br>
+k. Variant triggered is completed and you should see the execution moving to Post Variant steps
 
 
 ## License
