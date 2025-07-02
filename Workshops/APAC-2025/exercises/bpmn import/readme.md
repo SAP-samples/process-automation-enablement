@@ -202,7 +202,7 @@ d.	Successful project release should be shown with a “Show project version” 
 ![](images/BPMN_project_version_released_19.png)
 e.	Click on the “Show project version” link <br>
 f.	Click on Deploy button <br>
-g.	Choose the Environment - `BPMN Import Env` <br>
+g.	Choose the Environment with the same name as your user name - for example `builduser1`, `builduser2`, `...` <br>
 h.	Click on Deploy <br>
 i.	Created ScheduledTrigger will be shown with the option to Deploy <br>
 j.	Click on Deploy button again shown here <br>
