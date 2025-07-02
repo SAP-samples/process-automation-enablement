@@ -208,8 +208,8 @@ k. Variant triggered is completed and you should see the execution moving to Pos
 l. You will get the series of forms. Please approve them and come to Monitoring tab click on Refresh<br><br>
 ![](images/PV_Post_Var_2.png)<br><br>
 m. Once all the steps are completed, the process execution will complete successfully.<br>
+![](images/PV_Post_Var_4.png)<br><br>
 
-![](images/PV_Variant_Start_4)<br><br>
 
 
 
