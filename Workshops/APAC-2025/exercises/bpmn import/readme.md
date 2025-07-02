@@ -49,7 +49,7 @@ A new project is saved now. <br/>
   ![](images/BPMN_Import_BPMN_Process_2.png)
   b.	Click on Import->BPMN Process <br/>
   ![](images/BPMN_Import_3.png)
-  c.	Browse for the BPMN file and choose it <br/>
+  c.	Browse for the BPMN file(CapEx_Process.bpmn) and choose it <br/>
   d.	Click on Import <br/>
   ![](images/BPMN_Confirm_Import_4.png)
   e.	Check the warnings and choose Confirm <br/>
