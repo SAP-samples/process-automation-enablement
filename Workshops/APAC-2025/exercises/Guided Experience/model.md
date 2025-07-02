@@ -14,11 +14,11 @@ You will learn
 * How to release and deploy the model into an environment?
 
 **Important** <br><br>
-Open URL through the https://ca10-cr-consumer.ca10.build.cloud.sap/lobby
-Sign in with --> httpsazby5ihiu.accounts400.ondemand.
-Give the user name and password shared to you.
+Open URL through the https://ca10-cr-consumer.ca10.build.cloud.sap/lobby <br>
+Sign in with --> httpsazby5ihiu.accounts400.ondemand. <br>
+Give the user name and password shared to you. <br>
 
-
+![Create Guided Process](./assets/SBPA_deployment/GE_Login.png)<br><br>
 
 ### Create a Business Process Project and add dependent project
 1. Create a Business Process Project by clicking on "**Create**" button. In the "Create Project" wizard, select "**Automated Process**" and click on "**Next**"
