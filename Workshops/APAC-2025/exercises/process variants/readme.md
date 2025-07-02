@@ -187,5 +187,14 @@ g. Replace the content in the editor with an empty JSON <br>
 ```
 h. Click on `Start New Instance and Close`
 
+### Check the Process Instance
+
+
+a. Click on 'Show Instance'
+b. In the monitoring tab, locate your process and click on it.
+c. You will see the status of the running process
+d. Task 'Create Request' will be available in your inbox. Click on My Inbox and locate the form.
+e. Fill the form and click on Submit
+
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
