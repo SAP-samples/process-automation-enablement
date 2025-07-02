@@ -196,6 +196,8 @@ c. You will see the status of the running process.<br>
 d. Task 'Create Request' will be available in your inbox. Click on My Inbox and locate the form.<br>
 e. Fill the form and click on Submit.<br>
 f. Based on the Start condition the relevant variant process starts as can be seen in the screenshot below. <br><br>
+![](images/PV_Variant_Start_2.png)<br><br>
+g. Click on the instance to see the details of the running variant process
 
 
 ## License
