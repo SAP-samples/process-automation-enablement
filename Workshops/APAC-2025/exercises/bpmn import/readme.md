@@ -227,5 +227,20 @@ g. Relace the content in the editor with an empty JSON <br>
 h. Click on `Start New Instance and Close`
 ![](images/BPMN_Run_Start_25.png)
 
+### Monitor the process
+a. Go to `Show Instances` <br>
+b. You can see the Logs and Context<br>
+![](images/BPMN_Show_Instances.png)
+c.Click on Inbox link to see the Request Form <br>
+d.Fill in the Request Form and submit, make sure to give 1 or more Item details before you submit <br>
+e. In the Show instances , you can see that process has proceeded to Procurement approval step now <br>
+f. Go to MyInbox and see the form for Procurement Approval form <br>
+g. Choose the Vendor from the dropdown and Approve <br>
+h.Process proceeds to Finance Approval <br>
+i.Go to MyInbox and see the Finance Approval form <br>
+j.Check the Finance details and Approve <br>
+k.You can see that the process is completed successfully in the monitoring <br>
+l.In addition, an email is seen in your inbox with the CapEx approval status <br>
+
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
