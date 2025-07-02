@@ -198,6 +198,11 @@ e. Fill the form and click on Submit.<br>
 f. Based on the Start condition the relevant variant process starts as can be seen in the screenshot below. <br><br>
 ![](images/PV_Variant_Start_2.png)<br><br>
 g. Click on the instance to see the details of the running variant process
+![](images/PV_Variant_Start_3.png)<br><br>
+h. You will get the approval form in your Inbox. Go to Inbox and open the Form received. You can fill the details like Vendor and Comments. Click on Approve. <br>
+i. Come back to the Monitoring window and click on refresh icon.
+j. You will see that the variant execution is completed.
+
 
 
 ## License
