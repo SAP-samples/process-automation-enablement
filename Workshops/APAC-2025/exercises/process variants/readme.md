@@ -200,11 +200,17 @@ f. Based on the Start condition the relevant variant process starts as can be se
 g. Click on the instance to see the details of the running variant process
 ![](images/PV_Variant_Start_3.png)<br><br>
 h. You will get the approval form in your Inbox. Go to Inbox and open the Form received. You can fill the details like Vendor and Comments. Click on Approve. <br>
-i. Come back to the Monitoring window and click on refresh icon.
-j. You will see that the variant execution is completed.
+i. Come back to the Monitoring window and click on refresh icon.<br>
+j. You will see that the variant execution is completed.<br><br>
 ![](images/PV_Variant_Start_4.png)<br><br>
-k. Variant triggered is completed and you should see the execution moving to Post Variant steps
+k. Variant triggered is completed and you should see the execution moving to Post Variant steps <br><br>
 ![](images/PV_Post_Var_1.png)<br><br>
+l. You will get the series of forms. Please approve them and come to Monitoring tab click on Refresh<br><br>
+![](images/PV_Post_Var_2.png)<br><br>
+m. Once all the steps are completed, the process execution will complete successfully.<br>
+
+![](images/PV_Variant_Start_4)<br><br>
+
 
 
 ## License
