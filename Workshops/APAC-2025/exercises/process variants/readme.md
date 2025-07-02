@@ -194,7 +194,7 @@ a. Click on 'Show Instance'<br>
 b. In the monitoring tab, locate your process and click on it.<br>
 c. You will see the status of the running process.<br>
 d. Task 'Create Request' will be available in your inbox. Click on My Inbox and locate the form.<br>
-e. Fill the form and click on Submit.<br>
+e. Fill the form. In the amount sections in the form enter 15000 and click on Submit.<br>
 f. Based on the Start condition the relevant variant process starts as can be seen in the screenshot below. <br><br>
 ![](images/PV_Variant_Start_2.png)<br><br>
 g. Click on the instance to see the details of the running variant process
