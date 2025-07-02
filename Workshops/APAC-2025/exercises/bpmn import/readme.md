@@ -244,7 +244,8 @@ i.Go to MyInbox and see the Finance Approval form <br>
 j.Check the Finance details and Approve <br>
 ![](images/BPMN_Process_Completed.png)
 k.You can see that the process is completed successfully in the monitoring <br>
-l.In addition, an email is seen in your inbox with the CapEx approval status <br>
+![](images/BPMN_Mail.png)
+l.In addition, an email is seen in your inbox with the CapEx approval status if your email id is valid. In this exercise, test users do not have a valid email id associated and so this step might fail in that case <br>
 
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
