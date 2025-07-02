@@ -204,6 +204,7 @@ i. Come back to the Monitoring window and click on refresh icon.
 j. You will see that the variant execution is completed.
 ![](images/PV_Variant_Start_4.png)<br><br>
 k. Variant triggered is completed and you should see the execution moving to Post Variant steps
+![](images/PV_Post_Var_1.png)<br><br>
 
 
 ## License
