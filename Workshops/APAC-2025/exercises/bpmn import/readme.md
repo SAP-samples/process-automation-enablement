@@ -210,16 +210,22 @@ k.	Project should be deployed in the Environment successfully <br>
 
 ### Run the process
 a. Go to `Control Tower -> Environments` <br>
-b. Select environment - `BPMN Import Env` <br>
+![](images/BPMN_Run_Env_20.png)
+b. Select environment with the same name as your user name - for example `builduser1`, `builduser2`, `...` <br>
+![](images/BPMN_Run_Select_Env_21.png)
 c. Click on `More -> Processes and Worklfows` <br>
+![](images/BPMN_Run_Processes_22.png)
 d. Filter by your project name <br>
+![](images/BPMN_Run_Project_23.png)
 e. Select the process - `CapEx_Process` <br>
 f. Click on `Start New Instance` <br>
+![](images/BPMN_Run_Process_24.png)
 g. Relace the content in the editor with an empty JSON <br>
 ```
 {}
 ```
 h. Click on `Start New Instance and Close`
+![](images/BPMN_Run_Start_25.png)
 
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
