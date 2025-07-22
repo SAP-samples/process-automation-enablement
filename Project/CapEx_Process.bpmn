@@ -1,542 +1,362 @@
-<?xml version="1.0" encoding="UTF-8"?><ns7:definitions xmlns:ns7="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:e="http://effektif.com/bpmn20" xmlns:i18n="http://www.omg.org/spec/BPMN/non-normative/extensions/i18n/1.0" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:signavio="http://www.signavio.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="19.2.2" expressionLanguage="http://www.w3.org/TR/XPath" id="sid-0c4fd495-5879-43ed-8f8b-a05c9328cc2f" name="CapEx_Process" targetNamespace="http://effektif.com/bpmn20" typeLanguage="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
-   <ns7:process id="CapExApproval" isClosed="false" isExecutable="true" name="CapEx_Process" processType="None">
-      <ns7:extensionElements>
-         <signavio:signavioDiagramMetaData metaKey="revisionid" metaValue="a843ea4196474b6682d7d2a0dcb5a1f5"/>
-         <e:enableCases xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" value="false"/>
-         <e:trigger xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" type="form">
-            <e:form/>
-                  
-         </e:trigger>
-         <e:form xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
-            <e:field expression="syeela5g8ca47bhwau" id="syeelaku7ybp34fzgp" readonly="true"/>
-            <e:field expression="syew1s23jfdvil1t6q" id="syew1sksyrkvmifq2p" readonly="true"/>
-                  
-         </e:form>
-         <e:variable xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" id="syd0n0p05g1aj57e73" isManualDecision="true" name="Decision">
-            <e:type name="choice">
-               <e:option deleted="false" id="syd0n0xurve3g1dfqn" name="Approve"/>
-               <e:option deleted="false" id="syd0n08lsrspvqurcf" name="Rework"/>
-                       
-            </e:type>
-                  
-         </e:variable>
-         <e:variable xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" id="syd0odrsrz5w6pyf0x" isManualDecision="true" name="Decision">
-            <e:type name="choice">
-               <e:option deleted="false" id="syd0odxvpddsna4b0" name="Approve"/>
-               <e:option deleted="false" id="syd0odxdml2wz2cuvr" name="Rework"/>
-                       
-            </e:type>
-                  
-         </e:variable>
-         <e:variable xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" id="syeei6s1ai5x7a79t0" isManualDecision="true" name="Decision">
-            <e:type name="choice">
-               <e:option deleted="false" id="syeei6celbnbwg4aao" name="Approve"/>
-               <e:option deleted="false" id="syeei68kxy19i52f66" name="Rework"/>
-                       
-            </e:type>
-                  
-         </e:variable>
-         <e:variable xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" id="syeela5g8ca47bhwau" name="totalProcurementCost">
-            <e:type name="number"/>
-                  
-         </e:variable>
-         <e:variable xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" id="syew1s23jfdvil1t6q" name="taxAmount">
-            <e:type name="number"/>
-                  
-         </e:variable>
-         <e:property xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" key="bpmnId" type="java.lang.String" value="CapExApproval"/>
-      </ns7:extensionElements>
-      <ns7:startEvent id="StartEvent" isInterrupting="true" name="Initiate CapEx Request">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-         <ns7:outgoing>sid-489DEC44-9A51-4BF4-86E5-11D4DB22ED06</ns7:outgoing>
-      </ns7:startEvent>
-      <ns7:userTask completionQuantity="1" id="DeptCreateRequest" implementation="##unspecified" isForCompensation="false" name="Create Request" startQuantity="1">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <e:form xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"/>
-         </ns7:extensionElements>
-         <ns7:incoming>sid-489DEC44-9A51-4BF4-86E5-11D4DB22ED06</ns7:incoming>
-         <ns7:incoming>syd0ojxk5xnhtnr9ue</ns7:incoming>
-         <ns7:incoming>syeei6vxrntpix99dn</ns7:incoming>
-         <ns7:incoming>syd0n0fr0d4q6fv811</ns7:incoming>
-         <ns7:outgoing>syevgdjer53o20eiam</ns7:outgoing>
-      </ns7:userTask>
-      <ns7:userTask completionQuantity="1" id="FinanceReview" implementation="##unspecified" isForCompensation="false" name="Finance Review" startQuantity="1">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <e:form xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
-               <e:field asButtons="true" expression="syd0n0p05g1aj57e73" id="syd0n0ff030yctx6gs"/>
-                       
-            </e:form>
-         </ns7:extensionElements>
-         <ns7:incoming>syeehqilxnqt24fuji</ns7:incoming>
-         <ns7:outgoing>syd0j5yegaoipgnqsy</ns7:outgoing>
-      </ns7:userTask>
-      <ns7:userTask completionQuantity="1" id="CEOApproval" implementation="##unspecified" isForCompensation="false" name="CEO Approval" startQuantity="1">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <e:form xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
-               <e:field asButtons="true" expression="syd0odrsrz5w6pyf0x" id="syd0odijob5pqccyhp"/>
-                       
-            </e:form>
-         </ns7:extensionElements>
-         <ns7:incoming>sid-F3914D42-CF78-41B3-B3A2-4689366E54A6</ns7:incoming>
-         <ns7:outgoing>syd0nuyyofo2z9u45y</ns7:outgoing>
-      </ns7:userTask>
-      <ns7:endEvent id="EndEvent" name="End">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-         <ns7:incoming>_685a93de989af7fc74291ba7</ns7:incoming>
-      </ns7:endEvent>
-      <ns7:scriptTask completionQuantity="1" id="_685a93de989af7fc74291b9b" isForCompensation="false" name="Calculate Total Price of Items" retry="true" scriptFormat="" startQuantity="1">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <e:script xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">totalProcurementCost = 0;
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions targetNamespace="http://effektif.com/bpmn20" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:e="http://effektif.com/bpmn20" xmlns:signavio="http://www.signavio.com" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
+  <process isClosed="false" isExecutable="true" processType="None" name="CapEx_Process" id="CapExApproval">
+    <extensionElements>
+      <signavio:signavioDiagramMetaData metaKey="revisionid" metaValue="50a9e245b18b4ff2b82e8aca5a56e888"/>
+      <e:enableCases value="false"/>
+      <e:trigger type="form">
+        <e:form/>
+      </e:trigger>
+      <e:form>
+        <e:field id="syeelaku7ybp34fzgp" readonly="true" expression="syeela5g8ca47bhwau"/>
+        <e:field id="syew1sksyrkvmifq2p" readonly="true" expression="syew1s23jfdvil1t6q"/>
+      </e:form>
+      <e:variable id="syd0n0p05g1aj57e73" isManualDecision="true" name="Decision">
+        <e:type name="choice">
+          <e:option id="syd0n0xurve3g1dfqn" name="Approve" deleted="false"/>
+          <e:option id="syd0n08lsrspvqurcf" name="Rework" deleted="false"/>
+        </e:type>
+      </e:variable>
+      <e:variable id="syd0odrsrz5w6pyf0x" isManualDecision="true" name="Decision">
+        <e:type name="choice">
+          <e:option id="syd0odxvpddsna4b0" name="Approve" deleted="false"/>
+          <e:option id="syd0odxdml2wz2cuvr" name="Rework" deleted="false"/>
+        </e:type>
+      </e:variable>
+      <e:variable id="syeei6s1ai5x7a79t0" isManualDecision="true" name="Decision">
+        <e:type name="choice">
+          <e:option id="syeei6celbnbwg4aao" name="Approve" deleted="false"/>
+          <e:option id="syeei68kxy19i52f66" name="Rework" deleted="false"/>
+        </e:type>
+      </e:variable>
+      <e:variable id="syeela5g8ca47bhwau" name="totalProcurementCost">
+        <e:type name="number"/>
+      </e:variable>
+      <e:variable id="syew1s23jfdvil1t6q" name="taxAmount">
+        <e:type name="number"/>
+      </e:variable>
+      <e:property key="bpmnId" value="CapExApproval" type="java.lang.String"/>
+    </extensionElements>
+    <startEvent isInterrupting="true" id="StartEvent" name="Initiate CapEx Request">
+      <extensionElements>
+        <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+        <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+      </extensionElements>
+    </startEvent>
+    <exclusiveGateway id="syd0iy3onsy3bgafjl" name="" e:decisionType="manual"/>
+    <exclusiveGateway id="syd0nran7tmbl17xps" name="" e:decisionType="manual"/>
+    <exclusiveGateway id="syeehma42i4v22up52" name="" e:decisionType="manual"/>
+    <exclusiveGateway id="syew4yy17qbm6ndnbw" e:defaultTransitionId="syew5z3xdc68g6rfgy" name="Check total cost" e:decisionType="auto"/>
+    <scriptTask id="_685a93de989af7fc74291b9b" name="Calculate Total Price of Items" retry="true">
+      <extensionElements>
+        <e:script><![CDATA[totalProcurementCost = 0;
 
-for (var i = 0; i &lt; createRequest.items.length; i++) {
+for (var i = 0; i < createRequest.items.length; i++) {
     totalProcurementCost += createRequest.items[i].cost;
 }
 
 taxAmount = totalProcurementCost * 0.05;
 
-totalProcurementCost += taxAmount;</e:script>
-            <e:mapping xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" scriptVariableName="totalProcurementCost" workflowVariableId="syeela5g8ca47bhwau"/>
-            <e:mapping xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" scriptVariableName="taxAmount" workflowVariableId="syew1s23jfdvil1t6q"/>
-         </ns7:extensionElements>
-         <ns7:incoming>syevgdjer53o20eiam</ns7:incoming>
-         <ns7:outgoing>_685a93de989af7fc74291ba4</ns7:outgoing>
-         <ns7:script/>
-      </ns7:scriptTask>
-      <ns7:subProcess completionQuantity="1" id="_685a93de989af7fc74291b9d" isForCompensation="false" name="Get Procurement Approver" startQuantity="1" triggeredByEvent="false">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-         <ns7:incoming>_685a93de989af7fc74291ba4</ns7:incoming>
-         <ns7:outgoing>syeeggd2xrwx80472i</ns7:outgoing>
-      </ns7:subProcess>
-      <ns7:sendTask completionQuantity="1" e:type="email" id="_685a93de989af7fc74291b9e" implementation="##unspecified" isForCompensation="false" name="CapEx Approval Status Mail" startQuantity="1">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <e:subject xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">CapEx Approval Status </e:subject>
-            <e:bodyText xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">Dear {Sender},
+totalProcurementCost += taxAmount;]]></e:script>
+        <e:mapping scriptVariableName="totalProcurementCost" workflowVariableId="syeela5g8ca47bhwau"/>
+        <e:mapping scriptVariableName="taxAmount" workflowVariableId="syew1s23jfdvil1t6q"/>
+      </extensionElements>
+    </scriptTask>
+    <sendTask e:type="email" id="_685a93de989af7fc74291b9e" name="CapEx Approval Status Mail">
+      <extensionElements>
+        <e:subject>CapEx Approval Status </e:subject>
+        <e:bodyText>Dear {Sender},
 
 Your CapEx is {status}.
 
 This is an autogenerated email, do not reply .
 </e:bodyText>
-         </ns7:extensionElements>
-         <ns7:incoming>syd0nu2qx4wh2xvq54</ns7:incoming>
-         <ns7:incoming>syew5z3xdc68g6rfgy</ns7:incoming>
-         <ns7:outgoing>_685a93de989af7fc74291ba7</ns7:outgoing>
-      </ns7:sendTask>
-      <ns7:exclusiveGateway e:decisionType="manual" gatewayDirection="Diverging" id="syd0iy3onsy3bgafjl" name="">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-         <ns7:incoming>syd0j5yegaoipgnqsy</ns7:incoming>
-         <ns7:outgoing>syew54e51vp8e5sq7m</ns7:outgoing>
-         <ns7:outgoing>syd0n0fr0d4q6fv811</ns7:outgoing>
-      </ns7:exclusiveGateway>
-      <ns7:exclusiveGateway e:decisionType="manual" gatewayDirection="Diverging" id="syd0nran7tmbl17xps" name="">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-         <ns7:incoming>syd0nuyyofo2z9u45y</ns7:incoming>
-         <ns7:outgoing>syd0nu2qx4wh2xvq54</ns7:outgoing>
-         <ns7:outgoing>syd0ojxk5xnhtnr9ue</ns7:outgoing>
-      </ns7:exclusiveGateway>
-      <ns7:userTask completionQuantity="1" id="syeefdw2cm70r392zq" implementation="##unspecified" isForCompensation="false" name="Procurement Review" startQuantity="1">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <e:form xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
-               <e:field asButtons="true" expression="syeei6s1ai5x7a79t0" id="syeei6try814g5xcb3"/>
-                       
-            </e:form>
-         </ns7:extensionElements>
-         <ns7:incoming>syeeggd2xrwx80472i</ns7:incoming>
-         <ns7:outgoing>syeehqxaz1j7hdob8</ns7:outgoing>
-      </ns7:userTask>
-      <ns7:exclusiveGateway e:decisionType="manual" gatewayDirection="Diverging" id="syeehma42i4v22up52" name="">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-         <ns7:incoming>syeehqxaz1j7hdob8</ns7:incoming>
-         <ns7:outgoing>syeei6vxrntpix99dn</ns7:outgoing>
-         <ns7:outgoing>syeehqilxnqt24fuji</ns7:outgoing>
-      </ns7:exclusiveGateway>
-      <ns7:exclusiveGateway e:decisionType="auto" e:defaultTransitionId="syew5z3xdc68g6rfgy" gatewayDirection="Diverging" id="syew4yy17qbm6ndnbw" name="Total cost is more">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-         <ns7:incoming>syew54e51vp8e5sq7m</ns7:incoming>
-         <ns7:outgoing>sid-F3914D42-CF78-41B3-B3A2-4689366E54A6</ns7:outgoing>
-         <ns7:outgoing>syew5z3xdc68g6rfgy</ns7:outgoing>
-      </ns7:exclusiveGateway>
-      <ns7:sequenceFlow id="sid-489DEC44-9A51-4BF4-86E5-11D4DB22ED06" isImmediate="true" name="" sourceRef="StartEvent" targetRef="DeptCreateRequest">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="_685a93de989af7fc74291ba4" isImmediate="true" name="" sourceRef="_685a93de989af7fc74291b9b" targetRef="_685a93de989af7fc74291b9d">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="_685a93de989af7fc74291ba7" isImmediate="true" name="" sourceRef="_685a93de989af7fc74291b9e" targetRef="EndEvent">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="syd0nuyyofo2z9u45y" isImmediate="true" name="" sourceRef="CEOApproval" targetRef="syd0nran7tmbl17xps">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="syd0nu2qx4wh2xvq54" isImmediate="true" name="" sourceRef="syd0nran7tmbl17xps" targetRef="_685a93de989af7fc74291b9e">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <e:condition xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
-               <e:equals>
-                  <e:left expression="syd0odrsrz5w6pyf0x"/>
-                  <e:right value="syd0odxvpddsna4b0">
-                     <e:type name="choice">
-                        <e:option deleted="false" id="syd0odxvpddsna4b0" name="Approve"/>
-                        <e:option deleted="false" id="syd0odxdml2wz2cuvr" name="Rework"/>
-                                      
-                     </e:type>
-                                 
-                  </e:right>
-                            
-               </e:equals>
-                       
-            </e:condition>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="syd0ojxk5xnhtnr9ue" isImmediate="true" name="" sourceRef="syd0nran7tmbl17xps" targetRef="DeptCreateRequest">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <e:condition xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
-               <e:equals>
-                  <e:left expression="syd0odrsrz5w6pyf0x"/>
-                  <e:right value="syd0odxdml2wz2cuvr">
-                     <e:type name="choice">
-                        <e:option deleted="false" id="syd0odxvpddsna4b0" name="Approve"/>
-                        <e:option deleted="false" id="syd0odxdml2wz2cuvr" name="Rework"/>
-                                      
-                     </e:type>
-                                 
-                  </e:right>
-                            
-               </e:equals>
-                       
-            </e:condition>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="syeeggd2xrwx80472i" isImmediate="true" name="" sourceRef="_685a93de989af7fc74291b9d" targetRef="syeefdw2cm70r392zq">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="syeehqxaz1j7hdob8" isImmediate="true" name="" sourceRef="syeefdw2cm70r392zq" targetRef="syeehma42i4v22up52">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="syevgdjer53o20eiam" isImmediate="true" name="" sourceRef="DeptCreateRequest" targetRef="_685a93de989af7fc74291b9b">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="syew54e51vp8e5sq7m" isImmediate="true" name="" sourceRef="syd0iy3onsy3bgafjl" targetRef="syew4yy17qbm6ndnbw">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <e:condition xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
-               <e:equals>
-                  <e:left expression="syd0n0p05g1aj57e73"/>
-                  <e:right value="syd0n0xurve3g1dfqn">
-                     <e:type name="choice">
-                        <e:option deleted="false" id="syd0n0xurve3g1dfqn" name="Approve"/>
-                        <e:option deleted="false" id="syd0n08lsrspvqurcf" name="Rework"/>
-                                      
-                     </e:type>
-                                 
-                  </e:right>
-                            
-               </e:equals>
-                       
-            </e:condition>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="syeei6vxrntpix99dn" isImmediate="true" name="Rework" sourceRef="syeehma42i4v22up52" targetRef="DeptCreateRequest">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <e:condition xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
-               <e:equals>
-                  <e:left expression="syeei6s1ai5x7a79t0"/>
-                  <e:right value="syeei68kxy19i52f66">
-                     <e:type name="choice">
-                        <e:option deleted="false" id="syeei6celbnbwg4aao" name="Approve"/>
-                        <e:option deleted="false" id="syeei68kxy19i52f66" name="Rework"/>
-                                      
-                     </e:type>
-                                 
-                  </e:right>
-                            
-               </e:equals>
-                       
-            </e:condition>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="syeehqilxnqt24fuji" isImmediate="true" name="Approved" sourceRef="syeehma42i4v22up52" targetRef="FinanceReview">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <signavio:signavioLabel align="right" distance="-9.0" from="0" orientation="ur" ref="text_name" to="1" valign="top" x="248.0" y="658.3333740234375"/>
-            <e:condition xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
-               <e:equals>
-                  <e:left expression="syeei6s1ai5x7a79t0"/>
-                  <e:right value="syeei6celbnbwg4aao">
-                     <e:type name="choice">
-                        <e:option deleted="false" id="syeei6celbnbwg4aao" name="Approve"/>
-                        <e:option deleted="false" id="syeei68kxy19i52f66" name="Rework"/>
-                                      
-                     </e:type>
-                                 
-                  </e:right>
-                            
-               </e:equals>
-                       
-            </e:condition>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="syd0n0fr0d4q6fv811" isImmediate="true" name="Rework" sourceRef="syd0iy3onsy3bgafjl" targetRef="DeptCreateRequest">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <e:condition xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
-               <e:equals>
-                  <e:left expression="syd0n0p05g1aj57e73"/>
-                  <e:right value="syd0n08lsrspvqurcf">
-                     <e:type name="choice">
-                        <e:option deleted="false" id="syd0n0xurve3g1dfqn" name="Approve"/>
-                        <e:option deleted="false" id="syd0n08lsrspvqurcf" name="Rework"/>
-                                      
-                     </e:type>
-                                 
-                  </e:right>
-                            
-               </e:equals>
-                       
-            </e:condition>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="sid-F3914D42-CF78-41B3-B3A2-4689366E54A6" isImmediate="true" name="" sourceRef="syew4yy17qbm6ndnbw" targetRef="CEOApproval">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="syd0j5yegaoipgnqsy" isImmediate="true" name="Approved" sourceRef="FinanceReview" targetRef="syd0iy3onsy3bgafjl">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <signavio:signavioLabel align="left" distance="8.0" from="0" orientation="ul" ref="text_name" to="1" valign="top" x="248.0" y="778.3333740234375"/>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-      <ns7:sequenceFlow id="syew5z3xdc68g6rfgy" isImmediate="true" name="Auto approved if total cost is less" sourceRef="syew4yy17qbm6ndnbw" targetRef="_685a93de989af7fc74291b9e">
-         <ns7:extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <signavio:signavioLabel align="right" distance="-8.99984" from="0" orientation="ur" ref="text_name" to="1" valign="top" x="254.99983982743504" y="962.3333740234375"/>
-            <e:condition xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
-               <e:and/>
-                       
-            </e:condition>
-         </ns7:extensionElements>
-      </ns7:sequenceFlow>
-   </ns7:process>
-   <bpmndi:BPMNDiagram id="sid-c6f93fc0-a403-439a-8eed-acd8ba3b507d" name="CapEx_Process">
-      <bpmndi:BPMNPlane bpmnElement="CapExApproval" id="sid-8a57fde1-d746-478a-ae1c-965ba0a1de35">
-         <bpmndi:BPMNShape bpmnElement="StartEvent" id="StartEvent_gui">
-            <omgdc:Bounds height="30.0" width="30.0" x="223.00001969933066" y="50.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-146cbd88-ab8f-4cc0-b6c1-5d796f961bff">
-               <omgdc:Bounds height="11.0" width="113.85000610351562" x="181.07501664757285" y="82.0"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="DeptCreateRequest" id="DeptCreateRequest_gui">
-            <omgdc:Bounds height="60.0" width="100.0" x="188.00001969933066" y="125.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-a84ba12b-f4ce-4071-82ef-44f0dc349a03">
-               <omgdc:Bounds height="12.0" width="84.08572387695312" x="195.9571577608541" y="147.0"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="FinanceReview" id="FinanceReview_gui">
-            <omgdc:Bounds height="60.0" width="120.0" x="188.0" y="709.99994435907"/>
-            <bpmndi:BPMNLabel labelStyle="sid-a84ba12b-f4ce-4071-82ef-44f0dc349a03">
-               <omgdc:Bounds height="12.0" width="81.0" x="207.5" y="731.99994435907"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="CEOApproval" id="CEOApproval_gui">
-            <omgdc:Bounds height="60.0" width="100.0" x="327.00012011824504" y="969.000017061828"/>
-            <bpmndi:BPMNLabel labelStyle="sid-a84ba12b-f4ce-4071-82ef-44f0dc349a03">
-               <omgdc:Bounds height="12.0" width="74.82857513427734" x="339.58583255110636" y="991.000017061828"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="EndEvent" id="EndEvent_gui">
-            <omgdc:Bounds height="26.0" width="26.0" x="247.0001000910862" y="1217.0000536292766"/>
-            <bpmndi:BPMNLabel labelStyle="sid-146cbd88-ab8f-4cc0-b6c1-5d796f961bff">
-               <omgdc:Bounds height="11.0" width="19.092857360839844" x="251.4536714106663" y="1247.0000536292766"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="_685a93de989af7fc74291b9b" id="_685a93de989af7fc74291b9b_gui">
-            <omgdc:Bounds height="80.0" width="100.0" x="190.00010426341032" y="239.99997560680163"/>
-            <bpmndi:BPMNLabel labelStyle="sid-a84ba12b-f4ce-4071-82ef-44f0dc349a03">
-               <omgdc:Bounds height="24.0" width="78.68571472167969" x="200.65724690257048" y="265.9999756068016"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="_685a93de989af7fc74291b9d" id="_685a93de989af7fc74291b9d_gui" isExpanded="false">
-            <omgdc:Bounds height="80.0" width="100.0" x="190.00001196563016" y="364.9999609142583"/>
-            <bpmndi:BPMNLabel labelStyle="sid-a84ba12b-f4ce-4071-82ef-44f0dc349a03">
-               <omgdc:Bounds height="24.0" width="91.80000686645508" x="194.13500837981474" y="390.9999609142583"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="_685a93de989af7fc74291b9e" id="_685a93de989af7fc74291b9e_gui">
-            <omgdc:Bounds height="80.0" width="100.0" x="212.000100627528" y="1093.0000313669423"/>
-            <bpmndi:BPMNLabel labelStyle="sid-a84ba12b-f4ce-4071-82ef-44f0dc349a03">
-               <omgdc:Bounds height="24.0" width="86.39999389648438" x="218.80010367928583" y="1119.0000313669423"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="syd0iy3onsy3bgafjl" id="syd0iy3onsy3bgafjl_gui" isMarkerVisible="true">
-            <omgdc:Bounds height="40.0" width="40.0" x="228.0" y="814.99992623926"/>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="syd0nran7tmbl17xps" id="syd0nran7tmbl17xps_gui" isMarkerVisible="true">
-            <omgdc:Bounds height="40.0" width="40.0" x="357.00010628996824" y="1073.9999950826164"/>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="syeefdw2cm70r392zq" id="syeefdw2cm70r392zq_gui">
-            <omgdc:Bounds height="80.0" width="100.0" x="190.00010426341032" y="489.9999609142583"/>
-            <bpmndi:BPMNLabel labelStyle="sid-a84ba12b-f4ce-4071-82ef-44f0dc349a03">
-               <omgdc:Bounds height="24.0" width="68.65714263916016" x="205.67153294383024" y="515.9999609142583"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="syeehma42i4v22up52" id="syeehma42i4v22up52_gui" isMarkerVisible="true">
-            <omgdc:Bounds height="40.0" width="40.0" x="228.0" y="614.9999609142583"/>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="syew4yy17qbm6ndnbw" id="syew4yy17qbm6ndnbw_gui" isMarkerVisible="true">
-            <omgdc:Bounds height="40.0" width="40.0" x="234.99983982743504" y="884.000017061828"/>
-            <bpmndi:BPMNLabel labelStyle="sid-146cbd88-ab8f-4cc0-b6c1-5d796f961bff">
-               <omgdc:Bounds height="12.0" width="97.971435546875" x="265.49983982743504" y="914.500017061828"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNEdge bpmnElement="sid-489DEC44-9A51-4BF4-86E5-11D4DB22ED06" id="sid-489DEC44-9A51-4BF4-86E5-11D4DB22ED06_gui">
-            <omgdi:waypoint x="238.00001969933066" y="80.0"/>
-            <omgdi:waypoint x="238.00001969933066" y="125.0"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="_685a93de989af7fc74291ba4" id="_685a93de989af7fc74291ba4_gui">
-            <omgdi:waypoint x="240.0000747281172" y="319.9999756068016"/>
-            <omgdi:waypoint x="240.0000415009233" y="364.9999609142583"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="_685a93de989af7fc74291ba7" id="_685a93de989af7fc74291ba7_gui">
-            <omgdi:waypoint x="261.17535832755914" y="1173.0000313669423"/>
-            <omgdi:waypoint x="260.26814133857613" y="1217.0000536292766"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="syd0nuyyofo2z9u45y" id="syd0nuyyofo2z9u45y_gui">
-            <omgdi:waypoint x="377.0001157514198" y="1029.000017061828"/>
-            <omgdi:waypoint x="377.00010920118507" y="1073.9999950826164"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="syd0nu2qx4wh2xvq54" id="syd0nu2qx4wh2xvq54_gui">
-            <omgdi:waypoint x="377.00010628996824" y="1113.9999950826164"/>
-            <omgdi:waypoint x="377.00010628996824" y="1133.0000313669423"/>
-            <omgdi:waypoint x="312.000100627528" y="1133.0000313669423"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="syd0ojxk5xnhtnr9ue" id="syd0ojxk5xnhtnr9ue_gui">
-            <omgdi:waypoint x="397.00010628996824" y="1093.9999950826164"/>
-            <omgdi:waypoint x="497.0001576244663" y="1093.9999950826164"/>
-            <omgdi:waypoint x="497.0001576244663" y="155.0"/>
-            <omgdi:waypoint x="288.00001969933066" y="155.0"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="syeeggd2xrwx80472i" id="syeeggd2xrwx80472i_gui">
-            <omgdi:waypoint x="240.00004150091982" y="444.9999609142583"/>
-            <omgdi:waypoint x="240.00007472812067" y="489.9999609142583"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="syeehqxaz1j7hdob8" id="syeehqxaz1j7hdob8_gui">
-            <omgdi:waypoint x="240.00010426341032" y="569.9999609142583"/>
-            <omgdi:waypoint x="240.00010426341032" y="592.4999609142583"/>
-            <omgdi:waypoint x="248.0" y="592.4999609142583"/>
-            <omgdi:waypoint x="248.0" y="614.9999609142583"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="syevgdjer53o20eiam" id="syevgdjer53o20eiam_gui">
-            <omgdi:waypoint x="238.00001969933066" y="185.0"/>
-            <omgdi:waypoint x="238.00001969933066" y="212.4999878034008"/>
-            <omgdi:waypoint x="240.00010426341032" y="212.4999878034008"/>
-            <omgdi:waypoint x="240.00010426341032" y="239.99997560680163"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="syew54e51vp8e5sq7m" id="syew54e51vp8e5sq7m_gui">
-            <omgdi:waypoint x="252.0578728195793" y="854.99992623926"/>
-            <omgdi:waypoint x="254.99983982743504" y="869.499971650544"/>
-            <omgdi:waypoint x="254.99983982743504" y="869.499971650544"/>
-            <omgdi:waypoint x="254.99983982743504" y="884.000017061828"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="syeei6vxrntpix99dn" id="syeei6vxrntpix99dn_gui">
-            <omgdi:waypoint x="268.0" y="634.9999609142583"/>
-            <omgdi:waypoint x="404.0" y="634.9999609142583"/>
-            <omgdi:waypoint x="404.0" y="189.0"/>
-            <omgdi:waypoint x="288.00001969933066" y="165.24096507072383"/>
-            <bpmndi:BPMNLabel labelStyle="sid-146cbd88-ab8f-4cc0-b6c1-5d796f961bff">
-               <omgdc:Bounds height="12.0" width="40.114288330078125" x="275.52398681640625" y="615.0"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="syeehqilxnqt24fuji" id="syeehqilxnqt24fuji_gui">
-            <omgdi:waypoint x="248.0" y="654.9999609142583"/>
-            <omgdi:waypoint x="248.0" y="709.99994435907"/>
-            <bpmndi:BPMNLabel labelStyle="sid-146cbd88-ab8f-4cc0-b6c1-5d796f961bff">
-               <omgdc:Bounds height="12.0" width="52.4571533203125" x="186.5428466796875" y="658.3330078125"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="syd0n0fr0d4q6fv811" id="syd0n0fr0d4q6fv811_gui">
-            <omgdi:waypoint x="228.0" y="834.99992623926"/>
-            <omgdi:waypoint x="50.0" y="834.99992623926"/>
-            <omgdi:waypoint x="50.0" y="155.0"/>
-            <omgdi:waypoint x="188.00001969933066" y="155.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-146cbd88-ab8f-4cc0-b6c1-5d796f961bff">
-               <omgdc:Bounds height="12.0" width="40.114288330078125" x="180.38571166992188" y="815.0"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="sid-F3914D42-CF78-41B3-B3A2-4689366E54A6" id="sid-F3914D42-CF78-41B3-B3A2-4689366E54A6_gui">
-            <omgdi:waypoint x="274.99983982743504" y="904.000017061828"/>
-            <omgdi:waypoint x="377.00012011824504" y="904.000017061828"/>
-            <omgdi:waypoint x="377.00012011824504" y="969.000017061828"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="syd0j5yegaoipgnqsy" id="syd0j5yegaoipgnqsy_gui">
-            <omgdi:waypoint x="248.0" y="769.99994435907"/>
-            <omgdi:waypoint x="248.0" y="814.99992623926"/>
-            <bpmndi:BPMNLabel labelStyle="sid-146cbd88-ab8f-4cc0-b6c1-5d796f961bff">
-               <omgdc:Bounds height="12.0" width="52.4571533203125" x="256.0" y="778.3330078125"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="syew5z3xdc68g6rfgy" id="syew5z3xdc68g6rfgy_gui">
-            <omgdi:waypoint x="254.99983982743504" y="924.000017061828"/>
-            <omgdi:waypoint x="254.99983982743504" y="1080.0000000298023"/>
-            <omgdi:waypoint x="256.7168880531328" y="1093.0000313669423"/>
-            <bpmndi:BPMNLabel labelStyle="sid-146cbd88-ab8f-4cc0-b6c1-5d796f961bff">
-               <omgdc:Bounds height="12.0" width="183.60000610351562" x="62.399993896484375" y="962.3330078125"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNEdge>
-      </bpmndi:BPMNPlane>
-      <bpmndi:BPMNLabelStyle id="sid-146cbd88-ab8f-4cc0-b6c1-5d796f961bff">
-         <omgdc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="11.0"/>
-      </bpmndi:BPMNLabelStyle>
-      <bpmndi:BPMNLabelStyle id="sid-a84ba12b-f4ce-4071-82ef-44f0dc349a03">
-         <omgdc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="12.0"/>
-      </bpmndi:BPMNLabelStyle>
-   </bpmndi:BPMNDiagram>
-</ns7:definitions>
+      </extensionElements>
+    </sendTask>
+    <sequenceFlow name="" id="sid-489DEC44-9A51-4BF4-86E5-11D4DB22ED06" sourceRef="StartEvent" targetRef="DeptCreateRequest">
+      <extensionElements>
+        <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="_685a93de989af7fc74291ba4" sourceRef="_685a93de989af7fc74291b9b" targetRef="_685a93de989af7fc74291b9d"/>
+    <sequenceFlow id="_685a93de989af7fc74291ba7" sourceRef="_685a93de989af7fc74291b9e" targetRef="EndEvent"/>
+    <sequenceFlow id="syd0j5yegaoipgnqsy" sourceRef="FinanceReview" targetRef="syd0iy3onsy3bgafjl"/>
+    <sequenceFlow id="syd0n0fr0d4q6fv811" sourceRef="syd0iy3onsy3bgafjl" targetRef="DeptCreateRequest">
+      <extensionElements>
+        <e:condition>
+          <e:equals>
+            <e:left expression="syd0n0p05g1aj57e73"/>
+            <e:right value="syd0n08lsrspvqurcf">
+              <e:type name="choice">
+                <e:option id="syd0n0xurve3g1dfqn" name="Approve" deleted="false"/>
+                <e:option id="syd0n08lsrspvqurcf" name="Rework" deleted="false"/>
+              </e:type>
+            </e:right>
+          </e:equals>
+        </e:condition>
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="syd0nuyyofo2z9u45y" sourceRef="CEOApproval" targetRef="syd0nran7tmbl17xps"/>
+    <sequenceFlow id="syd0nu2qx4wh2xvq54" sourceRef="syd0nran7tmbl17xps" targetRef="_685a93de989af7fc74291b9e">
+      <extensionElements>
+        <e:condition>
+          <e:equals>
+            <e:left expression="syd0odrsrz5w6pyf0x"/>
+            <e:right value="syd0odxvpddsna4b0">
+              <e:type name="choice">
+                <e:option id="syd0odxvpddsna4b0" name="Approve" deleted="false"/>
+                <e:option id="syd0odxdml2wz2cuvr" name="Rework" deleted="false"/>
+              </e:type>
+            </e:right>
+          </e:equals>
+        </e:condition>
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="syd0ojxk5xnhtnr9ue" sourceRef="syd0nran7tmbl17xps" targetRef="DeptCreateRequest">
+      <extensionElements>
+        <e:condition>
+          <e:equals>
+            <e:left expression="syd0odrsrz5w6pyf0x"/>
+            <e:right value="syd0odxdml2wz2cuvr">
+              <e:type name="choice">
+                <e:option id="syd0odxvpddsna4b0" name="Approve" deleted="false"/>
+                <e:option id="syd0odxdml2wz2cuvr" name="Rework" deleted="false"/>
+              </e:type>
+            </e:right>
+          </e:equals>
+        </e:condition>
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="syeeggd2xrwx80472i" sourceRef="_685a93de989af7fc74291b9d" targetRef="syeefdw2cm70r392zq"/>
+    <sequenceFlow id="syeehqxaz1j7hdob8" sourceRef="syeefdw2cm70r392zq" targetRef="syeehma42i4v22up52"/>
+    <sequenceFlow id="syeehqilxnqt24fuji" sourceRef="syeehma42i4v22up52" targetRef="FinanceReview">
+      <extensionElements>
+        <e:condition>
+          <e:equals>
+            <e:left expression="syeei6s1ai5x7a79t0"/>
+            <e:right value="syeei6celbnbwg4aao">
+              <e:type name="choice">
+                <e:option id="syeei6celbnbwg4aao" name="Approve" deleted="false"/>
+                <e:option id="syeei68kxy19i52f66" name="Rework" deleted="false"/>
+              </e:type>
+            </e:right>
+          </e:equals>
+        </e:condition>
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="syeei6vxrntpix99dn" sourceRef="syeehma42i4v22up52" targetRef="DeptCreateRequest">
+      <extensionElements>
+        <e:condition>
+          <e:equals>
+            <e:left expression="syeei6s1ai5x7a79t0"/>
+            <e:right value="syeei68kxy19i52f66">
+              <e:type name="choice">
+                <e:option id="syeei6celbnbwg4aao" name="Approve" deleted="false"/>
+                <e:option id="syeei68kxy19i52f66" name="Rework" deleted="false"/>
+              </e:type>
+            </e:right>
+          </e:equals>
+        </e:condition>
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="syevgdjer53o20eiam" sourceRef="DeptCreateRequest" targetRef="_685a93de989af7fc74291b9b"/>
+    <sequenceFlow id="syew54e51vp8e5sq7m" sourceRef="syd0iy3onsy3bgafjl" targetRef="syew4yy17qbm6ndnbw">
+      <extensionElements>
+        <e:condition>
+          <e:equals>
+            <e:left expression="syd0n0p05g1aj57e73"/>
+            <e:right value="syd0n0xurve3g1dfqn">
+              <e:type name="choice">
+                <e:option id="syd0n0xurve3g1dfqn" name="Approve" deleted="false"/>
+                <e:option id="syd0n08lsrspvqurcf" name="Rework" deleted="false"/>
+              </e:type>
+            </e:right>
+          </e:equals>
+        </e:condition>
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="syew5si5dd1vjfyu" sourceRef="syew4yy17qbm6ndnbw" targetRef="CEOApproval">
+      <extensionElements>
+        <e:condition>
+          <e:and>
+            <e:greaterThanOrEqual>
+              <e:left expression="syeela5g8ca47bhwau"/>
+              <e:right value="10000">
+                <e:type name="number"/>
+              </e:right>
+            </e:greaterThanOrEqual>
+          </e:and>
+        </e:condition>
+      </extensionElements>
+    </sequenceFlow>
+    <sequenceFlow id="syew5z3xdc68g6rfgy" sourceRef="syew4yy17qbm6ndnbw" targetRef="_685a93de989af7fc74291b9e">
+      <extensionElements>
+        <e:condition>
+          <e:and/>
+        </e:condition>
+      </extensionElements>
+    </sequenceFlow>
+    <subProcess id="_685a93de989af7fc74291b9d" name="Get Procurement Approver"/>
+    <userTask completionQuantity="1" isForCompensation="false" startQuantity="1" id="DeptCreateRequest" name="Create Request">
+      <extensionElements>
+        <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+        <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+        <e:form/>
+      </extensionElements>
+    </userTask>
+    <userTask completionQuantity="1" isForCompensation="false" startQuantity="1" id="FinanceReview" name="Finance Review">
+      <extensionElements>
+        <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+        <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+        <e:form>
+          <e:field id="syd0n0ff030yctx6gs" asButtons="true" expression="syd0n0p05g1aj57e73"/>
+        </e:form>
+      </extensionElements>
+    </userTask>
+    <userTask completionQuantity="1" isForCompensation="false" startQuantity="1" id="CEOApproval" name="CEO Approval">
+      <extensionElements>
+        <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+        <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+        <e:form>
+          <e:field id="syd0odijob5pqccyhp" asButtons="true" expression="syd0odrsrz5w6pyf0x"/>
+        </e:form>
+      </extensionElements>
+    </userTask>
+    <userTask id="syeefdw2cm70r392zq" name="Procurement Review">
+      <extensionElements>
+        <e:form>
+          <e:field id="syeei6try814g5xcb3" asButtons="true" expression="syeei6s1ai5x7a79t0"/>
+        </e:form>
+      </extensionElements>
+    </userTask>
+    <endEvent id="EndEvent" name="End">
+      <extensionElements>
+        <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+        <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+      </extensionElements>
+    </endEvent>
+  </process>
+  <bpmndi:BPMNDiagram name="CapEx_Process">
+    <bpmndi:BPMNPlane bpmnElement="CapExApproval">
+      <bpmndi:BPMNShape id="_685a93de989af7fc74291ba9" bpmnElement="StartEvent">
+        <omgdc:Bounds height="30.0" width="30.0" x="223.00001969933066" y="50.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_685a93de989af7fc74291baa" bpmnElement="DeptCreateRequest">
+        <omgdc:Bounds height="60.0" width="100.0" x="188.00001969933066" y="125.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_685a93de989af7fc74291bac" bpmnElement="FinanceReview">
+        <omgdc:Bounds height="60.0" width="120.0" x="188.0" y="709.99994435907"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_685a93de989af7fc74291bad" bpmnElement="CEOApproval">
+        <omgdc:Bounds height="60.0" width="100.0" x="327.00012011824504" y="969.000017061828"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_685a93de989af7fc74291bae" bpmnElement="EndEvent">
+        <omgdc:Bounds height="28.0" width="28.0" x="248.0001000910862" y="1218.0000536292766"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_685a93de989af7fc74291baf" bpmnElement="_685a93de989af7fc74291b9b">
+        <omgdc:Bounds height="80.0" width="100.0" x="190.00010426341032" y="239.99997560680163"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_685a93de989af7fc74291bb1" bpmnElement="_685a93de989af7fc74291b9d" isExpanded="false">
+        <omgdc:Bounds height="80.0" width="100.0" x="190.00001196563016" y="364.9999609142583"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_685a93de989af7fc74291bb2" bpmnElement="_685a93de989af7fc74291b9e">
+        <omgdc:Bounds height="80.0" width="100.0" x="212.000100627528" y="1093.0000313669423"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="syd0iy2ft3yx9g85b7" bpmnElement="syd0iy3onsy3bgafjl">
+        <omgdc:Bounds height="40.0" width="40.0" x="228.0" y="814.99992623926"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="syd0nrvf8mk971i53v" bpmnElement="syd0nran7tmbl17xps">
+        <omgdc:Bounds height="40.0" width="40.0" x="357.00010628996824" y="1073.9999950826164"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="syeefdy0u3tb6gojnw" bpmnElement="syeefdw2cm70r392zq">
+        <omgdc:Bounds height="80.0" width="100.0" x="190.00010426341032" y="489.9999609142583"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="syeehm4kpxt2yzsb61" bpmnElement="syeehma42i4v22up52">
+        <omgdc:Bounds height="40.0" width="40.0" x="228.0" y="614.9999609142583"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="syew4y73oe7d468fbv" bpmnElement="syew4yy17qbm6ndnbw">
+        <omgdc:Bounds height="40.0" width="40.0" x="234.99983982743504" y="884.000017061828"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="_685a93de989af7fc74291bb3" bpmnElement="sid-489DEC44-9A51-4BF4-86E5-11D4DB22ED06">
+        <omgdi:waypoint x="238.2000818103486" y="65.99999998509884"/>
+        <omgdi:waypoint x="238.00001969933066" y="155.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="_685a93de989af7fc74291bb8" bpmnElement="_685a93de989af7fc74291ba4">
+        <omgdi:waypoint x="240.00010426341032" y="279.9999756068016"/>
+        <omgdi:waypoint x="240.00001196563016" y="404.9999609142583"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="_685a93de989af7fc74291bbb" bpmnElement="_685a93de989af7fc74291ba7">
+        <omgdi:waypoint x="262.000100627528" y="1133.0000313669423"/>
+        <omgdi:waypoint x="262.0001000910862" y="1232.0000536292766"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syd0j5yegaoipgnqsy" bpmnElement="syd0j5yegaoipgnqsy">
+        <omgdi:waypoint x="248.0" y="739.99994435907"/>
+        <omgdi:waypoint x="248.0" y="834.99992623926"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syd0n0fr0d4q6fv811" bpmnElement="syd0n0fr0d4q6fv811">
+        <omgdi:waypoint x="248.0" y="834.99992623926"/>
+        <omgdi:waypoint x="50.0" y="834.99992623926"/>
+        <omgdi:waypoint x="50.0" y="155.0"/>
+        <omgdi:waypoint x="238.00001969933066" y="155.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syd0nuyyofo2z9u45y" bpmnElement="syd0nuyyofo2z9u45y">
+        <omgdi:waypoint x="377.00012011824504" y="999.000017061828"/>
+        <omgdi:waypoint x="377.00010628996824" y="1093.9999950826164"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syd0nu2qx4wh2xvq54" bpmnElement="syd0nu2qx4wh2xvq54">
+        <omgdi:waypoint x="377.00010628996824" y="1093.9999950826164"/>
+        <omgdi:waypoint x="377.00010628996824" y="1133.0000313669423"/>
+        <omgdi:waypoint x="262.000100627528" y="1133.0000313669423"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syd0ojxk5xnhtnr9ue" bpmnElement="syd0ojxk5xnhtnr9ue">
+        <omgdi:waypoint x="377.00010628996824" y="1093.9999950826164"/>
+        <omgdi:waypoint x="497.0001576244663" y="1093.9999950826164"/>
+        <omgdi:waypoint x="497.0001576244663" y="155.0"/>
+        <omgdi:waypoint x="238.00001969933066" y="155.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syeeggd2xrwx80472i" bpmnElement="syeeggd2xrwx80472i">
+        <omgdi:waypoint x="240.00001196563016" y="404.9999609142583"/>
+        <omgdi:waypoint x="240.00010426341032" y="529.9999609142583"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syeehqxaz1j7hdob8" bpmnElement="syeehqxaz1j7hdob8">
+        <omgdi:waypoint x="240.00010426341032" y="529.9999609142583"/>
+        <omgdi:waypoint x="240.00010426341032" y="592.4999609142583"/>
+        <omgdi:waypoint x="248.0" y="592.4999609142583"/>
+        <omgdi:waypoint x="248.0" y="634.9999609142583"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syeehqilxnqt24fuji" bpmnElement="syeehqilxnqt24fuji">
+        <omgdi:waypoint x="248.0" y="634.9999609142583"/>
+        <omgdi:waypoint x="248.0" y="739.99994435907"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syeei6vxrntpix99dn" bpmnElement="syeei6vxrntpix99dn">
+        <omgdi:waypoint x="248.0" y="634.9999609142583"/>
+        <omgdi:waypoint x="404.0" y="634.9999609142583"/>
+        <omgdi:waypoint x="404.0" y="189.0"/>
+        <omgdi:waypoint x="238.00001969933066" y="155.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syevgdjer53o20eiam" bpmnElement="syevgdjer53o20eiam">
+        <omgdi:waypoint x="238.00001969933066" y="155.0"/>
+        <omgdi:waypoint x="238.00001969933066" y="212.4999878034008"/>
+        <omgdi:waypoint x="240.00010426341032" y="212.4999878034008"/>
+        <omgdi:waypoint x="240.00010426341032" y="279.9999756068016"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syew54e51vp8e5sq7m" bpmnElement="syew54e51vp8e5sq7m">
+        <omgdi:waypoint x="248.0" y="834.99992623926"/>
+        <omgdi:waypoint x="254.99983982743504" y="869.499971650544"/>
+        <omgdi:waypoint x="254.99983982743504" y="869.499971650544"/>
+        <omgdi:waypoint x="254.99983982743504" y="904.000017061828"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syew5si5dd1vjfyu" bpmnElement="syew5si5dd1vjfyu">
+        <omgdi:waypoint x="254.99983982743504" y="904.000017061828"/>
+        <omgdi:waypoint x="383.9999599456801" y="904.000017061828"/>
+        <omgdi:waypoint x="377.00012011824504" y="999.000017061828"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="shape-syew5z3xdc68g6rfgy" bpmnElement="syew5z3xdc68g6rfgy">
+        <omgdi:waypoint x="254.99983982743504" y="904.000017061828"/>
+        <omgdi:waypoint x="254.99983982743504" y="1008.5000242143851"/>
+        <omgdi:waypoint x="268.99994045496305" y="1008.5000242143851"/>
+        <omgdi:waypoint x="262.000100627528" y="1133.0000313669423"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>
