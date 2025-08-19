@@ -1,4 +1,4 @@
-<img width="564" height="23" alt="image" src="https://github.com/user-attachments/assets/c5b13752-7b5c-496b-8754-a3aa5da8a9a3" />In this page we are going to cover the steps on how to use Joule for developers to create a process.
+<img width="443" height="21" alt="image" src="https://github.com/user-attachments/assets/d11bac2d-90dc-425c-95d0-e5565b0c3144" /><img width="564" height="23" alt="image" src="https://github.com/user-attachments/assets/c5b13752-7b5c-496b-8754-a3aa5da8a9a3" />In this page we are going to cover the steps on how to use Joule for developers to create a process.
 Lets take "Purchase requisition Approval" as reference process.
 In this process, requestor would submit purchase requisition approval form that has details like product quantity, number of units, prices etc.
 Assume based on supplier, approver needs to be determined. Then the form will be sent to the approver. Approver reviews the PR form, approves or rejects the request.
@@ -54,7 +54,15 @@ Similarly go to rejected mail activity.  Map "To" to startedby and "Subject" to 
 Save the process.
 
 Move on to action task "create new purchase requisition". Currently we can not either update the action task with respective action or we can not replace with valid action.
-Hence this step shall be removed and a new action shall be selected from action library(Eg: Create Purchase Requisition"
+Hence this step shall be removed and a new action shall be selected from action library(Eg: Create Purchase Requisition).
+After the action task is added, fill in required inputs, provide destinations, save the process.
+Now the process shall be ready to release, deploy and execute.
+
+As the process is generated and if you would like to explain the process to a colleague, you can go to "generate" option in the process editor. Select "Explain this process"
+This will generate the process summary.
+Similarly a datatype can be generated from overview tab by providing prompt "Generate datatype for supplier details".
+
+
 
 
 
