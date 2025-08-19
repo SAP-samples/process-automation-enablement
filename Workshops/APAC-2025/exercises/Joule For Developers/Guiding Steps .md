@@ -35,6 +35,9 @@ Users : Map to "Started By"
 Create process custom variable "totalprice" ( of string type)
 Save the process
 
+<img width="612" height="557" alt="image" src="https://github.com/user-attachments/assets/913ce145-1943-4993-b876-8e3b50b71d55" />
+
+
 ## Script Task Generation
 Right below the PR form, click on "+" icon and select Script task.
 Script task will be added. Open the editor to generate the script. Remove the existing sample code.
@@ -43,6 +46,8 @@ and $.context.form_ProductForm_1.quantity and convert to string and assign to $.
 This generates the java script code. Now choose to accept it.
 Fix if there are any errors with respect to variable names. Apply to close the script task editor.
 Save the process
+
+<img width="1513" height="582" alt="image" src="https://github.com/user-attachments/assets/0f3370ef-c0e0-4fa8-9fec-e75f635f7c13" />
 
 ## Rules Generation
 After script task, click on "+" to create a decision. Give the name as "Determine Approver"
@@ -53,6 +58,8 @@ Save the decision.
 Go back to process. In case if you do not see decision added to the process, add it from the smart menu after script task.
 Provide 1710 as supplier value as decision input parameter
 Save the process
+
+<img width="930" height="651" alt="image" src="https://github.com/user-attachments/assets/4c10e2dc-d9f2-4439-940c-fe587bb13dda" />
 
 ## Extending the Generated Process
 Move on to purchase requisition approval form. Go to general tab. Map subject to totalprice, Users to approver.
