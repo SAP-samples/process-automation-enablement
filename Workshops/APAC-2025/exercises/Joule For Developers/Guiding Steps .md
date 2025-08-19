@@ -1,4 +1,4 @@
-<img width="443" height="21" alt="image" src="https://github.com/user-attachments/assets/d11bac2d-90dc-425c-95d0-e5565b0c3144" /><img width="564" height="23" alt="image" src="https://github.com/user-attachments/assets/c5b13752-7b5c-496b-8754-a3aa5da8a9a3" />In this page we are going to cover the steps on how to use Joule for developers to create a process.
+In this page we are going to cover the steps on how to use Joule for developers to create a process.
 Lets take "Purchase requisition Approval" as reference process.
 In this process, requestor would submit purchase requisition approval form that has details like product quantity, number of units, prices etc.
 Assume based on supplier, approver needs to be determined. Then the form will be sent to the approver. Approver reviews the PR form, approves or rejects the request.
@@ -61,6 +61,8 @@ Now the process shall be ready to release, deploy and execute.
 As the process is generated and if you would like to explain the process to a colleague, you can go to "generate" option in the process editor. Select "Explain this process"
 This will generate the process summary.
 Similarly a datatype can be generated from overview tab by providing prompt "Generate datatype for supplier details".
+In addition to script generation, script editor supports removal of third party packages from script. This feature would be useful when processes are fetched from other modelling tools to SBPA
+You can downgrade the script to ECMA 5.1 version.
 
 
 
