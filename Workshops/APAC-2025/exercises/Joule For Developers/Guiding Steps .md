@@ -1,23 +1,24 @@
 ## Overview
 In this page we are going to cover the steps on how to use Joule for developers to create a process.
 Lets take "Purchase requisition Approval" as reference process.
-In this process, requestor would submit purchase requisition approval form that has details like product quantity,price etc.
+In this process, requestor would submit purchase requisition approval form that has details like product quantity, price etc.
 Assume based on supplier, approver needs to be determined. Then the form will be sent to the approver. Approver reviews the PR form, approves or rejects the request.
 If the request is approved PR shall be created in SAP S/4 HANA system.
 
 <img width="1777" height="976" alt="image" src="https://github.com/user-attachments/assets/cbfe0dda-1a25-45fc-ad5a-9deb288770b9" />
 
 ## Process Generation
-Now let us see how this process can be created with SBPA - Joule for developers capability.
+Now let us see how this process can be generated with SBPA - Joule for Developers capability.
 First step would be to create a project in the tenant.
-Once the project is created, go to Overview tab and click on Generate. Alternatively you can generate the process from process editor.
+Once the project is created, go to Overview tab and click on Generate. Alternatively, you can generate the process from process editor.
 
 <img width="547" height="402" alt="image" src="https://github.com/user-attachments/assets/07155bf4-c469-425f-bc52-f0ce5b6af633" />
 
-Now select "Process" and provide the below prompt to generate the process
+
+Now select "Process" and provide the below prompt to generate the process.
 "Please generate a purchase requisition approval process, including an approval form "Purchase requisition approval" to review this data by the manager to approve or reject. When form is approved create approved email activity. When form is rejected create rejected email activity . After approval email activity, create an action "create new purchase requisition" to create the new purchase requisition in SAP S/4 HANA after its approval"
 This generates process with certain activities such as form, email and it opens up in a new tab. Please note that the process name is generated based on the prompt.
-You can walk through the process to see how intelligently the process and activities in it are created. For example when you open purchase requisition approval form
+You can walk through the process to see how intelligently the process and activities in it are created. For example, when you open purchase requisition approval form
 and you can check the "Total Amount" field. Based on prompt, a numeric input field is created to accept only numeric values
 
 <img width="1078" height="583" alt="image" src="https://github.com/user-attachments/assets/4d686209-86fe-43b9-a4c8-3c99e3cb032c" />
@@ -26,7 +27,7 @@ Now we will see how the process can be enhanced such that required inputs and ou
 We need to add an input form to so that the requestor can enter certain details about the requisition such as product quantity, supplier, price etc.
 
 ## Form Creation
-To do this, click on "+" button after "Add a Trigger" step. From Smart Menu,select Form. 
+To do this, click on "+" button after "Add a Trigger" step. From Smart Menu, select Form. 
 Enter the  prompt to generate input form "create input form that has productname, quantity, price, supplier".
 Once the form is generated, go to the side panel. Fill the missing details
 Subject : PR Form
@@ -44,7 +45,7 @@ Fix if there are any errors with respect to variable names. Apply to close the s
 Save the process
 
 ## Rules Generation
-After script task, click on "+" to create a decision. Give the name as "Determinse Approver"
+After script task, click on "+" to create a decision. Give the name as "Determine Approver"
 When decision opens in new tab, create input parameter "Supplier" (string) and output parameter "approver" (string)
 Save the decision. click Generate and provide the prompt to generate a rule "create a decision table rule with name "approver determination" to determine approver based on supplier such that if the supplier is 1710, the purchase requisition must be approved by the "adminmanager@sap.com" . If supplier is 1720, it must be approved by "procurementmanager@sap.com".
 You can check how the rules are generated.
@@ -53,11 +54,11 @@ Go back to process. In case if you do not see decision added to the process, add
 Provide 1710 as supplier value as decision input parameter
 Save the process
 
-## Extending the generated Process
-Move on to purchase requsition approval form. Go to general tab. Map subject to totalprice, Users to approver.
+## Extending the Generated Process
+Move on to purchase requisition approval form. Go to general tab. Map subject to totalprice, Users to approver.
 Save the process.
 Move on to approved email activity. Map "To" to startedby and "Subject" to approved. Open the mail body editor and enter the mail body as "approved"
-Similarly go to rejected mail activity.  Map "To" to startedby and "Subject" to rejected. Open the mail body editor and enter the mail body as "rejected" 
+Similarly, go to rejected mail activity.  Map "To" to startedby and "Subject" to rejected. Open the mail body editor and enter the mail body as "rejected" 
 Save the process.
 
 Move on to action task "create new purchase requisition". Currently we can not either update the action task with respective action or we can not replace with valid action.
@@ -68,7 +69,7 @@ Now the process shall be ready to release, deploy and execute.
 ## More AI features
 As the process is generated and if you would like to explain the process to a colleague, you can go to "generate" option in the process editor. Select "Explain this process"
 This will generate the process summary.
-Similarly a datatype can be generated from overview tab by providing prompt "Generate datatype for supplier details".
+Similarly, a datatype can be generated from overview tab by providing prompt "Generate datatype for supplier details".
 In addition to script generation, script editor supports removal of third party packages from script. This feature would be useful when processes are fetched from other modelling tools to SBPA
 You can downgrade the script to ECMA 5.1 version.
 
