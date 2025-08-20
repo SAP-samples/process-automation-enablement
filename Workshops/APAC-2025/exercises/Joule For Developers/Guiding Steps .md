@@ -50,14 +50,14 @@ Save the process
 <img width="1513" height="582" alt="image" src="https://github.com/user-attachments/assets/0f3370ef-c0e0-4fa8-9fec-e75f635f7c13" />
 
 ## Rules Generation
-After script task, click on "+" to create a decision. Give the name as "Determine Approver"
-When decision opens in new tab, create input parameter "Supplier" (string) and output parameter "approver" (string)
+After script task, click on "+" to create a decision. Give the name as "Determine Approver".
+When decision opens in new tab, create input parameter "Supplier" (string) and output parameter "approver" (string).
 Save the decision. click Generate and provide the prompt to generate a rule "create a decision table rule with name "approver determination" to determine approver based on supplier such that if the supplier is 1710, the purchase requisition must be approved by the "adminmanager@sap.com" . If supplier is 1720, it must be approved by "procurementmanager@sap.com".
 You can check how the rules are generated.
 Save the decision.
 Go back to process. In case if you do not see decision added to the process, add it from the smart menu after script task.
-Provide 1710 as supplier value as decision input parameter
-Save the process
+Provide 1710 as supplier value as decision input parameter.
+Save the process.
 
 <img width="930" height="651" alt="image" src="https://github.com/user-attachments/assets/4c10e2dc-d9f2-4439-940c-fe587bb13dda" />
 
@@ -74,11 +74,9 @@ After the action task is added, fill in required inputs, provide destinations, s
 Now the process shall be ready to release, deploy and execute.
 
 ## More AI features
-As the process is generated and if you would like to explain the process to a colleague, you can go to "generate" option in the process editor. Select "Explain this process"
-This will generate the process summary.
-Similarly, a datatype can be generated from overview tab by providing prompt "Generate datatype for supplier details".
-In addition to script generation, script editor supports removal of third party packages from script. This feature would be useful when processes are fetched from other modelling tools to SBPA
-You can downgrade the script to ECMA 5.1 version.
+1. As the process is generated and if you would like to explain the process to a colleague, you can go to "Generate" option in the process editor. Select "Explain this process". This will generate the process summary.
+2. Similarly, a datatype can be generated from overview tab by providing prompt "Generate datatype for supplier details".
+3. In addition to script generation, script editor supports removal of third party packages from script. This feature would be useful when processes are fetched from other modelling tools to SBPA. You can downgrade the script to ECMA 5.1 version.
 
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
