@@ -42,7 +42,7 @@ Save the process
 Right below the PR form, click on "+" icon and select Script task.
 Script task will be added. Open the editor to generate the script. Remove the existing sample code.
 click on "Generate" and provide the prompt "generate script that calculates totalprice by multiplying $.context.form_ProductForm_1.price 
-and $.context.form_ProductForm_1.quantity and convert to string and assign to $.context.custom.totalprice"
+ and  $.context.form_ProductForm_1.quantity and convert to string and assign to $.context.custom.totalprice"
 This generates the java script code. Now choose to accept it.
 Fix if there are any errors with respect to variable names. Apply to close the script task editor.
 Save the process
