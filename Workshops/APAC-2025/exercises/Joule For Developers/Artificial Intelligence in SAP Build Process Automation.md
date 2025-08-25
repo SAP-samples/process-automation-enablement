@@ -46,12 +46,26 @@ In this step we will generate Purchase Requisition Approval process template usi
 <img width="672" height="328" alt="image" src="https://github.com/user-attachments/assets/ad51cb08-3b9d-4251-9523-78574fb884b3" />
 
 
+ 
+
+
 Note:  Save work with each step just to make sure we do not lose out on any information.
+ 
 
 6.	Click on <img width="29" height="23" alt="image" src="https://github.com/user-attachments/assets/93a3de6c-f048-408f-8b4b-ada78c206608" />
   to open side process panel, select Variables, configure a process custom variable "totalprice" (of string type) and Save the process.
 
+<img width="688" height="489" alt="image" src="https://github.com/user-attachments/assets/d8cd5d0e-aa14-461e-b58a-39b5f14e78c2" />
+
+
+<img width="688" height="312" alt="image" src="https://github.com/user-attachments/assets/eee6c343-7207-4286-ba52-f768a0944118" />
+
+
 7.	Because we are using Product Information Form to Trigger the process, we will remove it from next step. Select Product Information Form, click on three dots, click on Remove and Save the process.
+
+
+<img width="689" height="277" alt="image" src="https://github.com/user-attachments/assets/54a9db07-db5d-4d68-9892-ba3036576643" />
+
 
 ## Script Generation
 1.	In this step we will write a custom script using Generative AI to calculate total price value and assign to custom variable.
@@ -64,11 +78,11 @@ Note:  Save work with each step just to make sure we do not lose out on any info
 <img width="671" height="299" alt="image" src="https://github.com/user-attachments/assets/c2fe81b8-368a-4255-a062-0287863d0efc" />
  
 
-4.	Click on Generate, enter the following prompt “generate script that calculates totalprice by multiplying $.context.startEvent.price and  $.context.startEvent.quantity and convert to string and assign to $.context.custom.totalprice”
+4.	Click on Generate, enter the following prompt **“generate script that calculates totalprice by multiplying $.context.startEvent.price and  $.context.startEvent.quantity and convert to string and assign to $.context.custom.totalprice”**
 
-System will generate script, check if script is fine, Accept it, Validate Script, Apply and Save Process.
+5. System will generate script, check if script is fine, Accept it, Validate Script, Apply and Save Process.
 
- <img width="736" height="330" alt="image" src="https://github.com/user-attachments/assets/a58405ee-d17f-4598-92fc-2a7695b1ce32" />
+<img width="736" height="330" alt="image" src="https://github.com/user-attachments/assets/a58405ee-d17f-4598-92fc-2a7695b1ce32" />
 
 ## Rules Generation
 1. In this step we will create a business rule using Generative AI to dynamically determine approvers of purchase requisitions.
