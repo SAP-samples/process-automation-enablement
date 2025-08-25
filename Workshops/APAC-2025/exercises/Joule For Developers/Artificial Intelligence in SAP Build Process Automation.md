@@ -97,7 +97,7 @@ Note:  Save work with each step just to make sure we do not lose out on any info
 
 4.	Click on Generate, select Generate Rule, and give following prompt and Save Process – 
 
-create a decision table rule with name "approver determination" to determine approver based on supplier such that if the supplier is 1710, the purchase requisition must be approved by the "adminmanager@sap.com". If supplier is 1720, it must be approved by "procurementmanager@sap.com”
+**create a decision table rule with name "approver determination" to determine approver based on supplier such that if the supplier is 1710, the purchase requisition must be approved by the "adminmanager@sap.com". If supplier is 1720, it must be approved by "procurementmanager@sap.com"**
 
 Note: Replace email ID with valid process automation user email id for testing purpose.
 
@@ -113,82 +113,87 @@ Note: Replace email ID with valid process automation user email id for testing p
 6.	Select Determine Approver decision in main process, on the right-hand side panel select Inputs, map it with Supplier information from coming from Trigger form and Save the process.
 <img width="738" height="283" alt="image" src="https://github.com/user-attachments/assets/fa260d19-6df9-4cae-8b75-2d4b7e34756f" />
 
- 
+## Enhance Approval form
 
-7.	In the step we will modify Approval Form and map it with input field & calculated variables.
+1.	In the step we will modify Approval Form and map it with input field & calculated variables.
 
-a.	Click on three dots next to Approval Form and click on Open Editor.
+2.	Click on three dots next to Approval Form and click on Open Editor.
 <img width="740" height="261" alt="image" src="https://github.com/user-attachments/assets/568c76c8-d283-4127-8704-57d3c9d3f485" />
 
  
 
-b.	In the form editor, drag and drop from left panel four components in following sequence and Save the process.
+3.	In the form editor, drag and drop from left panel four components in following sequence and Save the process.
 
-i.	H1 - Headline 1 - Enter “Approve Purchase Requisition”
-ii.	Text Field - Rename title as “Supplier” and make it required on right side configuration.
-iii.	Number Field - Rename title as “Quantity” and make it required on right side configuration.
-iv.	Text Field - Rename title as “Total Price” and make it required on right side configuration.
+	i.	H1 - Headline 1 - Enter “Approve Purchase Requisition”.
+	ii.	Text Field - Rename title as “Supplier” and make it required on right side configuration.
+	iii.	Number Field - Rename title as “Quantity” and make it required on right side configuration.
+	iv.	Text Field - Rename title as “Total Price” and make it required on right side configuration.
 
  <img width="675" height="303" alt="image" src="https://github.com/user-attachments/assets/83346a27-b0e4-4604-885b-bc67ded9c604" />
 
  
-c.	Come back to main process, select Approval Form,  
-i.	On the right-hand panel under General tab, enter “Approve Purchase Requisition” as subject and map approver from Determine Approver step to Recipient users, and Save the Process
+4.	Come back to main process, select Approval Form,  
+5.	On the right-hand panel under General tab, enter “Approve Purchase Requisition” as subject and map approver from Determine Approver step to Recipient users, and Save the Process
 
  <img width="662" height="291" alt="image" src="https://github.com/user-attachments/assets/eb9120e6-8739-42cf-afb4-7124bf9b2626" />
 
 
-ii.	On the right-hand panel under Inputs tab, map following fields, and Save the process.
-•	Quantity – with quantity from Trigger Form
-•	Supplier – with supplier from Trigger Form
-•	Total Price – with total price from Custom Variable
+6.	On the right-hand panel under Inputs tab, map following fields, and Save the process.
+	•	Quantity – with quantity from Trigger Form
+	•	Supplier – with supplier from Trigger Form
+	•	Total Price – with total price from Custom Variable
 
  <img width="645" height="280" alt="image" src="https://github.com/user-attachments/assets/dcce92ce-4dc9-4e63-8d9e-d47ede371a89" />
 
+## Release and Deployment
 
-8.	In this step we will check our process created so far, release the process & deploy the process to test it working.
+1.	In this step we will check our process created so far, release the process & deploy the process to test it working.
 
-a.	Navigate to SAP Build Lobby, click on Control Tower on left hand side menu, click on Environments, click on Create, enter name as “Procurement” and click on Create.
-b.	Come to the project, click on Release on right hand side and Release the project.
+2.	Navigate to SAP Build Lobby, click on Control Tower on left hand side menu, click on Environments, click on Create, enter name as “Procurement” and click on Create.
+3.	Come to the project, click on Release on right hand side and Release the project.
 
  <img width="719" height="282" alt="image" src="https://github.com/user-attachments/assets/36b55d0f-1978-45f7-87e3-31334a426413" />
 
 
-c.	From the middle top panel select “Released” project and you will see an option to Deploy project on right-hand side. Click on Deploy, select Procurement as environment and deploy the project.
+4.	From the middle top panel select “Released” project and you will see an option to Deploy project on right-hand side. Click on Deploy, select Procurement as environment and deploy the project.
 
  <img width="741" height="285" alt="image" src="https://github.com/user-attachments/assets/41b8c2f8-f193-4d35-ac62-cb07721d9461" />
 
 
-d.	Select Purchase Requisition process in the deployed project, 
-i.	system will open up process in the new tab, click on first step Trigger, system will show 
+5.	Select Purchase Requisition process in the deployed project, 
+6.	system will open up process in the new tab, click on first step Trigger, system will show 
 <img width="634" height="260" alt="image" src="https://github.com/user-attachments/assets/cdbb7c41-2a98-4c6d-9d8d-0e7ba95ad932" />
 
  
 
-ii.	Click on first step Trigger, copy the Form Link from right-hand side, paste the url in the new browser tab, it will open up new form instance, enter all information and submit the form to trigger the process.
+7.	Click on first step Trigger, copy the Form Link from right-hand side, paste the url in the new browser tab, it will open up new form instance, enter all information and submit the form to trigger the process.
 
  <img width="699" height="357" alt="image" src="https://github.com/user-attachments/assets/6c907164-e41d-4ae7-970c-fd78180fc59f" />
 
 
-e.	Navigate to SAP Build Lobby, click on Monitoring on the left-hand side menu, click on Process & Workflow Instances tile to check status of your process.
+8.	Navigate to SAP Build Lobby, click on Monitoring on the left-hand side menu, click on Process & Workflow Instances tile to check status of your process.
 
-9.	This is optional extension step to learn how to use Generative AI to explain an existing project.
+## Process Summarization
 
-a.	Navigate to SAP Build Lobby, click on Store or Templates on left-hand side menu, search for Fixed Asset Transfer Approval process, click on Create from Template and click on Create. This will create a project copy in the lobby and open it up in new tab
-b.	Click on main process Fixed Asset Approval artefact
+1.	This is optional extension step to learn how to use Generative AI to explain an existing project.
+
+2.	Navigate to SAP Build Lobby, click on Store or Templates on left-hand side menu, search for Fixed Asset Transfer Approval process, click on Create from Template and click on Create. This will create a project copy in the lobby and open it up in new tab
+3.	Click on main process Fixed Asset Approval artefact
 
  <img width="763" height="367" alt="image" src="https://github.com/user-attachments/assets/49fd6f61-7902-44d8-bc72-12fc633fc188" />
 
 
-c.	Click on Generate and select Explain this process. AI will generate the step by step summary of process to understand process details.
+4.	Click on Generate and select Explain this process. AI will generate the step by step summary of process to understand process details.
 
  <img width="768" height="661" alt="image" src="https://github.com/user-attachments/assets/4e79a0d0-f0c0-48f9-a9a0-90bbd2a57c47" />
 
+## Additional Steps
 
-10.	Following are optional additional steps which you may like to follow using product documentation to further enhance your process.
+Following are optional additional steps which you may like to follow using product documentation to further enhance your process.
 
-a.	Add an Action Project to perform operations (create, read, update, delete) in any SAP or non-SAP system. For example, call an Action project to create Purchase Requisition in SAP S/4HANA system.
-b.	Add notification template to send notifications to users.
-c.	Add Process Visibility to your process to create dashboard for business users and stakeholders to monitor step-by-step progress of process instances.
+1.	Add an Action Project to perform operations (create, read, update, delete) in any SAP or non-SAP system. For example, call an Action project to create Purchase Requisition in SAP S/4HANA system.
+2.	Add notification template to send notifications to users.
+3.	Add Process Visibility to your process to create dashboard for business users and stakeholders to monitor step-by-step progress of process instances.
 
-
+## License
+Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the LICENSE file.
