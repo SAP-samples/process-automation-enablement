@@ -1,4 +1,4 @@
-## Artificial Intelligence in Process Automation
+## Artificial Intelligence in SAP Build Process Automation
 In this exercise we will learn how to use Joule for Developers capabilities of SAP Build in Process Automation. 
 We will use following features to create a sample Purchase Requisition Approval process: 
   a)Generate Process Template 
@@ -16,16 +16,53 @@ If the request is approved PR shall be created in SAP S/4 HANA system.
 Let us get started !
 ## Enable Generative AI option
 Login to SAP Build Lobby 
+<img width="770" height="211" alt="image" src="https://github.com/user-attachments/assets/64ef5759-880a-44b9-b36d-5dae86f3b56c" />
+
+Navigate to Control Tower and ensure "Enable Generative AI" is enabled
+<img width="1357" height="626" alt="image" src="https://github.com/user-attachments/assets/747025d6-95e1-461d-960d-07511187fbba" />
+
+## Project Creation
+1.	Login to SAP Build Lobby
+    <img width="770" height="211" alt="image" src="https://github.com/user-attachments/assets/1b4d2064-6f42-4419-b5a6-1d7ea1d76408" />
+
+ 
+
+2.	Click on Create to start a new process automation project
+    <img width="770" height="195" alt="image" src="https://github.com/user-attachments/assets/96e1b0ad-c2af-426a-b61a-1e60c23d47ba" />
+
+ 
+
+a.	Select Automated Process and click Next
+ <img width="720" height="465" alt="image" src="https://github.com/user-attachments/assets/63bb9cd2-3693-4111-8d2f-4592f104c1b8" />
+
+
+
+b.	Select Process as project type and click Next
+
+ <img width="720" height="452" alt="image" src="https://github.com/user-attachments/assets/985a612b-fe43-4843-8410-2572b10f1800" />
+
+
+c.	Enter project Name & Description and click on Review
+<img width="729" height="460" alt="image" src="https://github.com/user-attachments/assets/811f5717-1009-42a7-8121-584766ce502d" />
+
+ 
+
+d.	Click on Create
+<img width="729" height="466" alt="image" src="https://github.com/user-attachments/assets/0da4d6b6-e6d3-4cf0-8e62-843d06ed4f19" />
+
+ 
+This will create a project with given name & description and will show a prompt to create process as a next step. Click on Cancel.
+
 
 ## Process Generation
-Now let us see how this process can be generated with SBPA - Joule for Developers capability.
-First step would be to create a project in the tenant.
-Once the project is created, go to Overview tab and click on Generate. Alternatively, you can generate the process from process editor.
+Now let us see how Purchase Requisition Approval process template can be generated .
+Go to Overview tab and click on Generate. Alternatively, you can generate the process from process editor.
 
 <img width="547" height="402" alt="image" src="https://github.com/user-attachments/assets/07155bf4-c469-425f-bc52-f0ce5b6af633" />
 
 
-Now select "Process" and provide the below prompt to generate the process.
+Now select "Process" and provide the below prompt to generate the process and click on <img width="26" height="24" alt="image" src="https://github.com/user-attachments/assets/a6443fdf-55fe-4098-b709-99398d948520" /> send icon 
+
 "Please generate a purchase requisition approval process, including an approval form "Purchase requisition approval" to review this data by the manager to approve or reject. When form is approved create approved email activity. When form is rejected create rejected email activity . After approval email activity, create an action "create new purchase requisition" to create the new purchase requisition in SAP S/4 HANA after its approval"
 This generates process with certain activities such as form, email and it opens up in a new tab. Please note that the process name is generated based on the prompt.
 You can walk through the process to see how intelligently the process and activities in it are created. For example, when you open purchase requisition approval form
