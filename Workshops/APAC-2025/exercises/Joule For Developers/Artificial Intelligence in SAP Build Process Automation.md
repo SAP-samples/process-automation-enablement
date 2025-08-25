@@ -23,10 +23,7 @@ In this step we will generate Purchase Requisition Approval process template usi
 1. Click on Generate and select Process
 <img width="664" height="256" alt="image" src="https://github.com/user-attachments/assets/bbe42913-7662-477d-8e7d-1769bc7a02d6" />
 
- 
-
-2.	Enter following prompt Generate an empty process template called “Purchase Requisition” with an approval form and click on send icon <img width="26" height="24" alt="image" src="https://github.com/user-attachments/assets/8fe2f508-18af-4238-87e4-f14eadd2222d" />
-System will create a process template and open design editor to continue designing the process.
+2.	Enter following prompt **"Generate an empty process template called Purchase Requisition with an approval form"** and click on send icon <img width="26" height="24" alt="image" src="https://github.com/user-attachments/assets/8fe2f508-18af-4238-87e4-f14eadd2222d" />. System will create a process template and open design editor to continue designing the process.
  
 <img width="664" height="265" alt="image" src="https://github.com/user-attachments/assets/00a893e8-5086-455a-b8cb-20e6e8003042" />
 
