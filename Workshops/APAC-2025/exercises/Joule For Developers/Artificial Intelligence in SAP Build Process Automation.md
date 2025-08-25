@@ -23,34 +23,35 @@ In this step we will generate Purchase Requisition Approval process template usi
 1. Click on Generate and select Process
 <img width="664" height="256" alt="image" src="https://github.com/user-attachments/assets/bbe42913-7662-477d-8e7d-1769bc7a02d6" />
 
+
 2.	Enter following prompt **"Generate an empty process template called Purchase Requisition with an approval form"** and click on send icon <img width="26" height="24" alt="image" src="https://github.com/user-attachments/assets/8fe2f508-18af-4238-87e4-f14eadd2222d" />. System will create a process template and open design editor to continue designing the process.
  
 <img width="664" height="265" alt="image" src="https://github.com/user-attachments/assets/00a893e8-5086-455a-b8cb-20e6e8003042" />
 
-3.	In this step we will generate a form using Generative AI and use it as Trigger Form to start the process.
+## Form Generation
+1.	In this step we will generate a form using Generative AI and use it as Trigger Form to start the process.
 
-4.	click on "+" button after "Add a Trigger" step. From Smart Menu, select Form.
+2.	Click on "+" button after "Add a Trigger" step. From Smart Menu, select Form.
    <img width="670" height="372" alt="image" src="https://github.com/user-attachments/assets/f28b6d3d-5f91-4259-8b7d-ee656269dab1" />
 
-6.	Enter the prompt to generate input form "create input form that has product name, quantity, price, supplier".  Click on Save
-
+3.	Enter the prompt to generate input form **"create input form that has product name, quantity, price, supplier".**  Click on Save
  <img width="672" height="334" alt="image" src="https://github.com/user-attachments/assets/14532531-5941-4f6c-b408-e059d9a1e621" />
 
-7.	Once the form is generated, Click on Save 
+
+4.	Once the form is generated, Click on Save 
  <img width="558" height="113" alt="image" src="https://github.com/user-attachments/assets/5874a639-af3e-4fad-b559-d54047df91cd" />
 
 
-8.	Click on Add a Trigger, select Submit a Form, choose the form which we created in the last step and Save.
-
- <img width="672" height="328" alt="image" src="https://github.com/user-attachments/assets/ad51cb08-3b9d-4251-9523-78574fb884b3" />
+5.	Click on Add a Trigger, select Submit a Form, choose the form which we created in the last step and Save.
+<img width="672" height="328" alt="image" src="https://github.com/user-attachments/assets/ad51cb08-3b9d-4251-9523-78574fb884b3" />
 
 
 Note:  Save work with each step just to make sure we do not lose out on any information.
 
-9.	Click on <img width="29" height="23" alt="image" src="https://github.com/user-attachments/assets/93a3de6c-f048-408f-8b4b-ada78c206608" />
+6.	Click on <img width="29" height="23" alt="image" src="https://github.com/user-attachments/assets/93a3de6c-f048-408f-8b4b-ada78c206608" />
   to open side process panel, select Variables, configure a process custom variable "totalprice" (of string type) and Save the process.
 
-10.	Because we are using Product Information Form to Trigger the process, we will remove it from next step. Select Product Information Form, click on three dots, click on Remove and Save the process.
+7.	Because we are using Product Information Form to Trigger the process, we will remove it from next step. Select Product Information Form, click on three dots, click on Remove and Save the process.
 
 ## Script Generation
 1.	In this step we will write a custom script using Generative AI to calculate total price value and assign to custom variable.
