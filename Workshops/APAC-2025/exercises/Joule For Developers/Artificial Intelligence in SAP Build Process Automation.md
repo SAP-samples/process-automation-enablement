@@ -7,16 +7,13 @@ In this exercise we will learn how to use Joule for Developers capabilities of S
 
 ## Enable Generative AI option
 Login to SAP Build Lobby Navigate to Control Tower and ensure "Enable Generative AI" is enabled.
-
 <img width="1357" height="626" alt="image" src="https://github.com/user-attachments/assets/edd25cc4-469a-4430-a422-d15484004156" />
 
 ## Project Creation
 1. Login to SAP Build Lobby and Click on Process Automation
-
 <img width="1557" height="433" alt="image" src="https://github.com/user-attachments/assets/dae4e689-9941-40e5-9549-9d1e27335d3e" />
 
 2. Enter project Name & Description and click Create. This will create a project with given name & description.
-
 <img width="1137" height="560" alt="image" src="https://github.com/user-attachments/assets/ee027f05-6dc4-4e64-83c5-f2d25d521720" />
 
 ## Process Generation
