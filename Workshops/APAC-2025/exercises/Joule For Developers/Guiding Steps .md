@@ -1,11 +1,21 @@
-## Overview
-In this page we are going to cover the steps on how to use Joule for developers to create a process.
-Lets take "Purchase requisition Approval" as reference process.
+## Artificial Intelligence in Process Automation
+In this exercise we will learn how to use Joule for Developers capabilities of SAP Build in Process Automation. 
+We will use following features to create a sample Purchase Requisition Approval process: 
+  a)Generate Process Template 
+  b)Generate Form 
+  c)Generate Script 
+  d)Generate Business Rules 
+  e)Generate Datatype
+
 In this process, requestor would submit purchase requisition approval form that has details like product quantity, price etc.
 Assume based on supplier, approver needs to be determined. Then the form will be sent to the approver. Approver reviews the PR form, approves or rejects the request.
 If the request is approved PR shall be created in SAP S/4 HANA system.
 
 <img width="1777" height="976" alt="image" src="https://github.com/user-attachments/assets/cbfe0dda-1a25-45fc-ad5a-9deb288770b9" />
+
+Let us get started !
+## Enable Generative AI option
+Login to SAP Build Lobby 
 
 ## Process Generation
 Now let us see how this process can be generated with SBPA - Joule for Developers capability.
