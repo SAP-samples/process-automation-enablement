@@ -24,9 +24,9 @@ Navigate to Control Tower and ensure "Enable Generative AI" is enabled.
 1.	Login to SAP Build Lobby and Click on Process Automation
     <img width="1557" height="433" alt="image" src="https://github.com/user-attachments/assets/000de787-4632-41c9-ab75-4c2c06b1e426" />
 
-2.	Enter project Name & Description and click Create
+2.	Enter project Name & Description and click Create. This will create a project with given name & description.
     <img width="1137" height="560" alt="image" src="https://github.com/user-attachments/assets/ee01e289-0395-4d30-a346-feeba1845883" />
-This will create a project with given name & description.
+
 
 ## Process Generation
 Now let us see how Purchase Requisition Approval process template can be generated .
@@ -51,9 +51,9 @@ and you can check the "Total Amount" field. Based on prompt, a numeric input fie
 1. To do this, click on "+" button after "Add a Trigger" step. From Smart Menu, select Form. 
 2. Enter the  prompt to generate input form "create input form that has productname, quantity, price, supplier".
 3.Once the form is generated, go to the side panel by clicking on . Fill the missing details
-   a)Subject : PR Form
-   b)Users : Map to "Started By"
-   c)Select Variables, configure a process custom variable "totalprice" (of string type) and Save the process.
+   a. Subject : PR Form
+   b. Users : Map to "Started By"
+   c. Select Variables, configure a process custom variable "totalprice" (of string type) and Save the process.
   Note:  Save work with each step just to make sure we do not lose out on any information
 
 <img width="612" height="557" alt="image" src="https://github.com/user-attachments/assets/913ce145-1943-4993-b876-8e3b50b71d55" />
