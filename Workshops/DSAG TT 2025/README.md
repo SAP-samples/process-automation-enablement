@@ -1,4 +1,4 @@
-# DSAG Technologietage 2025 - Trial Area
+# DSAG Jahreskongress 2025 - Trial Area
 
 
 Willkommen zu den Tutorials zu SAP Build.
