@@ -27,6 +27,7 @@ Exercise 1.10 [Run the process](https://github.com/SAP-samples/process-automatio
 Good luck!
   
 ### Create Variant Template and Variant Management
+Import Variant Template project
 <ul>
 <li>Import project</li> <br>
 ![](images/Import_Project_1.png)<br><br>
