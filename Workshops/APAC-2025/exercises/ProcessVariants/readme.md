@@ -28,12 +28,12 @@ Good luck!
   
 ### Create Variant Template and Variant Management
 Import Variant Template project<br>
-<ul>
-<li>Import project</li> <br>
+a.Import project <br>
 ![](images/Import_Project_1.png)<br>
-<li>Browse Files and Choose the "CapEx Process Variants.mtar"</li> <br>
+b.Browse Files and Choose the "CapEx Process Variants.mtar" <br>
 ![](images/Browse_Files_2.png)<br><br>
 ![](images/Choose_Import.png)<br><br>
+<ul>
 <li> Open the project and open the process <b> "Cap Ex Process" </b> by clicking on it from the <b>Overview </b> tab.</li>
 <li> Locate the <b> "Review Variant Template" </b> in the process and open the template by double clicking it (or from the 3 dots menu click on Open Editor).<br>
 <i>Steps and the attributes available for the variants are exposed in the template. You can add or delete any step needed but in the interest of time for the current workshop leave it as such. </i>  </li>
