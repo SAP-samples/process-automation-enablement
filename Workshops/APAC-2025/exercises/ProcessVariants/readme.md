@@ -28,9 +28,9 @@ Good luck!
   
 ### Create Variant Template and Variant Management
 <ul>
-<li>Import project <br><br>
+<li>Import project</li> <br>
 ![](images/Import_Project_1.png)<br><br>
-<li>Browse Files and Choose the "CapEx Process Variants.mtar"</li>
+<li>Browse Files and Choose the "CapEx Process Variants.mtar"</li> <br>
 ![](images/Browse_Files_2.png)<br><br>
 ![](images/Choose_Import.png)<br><br>
 <li> Open the project and open the process <b> "Cap Ex Process" </b> by clicking on it from the <b>Overview </b> tab.</li>
