@@ -42,10 +42,12 @@ Import Variant Template project<br>
 <i>Steps and the attributes available for the variants are exposed in the template. You can add or delete any step needed but in the interest of time for the current workshop leave it as such. </i>  </li>
 <li> Click on <b>Release</b> button. </li><br>
   
-![](images/Release.png)<br><br>
+![](images/Release_4.png)<br><br>
 <li> Provide description as “Initial Version”. </li>
 <li> Click on Release. </li>
 <li> Successful project release should be shown with a “Show project version” link. </li>
+
+![](images/Show_Project_version_5.png)<br><br>
 <li> Go to the Lobby and locate your project.</li>
 <li> Click on the arrow next to your project and choose the <b>Versions</b> tab. </li><br>
 
