@@ -28,8 +28,9 @@ Sie können entweder die Produkte, wie **SAP Build Apps**, **SAP Build Code**, *
 
 2. **System von uns** nutzen
    
-   a) Bitte einen User auswählen und als "verwendet markieren": [User für SAP Build](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/EZ5kSC4MeP5LlvujOhpaLvcB0jqjv6CEdozm_Cpa82sw6g)  
-      Passwort für die Liste: DsagJK2025!
+   a) Bitte einen User auswählen und als "verwendet markieren": [User für SAP Build](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/ERGQpzWKQg5BlBtqiXhqGKABWtKM4yUXVSYAxn_8PMFW5Q)
+
+   Passwort für die Liste: DsagJK2025!
    
    b) Link zur Übung: [SAP Build End-to-End](https://trials.cfapps.eu10-004.hana.ondemand.com)
 
@@ -49,7 +50,8 @@ Sie können entweder SAP Build Code mit Joule über ein eigenes Basic Trial Kont
 
 2. **System von uns** nutzen
    
-   a) Bitte einen User auswählen und als "verwendet markieren": [User für SAP Build Code](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/EXtl9lTcJctBgm1RoK8aqFwBOLKshRIlxM3XVGR-ItrehA)  
+   a) Bitte einen User auswählen und als "verwendet markieren": [User für SAP Build Code](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/EQkAtdDWMYBHsndtJGOWLwkBy9733oRWsYX8GDP5BejHBw)
+
    Passwort für die Lise: DsagJK2025!
    
    b) Link zur Übung: [SAP Build Code mit Joule](https://trials.cfapps.eu10-004.hana.ondemand.com)
