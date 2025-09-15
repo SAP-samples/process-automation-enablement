@@ -27,17 +27,10 @@ Exercise 1.10 [Run the process](https://github.com/SAP-samples/process-automatio
 Good luck!
   
 ### Create Variant Template and Variant Management
-a.	Go to Lobby link https://sap-build-day-appprocess.us10.build.cloud.sap/lobby <br><br>
+a.	Import project <br><br>
 ![](images/PV_Variant_Template_Save_1.png)<br><br>
-b.	Locate the Process Automation type of application with name “
-Variants APAC - Template” <br> 
+b.Browse Files and Choose the "CapEx Process Variants.mtar"
 <ul>
-<li> Click on the arrow to Navigate </li>
-<li> Choose <b>“Versions”</b> tab </li>
-<li> Choose the option for Version as <b>“Editable”</b> </li>
-<li> Click on <b>“Save as New Project”</b> </li>
-<li> Give a different project name Variants <b>APAC– Template followed by your test user number</b> (say for example, Variants APAC - Template01) and description if required and click on <b>Save as New.</b> </li> 
-<li> A new project is saved now. </li>
 <li> Open the project and open the process <b> "Main_Capex_Process" </b> by clicking on it from the <b>Overview </b> tab.</li>
 <li> Locate the <b> "Review Variant Template" </b> in the process and open the template by double clicking it (or from the 3 dots menu click on Open Editor).<br>
 <i>Steps and the attributes available for the variants are exposed in the template. You can add or delete any step needed but in the interest of time for the current workshop leave it as such. </i>  </li>
