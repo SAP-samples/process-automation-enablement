@@ -27,13 +27,13 @@ Exercise 1.10 [Run the process](https://github.com/SAP-samples/process-automatio
 Good luck!
   
 ### Create Variant Template and Variant Management
-a.	Import project <br><br>
+<ul>
+<li>Import project <br><br></li>
 ![](images/Import_Project_1.png)<br><br>
-b.Browse Files and Choose the "CapEx Process Variants.mtar"
+<li>Browse Files and Choose the "CapEx Process Variants.mtar"</li>
 ![](images/Browse_Files_2.png)<br><br>
 ![](images/Choose_Import.png)<br><br>
-<ul>
-<li> Open the project and open the process <b> "Main_Capex_Process" </b> by clicking on it from the <b>Overview </b> tab.</li>
+<li> Open the project and open the process <b> "Cap Ex Process" </b> by clicking on it from the <b>Overview </b> tab.</li>
 <li> Locate the <b> "Review Variant Template" </b> in the process and open the template by double clicking it (or from the 3 dots menu click on Open Editor).<br>
 <i>Steps and the attributes available for the variants are exposed in the template. You can add or delete any step needed but in the interest of time for the current workshop leave it as such. </i>  </li>
 <li> Click on <b>Release</b> button. </li>
@@ -41,12 +41,10 @@ b.Browse Files and Choose the "CapEx Process Variants.mtar"
 <li> Click on Release. </li>
 <li> Successful project release should be shown with a “Show project version” link. </li>
 <li> Go to the Lobby and locate your project.</li>
-<li> Click on the arrow next to your project and choose the <b>Versions</b> tab. </li><br>
-  
+<li> Click on the arrow next to your project and choose the <b>Versions</b> tab. </li><br>  
 ![](images/PV_Publish_To_Library.png)<br><br>
 <li> Locate the version of the project released and from the 3 dots menu choose the option <b>Publish to Library</b>. </li>
 </ul><br>
-
 ![](images/PV_Variant_Mgmt_Template_Save_2.png) <br><br>
 c.	Locate the Process Automation type of application with name “
 Variants APAC - Variant Management” <br> 
