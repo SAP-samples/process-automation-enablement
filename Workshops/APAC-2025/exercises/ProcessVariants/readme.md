@@ -35,9 +35,10 @@ b.Browse Files and Choose the "CapEx Process Variants.mtar" <br>
 ![](images/Choose_Import.png)<br><br>
 <ul>
 <li> Open the project and open the process <b> "Cap Ex Process" </b> by clicking on it from the <b>Overview </b> tab.</li>
-<li> Locate the <b> "Review Variant Template" </b> in the process and open the template by double clicking it (or from the 3 dots menu click on Open Editor).<br>
+<li> Locate the <b> "CapEx Variant Template" </b> in the process and open the template by double clicking it (or from the 3 dots menu click on Open Editor).<br>
 <i>Steps and the attributes available for the variants are exposed in the template. You can add or delete any step needed but in the interest of time for the current workshop leave it as such. </i>  </li>
 <li> Click on <b>Release</b> button. </li>
+![](images/Choose_Import.png)<br><br>
 <li> Provide description as “Initial Version”. </li>
 <li> Click on Release. </li>
 <li> Successful project release should be shown with a “Show project version” link. </li>
