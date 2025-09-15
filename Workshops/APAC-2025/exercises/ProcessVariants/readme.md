@@ -28,8 +28,10 @@ Good luck!
   
 ### Create Variant Template and Variant Management
 a.	Import project <br><br>
-![](images/PV_Variant_Template_Save_1.png)<br><br>
+![](images/Import_Project_1.png)<br><br>
 b.Browse Files and Choose the "CapEx Process Variants.mtar"
+![](images/Browse_Files_2.png)<br><br>
+![](images/Choose_Import.png)<br><br>
 <ul>
 <li> Open the project and open the process <b> "Main_Capex_Process" </b> by clicking on it from the <b>Overview </b> tab.</li>
 <li> Locate the <b> "Review Variant Template" </b> in the process and open the template by double clicking it (or from the 3 dots menu click on Open Editor).<br>
