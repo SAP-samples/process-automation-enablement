@@ -50,12 +50,10 @@ Import Variant Template project<br>
 ![](images/Show_Project_version_5.png)<br><br>
 <li> Go to the Lobby and locate your project.</li>
 <li> Click on the arrow next to your project and choose the <b>Versions</b> tab. </li><br>
-
-![](images/PV_Publish_To_Library.png)<br><br>
 <li> Locate the version of the project released and from the 3 dots menu choose the option <b>Publish to Library</b>. </li>
 </ul><br>
 
-![](images/PV_Variant_Mgmt_Template_Save_2.png) <br><br>
+![](images/Publish_To_Library_6.png)<br><br>
 c.	Locate the Process Automation type of application with name “
 Variants APAC - Variant Management” <br> 
 <ul>
