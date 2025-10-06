@@ -9,6 +9,12 @@ In this exercise we will learn how to use Joule for Developers/Generative AI cap
 
 Note: Save work with each step just to make sure we do not lose out on any information.
 
+## Details of tenant and login
+
+Lobby URL - https://sap-build-blr-eu12-consumer.eu12.build.cloud.sap/lobby
+User id - user<your number>@example.com , say for example your number is given as 001, it will be user001 and so on..
+Password - Welcome!123
+
 ## Enable Generative AI option
 
 Login to SAP Build Lobby Navigate to Control Tower and ensure "Enable Generative AI" is enabled.
@@ -24,6 +30,8 @@ Login to SAP Build Lobby Navigate to Control Tower and ensure "Enable Generative
 3.Browse for the downloaded Purchase Order Approval Process project and click on Import. This will import the project.<br>
 In the interest of time, project already has predefined sub-processes and approval forms to help in the Process Variants creation in the next exercise.
 <br>![](/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025//Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025//exercises/ex0/images/Browse_Project_Import.png)
+
+4. If you are facing issue that project already exists during import, then go to the project "Purchase Order Approval Process" in  the lobby and do a Save as New Project and give it a name with your user id appended.<br>
 
 ## Process Generation
 
