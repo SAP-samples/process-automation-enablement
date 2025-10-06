@@ -12,7 +12,7 @@ Note: Save work with each step just to make sure we do not lose out on any infor
 ## Enable Generative AI option
 
 Login to SAP Build Lobby Navigate to Control Tower and ensure "Enable Generative AI" is enabled.
-<br>![](/exercises/ex0/images/GenAI.png)
+<br>![](Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/exercises/ex0/images/GenAI.png)
 
 ## Project Creation/Import
 
