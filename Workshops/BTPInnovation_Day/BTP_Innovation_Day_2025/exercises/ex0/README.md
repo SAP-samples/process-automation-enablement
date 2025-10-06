@@ -52,15 +52,11 @@ In this step we will generate a form using Generative AI and use it as Trigger F
 <br>![](/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025//exercises/ex0/images/Save.png)
 
 4. Click on Add a Trigger, select API and Save.<br>
-<br>![](/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025//exercises/ex0/images/Trigger.png)
 
 5. Click on ![](/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025//exercises/ex0/images/Arrow.png) to open side process panel, select Variables, configure a process custom variable "Totalprice" (of number type) , "ApprovalStatus" (of string type) and Save the process.<br>
 <br>![](/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025//exercises/ex0/images/CustomVar.png)<br>
 <br>![](/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025//exercises/ex0/images/CustomVariables_Configure.png)
-
-7. Because we are using PR Submission Form to Trigger the process, we will remove it from next step. Select PR Submission Form, click on three dots, click on Remove and Save the process.
-<br>![](/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025//exercises/ex0/images/RemoveForm.png)
-   
+  
 ## Script Generation
 
 In this step we will write a custom script using Generative AI to calculate total price value and assign to custom variable.
