@@ -10,7 +10,7 @@ In this exercise, we will learn how to create different Process Variants for the
 
 1. Click on "Purchase Requisition Process" an open <br>
 2. Click on + after "Determine Approver" and choose Variant Template 
-<br>![](/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/exercises/ex1/images/PV_Create.png)
+<br>![](/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/exercises/ex1/images/PV_Create.png)
 3. Give name as "Purchase Order Variant Template" and Save <br>
 4. Click on "Open Variant Template"<br>
 5. Click on "Add Steps" and add all the available steps.
