@@ -30,7 +30,7 @@ In the interest of time, project already has predefined sub-processes and approv
 In this step we will generate Purchase Order Approval process using Generative AI.
 
 1. Click on Generate and select Process<br>
-<br>![](/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025//Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025//exercises/ex0/images/GenProc.png)
+<br>![](/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/exercises/ex0/images/GenProc.png)
 
 2.Enter following prompt "Generate empty Process for Purchase Requisition" and click on send icon<br>
 <br>![](/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025//exercises/ex0/images/GenProcPromt.png)
