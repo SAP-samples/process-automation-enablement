@@ -15,7 +15,7 @@ For example, a process variant has most of the mappings already defined and the 
 The requirements to follow the exercises in this repository are :<br>
 
 1. Generative AI should be enabled<br>
-2. Task center and SBPA are configured to be connected
+
 
 
 ## Exercises
