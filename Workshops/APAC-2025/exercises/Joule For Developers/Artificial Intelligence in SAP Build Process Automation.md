@@ -3,7 +3,15 @@ In this exercise we will learn how to use Joule for Developers capabilities of S
 1. Generate Process Template 
 2. Generate Form 
 3. Generate Script 
-4. Generate Business Rules 
+4. Generate Business Rules
+
+## Details of tenant and login
+<ul>
+<li>Lobby URL - https://sap-build-blr-eu12-consumer.eu12.build.cloud.sap/lobby
+  <li> User id - userXXX@example.com  <br>
+  <li> Password -  Welcome!123 <br>
+<li>Replace XXX with your user number, say for example your number is given as 001, it will be user001 and so on..<br>
+</ul>
 
 ## Enable Generative AI option
 Login to SAP Build Lobby Navigate to Control Tower and ensure "Enable Generative AI" is enabled.
