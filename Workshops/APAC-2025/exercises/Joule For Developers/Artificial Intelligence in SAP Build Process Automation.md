@@ -163,10 +163,7 @@ Note: Replace email ID with valid process automation user email id(userXXX@examp
  <img width="719" height="282" alt="image" src="https://github.com/user-attachments/assets/36b55d0f-1978-45f7-87e3-31334a426413" />
 
 
-4.	From the middle top panel select “Released” project and you will see an option to Deploy project on right-hand side. Click on Deploy, select Procurement as environment and deploy the project.
-
- <img width="741" height="285" alt="image" src="https://github.com/user-attachments/assets/41b8c2f8-f193-4d35-ac62-cb07721d9461" />
-
+4.	From the middle top panel select “Released” project and you will see an option to Deploy project on right-hand side. Click on Deploy, select EnvXXX where XXX is the number assigned to you as environment and deploy the project.
 
 5.	Select Purchase Requisition process in the deployed project, 
 6.	system will open up process in the new tab, click on first step Trigger, system will show 
