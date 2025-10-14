@@ -167,16 +167,16 @@ Note: Replace email ID with valid process automation user email id(userXXX@examp
 
 ## Run the Process
 
-1.	Go to the deployed version
-2.	Select Purchase Requisition process in the deployed project, 
-6.	System will open up process in the new tab, click on first step Trigger, system will show 
+1.	Go to the deployed version <br>
+2.	Select Purchase Requisition process in the deployed project, <br>
+6.	System will open up process in the new tab, click on first step Trigger, system will show <br>
 <img width="634" height="260" alt="image" src="https://github.com/user-attachments/assets/cdbb7c41-2a98-4c6d-9d8d-0e7ba95ad932" />
-3.	On the right hand side, you will see the Form trigger link.
-4.	Copy the Form Trigger link and open the link in a browser
-5.	Fill the details and press on Submit
-6.	Process will be triggered
+3.	On the right hand side, you will see the Form trigger link.<br>
+4.	Copy the Form Trigger link and open the link in a browser<br>
+5.	Fill the details and press on Submit <br>
+6.	Process will be triggered <br>
     <img width="699" height="357" alt="image" src="https://github.com/user-attachments/assets/6c907164-e41d-4ae7-970c-fd78180fc59f" />
-7.	Navigate to SAP Build Lobby, click on Monitoring on the left-hand side menu, click on Process & Workflow Instances tile to check status of your process.
+7.	Navigate to SAP Build Lobby, click on Monitoring on the left-hand side menu, click on Process & Workflow Instances tile to check status of your process.<br>
 
 
 ## Process Summarization
