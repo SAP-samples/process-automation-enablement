@@ -107,7 +107,7 @@ Note:  Save work with each step just to make sure we do not lose out on any info
 
 **create a decision table rule with name "approver determination" to determine approver based on supplier such that if the supplier is 1710, the purchase requisition must be approved by the "adminmanager@sap.com". If supplier is 1720, it must be approved by "procurementmanager@sap.com"**
 
-Note: Replace email ID with valid process automation user email id for testing purpose.
+Note: Replace email ID with valid process automation user email id(userXXX@example.com where XXX is the number assigned to you) for testing purpose.
 
 <img width="745" height="300" alt="image" src="https://github.com/user-attachments/assets/755fe11c-6573-4831-b75b-11061d3c275e" />
 	 
