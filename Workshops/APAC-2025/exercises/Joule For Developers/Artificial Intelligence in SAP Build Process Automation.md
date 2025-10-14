@@ -157,7 +157,7 @@ Note: Replace email ID with valid process automation user email id(userXXX@examp
 
 1.	In this step we will check our process created so far, release the process & deploy the process to test it working.
 
-2.	Navigate to SAP Build Lobby, click on Control Tower on left hand side menu, click on Environments, click on Create, enter name as “Procurement” and click on Create.
+2.	Navigate to SAP Build Lobby, click on Control Tower on left hand side menu, click on Environments, click on Create, enter name as EnvXXX (where XXX is the number assigned to you) and click on Create. if Environment with that name is existing already, please proceed to next step.
 3.	Come to the project, click on Release on right hand side and Release the project.
 
  <img width="719" height="282" alt="image" src="https://github.com/user-attachments/assets/36b55d0f-1978-45f7-87e3-31334a426413" />
