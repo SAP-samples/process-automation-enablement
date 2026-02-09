@@ -35,18 +35,21 @@ Let us check the running instance now.
 
 1. Login to the SAP Build Lobby
 
-3. Click on “Monitor” and then click on “Process Workflow and Instances”.
+3. Click on “Monitoring”.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/7.png)<br>
+4. Click on “Process Workflow and Instances”
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/8.png)<br>
+5. All the processes are listed in the logs. Search for your project by giving your Project Name in Project and select your Project.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/9.png)<br>
+6. Click on the instance with Running status to view the details of the logs
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/10.png)<br>
+7. Check that API trigger has started the process from the Context section
 
-4. All the processes are listed in the logs. Search for your project by giving your Project Name in Project and select your Project.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/11.png)<br>
+8. Check the rest of the steps in the Logs section.
 
-5. Click on the instance with Running status to view the details of the logs
-
-6. Check that API trigger has started the process from the Context section
-
-7. Check the rest of the steps in the Logs section.
-
-8. Details of the process are shown in the Logs. There is approval task in My Inbox. Click on My Inbox to go to the approval form.
-
+9. Details of the process are shown in the Logs. There is approval task in My Inbox. Click on My Inbox to go to the approval form.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/12.png)<br>
 ---
 
 ## Exercise 3.3 Approves Sales Order Update from Inbox
