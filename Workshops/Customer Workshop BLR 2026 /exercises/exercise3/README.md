@@ -8,17 +8,17 @@ After completing these steps you will have changed the billing block status for 
 
 Note: Now the API Trigger will trigger the process that is created in SAP Build Process Automation.
 
-You can access the API configuration under Control Tower > Environments > Select Environment > Triggers, you can call the Trigger API endpoint to create instances of the definition. However, to keep it simple we would be creating an instance from the lobby, you can follow below steps to create an instance corresponding to a definition in a project.
+1. You can access the API configuration under Control Tower > Environments > Select Environment > Triggers, you can call the Trigger API endpoint to create instances of the definition. However, to keep it simple we would be creating an instance from the lobby, you can follow below steps to create an instance corresponding to a definition in a project.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/1.png)<br>
+2. Under control tower, select environments tile
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/2.png)<br>
+3. Enter the environment name in which your project is deployed in the search field to filter out your environment and click on the environment name to select the environment.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/3.png)<br>
+4. Click on Processes and Workflows
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/4.png)<br>
+5. Select the definition “Billing Block Removal Process” , ensure that its your project name that is displayed below the definition.
 
-Unde control tower, select environments tile
-
-Enter the environment name in which your project is deployed in the search field to filter out your environment and click on the environment name to select the environment.
-
-Click on Processes and Workflows
-
-Select the definition “Billing Block Removal Process” , ensure that its your project name that is displayed below the definition.
-
-Enter the start payload / Start Inputs and click then on the start new instance. For example, below is a sample:
+6. Enter the start payload / Start Inputs and click then on the start new instance. For example, below is a sample:
 
 ```json
 {
