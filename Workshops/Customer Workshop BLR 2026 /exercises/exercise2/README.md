@@ -41,19 +41,19 @@ Lobby URL -
 User id - userXXX@example.com (say for example your number is given as 001, it will be user001@example.com and so on)
 
 1. In the SAP Build lobby, click on **Create** button -> Process Automation:
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/1.png)<br>
 2. Let's name our new project to **Manage Billing Block in Sales Order _<username>** and click **Create**. For example, if your username is 001, the project name would be Manage Billing Block in Sales Order_001.
 
-   Please use the correct naming convention and username , it will help you track your processes later during monitoring.
-
+Please use the correct naming convention and username , it will help you track your processes later during monitoring.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/2.png)<br>
 3. Click **Create** in the above screen.
 
    Great! Your project is now created in a new tab, and you will be able to create your Process.
 
 4. Before you proceed, please check that you are in the project created by you by validating your username. This is to ensure that you are not editing any other user’s project.
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/3.png)<br>
 5. Now click on **Create** in the above screen and select **Process** and enter the following details.
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/4.png)<br>
    Enter **Name:** Billing Block Removal Process  
    Enter **Description:** Process to update the billing block based on the Approval
 
@@ -64,24 +64,25 @@ The Process gets added in the process builder. Now you will add an API Trigger t
 API triggers are used to start a process in **SAP Build Process Automation** as a response from an API call from another application.
 
 7. In the “Billing Block Removal Process” select **Add Trigger** and then select **API Trigger**.
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/5.png)<br>
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/6.png)<br>
 8. Enter Name as SalesOrderAPITrigger and click **Create**.
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/7.png)<br>
 The **API Trigger** is now created. Please make sure to save your work.
-
+Now that you have the API Trigger created, click anywhere on the Process Builder canvas to open the side panel. This side panel opens the Process Inputs in the Variables tab. 
 9. Click **Configure -> Add Input** and add the following input for Process Inputs and click **Apply**.
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/8.png)<br>
    - SalesOrder
    - SalesOrganization
    - DistributionChannel
    - OverallBillingBlockStatus
    - Sold-To-Party
-
-11. Save your work.
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/9.png)<br>
+10. 11.	Save your work and note that the Process Inputs are updated. API Trigger inputs are defined at the Process Inputs level, and the same payload structure is sent from external applications via API calls to trigger the process.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/10.png)<br>
 ---
 
-## Exercise 2.2 - Add Action to Read Sales Order Items [WIN compelted]
+## Exercise 2.2 - Add Action to Read Sales Order Items
 
 Next, you will add an Action to the Process that will read the sales order items.
 
