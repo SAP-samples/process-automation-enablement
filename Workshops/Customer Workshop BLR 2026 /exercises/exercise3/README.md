@@ -69,5 +69,6 @@ Let us check the running instance now.
 3. Check that the Billing Block is now removed by the process.
 <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/17.png)<br>
 
+## Summary
 
-
+You've now tested the end to end process and also checked the status update in the SAP S/4HANA. This marks the completion of hands-on for today's session.
