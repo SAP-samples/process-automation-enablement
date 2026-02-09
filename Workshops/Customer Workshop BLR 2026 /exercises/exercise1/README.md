@@ -12,6 +12,7 @@ After completing these steps you will have a Sales Order number created with a b
 
 ### 1. Logon
 Logon to your S/4HANA system (If you do not wish to use your own S/4HANA tenant, you can use the below details)
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise1/images/1.png)
 
 ---
 
@@ -20,6 +21,7 @@ Search for **va01** and click **"Create Sales Order - VA01"**
 
 Create the sales order using your desired data and configuration, below steps and data are for reference only.
 
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise1/images/2.png)
 ---
 
 ### 3. Enter Order Type
@@ -30,7 +32,7 @@ Enter the following data and click on **Continue**:
 - Sales Organization: 1010  
 - Distribution Channel: 10  
 - Divison: 00  
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise1/images/3.png)
 ---
 
 ### 4. Enter Customer Details
@@ -39,14 +41,17 @@ Enter Sold-To-Party, Ship-To-Party, Customer Reference and ensure that you selec
 - Sold-To-Party: 10100002  
 - Ship-To-Party: 10100001  
 - Customer Reference: reference  
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise1/images/4.png)
 
 Click **Save** and if you get the above warning message, see if you need to make required corrections. If you still get the same error, press **Enter** on your keyboard.
 
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise1/images/5.png)
 ---
 
 ### 5. Save Sales Order
 Click **“Save”** and note down the Sales Order number. We will use this later while designing and executing the end-to-end process.
 
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise1/images/6.png)
 ---
 
 ## Summary
