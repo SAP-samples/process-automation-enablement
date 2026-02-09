@@ -8,18 +8,18 @@ After completing these steps you will have changed the billing block status for 
 
 Note: Now the API Trigger will trigger the process that is created in SAP Build Process Automation.
 
-1. You can access the API configuration under Control Tower > Environments > Select Environment > Triggers, you can call the Trigger API endpoint to create instances of the definition. However, to keep it simple we would be creating an instance from the lobby, you can follow below steps to create an instance corresponding to a definition in a project.
+You can access the API configuration under Control Tower > Environments > Select Environment > Triggers, you can call the Trigger API endpoint to create instances of the definition. However, to keep it simple we would be creating an instance from the lobby, you can follow below steps to create an instance corresponding to a definition in a project.
+
+1. Under control tower, select environments tile
 <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/1.png)<br>
-2. Under control tower, select environments tile
+2. Enter the environment name in which your project is deployed in the search field to filter out your environment and click on the environment name to select the environment.
 <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/2.png)<br>
-3. Enter the environment name in which your project is deployed in the search field to filter out your environment and click on the environment name to select the environment.
+3. Click on Processes and Workflows
 <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/3.png)<br>
-4. Click on Processes and Workflows
+4. Select the definition “Billing Block Removal Process” , ensure that its your project name that is displayed below the definition.
 <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/4.png)<br>
-5. Select the definition “Billing Block Removal Process” , ensure that its your project name that is displayed below the definition.
-
-6. Enter the start payload / Start Inputs and click then on the start new instance. For example, below is a sample:
-
+5. Enter the start payload / Start Inputs and click then on the "start new instance". For example, below is a sample:
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/5.png)<br>
 ```json
 {
 "salesorder":"142001 ",
@@ -31,7 +31,7 @@ Note: Now the API Trigger will trigger the process that is created in SAP Build 
 ```
 ## Exercise 3.2 Monitor Process
 
-Below steps from 1 to 4, can be skipped because we have clicked on show instances button from the definitions page, you can safely skip to step 5.
+Let us check the running instance now.
 
 1. Login to the SAP Build Lobby
 
