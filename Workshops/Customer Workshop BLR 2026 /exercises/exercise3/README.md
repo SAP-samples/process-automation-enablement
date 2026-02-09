@@ -55,19 +55,19 @@ Let us check the running instance now.
 ## Exercise 3.3 Approves Sales Order Update from Inbox
 
 1. In My Inbox, the approval form shows the details for the Sales Order. Review , add comments, select the approve checkbox and click on Approve Billing Block Removal button.
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/13.png)<br>
 2. The process is completed successfully.
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/14.png)<br>
 ---
 
 ## Exercise 3.4 View updated billing block in SAP S/4HANA
 
-Click on Display Sales Order (VA03) from your Workspace.
-
-1. Enter the Sales Order number that you created and updated and click on Continue.
-
-2. Check that the Billing Block is now removed by the process.
-
+1. Click on Display Sales Order (VA03) from your Workspace.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/15.png)<br>
+2. Enter the Sales Order number that you created and updated and click on Continue.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/16.png)<br>
+3. Check that the Billing Block is now removed by the process.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3/images/17.png)<br>
 
 
 
