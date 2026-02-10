@@ -7,7 +7,7 @@ In this exercise, you will create a process in SAP Build Process Automation to u
 - Exercise 2 - Create Process
   
   - Table of Contents
-  - Overview
+  - [Overview](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/README.md#overview)
   - Exercise 2.1 - Add API Trigger to Process
   - Exercise 2.2 - Add Action to Read Sales Order Items
   - Exercise 2.3 - Create and add decision to Determine Approver
