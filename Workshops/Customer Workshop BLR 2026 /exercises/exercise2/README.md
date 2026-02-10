@@ -38,9 +38,10 @@ In this exercise you will learn:
 
 First, navigate to your SAP Build Lobby.
 
-Lobby URL -  
+Lobby - [URL](https://sap-build-blr-eu12-consumer.eu12.build.cloud.sap/lobby) 
 
-User id - userXXX@example.com (say for example your number is given as 001, it will be user001@example.com and so on)
+User id - userXXX@example.com (say for example your number is given as 001, it will be user001@example.com and so on)<br>
+Password: Welcome!123
 
 1. In the SAP Build lobby, click on **Create** button -> Process Automation:
 <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/1.png)<br>
