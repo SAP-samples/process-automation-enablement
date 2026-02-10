@@ -56,5 +56,5 @@ Click **“Save”** and note down the Sales Order number. We will use this late
 
 ## Summary
 
-Now that you have created the Sales Order, Continue to - **Exercise 2 - Create Process**
+Now that you have created the Sales Order, Continue to - [**Exercise 2 - Create Process**](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2)
 
