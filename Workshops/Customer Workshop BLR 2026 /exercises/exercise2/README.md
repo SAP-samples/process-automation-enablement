@@ -8,15 +8,16 @@ In this exercise, you will create a process in SAP Build Process Automation to u
   
   - Table of Contents
   - [Overview](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/README.md#overview)
-  - Exercise 2.1 - Add API Trigger to Process
-  - Exercise 2.2 - Add Action to Read Sales Order Items
-  - Exercise 2.3 - Create and add decision to Determine Approver
-  - Exercise 2.4 - Add Approver Form with Sales Order Items Table
-  - Exercise 2.5 - Add Action to Read Sales Order Header
-  - Exercise 2.6 - Add Action to Update Sales Order
-  - Exercise 2.7 - Add Approval and Rejection Emails
-  - Exercise 2.8 - Release and Deploy the Process
+  - [Exercise 2.1 - Add API Trigger to Process](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/README.md#overview)
+  - [Exercise 2.2 - Add Action to Read Sales Order Items](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/README.md#exercise-22---add-action-to-read-sales-order-items)
+  - [Exercise 2.3 - Create and add decision to Determine Approver](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/README.md#exercise-23---create-and-add-decision-which-would-provide-approver-of-the-form)
+  - [Exercise 2.4 - Add Approver Form with Sales Order Items Table](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/README.md#exercise-24---add-approver-form-with-sales-order-items-table)
+  - [Exercise 2.5 - Add Action to Read Sales Order Header](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/README.md#exercise-25---add-action-to-read-sales-order-header)
+  - [Exercise 2.6 - Add Action to Update Sales Order](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/README.md#exercise-26---add-action-to-update-sales-order)
+  - [Exercise 2.7 - Add Approval and Rejection Emails](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/README.md#exercise-27---add-approval-and-rejection-emails)
+  - [Exercise 2.8 - Release and Deploy the Process](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/README.md#exercise-28---release-and-deploy-the-process)
   - Summary
+
 
 ---
 
