@@ -6,6 +6,11 @@ This repository contains a hands-on workshop demonstrating how to automate **Sal
 
 ## Overview
 
+Billing block is applied in Sales Order by internal sales representatives to prevent invoice being created in case of sales returns.<br>
+These billing blocks need to be updated or deleted in random or on-demand fashion and is time critical activity in Order-to-Cash process.<br>
+In many organizations this process is still manual where internal sales representatives get billing block change requests in form of Excel or Email attachment.<br>
+Sales representatives download these attachments and then sales orders are manually updated in the S/4HANA system based on data in the excel files or attachments.<br>
+
 **Process Flow**
 
 ```
@@ -34,25 +39,11 @@ Rejected → Notification Sent
 
 ---
 
-## Exercise 1 – Create Sales Order with Billing Block
----
-## Exercise 2 – Build the Approval Process
-### 2.1 Create Project and API Trigger
-### 2.2 Read Sales Order Items
-### 2.3 Approval Form
-### 2.4 Read Sales Order Header (ETag)
-### 2.5 Update Sales Order
-### 2.6 Email Notifications
-### 2.7 Release and Deploy
-## Exercise 3 – Run and Monitor the Process
+## [Exercise 1 – Create Sales Order with Billing Block](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise1)
 
-### 3.1 Trigger the Process
+## [Exercise 2 – Build the Approval Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2)
 
-### 3.2 Monitor Process
-
-### 3.3 Approve from Inbox
-
-### 3.4 Validate in SAP S/4HANA
+## [Exercise 3 – Run and Monitor the Process](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3)
 
 ## Outcome
 
