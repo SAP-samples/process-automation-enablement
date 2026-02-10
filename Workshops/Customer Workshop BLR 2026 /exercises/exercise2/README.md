@@ -40,7 +40,7 @@ First, navigate to your SAP Build Lobby.
 
 Lobby - [URL](https://sap-build-blr-eu12-consumer.eu12.build.cloud.sap/lobby) 
 
-User id - userXXX@example.com (say for example your number is given as 001, it will be user001@example.com and so on)<br>
+User id - userXXX@example.com , say for example your number is given as 001, it will be user001@example.com and so on<br>
 Password: Welcome!123
 
 1. In the SAP Build lobby, click on **Create** button -> Process Automation:
