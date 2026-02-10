@@ -11,9 +11,9 @@ In this exercise, you will create a Sales Order by referring to an existing Sale
 After completing these steps you will have a Sales Order number created with a billing block.
 
 ### 1. Logon
-Logon to your S/4HANA system (If you do not wish to use your own S/4HANA tenant, you can use the below details)
+Logon to your S/4HANA system (If you do not wish to use your own S/4HANA tenant, you can use the below details)<br>
 [S/4HANA](https://my300098.s4hana.ondemand.com/ui#Shell-home)
-
+Credentials: INTERNAL_SALES_REP/Welcome1!
 
 <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise1/images/1.png)
 
