@@ -87,16 +87,19 @@ Now that you have the API Trigger created, click anywhere on the Process Builder
 Next, you will add an Action to the Process that will read the sales order items.
 
 1. In the Process Builder, select the **+** underneath the Trigger created, then choose **Action > Browse library**.
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/11.png)<br>
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/12.png)<br>
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/13.png)<br>
 2. In the **Browse library** pop-up, select the **Reads all items of a sales order** Action and choose **Add**.
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/14.png)<br>
 3. Click on the Action step and then in the **General** section of the Action:
 
    - Change the **Step Name** to Reads Sales Order Items  
    - Enter the **Destination variable:** S4HANADestination
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/15.png)<br>
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/16.png)<br>
 4. In the **Inputs** section of the Action, for SalesOrder mapping, select the **SalesOrder** from the **Process Input**.
-
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/17.png)<br>
 5. Click **Save**.
 
 ---
