@@ -297,4 +297,4 @@ Great work! Your project is now deployed.
 
 Your project is released and deployed in SAP Build and you can head to the SAP S/4HANA system to run the process.
 
-Continue to - Exercise 3 - Run Process
+Continue to - [**Exercise 3 - Run Process**](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise3)
