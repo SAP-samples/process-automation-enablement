@@ -186,15 +186,23 @@ Next, you will add an Action to the Process that will read the sales order items
 ---
 
 ## Exercise 2.5 - Add Action to Read Sales Order Header
+Navigate back to the Billing Block Removal Process, select the + sign to create conditional flows as to what happens when an approval form is approved or rejected.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/42.png)<br>
+You will now add an Action to the Process to read the sales order header.
+1. In the Available Actions pop-up, select the Action named Reads the header of a sales order .
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/43.png)<br>
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/44.png)<br>
+3. In the **General** section of the Action:<br>
+•	Change the **Step Name**: Get ETAG for PATCH<br>
+•	Select the **Destination variable**: S4HANADestination<br>
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/45.png)<br>
+The GET Call is necessary before the Update(PATCH) call to fetch the latest etag. The etag should be updated every time you trigger a POST request that changes data.<br>
+This is necessary since the etags are used for concurrency control. If you have a UI, for example, then the UI reads data and a user may trigger updates to the business data. If another user changed something in the meantime, then our first user would trigger a change based on outdate information. This is why optimistic locking is used for concurrency control.<br>
 
-1. Select the Action named **Reads the header of a sales order**.
-2. In the **General** section:
+4.	Go to the **inputs** section of the Action and map **SalesOrder** to **Process Inputs > data > SalesOrder**.
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/46.png)<br>
+6.	Choose **Save**.
 
-   - Change the **Step Name:** Get ETAG for PATCH  
-   - Select the **Destination variable:** S4HANADestination
-
-3. Map **SalesOrder**.
-4. Choose **Save**.
 
 ---
 
