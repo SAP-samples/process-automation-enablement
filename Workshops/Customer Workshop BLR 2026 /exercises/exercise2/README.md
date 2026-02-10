@@ -282,9 +282,9 @@ You will see a change of status indicating that your project is released.
 5.	Choose the Environment **envXXX** (if you usename is 001, then the environment is env001) and **Deploy**/**Upgrade** button to deploy the project. 
  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/65.png)<br>
   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/66.png)<br> 
- 
+  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/67.png)<br>
 7.	Select the **Destination** as **CXT_098** which you have already created previously and choose **Deploy**.
- <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/67.png)<br>
+
  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/68.png)<br>
 Great work! Your project is now deployed.
  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/69.png)<br>
