@@ -123,9 +123,10 @@ Next, you will add an Action to the Process that will read the sales order items
    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/23.png)<br>
 8. Click **Finish**.
    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/24.png)<br>  
-10. Enter the values and click on **save**.
+10. Enter the values as following and click on **save**.
+    Use the email id **user001@example.com" in the below screen. Else the approval task will not come to your user for approval.
    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/25.png)<br>  
-11. Add the Decision to the Process.
+12. Add the Decision to the Process.
    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/26.png)<br>  
 13. Provide step name as “Determine Approver”.
  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/27.png)<br> 
