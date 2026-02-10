@@ -5,6 +5,7 @@ In this exercise, you will create a process in SAP Build Process Automation to u
 ## Table of Contents
 
 - Exercise 2 - Create Process
+  
   - Table of Contents
   - Overview
   - Exercise 2.1 - Add API Trigger to Process
