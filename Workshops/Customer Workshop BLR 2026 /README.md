@@ -1,4 +1,4 @@
-# SAP Build Process Automation – Billing Block Hands-On Workshop
+# SAP Build Process Automation – Sales Order Billing Block Removal Hands-On Workshop
 
 This repository contains a hands-on workshop demonstrating how to automate **Sales Order billing block removal** in **SAP S/4HANA** using **SAP Build Process Automation**.
 
