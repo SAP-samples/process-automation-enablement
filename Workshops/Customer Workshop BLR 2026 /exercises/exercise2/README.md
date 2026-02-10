@@ -110,7 +110,9 @@ Next, you will add an Action to the Process that will read the sales order items
 ## Exercise 2.3 - Create and add Decision which would provide approver of the form
 
 1. Create Decision with Name “DetermineApprover” from overview page.
-2. Configure Input( SalesOrganization) and Output ( Approver) Parameters as shown in the image below.
+    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/70.png)<br>
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/71.png)<br>
+3. Configure Input( SalesOrganization) and Output ( Approver) Parameters as shown in the image below.
    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/18.png)<br>
    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/19.png)<br>
 4. Click on **Rules** tab and select create rule.
@@ -179,7 +181,7 @@ Next, you will add an Action to the Process that will read the sales order items
 
 16. Select the Approval Form. In the General section of the Form:<br>
   •	Under Subject, enter: Approve billing block removal: and select SalesOrder from the Process Inputs<br>
-  •	Under Recipients, type in your own Email <br>
+  •	Under Recipients, select Approver from the previous decision step by selecting **DetermineApprover** -> **Approver**.
    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/40.png)<br>
 17. Map the following:<br>
 •	Sold-To-Party to Process inputs > SoldToParty<br>
