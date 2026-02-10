@@ -108,18 +108,29 @@ Next, you will add an Action to the Process that will read the sales order items
 
 1. Create Decision with Name “DetermineApprover” from overview page.
 2. Configure Input( SalesOrganization) and Output ( Approver) Parameters as shown in the image below.
-3. Click on **Rules** tab and select create rule.
-4. Configure the Rule.
-5. Click **Finish**.
-6. Enter the values and click on **save**.
-7. Add the Decision to the Process.
-8. Provide step name as “Determine Approver”.
-9. Map SalesOrganization.
-10. Click **Save**.
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/18.png)<br>
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/19.png)<br>
+4. Click on **Rules** tab and select create rule.
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/20.png)<br>
+6. Configure the Rule.
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/21.png)<br>
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/22.png)<br>
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/23.png)<br>
+8. Click **Finish**.
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/24.png)<br>  
+10. Enter the values and click on **save**.
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/25.png)<br>  
+11. Add the Decision to the Process.
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/26.png)<br>  
+13. Provide step name as “Determine Approver”.
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/27.png)<br> 
+15. Map SalesOrganization.
+  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/28.png)<br>  
+17. Click **Save**.
 
 ---
 
-## Exercise 2.4 - Add Approver Form with Sales Order Items Table [AYUSH - completed]
+## Exercise 2.4 - Add Approver Form with Sales Order Items Table
 
 1. Select **Approvals > Blank Approval**.
 2. Choose **Save** and click **Open Editor**.
