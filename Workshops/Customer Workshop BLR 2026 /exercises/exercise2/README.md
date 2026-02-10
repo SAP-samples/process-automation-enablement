@@ -228,22 +228,42 @@ Now, you will add an Action to the Process to update the sales order.
 
 ## Exercise 2.7 - Add Approval and Rejection Emails
 
-1. Select **Email**.
-2. Configure:
+**Note**: In order for the steps involving mails to work, you need to have an email server configured in your SAP Build Process Automation tenant, for sake of this exercise we have already configured this in the account you’re on now. This step would work as is currently only if you have an sap email id. In case you do not have a sap email id, move to Exercise 2.7 - Release and Deploy the Process.
 
-   - **Step Name:** Approval Notification  
-   - **Recipients:** your email  
-   - **Subject > Approved: Removal of Billing Blocks**
+You will add approval and rejection email to notify the requestors.
+1.	In the **Process Builder**, select + under the **Updates a sales order** Action and choose **Email**.
+    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/52.png)<br>
+2.	In the **General** section of the **Email**:<br>
+•	Under **Step Name**, enter: **Approval Notification**<br>
+•	Under **Recipients**, enter your own email by simply typing it.<br>
+•	Under **Subject** > Approved: Removal of Billing Blocks<br>
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/53.png)<br>
+Afterward,  **Open Mail Body Editor** to create what the email contains.<br>
+  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/54.png)<br>
+3.	In the  **Edit Mail Body** popup:<br>
+•	Type email text such as The request for removal of billing block has been approved for Sales Order.<br>
+•	Map  **Sales Order Number** to  **Process Inputs > data > SalesOrder**<br>
+•	Choose  **Save**<br>
+  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/55.png)<br>
 
-3. Open **Mail Body Editor** and add content.
-4. Choose **Save**.
-
-Create Rejection Notification:
-
-5. Select **Email**.
-6. Configure and choose **Apply**.
-7. Save your work.
-
+You will now create your Rejection Notification Email.
+4.	Click on the + under  **Reject** and  **Select Email**
+  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/56.png)<br>
+5.	In the General section of the Email:<br>
+•	Under **Step Name**, enter: Rejection Notification<br>
+•	Under **Recipients**, enter your own email by simply typing it.<br>
+•	Under **Subject** > Rejected: Removal of Billing Blocks<br>
+Afterward, **Open Mail Body Editor** to create what the email contains.<br>
+  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/57.png)<br>
+6.	In the **Edit Mail Body** popup:<br>
+•	Type email text such as The request to remove billing block on the sales order has been rejected.<br>
+•	Map **Sales Order Number** to **Process Inputs > data > SalesOrder**<br>
+•	Choose **Apply**.<br>
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/58.png)<br>
+7.	Save your work.<br>
+  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/59.png)<br>
+Your Notification Emails are now added to the process. 
+ 
 ---
 
 ## Exercise 2.8 - Release and Deploy the Process
