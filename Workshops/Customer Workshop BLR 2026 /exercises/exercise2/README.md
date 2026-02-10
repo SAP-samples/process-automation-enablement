@@ -263,17 +263,31 @@ Afterward, **Open Mail Body Editor** to create what the email contains.<br>
 7.	Save your work.<br>
   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/59.png)<br>
 Your Notification Emails are now added to the process. 
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/60.png)<br>
  
 ---
 
 ## Exercise 2.8 - Release and Deploy the Process
 
-1. Choose the **Release** button.
-2. Choose **Release**.
-3. Choose **Deploy**.
-4. Select the **Destination** and choose **Deploy**.
-
+Once your project is free of errors, you may release and deploy it.
+1.	Choose the **Release** button on the top right.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/61.png)<br> 
+2.	In the **Release Project** pop-up, choose **Release**.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/62.png)<br> 
+You will see a change of status indicating that your project is released.
+3. Click on **Show Project Version** on the top.
+<br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/63.png)<br>
+ 4. Click **Deploy**
+    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/64.png)<br>
+5.	Choose the Environment **envXXX** (if you usename is 001, then the environment is env001) and **Deploy**/**Upgrade** button to deploy the project. 
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/65.png)<br>
+  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/66.png)<br> 
+ 
+7.	Select the **Destination** as **CXT_098** which you have already created previously and choose **Deploy**.
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/67.png)<br>
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/68.png)<br>
 Great work! Your project is now deployed.
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/69.png)<br>
 
 ---
 
