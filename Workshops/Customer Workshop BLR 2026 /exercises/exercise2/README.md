@@ -118,8 +118,11 @@ Next, you will add an Action to the Process that will read the sales order items
 4. Click on **Rules** tab and select create rule.
    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/20.png)<br>
 6. Configure the Rule.
+   
    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/21.png)<br>
+   Add SalesOrganization in the Inputs.
    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/22.png)<br>
+   Add Approver in the Outputs.
    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/23.png)<br>
 8. Click **Finish**.
    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/24.png)<br>  
