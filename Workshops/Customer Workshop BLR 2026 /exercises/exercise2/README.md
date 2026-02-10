@@ -188,8 +188,8 @@ Next, you will add an Action to the Process that will read the sales order items
 ## Exercise 2.5 - Add Action to Read Sales Order Header
 Navigate back to the Billing Block Removal Process, select the + sign to create conditional flows as to what happens when an approval form is approved or rejected.
 <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/42.png)<br>
-You will now add an Action to the Process to read the sales order header.
-1. In the Available Actions pop-up, select the Action named Reads the header of a sales order .
+You will now add an **Action** to the Process to read the sales order header.
+1. In the Available Actions pop-up, select the Action named **Reads the header of a sales order** .
  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/43.png)<br>
  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/44.png)<br>
 3. In the **General** section of the Action:<br>
@@ -208,15 +208,21 @@ This is necessary since the etags are used for concurrency control. If you have 
 
 ## Exercise 2.6 - Add Action to Update Sales Order 
 
-1. Select **Actions**.
-2. Select **Updates a sales order**.
-3. In the **General** section:
+Now, you will add an Action to the Process to update the sales order.
+1.	Like previous exercise, in the **Process Builder**, select + under the previous **Action** and choose **Actions**.
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/47.png)<br>
+2.	In the Available Actions pop-up, select **Updates a sales order**.
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/48.png)<br>
+3.	In the General section of the Action:<br>
+•	Change the Step Name to: **Updates a sales order**<br>
+•	Select the Destination variable: **S4HANADestination**<br>
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/49.png)<br>
+4.	Go to the **Inputs section** of the Action and map **ifMatch** to **Get ETAG for PATCH > result > Sales Order Header > metadata > etag**.
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/50.png)<br>
+5.	Map **SalesOrder** to **Process Inputs > data > SalesOrder**
+  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/51.png)<br>
+6.	Choose **Save**.
 
-   - Change the **Step Name** to: Updates a sales order  
-   - Select the **Destination variable:** S4HANADestination
-
-4. Map **ifMatch**.
-5. Choose **Save**.
 
 ---
 
