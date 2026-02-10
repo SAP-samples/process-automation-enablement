@@ -132,14 +132,56 @@ Next, you will add an Action to the Process that will read the sales order items
 
 ## Exercise 2.4 - Add Approver Form with Sales Order Items Table
 
-1. Select **Approvals > Blank Approval**.
+1. Select **Approvals > Blank Approval**. Enter name "Approval Form".
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/30.png)<br>
+   
 2. Choose **Save** and click **Open Editor**.
-3. Configure the form.
-4. For all text **Items Details > Configuration**, check **Read Only**.
-5. Save your form.
-6. Under **Subject**, enter: Approve billing block removal.
-7. Under **Recipients**, type in your own **Email**.
-8. Choose **Save**.
+  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/31.png)<br>
+   The Form Builder opens. You will now create an approval form with a Sales Order Items Table.
+3. Select the H1 for Heading 1 and drag and drop on the top section. Write Review and Approve Billing Block Changes in Sales    Order. This is the name of our approval form which the recipient receives.
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/32.png)<br>
+4. Afterwards, drag and drop the sections as below and type the following texts to enrich the form:
+    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/33.png)<br>
+ •	Paragraph: Sales Order Billing is blocked for below sales order. Please review the details and click Approve or Reject button at the bottom of this form. If you approve, the billing block will be removed from the sales order in the backend S/4HANA system.<br>
+•	Text: Sales Order Number<br>
+•	Text: Sold-To-Party<br>
+•	Text: Distribution Channel<br>
+•	Text: Billing Block Status (C= Blocked)<br>
+
+5. For all text **Items Details > Configuration**, check **Read Only**.
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/34.png)<br>
+
+6. Now, we will add a sales order new table underneath as below.
+    <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/35.png)<br>
+    •	Enter New Table: Items Details<br>
+    •	Under Items Details > Configuration, check Read Only<br>
+    •	Select the +<br>
+    •	Select Text to add a new Text to the table<br>
+     <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/36.png)<br>
+7. Enter New Text: Item and add a new Text.
+    
+8.  Enter New Text: Material and afterwards repeat step 7 to add two other Texts: ItemDescription and RequestedQuantity.
+    You should now have a table that looks like below with 4 columns:
+  <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/37.png)<br>
+9. Now we will add a section where the Approver leaves a comment when approving or rejecting the form.
+     <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/38.png)<br>
+•	Drag and drop New Paragraph, and a New Text Area as below.<br>
+•	Paste the following texts into the sections created. "Please add your comment indicating your approval or rejection reasons for billing block removal:" and "Approver's Comment"<br>
+•	Make the comment a required step.<br>
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/39.png)<br>
+10. Save your form.
+  
+
+15. Navigate back to the Billing Block Removal Process.
+
+16. Select the Approval Form. In the General section of the Form:<br>
+  •	Under Subject, enter: Approve billing block removal: and select SalesOrder from the Process Inputs<br>
+  •	Under Recipients, type in your own Email <br>
+   <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/40.png)<br>
+17. Map the following:<br>
+•	Sold-To-Party to Process inputs > SoldToParty<br>
+ <br><br>![](/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise2/images/41.png)<br>
+18. Choose **Save**.
 
 ---
 
@@ -156,7 +198,7 @@ Next, you will add an Action to the Process that will read the sales order items
 
 ---
 
-## Exercise 2.6 - Add Action to Update Sales Order [AYUSH - completed]
+## Exercise 2.6 - Add Action to Update Sales Order 
 
 1. Select **Actions**.
 2. Select **Updates a sales order**.
