@@ -37,7 +37,7 @@ Rejected → Notification Sent
 - Email server configured in SAP Build  
 - Valid customer and sales organization master data  
 
-Please follow this [blog link](https://community.sap.com/t5/technology-blog-posts-by-sap/setup-actions-and-events-for-integration-in-sap-build-process-automation/ba-p/14340223) for setting up Actions and Events.
+Please follow this [blog link](https://community.sap.com/t5/technology-blog-posts-by-sap/setup-actions-and-events-for-integration-in-sap-build-process-automation/ba-p/14340223) for setting up Actions.
 ---
 
 ## [Exercise 1 – Create Sales Order with Billing Block](https://github.com/SAP-samples/process-automation-enablement/tree/main/Workshops/Customer%20Workshop%20BLR%202026%20/exercises/exercise1)
