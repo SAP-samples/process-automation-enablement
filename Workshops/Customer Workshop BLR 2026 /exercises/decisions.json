@@ -1,0 +1,83 @@
+{
+  "decision": {
+    "name": "LoanApprovalDecision",
+    "description": "Determines whether a loan should be approved based on applicant profile.",
+    "inputs": [
+      {
+        "name": "creditScore",
+        "type": "number"
+      },
+      {
+        "name": "income",
+        "type": "number"
+      },
+      {
+        "name": "loanAmount",
+        "type": "number"
+      },
+      {
+        "name": "existingDebt",
+        "type": "number"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "approvalStatus",
+        "type": "string"
+      },
+      {
+        "name": "interestRate",
+        "type": "number"
+      }
+    ],
+    "rules": [
+      {
+        "name": "HighCreditLowDebt",
+        "description": "Approve loan for applicants with high credit score and low debt.",
+        "hitPolicy": "FIRST",
+        "priority": 1,
+        "data": {
+          "conditions": {
+            "creditScore": ">750",
+            "existingDebt": "<20000"
+          },
+          "result": {
+            "approvalStatus": "APPROVED",
+            "interestRate": 5.5
+          }
+        }
+      },
+      {
+        "name": "MediumCredit",
+        "description": "Approve with higher interest rate for medium credit score.",
+        "hitPolicy": "FIRST",
+        "priority": 2,
+        "data": {
+          "conditions": {
+            "creditScore": ">=650 && <=750",
+            "income": ">40000"
+          },
+          "result": {
+            "approvalStatus": "APPROVED",
+            "interestRate": 7.2
+          }
+        }
+      },
+      {
+        "name": "LowCreditReject",
+        "description": "Reject loan if credit score is too low.",
+        "hitPolicy": "FIRST",
+        "priority": 3,
+        "data": {
+          "conditions": {
+            "creditScore": "<650"
+          },
+          "result": {
+            "approvalStatus": "REJECTED",
+            "interestRate": null
+          }
+        }
+      }
+    ]
+  }
+}
