@@ -1,6 +1,5 @@
 # DSAG Jahreskongress 2026 - Trial Area
 
-
 Willkommen zu dem Tutorial **Create a Joule Agent with Joule Studio**
 
 ## Tutorial
@@ -18,3 +17,8 @@ Folgen Sie bitte der Anleitung hier, um einen User zu erhalten und auf das Tutor
 
 ## SAP Build Trial
 Alternativ können Sie sich auch einen eigenen User für die SAP Build basic trial Umgebung erstellen und diesen 30 Tage lang nutzen: [SAP Build basic trial](https://www.sap.com/products/technology-platform/build/trial.html)
+
+## SAP Community
+Bleiben Sie stets auf dem Laufenden mit den neuesten Entwicklungen rund um [SAP Build direkt in der SAP Community](https://pages.community.sap.com/topics/build).
+
+<img src="BuildCommunity.png" width="200" height="200">
