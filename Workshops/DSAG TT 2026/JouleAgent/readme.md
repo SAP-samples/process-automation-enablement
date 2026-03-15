@@ -7,11 +7,12 @@ Folgen Sie bitte der Anleitung hier, um einen User zu erhalten und auf das Tutor
 
 1. User auswählen und Tutorial starten
    
-   a) Bitte einen User auswählen und als "verwendet markieren": [User für Joule Studio](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/EbehLgUFO15IgfHh_e4sssYBhhSSb8S57LQvieAIknYmaQ)
+   a) Bitte einen User auswählen und als "verwendet markieren": [User für Joule Studio](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/IQDHjG-AZkoHRI_Tf1X5bZ35AU2I1UU2QNLcFrzSQ4Y4OkE)
 
       Passwort für die Liste: DsagTT2026!
    
    b) Link zur Übung: [Create a Joule Agent with Joule Studio](https://trials.cfapps.eu10-004.hana.ondemand.com/)
+   c) Am Ende der Übung bitte wieder ausloggen.
 
 #### Viel Erfolg!
 
