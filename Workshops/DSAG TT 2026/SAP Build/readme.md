@@ -7,11 +7,12 @@ Folgen Sie bitte der Anleitung hier, um einen User zu erhalten und auf das Tutor
 
 1. User auswählen und Tutorial starten
    
-   a) Bitte einen User auswählen und als "verwendet markieren": [User für SAP Extend S/4HANA with SAP Build](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/EbehLgUFO15IgfHh_e4sssYBhhSSb8S57LQvieAIknYmaQ)
+   a) Bitte einen User auswählen und als "verwendet markieren": [User für SAP Extend S/4HANA with SAP Build](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/IQDOs_tUqEiLS4TiDok9DoNFATF8pDOe5VzVbLg1UHR_aNU)
 
       Passwort für die Liste: DsagTT2026!
    
    b) Link zur Übung: [Extend SAP S/4HANA with SAP Build](https://trials.cfapps.eu10-004.hana.ondemand.com/)
+   c) Am Ende der Übung bitte wieder ausloggen.
 
 #### Viel Erfolg!
 
@@ -20,11 +21,12 @@ Folgen Sie bitte der Anleitung hier, um einen User zu erhalten und auf das Tutor
 
 1. User auswählen und Tutorial starten
    
-   a) Bitte einen User auswählen und als "verwendet markieren": [User für SAP Build with GenAI](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/EbehLgUFO15IgfHh_e4sssYBhhSSb8S57LQvieAIknYmaQ)
+   a) Bitte einen User auswählen und als "verwendet markieren": [User für SAP Build with GenAI](https://sapext.sharepoint.com/:x:/s/AnonymousLinks/IQCiWGqF8xE1QKO23qozWCoxAU9Qo2qzDtj36Ul46WMClpw)
 
       Passwort für die Liste: DsagTT2026!
    
    b) Link zur Übung: [SAP Build with GenAI](https://basic-trials-test-eu10.cfapps.eu10-004.hana.ondemand.com/)
+   c) Am Ende der Übung bitte wieder ausloggen.
 
 #### Viel Erfolg!
 
