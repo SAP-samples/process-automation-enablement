@@ -9,11 +9,11 @@ Pre-requisites <br>
 
 We will use following features to create a Purchase Order Approval process:
 
-1. [Generate Process Template](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#process-generation)<br>
-2. [Generate Data Type](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#data-type-generation)<br>
-3. [Generate Form](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#form-generation)<br>
-4. [Generate Script](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#script-generation)<br>
-5. [Generate Business Rules](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#rules-generation)<br>
+1. [Generate Process Template](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/README.md#process-generation)<br>
+2. [Generate Data Type](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/README.md#data-type-generation)<br>
+3. [Generate Form](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/README.md#form-generation)<br>
+4. [Generate Script](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/README.md#script-generation)<br>
+5. [Generate Business Rules](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/README.md#rules-generation)<br>
 
 Note: Save work with each step just to make sure we do not lose out on any information.
 
