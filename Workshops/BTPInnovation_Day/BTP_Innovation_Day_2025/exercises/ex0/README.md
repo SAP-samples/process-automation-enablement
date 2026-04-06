@@ -3,8 +3,8 @@
 In this exercise we will learn how to use Joule for Developers/Generative AI capabilities of SAP Build in Process Automation.<br>
 
 Pre-requisites <br>
-1.[How to Login](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#details-of-tenant-and-login)<br>
-2.[Save as New Project](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#project-creation-by-save-as-new-project)
+1.[How to Login](/exercises/ex0/README.md#details-of-tenant-and-login)<br>
+2.[Save as New Project](/exercises/ex0/README.md#project-creation-by-save-as-new-project)
 
 
 We will use following features to create a Purchase Order Approval process:
