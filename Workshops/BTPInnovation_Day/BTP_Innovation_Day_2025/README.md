@@ -1,8 +1,8 @@
-# AD168-From prompt to process: AI-accelerated process automation in SAP Build
+# From prompt to process: AI-accelerated process automation in SAP Build
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called AD168 - From prompt to process: AI-accelerated process automation in SAP Build
+This repository contains the material for the session - **From prompt to process: AI-accelerated process automation in SAP Build**
 
 ## Overview
 
