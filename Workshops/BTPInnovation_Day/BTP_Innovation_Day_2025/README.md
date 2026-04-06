@@ -125,7 +125,7 @@ and calculates totalprice by multiplying $.context.startEvent.items.ItemPrice an
  <br>![](/exercises/ex0/images/DeterApp.png)
  
  5. Click on Generate, select Generate Rule, enter the following prompt and Save Process:
-"create a decision table rule with name "approver determination" to determine approver based on supplier such that if the supplier is 1710, the purchase requisition must be approved by the "ad168-xxx@education.cloud.sap". If supplier is 1720, it must be approved by "ad168-xxx@education.cloud.sap"<br>
+"create a decision table rule with name "approver determination" to determine approver based on supplier such that if the supplier is 1710, the purchase requisition must be approved by the "userxxx@example.com". If supplier is 1720, it must be approved by "userxxx@example.com"<br>
 <b>Note: Replace email ID with valid process automation user email id enclosed within single quotes(your user id shared in the beginning in small letters) for testing purpose.<br>
 <br>![](/exercises/ex0/images/RulePrompt.png)<br>
 <br>![](/exercises/ex0/images/DecisionTable.png)
