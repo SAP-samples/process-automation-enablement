@@ -9,21 +9,21 @@ Pre-requisites <br>
 
 We will use following features to create a Purchase Order Approval process:
 
-1. [Generate Process Template](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#process-generation)<br>
-2. [Generate Data Type](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#data-type-generation)<br>
-3. [Generate Form](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#form-generation)<br>
-4. [Generate Script](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#script-generation)<br>
-5. [Generate Business Rules](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#rules-generation)<br>
+1. [Generate Process Template](README.md#process-generation)<br>
+2. [Generate Data Type](README.md#data-type-generation)<br>
+3. [Generate Form](README.md#form-generation)<br>
+4. [Generate Script](README.md#script-generation)<br>
+5. [Generate Business Rules](README.md#rules-generation)<br>
 
 Note: Save work with each step just to make sure we do not lose out on any information.
 
 ## Details of tenant and login
 <ul>
-<li>Lobby URL - https://ad168-skhq09xc.eu10.build.cloud.sap/lobby <br>
-<li>Sign in with tdct3ched1.accounts.ondemand.com and not the Default Identity Provider <br>
-  <li> User id - AD168-XXX@education.cloud.sap  <br>
-  <li> Password - TechEd25onTour! <br>
-<li>Replace XXX with your user number, say for example your number is given as 001, it will be AD168-001 and so on..<br>
+<li>Lobby URL - https://sap-build-blr-eu12-consumer.eu12.build.cloud.sap/lobby <br>
+<li>Sign in with Default Identity Provider <br>
+  <li> User id - userXXX@education.cloud.sap  <br>
+  <li> Password - Welcome!123 <br>
+<li>Replace XXX with your user number, say for example your number is given as 001, it will be user001 and so on..<br>
 </ul>
 
 ## Project Creation by Save as New Project
