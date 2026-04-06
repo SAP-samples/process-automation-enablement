@@ -35,7 +35,7 @@ The requirements to follow the exercises in this repository are :<br>
 - [Joule For Developers/Generative AI Exercise](exercises/ex0/)
 - [Process Variants Exercise](exercises/ex1/)
 - [Deploy and Run Process(Variants)](exercises/ex2/)
-- [Intelligent Approval Recommendations in Task Center](exercises/ex3/)
+
 
 Start the exercises [here](exercises/ex0).
 
