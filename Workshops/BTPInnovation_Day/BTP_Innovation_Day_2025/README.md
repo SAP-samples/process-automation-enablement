@@ -14,7 +14,7 @@ At the end, it also has the visualization of Intelligent Approval Recommedations
 ## Usecase
 
 We will take the typical Purchase Order Approval Process which will involve the following steps :
-<br>![](/exercises/ex0/images/Usecase.png)
+<br>![](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/exercises/ex0/images/Usecase.png)
 1) Submit Purchase Requisition
 2) Calculate Total price of all items 
 3) Determine Approver 
