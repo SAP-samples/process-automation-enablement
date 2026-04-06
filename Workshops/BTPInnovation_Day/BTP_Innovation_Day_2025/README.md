@@ -3,27 +3,27 @@
 In this exercise we will learn how to use Joule for Developers/Generative AI capabilities of SAP Build in Process Automation.<br>
 
 Pre-requisites <br>
-1.[How to Login](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/README.md#details-of-tenant-and-login)<br>
-2.[Save as New Project](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/README.md#project-creation-by-save-as-new-project)
+1.[How to Login](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#details-of-tenant-and-login)<br>
+2.[Save as New Project](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#project-creation-by-save-as-new-project)
 
 
 We will use following features to create a Purchase Order Approval process:
 
-1. [Generate Process Template](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/README.md#process-generation)<br>
-2. [Generate Data Type](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/README.md#data-type-generation)<br>
-3. [Generate Form](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/README.md#form-generation)<br>
-4. [Generate Script](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/README.md#script-generation)<br>
-5. [Generate Business Rules](https://github.com/SAP-samples/process-automation-enablement/blob/main/Workshops/BTPInnovation_Day/BTP_Innovation_Day_2025/README.md#rules-generation)<br>
+1. [Generate Process Template](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#process-generation)<br>
+2. [Generate Data Type](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#data-type-generation)<br>
+3. [Generate Form](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#form-generation)<br>
+4. [Generate Script](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#script-generation)<br>
+5. [Generate Business Rules](https://github.com/SAP-samples/teched2025-AD168/blob/main/exercises/ex0/README.md#rules-generation)<br>
 
 Note: Save work with each step just to make sure we do not lose out on any information.
 
 ## Details of tenant and login
 <ul>
-<li>Lobby URL - https://sap-build-blr-eu12-consumer.eu12.build.cloud.sap/lobby <br>
-<li>Sign in with Default Identity Provider <br>
-  <li> User id - userXXX@example.com <br>
-  <li> Password - Welcome!123 <br>
-<li>Replace XXX with your user number, say for example your number is given as 001, it will be user001 and so on..<br>
+<li>Lobby URL - https://ad168-skhq09xc.eu10.build.cloud.sap/lobby <br>
+<li>Sign in with tdct3ched1.accounts.ondemand.com and not the Default Identity Provider <br>
+  <li> User id - AD168-XXX@education.cloud.sap  <br>
+  <li> Password - TechEd25onTour! <br>
+<li>Replace XXX with your user number, say for example your number is given as 001, it will be AD168-001 and so on..<br>
 </ul>
 
 ## Project Creation by Save as New Project
@@ -125,7 +125,7 @@ and calculates totalprice by multiplying $.context.startEvent.items.ItemPrice an
  <br>![](/exercises/ex0/images/DeterApp.png)
  
  5. Click on Generate, select Generate Rule, enter the following prompt and Save Process:
-"create a decision table rule with name "approver determination" to determine approver based on supplier such that if the supplier is 1710, the purchase requisition must be approved by the "userxxx@example.com". If supplier is 1720, it must be approved by "userxxx@example.com"<br>
+"create a decision table rule with name "approver determination" to determine approver based on supplier such that if the supplier is 1710, the purchase requisition must be approved by the "ad168-xxx@education.cloud.sap". If supplier is 1720, it must be approved by "ad168-xxx@education.cloud.sap"<br>
 <b>Note: Replace email ID with valid process automation user email id enclosed within single quotes(your user id shared in the beginning in small letters) for testing purpose.<br>
 <br>![](/exercises/ex0/images/RulePrompt.png)<br>
 <br>![](/exercises/ex0/images/DecisionTable.png)
