@@ -9,7 +9,7 @@ This repository contains the material for the session - **From prompt to process
 This session introduces attendees to how Generative AI capabilities can accelerate the process automation development in SAP Build . Process developer need to provide just natural language description and process artifacts can be generated without much hussle.<br>
 It also introduces about creation of Process Variants to create a process with preconfigured settings.
 For example, a process variant has most of the mappings already defined and the line of business expert only needs to add a few more to finalize the process.
-At the end, it also has the visualization of Intelligent Approval Recommedations In Task Center.
+
 
 ## Usecase
 
